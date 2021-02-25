@@ -156,16 +156,16 @@
                     <ul class="nav-main nav-main-horizontal nav-main-hover">
                         <li class="nav-main-item">
                             <a class="nav-main-link active" href="be_ui_navigation_horizontal.html">
-                                <i class="nav-main-link-icon fa fa-home"></i>
-                                <span class="nav-main-link-name">Home</span>
-                                <span class="nav-main-link-badge badge badge-pill badge-primary">5</span>
+                                {{-- <i class="nav-main-link-icon fa fa-home"></i> --}}
+                                <span class="nav-main-link-name">@lang('frontend.menu.about_us')</span>
+                                {{-- <span class="nav-main-link-badge badge badge-pill badge-primary">5</span> --}}
                             </a>
                         </li>
                         <li class="nav-main-heading">Manage</li>
                         <li class="nav-main-item">
                             <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
                                 <i class="nav-main-link-icon fa fa-briefcase"></i>
-                                <span class="nav-main-link-name">Products</span>
+                                <span class="nav-main-link-name">@lang('frontend.menu.service')</span>
                             </a>
                             <ul class="nav-main-submenu">
                                 <li class="nav-main-item">
@@ -343,7 +343,7 @@
                         <li class="nav-main-item">
                             <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
                                 <i class="nav-main-link-icon fa fa-money-bill-wave"></i>
-                                <span class="nav-main-link-name">Payments</span>
+                                <span class="nav-main-link-name">@lang('frontend.menu.job_careers')</span>
                             </a>
                             <ul class="nav-main-submenu">
                                 <li class="nav-main-item">
@@ -373,7 +373,7 @@
                         <li class="nav-main-item">
                             <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
                                 <i class="nav-main-link-icon fa fa-globe-americas"></i>
-                                <span class="nav-main-link-name">Services</span>
+                                <span class="nav-main-link-name">@lang('frontend.menu.presas')</span>
                             </a>
                             <ul class="nav-main-submenu">
                                 <li class="nav-main-item">
@@ -412,7 +412,7 @@
                         <li class="nav-main-item">
                             <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
                                 <i class="nav-main-link-icon far fa-user"></i>
-                                <span class="nav-main-link-name">Profile</span>
+                                <span class="nav-main-link-name">{{__('frontend.menu.contact_us')}}</span>
                             </a>
                             <ul class="nav-main-submenu">
                                 <li class="nav-main-item">

@@ -9,9 +9,12 @@ class FrontendController extends Controller
 {
     public function index()
     {
-        if(!session()->get('locale')){
+        if(empty(session()->get('locale'))){
             session()->put('locale', 'en');
+            App::setLocale('en');
+            return App::getLocale();
         }
+        App::setLocale(session()->get('locale'));
         return view('index');
     }
     public function lang_change(Request $request)
