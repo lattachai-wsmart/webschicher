@@ -22,8 +22,8 @@
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-sm-3">
-                <div class="block block-rounded js-appear-enabled animated fadeIn" data-toggle="appear">
+            <div class="col-lg-3">
+                <div class="block block-rounded js-appear-enabled animated flipInX" data-toggle="appear" data-class="animated flipInX">
                     <div class="block-content block-content-full blox_shadow">
                         <div class="py-5 text-center">
                             <div class="item item-2x item-rounded bg-primary text-white mx-auto">
@@ -35,8 +35,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="block block-rounded js-appear-enabled animated fadeIn" data-toggle="appear">
+            <div class="col-lg-3">
+                <div class="block block-rounded js-appear-enabled animated bounceIn" data-toggle="appear" data-class="animated bounceIn">
                     <div class="block-content block-content-full blox_shadow">
                         <div class="py-5 text-center">
                             <div class="item item-2x item-rounded bg-success text-white mx-auto">
@@ -48,15 +48,15 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-lg-3">
                 <div class="block block-rounded js-appear-enabled animated fadeIn " data-toggle="appear">
                     <div class="block-content block-content-full blox_shadow">
                         <div class="py-5 text-center">
                             <div class="item item-2x item-rounded bg-dark text-white mx-auto">
                                 <i class="fab fa-2x fa-chrome"></i>
                             </div>
-                            <div class="font-size-h4 font-w600 pt-3 mb-0">SCHIC CERTIFICATES</div>
-                            <div class="font-size-h4 font-w600 pt-3 mb-0">&nbsp;</div>
+                            <div class="font-size-h4 font-w600 pt-3 mb-0">SCHIC</div>
+                            <div class="font-size-h4 font-w600 pt-3 mb-0">CERTIFICATES</div>
                         </div>
                     </div>
                 </div>

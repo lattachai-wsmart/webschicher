@@ -4,10 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-        <title>OneUI - Bootstrap 4 Admin Template &amp; UI Framework</title>
+        <title>Schicher</title>
 
         <meta name="description" content="Schicher">
-        <meta name="author" content="pixelcave">
+        <meta name="author" content="wsmart">
         <meta name="robots" content="noindex, nofollow">
 
         <!-- CSRF Token -->
@@ -93,9 +93,7 @@
                         <!-- Notifications Dropdown -->
                         <div class="dropdown d-inline-block ml-2">
                             <button type="button" class="btn btn-sm btn-dual" id="page-header-notifications-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="flag-icon flag-icon-us"></i>
-                                EN
-                                <i class="fa fa-sort-down"></i>
+                                <i class="flag-icon flag-icon-{{ session()->get('locale') == 'en'? 'us' : session()->get('locale')}}"></i>{{ strtoupper(session()->get('locale')) }}<i class="fa fa-sort-down"></i>
                             </button>
                             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0 border-0 font-size-sm" aria-labelledby="page-header-notifications-dropdown">
                                 {{-- <div class="p-2 bg-primary-dark text-center rounded-top">
@@ -103,13 +101,13 @@
                                 </div> --}}
                                 <ul class="nav-items">
                                     <li>
-                                        <a class="dropdown-item" href="#fr"><span class="flag-icon flag-icon-th"> </span>TH</a>
+                                        <a class="dropdown-item @if (session()->get('locale') == 'th') d-none @endif" href="{{ route('LangChange', ['lang'=>'th']) }}"><span class="flag-icon flag-icon-th"> </span>TH</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#it"><span class="flag-icon flag-icon-us"> </span>EN</a>
+                                        <a class="dropdown-item @if (session()->get('locale') == 'en') d-none @endif" href="{{ route('LangChange', ['lang'=>'en']) }}"><span class="flag-icon flag-icon-us"> </span>EN</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#ru"><span class="flag-icon flag-icon-de"> </span>DE</a>
+                                        <a class="dropdown-item @if (session()->get('locale') == 'de') d-none @endif" href="{{ route('LangChange', ['lang'=>'de']) }}"><span class="flag-icon flag-icon-de"> </span>DE</a>
                                     </li>
 
                                 </ul>
@@ -456,10 +454,10 @@
                 <div class="content py-3 bg-schic">
                     <div class="row font-size-sm">
                         <div class="col-sm-6 order-sm-2 py-1 text-center text-sm-right">
-                            Crafted with <i class="fa fa-heart text-danger"></i> by <a class="font-w600" href="https://1.envato.market/ydb" target="_blank">pixelcave</a>
+                            &nbsp;
                         </div>
                         <div class="col-sm-6 order-sm-1 py-1 text-center text-sm-left">
-                            <a class="font-w600" href="https://1.envato.market/AVD6j" target="_blank">Wsmart</a> &copy; <span data-toggle="year-copy"></span>
+                            <a class="font-w600" href="" target="_blank">Schicher</a> &copy; <span data-toggle="year-copy"></span>
                         </div>
                     </div>
                 </div>
