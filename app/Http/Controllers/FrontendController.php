@@ -12,7 +12,6 @@ class FrontendController extends Controller
         if(empty(session()->get('locale'))){
             session()->put('locale', 'en');
             App::setLocale('en');
-            return App::getLocale();
         }
         App::setLocale(session()->get('locale'));
         return view('index');
