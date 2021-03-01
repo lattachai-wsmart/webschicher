@@ -23,7 +23,7 @@
 
         <div class="row justify-content-center">
             <div class="col-lg-3">
-                <div class="block block-rounded js-appear-enabled animated flipInX" data-toggle="appear" data-class="animated flipInX">
+                <a class="block block-rounded js-appear-enabled animated bounceIn" data-toggle="appear" data-class="animated bounceIn" href="#111">
                     <div class="block-content block-content-full blox_shadow">
                         <div class="py-5 text-center">
                             <div class="item item-2x item-rounded bg-primary text-white mx-auto">
@@ -33,10 +33,10 @@
                             <div class="font-size-h4 font-w600 pt-3 mb-0">SCHICINSPECTION</div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-lg-3">
-                <div class="block block-rounded js-appear-enabled animated bounceIn" data-toggle="appear" data-class="animated bounceIn">
+                <a class="block block-rounded js-appear-enabled animated bounceIn" data-toggle="appear" data-class="animated bounceIn" href="#222">
                     <div class="block-content block-content-full blox_shadow">
                         <div class="py-5 text-center">
                             <div class="item item-2x item-rounded bg-success text-white mx-auto">
@@ -46,10 +46,10 @@
                             <div class="font-size-h4 font-w600 pt-3 mb-0">USEDCARS</div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-lg-3">
-                <div class="block block-rounded js-appear-enabled animated fadeIn " data-toggle="appear">
+                <a class="block block-rounded js-appear-enabled animated bounceIn" data-toggle="appear" data-class="animated bounceIn" href="#333">
                     <div class="block-content block-content-full blox_shadow">
                         <div class="py-5 text-center">
                             <div class="item item-2x item-rounded bg-dark text-white mx-auto">
@@ -59,7 +59,7 @@
                             <div class="font-size-h4 font-w600 pt-3 mb-0">CERTIFICATES</div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
