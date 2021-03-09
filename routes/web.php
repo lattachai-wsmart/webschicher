@@ -18,4 +18,5 @@ use Illuminate\Support\Facades\Route;
 // Route::view('/', 'index');
 Route::get('/', [FrontendController::class, "index"]);
 Route::get('change/lang', [FrontendController::class, "lang_change"])->name('LangChange');
+Route::get('/about', [FrontendController::class, "about"])->name('about');
 

@@ -9,7 +9,11 @@ class FrontendController extends Controller
 {
     public function index()
     {
-        return view('index');
+        return view('pages/index');
+    }
+    public function about()
+    {
+        return view('pages/about');
     }
     public function lang_change(Request $request)
     {

@@ -20,7 +20,10 @@
 
         <!-- Fonts and Styles -->
         @yield('css_before')
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+        {{-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"> --}}
+        {{-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap"> --}}
+        <link rel="stylesheet" id="tmm_google_fonts-css" href="https://fonts.googleapis.com/css?family=Open+Sans%7COswald%7CRoboto+Condensed%7CRaleway%7CMrs+Saint+Delafield&amp;subset=latin%2Clatin-ext&amp;ver=4.9.8" type="text/css" media="all">
+
         <link rel="stylesheet" id="css-main" href="{{ asset('/css/oneui.css') }}">
 
         <link rel="stylesheet" id="css-main" href="{{ asset('/css/flag-icon.min.css') }}">
@@ -33,45 +36,6 @@
         <script>window.Laravel = {!! json_encode(['csrfToken' => csrf_token(),]) !!};</script>
     </head>
     <body>
-        <!-- Page Container -->
-        <!--
-            Available classes for #page-container:
-
-        GENERIC
-
-            'enable-cookies'                            Remembers active color theme between pages (when set through color theme helper Template._uiHandleTheme())
-
-        SIDEBAR & SIDE OVERLAY
-
-            'sidebar-r'                                 Right Sidebar and left Side Overlay (default is left Sidebar and right Side Overlay)
-            'sidebar-mini'                              Mini hoverable Sidebar (screen width > 991px)
-            'sidebar-o'                                 Visible Sidebar by default (screen width > 991px)
-            'sidebar-o-xs'                              Visible Sidebar by default (screen width < 992px)
-            'sidebar-dark'                              Dark themed sidebar
-
-            'side-overlay-hover'                        Hoverable Side Overlay (screen width > 991px)
-            'side-overlay-o'                            Visible Side Overlay by default
-
-            'enable-page-overlay'                       Enables a visible clickable Page Overlay (closes Side Overlay on click) when Side Overlay opens
-
-            'side-scroll'                               Enables custom scrolling on Sidebar and Side Overlay instead of native scrolling (screen width > 991px)
-
-        HEADER
-
-            ''                                          Static Header if no class is added
-            'page-header-fixed'                         Fixed Header
-
-        HEADER STYLE
-
-            ''                                          Light themed Header
-            'page-header-dark'                          Dark themed Header
-
-        MAIN CONTENT LAYOUT
-
-            ''                                          Full width Main Content if no class is added
-            'main-content-boxed'                        Full width Main Content with a specific maximum width (screen width > 1200px)
-            'main-content-narrow'                       Full width Main Content with a percentage width (screen width > 1200px)
-        -->
         <div id="page-container" class="enable-page-overlay sidebar-dark side-scroll main-content-narrow">
 
             <!-- Header -->
@@ -81,14 +45,21 @@
                     <!-- Left Section -->
                     <div class="d-flex align-items-center">
                         <div class="div_logo">
-                            <img src="media/photos/main-logo.png" />
+                            <a href="/"><img src="media/photos/main-logo.png" /></a>
                         </div>
                     </div>
                     <!-- END Left Section -->
 
                     <!-- Right Section -->
                     <div class="d-flex align-items-center">
+                        <!-- User Dropdown -->
+                        <div class="dropdown d-inline-block ml-2">
+                            <a class="btn btn-sm btn-dual d-flex align-items-center" id="page-header-user-dropdown"  href="javascript:void(0)">
+                                BOOK SCHIINSPECTION
+                            </a>
 
+                        </div>
+                        <!-- END User Dropdown -->
 
                         <!-- Notifications Dropdown -->
                         <div class="dropdown d-inline-block ml-2">
@@ -155,13 +126,13 @@
                 <div id="horizontal-navigation-hover-normal" class="d-none d-lg-block mt-2 mt-lg-0">
                     <ul class="nav-main nav-main-horizontal nav-main-hover">
                         <li class="nav-main-item">
-                            <a class="nav-main-link active" href="be_ui_navigation_horizontal.html">
+                            <a class="nav-main-link active" href="{{ route('about') }}">
                                 {{-- <i class="nav-main-link-icon fa fa-home"></i> --}}
                                 <span class="nav-main-link-name">@lang('frontend.menu.about_us')</span>
                                 {{-- <span class="nav-main-link-badge badge badge-pill badge-primary">5</span> --}}
                             </a>
                         </li>
-                        <li class="nav-main-heading">Manage</li>
+                        {{-- <li class="nav-main-heading">Manage</li> --}}
                         <li class="nav-main-item">
                             <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
                                 <i class="nav-main-link-icon fa fa-briefcase"></i>
@@ -169,7 +140,7 @@
                             </a>
                             <ul class="nav-main-submenu">
                                 <li class="nav-main-item">
-                                    <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                    <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#" >
                                         <i class="nav-main-link-icon fab fa-html5"></i>
                                         <span class="nav-main-link-name">HTML Templates</span>
                                     </a>
@@ -345,7 +316,7 @@
                                 <i class="nav-main-link-icon fa fa-money-bill-wave"></i>
                                 <span class="nav-main-link-name">@lang('frontend.menu.job_careers')</span>
                             </a>
-                            <ul class="nav-main-submenu">
+                            {{-- <ul class="nav-main-submenu">
                                 <li class="nav-main-item">
                                     <a class="nav-main-link" href="javascript:void(0)">
                                         <span class="nav-main-link-name">Scheduled</span>
@@ -368,14 +339,14 @@
                                         <span class="nav-main-link-name">New Payment</span>
                                     </a>
                                 </li>
-                            </ul>
+                            </ul> --}}
                         </li>
                         <li class="nav-main-item">
                             <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
                                 <i class="nav-main-link-icon fa fa-globe-americas"></i>
                                 <span class="nav-main-link-name">@lang('frontend.menu.presas')</span>
                             </a>
-                            <ul class="nav-main-submenu">
+                            {{-- <ul class="nav-main-submenu">
                                 <li class="nav-main-item">
                                     <a class="nav-main-link" href="javascript:void(0)">
                                         <span class="nav-main-link-name">Hosting</span>
@@ -406,7 +377,7 @@
                                         <span class="nav-main-link-name">Consulting</span>
                                     </a>
                                 </li>
-                            </ul>
+                            </ul> --}}
                         </li>
                         <li class="nav-main-heading">Personal</li>
                         <li class="nav-main-item">
@@ -414,7 +385,7 @@
                                 <i class="nav-main-link-icon far fa-user"></i>
                                 <span class="nav-main-link-name">{{__('frontend.menu.contact_us')}}</span>
                             </a>
-                            <ul class="nav-main-submenu">
+                            {{-- <ul class="nav-main-submenu">
                                 <li class="nav-main-item">
                                     <a class="nav-main-link" href="javascript:void(0)">
                                         <span class="nav-main-link-name">Edit</span>
@@ -430,7 +401,7 @@
                                         <span class="nav-main-link-name">Log out</span>
                                     </a>
                                 </li>
-                            </ul>
+                            </ul> --}}
                         </li>
                     </ul>
                 </div>
