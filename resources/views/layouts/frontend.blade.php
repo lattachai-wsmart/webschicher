@@ -135,185 +135,40 @@
                         {{-- <li class="nav-main-heading">Manage</li> --}}
                         <li class="nav-main-item">
                             <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
-                                <i class="nav-main-link-icon fa fa-briefcase"></i>
                                 <span class="nav-main-link-name">@lang('frontend.menu.service')</span>
                             </a>
                             <ul class="nav-main-submenu">
                                 <li class="nav-main-item">
-                                    <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#" >
-                                        <i class="nav-main-link-icon fab fa-html5"></i>
-                                        <span class="nav-main-link-name">HTML Templates</span>
+                                    <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="#" >
+                                        <span class="nav-main-link-name">@lang('frontend.menu.service_submenu.vehicle_analysis')</span>
                                     </a>
-                                    <ul class="nav-main-submenu">
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon fa fa-pencil-alt"></i>
-                                                <span class="nav-main-link-name">Description</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon fa fa-chart-line"></i>
-                                                <span class="nav-main-link-name">Statistics</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon fa fa-chart-area"></i>
-                                                <span class="nav-main-link-name">Sales</span>
-                                                <span class="nav-main-link-badge badge badge-pill badge-primary">320</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon far fa-images"></i>
-                                                <span class="nav-main-link-name">Media</span>
-                                                <span class="nav-main-link-badge badge badge-pill badge-primary">18</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon far fa-file-alt"></i>
-                                                <span class="nav-main-link-name">Files</span>
-                                                <span class="nav-main-link-badge badge badge-pill badge-primary">32</span>
-                                            </a>
-                                        </li>
-                                    </ul>
                                 </li>
                                 <li class="nav-main-item">
-                                    <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
-                                        <i class="nav-main-link-icon fab fa-wordpress"></i>
-                                        <span class="nav-main-link-name">WordPress Themes</span>
+                                    <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="#" >
+                                        {{-- <i class="nav-main-link-icon fab fa-html5"></i> --}}
+                                        <span class="nav-main-link-name">@lang('frontend.menu.service_submenu.claims_appraisal')</span>
                                     </a>
-                                    <ul class="nav-main-submenu">
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon fa fa-pencil-alt"></i>
-                                                <span class="nav-main-link-name">Description</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon fa fa-chart-line"></i>
-                                                <span class="nav-main-link-name">Statistics</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon fa fa-chart-area"></i>
-                                                <span class="nav-main-link-name">Sales</span>
-                                                <span class="nav-main-link-badge badge badge-pill badge-primary">680</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon far fa-images"></i>
-                                                <span class="nav-main-link-name">Media</span>
-                                                <span class="nav-main-link-badge badge badge-pill badge-primary">15</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon far fa-file-alt"></i>
-                                                <span class="nav-main-link-name">Files</span>
-                                                <span class="nav-main-link-badge badge badge-pill badge-primary">20</span>
-                                            </a>
-                                        </li>
-                                    </ul>
                                 </li>
                                 <li class="nav-main-item">
-                                    <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
-                                        <i class="nav-main-link-icon fab fa-medapps"></i>
-                                        <span class="nav-main-link-name">Web Applications</span>
+                                    <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="#" >
+                                        <span class="nav-main-link-name">@lang('frontend.menu.service_submenu.vehicle_manage')</span>
                                     </a>
-                                    <ul class="nav-main-submenu">
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon fa fa-pencil-alt"></i>
-                                                <span class="nav-main-link-name">Description</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon fa fa-chart-line"></i>
-                                                <span class="nav-main-link-name">Statistics</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon fa fa-chart-area"></i>
-                                                <span class="nav-main-link-name">Sales</span>
-                                                <span class="nav-main-link-badge badge badge-pill badge-primary">158</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon far fa-images"></i>
-                                                <span class="nav-main-link-name">Media</span>
-                                                <span class="nav-main-link-badge badge badge-pill badge-primary">65</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon far fa-file-alt"></i>
-                                                <span class="nav-main-link-name">Files</span>
-                                                <span class="nav-main-link-badge badge badge-pill badge-primary">78</span>
-                                            </a>
-                                        </li>
-                                    </ul>
                                 </li>
                                 <li class="nav-main-item">
-                                    <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
-                                        <i class="nav-main-link-icon fab fa-youtube"></i>
-                                        <span class="nav-main-link-name">Video Templates</span>
+                                    <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="#" >
+                                        <span class="nav-main-link-name">@lang('frontend.menu.service_submenu.dealership_cer')</span>
                                     </a>
-                                    <ul class="nav-main-submenu">
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon fa fa-pencil-alt"></i>
-                                                <span class="nav-main-link-name">Description</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon fa fa-chart-line"></i>
-                                                <span class="nav-main-link-name">Statistics</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon fa fa-chart-area"></i>
-                                                <span class="nav-main-link-name">Sales</span>
-                                                <span class="nav-main-link-badge badge badge-pill badge-primary">920</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon far fa-images"></i>
-                                                <span class="nav-main-link-name">Media</span>
-                                                <span class="nav-main-link-badge badge badge-pill badge-primary">7</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-main-item">
-                                            <a class="nav-main-link" href="javascript:void(0)">
-                                                <i class="nav-main-link-icon far fa-file-alt"></i>
-                                                <span class="nav-main-link-name">Files</span>
-                                                <span class="nav-main-link-badge badge badge-pill badge-primary">19</span>
-                                            </a>
-                                        </li>
-                                    </ul>
                                 </li>
                                 <li class="nav-main-item">
-                                    <a class="nav-main-link" href="javascript:void(0)">
-                                        <i class="nav-main-link-icon fa fa-plus"></i>
-                                        <span class="nav-main-link-name">Add Product</span>
+                                    <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="#" >
+                                        <span class="nav-main-link-name">@lang('frontend.menu.service_submenu.dealership_tra')</span>
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-main-item">
-                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
-                                <i class="nav-main-link-icon fa fa-money-bill-wave"></i>
+                            <a class="nav-main-link " data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                {{-- <i class="nav-main-link-icon fa fa-money-bill-wave"></i> --}}
                                 <span class="nav-main-link-name">@lang('frontend.menu.job_careers')</span>
                             </a>
                             {{-- <ul class="nav-main-submenu">
@@ -342,8 +197,8 @@
                             </ul> --}}
                         </li>
                         <li class="nav-main-item">
-                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
-                                <i class="nav-main-link-icon fa fa-globe-americas"></i>
+                            <a class="nav-main-link" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                {{-- <i class="nav-main-link-icon fa fa-globe-americas"></i> --}}
                                 <span class="nav-main-link-name">@lang('frontend.menu.presas')</span>
                             </a>
                             {{-- <ul class="nav-main-submenu">
@@ -381,8 +236,8 @@
                         </li>
                         <li class="nav-main-heading">Personal</li>
                         <li class="nav-main-item">
-                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
-                                <i class="nav-main-link-icon far fa-user"></i>
+                            <a class="nav-main-link " data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                {{-- <i class="nav-main-link-icon far fa-user"></i> --}}
                                 <span class="nav-main-link-name">{{__('frontend.menu.contact_us')}}</span>
                             </a>
                             {{-- <ul class="nav-main-submenu">
