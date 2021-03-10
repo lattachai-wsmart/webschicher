@@ -45,7 +45,7 @@
                     <!-- Left Section -->
                     <div class="d-flex align-items-center">
                         <div class="div_logo">
-                            <a href="/"><img src="media/photos/main-logo.png" /></a>
+                            <a href="/"><img src="{{ asset('media/photos/main-logo.png') }}" /></a>
                         </div>
                     </div>
                     <!-- END Left Section -->
@@ -139,7 +139,7 @@
                             </a>
                             <ul class="nav-main-submenu">
                                 <li class="nav-main-item">
-                                    <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="#" >
+                                    <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="{{ route('service.vehicleanalysis') }}" >
                                         <span class="nav-main-link-name">@lang('frontend.menu.service_submenu.vehicle_analysis')</span>
                                     </a>
                                 </li>

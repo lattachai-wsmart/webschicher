@@ -19,4 +19,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [FrontendController::class, "index"]);
 Route::get('change/lang', [FrontendController::class, "lang_change"])->name('LangChange');
 Route::get('/about', [FrontendController::class, "about"])->name('about');
-
+Route::get('/service/vehicleanalysis', [FrontendController::class, "vehicleanalysis"])->name('service.vehicleanalysis');

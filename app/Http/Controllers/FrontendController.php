@@ -25,4 +25,7 @@ class FrontendController extends Controller
         session()->put('locale', $request->lang);
         return redirect()->to(url()->previous());
     }
+    public function vehicleanalysis (){
+        return view('pages/vehicleanalysis');
+    }
 }
