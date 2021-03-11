@@ -41,6 +41,7 @@ body {
 }
 .nav-main-submenu .nav-main-link:hover {
     background-color: #2c3e50;
+    color: white !important;
 }
 .block_shadow {
     -webkit-box-shadow: 0px 0px 9px 4px rgba(216,223,227,50%);

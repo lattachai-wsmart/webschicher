@@ -138,10 +138,52 @@
                                 <span class="nav-main-link-name">@lang('frontend.menu.service')</span>
                             </a>
                             <ul class="nav-main-submenu">
-                                <li class="nav-main-item">
-                                    <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="{{ route('service.vehicleanalysis') }}" >
+                                <li class="nav-main-item ">
+                                    <a class="nav-main-link nav-main-link-submenu" aria-haspopup="true" aria-expanded="false" href="{{ route('service.vehicleanalysis') }}" >
                                         <span class="nav-main-link-name">@lang('frontend.menu.service_submenu.vehicle_analysis')</span>
                                     </a>
+                                    <ul class="nav-main-submenu ">
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.vehicleanalysis.pma') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Periodic_Mandatory_Analysis.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.vehicleanalysis.eta') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Emission_Tests_Analysis.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.vehicleanalysis.spa') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Specific_Periodic_Analysis.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.vehicleanalysis.mea') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Mandatory_Export_Analysis.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.vehicleanalysis.rsa') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Road_Safety_Analysis.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.vehicleanalysis.cva') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Contract_Vehicle_Analysis.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.vehicleanalysis.pvia') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Preowned_Vehicle_Inspection_Analysis.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.vehicleanalysis.avia') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Auction_Vehicle_Inspection_Analysis.title')</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="nav-main-item">
                                     <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="#" >
@@ -171,30 +213,7 @@
                                 {{-- <i class="nav-main-link-icon fa fa-money-bill-wave"></i> --}}
                                 <span class="nav-main-link-name">@lang('frontend.menu.job_careers')</span>
                             </a>
-                            {{-- <ul class="nav-main-submenu">
-                                <li class="nav-main-item">
-                                    <a class="nav-main-link" href="javascript:void(0)">
-                                        <span class="nav-main-link-name">Scheduled</span>
-                                        <span class="nav-main-link-badge badge badge-pill badge-success">3</span>
-                                    </a>
-                                </li>
-                                <li class="nav-main-item">
-                                    <a class="nav-main-link" href="javascript:void(0)">
-                                        <span class="nav-main-link-name">Recurring</span>
-                                    </a>
-                                </li>
-                                <li class="nav-main-item">
-                                    <a class="nav-main-link" href="javascript:void(0)">
-                                        <span class="nav-main-link-name">Manage</span>
-                                    </a>
-                                </li>
-                                <li class="nav-main-item">
-                                    <a class="nav-main-link" href="javascript:void(0)">
-                                        <i class="nav-main-link-icon fa fa-plus"></i>
-                                        <span class="nav-main-link-name">New Payment</span>
-                                    </a>
-                                </li>
-                            </ul> --}}
+
                         </li>
                         <li class="nav-main-item">
                             <a class="nav-main-link" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">

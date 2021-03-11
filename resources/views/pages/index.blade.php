@@ -15,7 +15,7 @@
                         <img class="img-fluid" src="media/photos/slidebar/shicher1-en.png" alt="">
                         <div class="carousel-caption">
                             <h5>SCHIC CERTIFICATES</h5>
-                            <div class="textSlide">###################################################</div>
+                            <div class="textSlide">############################################</div>
                             <button class="btn btn-primary btn-sm">Find &nbsp; <i class="fa fa-caret-right"></i></button>
                         </div>
                     </div>
@@ -23,7 +23,7 @@
                         <img class="img-fluid" src="media/photos/slidebar/shicher2-en.png" alt="">
                         <div class="carousel-caption">
                             <h5>SCHIC CERTIFICATES</h5>
-                            <div class="textSlide">###################################################</div>
+                            <div class="textSlide">############################################</div>
                             <button class="btn btn-primary btn-sm">Find &nbsp; <i class="fa fa-caret-right"></i></button>
                         </div>
                     </div>
@@ -32,7 +32,7 @@
 
                         <div class="carousel-caption">
                             <h5>BOOK SCHICINSPECTION</h5>
-                            <div class="textSlide">###################################################</div>
+                            <div class="textSlide">############################################</div>
                             <button class="btn btn-primary btn-sm">Find &nbsp; <i class="fa fa-caret-right"></i></button>
                         </div>
                     </div>

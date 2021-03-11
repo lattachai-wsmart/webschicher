@@ -28,4 +28,28 @@ class FrontendController extends Controller
     public function vehicleanalysis (){
         return view('pages/vehicleanalysis');
     }
+    public function pma (){
+        return view('pages/pma');
+    }
+    public function eta (){
+        return view('pages/eta');
+    }
+    public function spa (){
+        return view('pages/spa');
+    }
+    public function mea (){
+        return view('pages/mea');
+    }
+    public function rsa (){
+        return view('pages/rsa');
+    }
+    public function cva (){
+        return view('pages/cva');
+    }
+    public function pvia (){
+        return view('pages/pvia');
+    }
+    public function avia (){
+        return view('pages/avia');
+    }
 }

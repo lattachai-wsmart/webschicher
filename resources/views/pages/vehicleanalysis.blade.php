@@ -4,7 +4,7 @@
 @endsection
 
 @section('content')
-    <div class="bg-image" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
+    <div class="bg-image" style="background-image: url('{{ asset('media/photos/services/01.jpg') }}');">
         <div class="bg-primary-dark-op">
             <div class="content content-full overflow-hidden">
                 <div class="mt-7 mb-5 text-center">
@@ -23,7 +23,7 @@
                         <div class="row gutters-tiny items-push js-gallery push img-fluid-100 js-gallery-enabled">
                             <div class="col-12 animated fadeIn">
                                 <div class="">
-                                    <img class="img-fluid" src="{{ asset('media/photos/about/about_schic1.jpg') }}" alt="">
+                                    <img class="img-fluid" src="{{ asset('media/photos/services/01.jpg') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -45,10 +45,10 @@
 
                 <div class="row">
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="#">
-                            <img class="img-fluid" src="{{ asset('media/photos/about/about_schic3.jpg') }}" alt="">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehicleanalysis.pma') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/sub_01.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">Periodic Mandatory Analysis </h4>
+                                <h4 class="mb-1">@lang('frontend.Periodic_Mandatory_Analysis.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -56,10 +56,10 @@
                         </a>
                     </div>
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="#">
-                            <img class="img-fluid" src="{{ asset('media/photos/about/about_schic3.jpg') }}" alt="">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehicleanalysis.eta') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/sub_02.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">Emission Tests Analysis </h4>
+                                <h4 class="mb-1">@lang('frontend.Emission_Tests_Analysis.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -67,45 +67,10 @@
                         </a>
                     </div>
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="#">
-                            <img class="img-fluid" src="{{ asset('media/photos/about/about_schic3.jpg') }}" alt="">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehicleanalysis.spa') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/sub_03.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">Specific Periodic Analysis </h4>
-                                {{-- <p class="font-size-sm">
-                                    <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
-                                </p> --}}
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="#">
-                            <img class="img-fluid" src="{{ asset('media/photos/about/about_schic3.jpg') }}" alt="">
-                            <div class="block-content">
-                                <h4 class="mb-1">Mandatory Export Analysis </h4>
-                                {{-- <p class="font-size-sm">
-                                    <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
-                                </p> --}}
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="#">
-                            <img class="img-fluid" src="{{ asset('media/photos/about/about_schic3.jpg') }}" alt="">
-                            <div class="block-content">
-                                <h4 class="mb-1">Road Safety Analysis</h4>
-                                {{-- <p class="font-size-sm">
-                                    <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
-                                </p> --}}
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="#">
-                            <img class="img-fluid" src="{{ asset('media/photos/about/about_schic3.jpg') }}" alt="">
-                            <div class="block-content">
-                                <h4 class="mb-1">Contract Vehicle Analysis </h4>
+                                <h4 class="mb-1">@lang('frontend.Specific_Periodic_Analysis.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -115,10 +80,10 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="#">
-                            <img class="img-fluid" src="{{ asset('media/photos/about/about_schic3.jpg') }}" alt="">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehicleanalysis.mea') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/sub_04.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">Preowned Vehicle Inspection Analysis </h4>
+                                <h4 class="mb-1">@lang('frontend.Mandatory_Export_Analysis.title') </h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -126,10 +91,45 @@
                         </a>
                     </div>
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="#">
-                            <img class="img-fluid" src="{{ asset('media/photos/about/about_schic3.jpg') }}" alt="">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehicleanalysis.rsa') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/sub_05.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">Auction Vehicle Inspection Analysis </h4>
+                                <h4 class="mb-1">@lang('frontend.Road_Safety_Analysis.title')</h4>
+                                {{-- <p class="font-size-sm">
+                                    <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
+                                </p> --}}
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehicleanalysis.cva') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/sub_06.jpg') }}" alt="">
+                            <div class="block-content">
+                                <h4 class="mb-1">@lang('frontend.Contract_Vehicle_Analysis.title')</h4>
+                                {{-- <p class="font-size-sm">
+                                    <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
+                                </p> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehicleanalysis.pvia') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/sub_07.jpg') }}" alt="">
+                            <div class="block-content">
+                                <h4 class="mb-1">@lang('frontend.Preowned_Vehicle_Inspection_Analysis.title')</h4>
+                                {{-- <p class="font-size-sm">
+                                    <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
+                                </p> --}}
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehicleanalysis.avia') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/sub_08.jpg') }}" alt="">
+                            <div class="block-content">
+                                <h4 class="mb-1">@lang('frontend.Auction_Vehicle_Inspection_Analysis.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
