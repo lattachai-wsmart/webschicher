@@ -186,7 +186,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-main-item">
-                                    <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="#" >
+                                    <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="{{ route('service.claimsappraisal') }}" >
                                         {{-- <i class="nav-main-link-icon fab fa-html5"></i> --}}
                                         <span class="nav-main-link-name">@lang('frontend.menu.service_submenu.claims_appraisal')</span>
                                     </a>

@@ -68,3 +68,6 @@ body {
 main{
     background-color: #fff;
 }
+.img-mh-450{
+    max-height: 450px;
+}
