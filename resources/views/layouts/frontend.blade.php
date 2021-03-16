@@ -4,9 +4,20 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-        <title>Schicher</title>
-
-        <meta name="description" content="Schicher">
+        <title>@if (!empty($header["header"])){{$header["header"]}}@else Schicher @endif</title>
+        @if (!empty($header["meta"]))
+            @foreach ($header["meta"] as $item )
+                @php
+                    $submeta = "";
+                    foreach ($item as $key => $value){
+                        $submeta .= " ".$key.'="'.$value.'"';
+                    }
+                    echo "<meta ".$submeta." >";
+                @endphp
+            @endforeach
+        @else
+            <meta name="description" content="Schicher">
+        @endif
         <meta name="author" content="wsmart">
         <meta name="robots" content="noindex, nofollow">
 
@@ -186,10 +197,37 @@
                                     </ul>
                                 </li>
                                 <li class="nav-main-item">
-                                    <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="{{ route('service.claimsappraisal') }}" >
+                                    <a class="nav-main-link nav-main-link-submenu" aria-haspopup="true" aria-expanded="false" href="{{ route('service.claimsappraisal') }}" >
                                         {{-- <i class="nav-main-link-icon fab fa-html5"></i> --}}
                                         <span class="nav-main-link-name">@lang('frontend.menu.service_submenu.claims_appraisal')</span>
                                     </a>
+                                    <ul class="nav-main-submenu ">
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.claimsappraisal.ach') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Automotive_Claims_Handling.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.claimsappraisal.tpas') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Third_Party_Administration_Service.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.claimsappraisal.aas') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Accident_Appraisal_Services.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.claimsappraisal.ba') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Bodyshop_Appraisal.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.claimsappraisal.ga') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Garage_Appraisal.title')</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="nav-main-item">
                                     <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="#" >

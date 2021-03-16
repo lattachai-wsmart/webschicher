@@ -4,7 +4,7 @@
 @endsection
 
 @section('content')
-    <div class="bg-image head-title" style="background-image: url('{{ asset('media/photos/services/02.jpg') }}');">
+    <div class="bg-image head-title mb-3" style="background-image: url('{{ asset('media/photos/services/02.jpg') }}');">
         <div class="bg-primary-dark-op">
             <div class="content content-full overflow-hidden">
                 <div class="mt-7 mb-5 text-center">
@@ -21,9 +21,9 @@
                     <div class="row">
                         <article class="story">
                         <div class="row gutters-tiny items-push js-gallery push img-fluid-100 js-gallery-enabled">
-                            <div class="col-12 animated fadeIn">
+                            <div class="col-12 animated fadeIn d-flex justify-content-center">
                                 <div class="">
-                                    <img class="img-fluid" src="{{ asset('media/photos/services/02.jpg') }}" alt="">
+                                    <img class="img-mh-450" src="{{ asset('media/photos/services/02.jpg') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -65,7 +65,7 @@
                     </div>
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
                         <a class="block block-rounded block-link-pop" href="{{ route('service.claimsappraisal.aas') }}">
-                            <img class="img-fluid" src="{{ asset('media/photos/services/sub_03.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/02_03.jpg') }}" alt="">
                             <div class="block-content">
                                 <h4 class="mb-1">@lang('frontend.Accident_Appraisal_Services.title')</h4>
                                 {{-- <p class="font-size-sm">
@@ -78,7 +78,7 @@
                 <div class="row">
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
                         <a class="block block-rounded block-link-pop" href="{{ route('service.claimsappraisal.ba') }}">
-                            <img class="img-fluid" src="{{ asset('media/photos/services/sub_04.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/02_04.jpg') }}" alt="">
                             <div class="block-content">
                                 <h4 class="mb-1">@lang('frontend.Bodyshop_Appraisal.title') </h4>
                                 {{-- <p class="font-size-sm">
@@ -89,7 +89,7 @@
                     </div>
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
                         <a class="block block-rounded block-link-pop" href="{{ route('service.claimsappraisal.ga') }}">
-                            <img class="img-fluid" src="{{ asset('media/photos/services/sub_05.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
                             <div class="block-content">
                                 <h4 class="mb-1">@lang('frontend.Garage_Appraisal.title')</h4>
                                 {{-- <p class="font-size-sm">
@@ -100,7 +100,7 @@
                     </div>
                     <div class="col-lg-4 js-appear-enabled animated fadeIn invisible" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
                         <a class="block block-rounded block-link-pop" href="#">
-                            <img class="img-fluid" src="{{ asset('media/photos/services/sub_05.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
                             <div class="block-content">
                                 <h4 class="mb-1">&nbsp;</h4>
                                 {{-- <p class="font-size-sm">
