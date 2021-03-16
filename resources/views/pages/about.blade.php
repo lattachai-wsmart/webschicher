@@ -4,7 +4,7 @@
 @endsection
 
 @section('content')
-    <div class="bg-image" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
+    <div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
         <div class="bg-primary-dark-op">
             <div class="content content-full overflow-hidden">
                 <div class="mt-7 mb-5 text-center">
@@ -23,9 +23,9 @@
                             <p>@lang('frontend.about.content')</p>
 
                         <div class="row gutters-tiny items-push js-gallery push img-fluid-100 js-gallery-enabled">
-                            <div class="col-12 animated fadeIn">
+                            <div class="col-12 animated fadeIn d-flex justify-content-center">
                                 <div class="">
-                                    <img class="img-fluid" src="{{ asset('media/photos/about/about_schic1.jpg') }}" alt="">
+                                    <img class="img-mh-450" src="{{ asset('media/photos/about/about_schic1.jpg') }}" alt="">
                                 </div>
                             </div>
                         </div>
