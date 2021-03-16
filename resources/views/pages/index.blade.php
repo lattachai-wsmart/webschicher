@@ -1,8 +1,8 @@
 @extends('layouts.frontend')
 
 @section('css_after')
-<link rel="stylesheet" href="{{ asset('js/plugins/slick-carousel/slick.css') }}">
-<link rel="stylesheet" href="{{ asset('js/plugins/slick-carousel/slick-theme.css') }}">
+    <link rel="stylesheet" href="{{ asset('js/plugins/slick-carousel/slick.css') }}">
+    <link rel="stylesheet" href="{{ asset('js/plugins/slick-carousel/slick-theme.css') }}">
 @endsection
 
 @section('content')
@@ -10,7 +10,8 @@
     <div class="content bg-white">
         <div class="col-md-12 slidebarTop">
             <div class="block block-rounded">
-                <div class="js-slider slick-nav-black slick-dotted-inner slick-dotted-white" data-arrows="true" data-dots="true" data-autoplay="true" data-autoplay-speed="3000">
+                <div class="js-slider slick-nav-black slick-dotted-inner slick-dotted-white" data-arrows="true"
+                    data-dots="true" data-autoplay="true" data-autoplay-speed="3000">
                     <div class="carousel-item">
                         <img class="img-fluid" src="media/photos/slidebar/shicher1-en.png" alt="">
                         <div class="carousel-caption">
@@ -42,7 +43,8 @@
 
         <div class="row justify-content-center">
             <div class="col-lg-3">
-                <a class="block block-rounded js-appear-enabled animated bounceIn" data-class="animated bounceIn" href="#111">
+                <a class="block block-rounded js-appear-enabled animated bounceIn" data-class="animated bounceIn"
+                    href="#111">
                     <div class="block-content block-content-full block_shadow">
                         <div class="py-5 text-center">
                             <div class="item item-2x item-rounded  text-white mx-auto">
@@ -54,7 +56,8 @@
                 </a>
             </div>
             <div class="col-lg-3">
-                <a class="block block-rounded js-appear-enabled animated bounceIn" data-class="animated bounceIn" href="#222">
+                <a class="block block-rounded js-appear-enabled animated bounceIn" data-class="animated bounceIn"
+                    href="#222">
                     <div class="block-content block-content-full block_shadow">
                         <div class="py-5 text-center">
                             <div class="item item-2x item-rounded text-white mx-auto">
@@ -66,11 +69,12 @@
                 </a>
             </div>
             <div class="col-lg-3">
-                <a class="block block-rounded js-appear-enabled animated bounceIn" data-toggle="modal" data-class="animated bounceIn" href="javascript:void(0)"  data-target="#modal-block-popin" >
+                <a class="block block-rounded js-appear-enabled animated bounceIn" data-toggle="modal"
+                    data-class="animated bounceIn" href="javascript:void(0)" data-target="#modal-block-popin">
                     <div class="block-content block-content-full block_shadow">
                         <div class="py-5 text-center">
                             <div class="item item-2x item-rounded text-white mx-auto">
-                                <img src="{{ asset('media/photos/icons/search.png') }}" class="imageicon96"/>
+                                <img src="{{ asset('media/photos/icons/search.png') }}" class="imageicon96" />
                             </div>
                             <div class="font-size-h4 font-w600 pt-3 mb-0">SCHI CERTIFICATES</div>
                         </div>
@@ -81,14 +85,16 @@
     </div>
     <!-- END Page Content -->
 
-    <div class="modal fade" id="modal-block-popin" tabindex="-1" aria-labelledby="modal-block-popin" style="display: none;" aria-hidden="true">
+    <div class="modal fade" id="modal-block-popin" tabindex="-1" aria-labelledby="modal-block-popin" style="display: none;"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-popin" role="document">
             <div class="modal-content">
                 <div class="block block-rounded block-themed block-transparent mb-0">
                     <div class="block-content font-size-sm">
                         <div class="form-group">
                             <div class="input-group">
-                                <input type="email" class="form-control" id="schiidsearch" name="schiidsearch" placeholder="SCHI ID">
+                                <input type="email" class="form-control" id="schiidsearch" name="schiidsearch"
+                                    placeholder="SCHI ID">
                                 <div class="input-group-append">
                                     <button type="button" class="btn btn-primary" id="btnSearchSchi">
                                         <i class="fa fa-search mr-1"></i> Search
@@ -134,44 +140,52 @@
 @endsection
 
 @section('js_after')
-<script src="{{ asset('js/plugins/slick-carousel/slick.min.js') }}"></script>
-<script>jQuery(function(){ One.helpers('slick'); });</script>
-<script>
-    jQuery('#btnSearchSchi').on('click',function(){
-        let url = "http://localhost:8080/api/insp-link?schic_id=" + jQuery("#schiidsearch").val()
-        jQuery.ajax({
-            url,
-            "type": "GET",
-            beforeSend:() => {
-                jQuery('.spinner-border').removeClass('d-none');
-                jQuery('#showSearchContent').addClass('d-none');
-                jQuery('#showSearchContentError').html('');
-            },
-            success: function(data){
-                jQuery('.spinner-border').addClass('d-none');
+    <script src="{{ asset('js/plugins/slick-carousel/slick.min.js') }}"></script>
+    <script>
+        jQuery(function() {
+            One.helpers('slick');
+        });
 
-                if(typeof data.link != "undefined"){
-                    jQuery('#showSearchContent').removeClass('d-none');
-                    jQuery("#showSearchContentID").attr('href',data.link).attr('target','_blank').html(jQuery("#schiidsearch").val())
-                    const text = `${data.car_year} ${data.brand_name} ${data.model_name} ${data.submodel_name}`;
-                    jQuery("#showSearchContentDetail").html(text)
-                    jQuery("#showSearchContentDetail2").html(data.license)
-                }else{
-                    console.log('data Else',data);
-                    jQuery('#showSearchContentError').html(`<div class="alert alert-light alert-dismissable col-12" role="alert">
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                        <p class="mb-0">Not Found !</p>
-                    </div>`);
+    </script>
+    <script>
+        jQuery('#btnSearchSchi').on('click', function() {
+            let url = "http://localhost:8080/api/insp-link?schic_id=" + jQuery("#schiidsearch").val()
+            jQuery.ajax({
+                url,
+                "type": "GET",
+                beforeSend: () => {
+                    jQuery('.spinner-border').removeClass('d-none');
+                    jQuery('#showSearchContent').addClass('d-none');
+                    jQuery('#showSearchContentError').html('');
+                },
+                success: function(data) {
+                    jQuery('.spinner-border').addClass('d-none');
+
+                    if (typeof data.link != "undefined") {
+                        jQuery('#showSearchContent').removeClass('d-none');
+                        jQuery("#showSearchContentID").attr('href', data.link).attr('target', '_blank')
+                            .html(jQuery("#schiidsearch").val())
+                        const text =
+                            `${data.car_year} ${data.brand_name} ${data.model_name} ${data.submodel_name}`;
+                        jQuery("#showSearchContentDetail").html(text)
+                        jQuery("#showSearchContentDetail2").html(data.license)
+                    } else {
+                        console.log('data Else', data);
+                        jQuery('#showSearchContentError').html(`<div class="alert alert-light alert-dismissable col-12" role="alert">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                                <p class="mb-0">Not Found !</p>
+                            </div>`);
+
+                    }
+                },
+                error: function(er) {
+                    jQuery('.spinner-border').addClass('d-none');
 
                 }
-            },
-            error:function(er){
-                jQuery('.spinner-border').addClass('d-none');
-
-            }
+            });
         });
-    });
-</script>
+
+    </script>
 @endsection

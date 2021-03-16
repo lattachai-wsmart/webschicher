@@ -43,6 +43,7 @@ class FrontendController extends Controller
 
     // vehicleanalysis
     public function vehicleanalysis (){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.vehicleanalysis.title');
         return view('pages/vehicleanalysis')->with('header',$this->header);
     }
     public function pma (){
@@ -73,6 +74,7 @@ class FrontendController extends Controller
 
     // claimsappraisal
     public function claimsappraisal() {
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.claimsappraisal.title');
         return view('pages.claimsappraisal')->with('header',$this->header);
     }
     public function ach() {
@@ -93,5 +95,11 @@ class FrontendController extends Controller
     }
     public function ga() {
         return view('pages.claimsappraisal.ga');
+    }
+
+    //vehiclemanagementservices
+    public function vehiclemanageserv(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Vehicle_Management_Services.title');
+        return view('pages.vehiclemanageserv');
     }
 }

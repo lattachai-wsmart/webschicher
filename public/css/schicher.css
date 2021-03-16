@@ -71,3 +71,6 @@ main{
 .img-mh-450{
     max-height: 450px;
 }
+.slick-slider.slick-dotted.slick-dotted-inner .slick-dots {
+    bottom: 1.625rem;
+}

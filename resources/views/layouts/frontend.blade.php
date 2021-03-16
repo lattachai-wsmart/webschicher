@@ -230,7 +230,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-main-item">
-                                    <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="#" >
+                                    <a class="nav-main-link nav-main-link-submenu" aria-haspopup="true" aria-expanded="false" href="{{ route('service.vehiclemanageserv') }}" >
                                         <span class="nav-main-link-name">@lang('frontend.menu.service_submenu.vehicle_manage')</span>
                                     </a>
                                 </li>

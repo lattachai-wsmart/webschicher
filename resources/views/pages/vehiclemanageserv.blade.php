@@ -4,12 +4,12 @@
 @endsection
 
 @section('content')
-    <div class="bg-image head-title mb-3" style="background-image: url('{{ asset('media/photos/services/02.jpg') }}');">
+    <div class="bg-image head-title mb-3" style="background-image: url('{{ asset('media/photos/services/03.jpg') }}');">
         <div class="bg-primary-dark-op">
             <div class="content content-full overflow-hidden">
                 <div class="mt-7 mb-5 text-center">
                     <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear"
-                        data-class="animated fadeInDown">@lang('frontend.claimsappraisal.title')</h1>
+                        data-class="animated fadeInDown">@lang('frontend.Vehicle_Management_Services.title')</h1>
                 </div>
             </div>
         </div>
@@ -24,7 +24,7 @@
                             <div class="row gutters-tiny items-push js-gallery push img-fluid-100 js-gallery-enabled">
                                 <div class="col-12 animated fadeIn d-flex justify-content-center">
                                     <div class="">
-                                        <img class="img-mh-450" src="{{ asset('media/photos/services/02.jpg') }}" alt="">
+                                        <img class="img-mh-450" src="{{ asset('media/photos/services/03.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -34,7 +34,22 @@
                                 <span class="text-primary">Barbara Scott</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                             </p> --}}
                                 <p class="">
-                                    &nbsp; &nbsp; &nbsp; @lang('frontend.claimsappraisal.content')
+                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Vehicle_Management_Services.content')
+                                </p>
+                                <div class="row"><strong >@lang('frontend.Vehicle_Management_Services.list.title')</strong></div>
+                                <div class="row col-12">
+                                    <ol class="list-unstyled">
+                                        <li>@lang('frontend.Vehicle_Management_Services.list.1')</li>
+                                        <li>@lang('frontend.Vehicle_Management_Services.list.2')</li>
+                                        <li>@lang('frontend.Vehicle_Management_Services.list.3')</li>
+                                        <li>@lang('frontend.Vehicle_Management_Services.list.4')</li>
+                                        <li>@lang('frontend.Vehicle_Management_Services.list.5')</li>
+                                        <li>@lang('frontend.Vehicle_Management_Services.list.6')</li>
+                                        <li>@lang('frontend.Vehicle_Management_Services.list.7')</li>
+                                    </ol>
+                                </div>
+                                <p class="">
+                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Vehicle_Management_Services.content1')
                                 </p>
                             </div>
                         </article>

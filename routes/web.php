@@ -36,3 +36,5 @@ Route::get('/service/claimsappraisal/tpas', [FrontendController::class, "tpas"])
 Route::get('/service/claimsappraisal/aas', [FrontendController::class, "aas"])->name('service.claimsappraisal.aas');
 Route::get('/service/claimsappraisal/ba', [FrontendController::class, "ba"])->name('service.claimsappraisal.ba');
 Route::get('/service/claimsappraisal/ga', [FrontendController::class, "ga"])->name('service.claimsappraisal.ga');
+
+Route::get('/service/vehiclemanageserv', [FrontendController::class, "vehiclemanageserv"])->name('service.vehiclemanageserv');
