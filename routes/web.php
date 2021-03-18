@@ -38,3 +38,10 @@ Route::get('/service/claimsappraisal/ba', [FrontendController::class, "ba"])->na
 Route::get('/service/claimsappraisal/ga', [FrontendController::class, "ga"])->name('service.claimsappraisal.ga');
 
 Route::get('/service/vehiclemanageserv', [FrontendController::class, "vehiclemanageserv"])->name('service.vehiclemanageserv');
+Route::get('/service/vehiclemanageserv/epouv', [FrontendController::class, "epouv"])->name('service.vehiclemanageserv.epouv');
+Route::get('/service/vehiclemanageserv/ifadfo', [FrontendController::class, "ifadfo"])->name('service.vehiclemanageserv.ifadfo');
+Route::get('/service/vehiclemanageserv/fucvcr', [FrontendController::class, "fucvcr"])->name('service.vehiclemanageserv.fucvcr');
+Route::get('/service/vehiclemanageserv/feap', [FrontendController::class, "feap"])->name('service.vehiclemanageserv.feap');
+Route::get('/service/vehiclemanageserv/ucsff', [FrontendController::class, "ucsff"])->name('service.vehiclemanageserv.ucsff');
+Route::get('/service/vehiclemanageserv/eotbmff', [FrontendController::class, "eotbmff"])->name('service.vehiclemanageserv.eotbmff');
+Route::get('/service/vehiclemanageserv/rmff', [FrontendController::class, "rmff"])->name('service.vehiclemanageserv.rmff');

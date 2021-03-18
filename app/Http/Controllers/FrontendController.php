@@ -100,6 +100,34 @@ class FrontendController extends Controller
     //vehiclemanagementservices
     public function vehiclemanageserv(){
         $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Vehicle_Management_Services.title');
-        return view('pages.vehiclemanageserv');
+        return view('pages.vehiclemanageserv')->with('header',$this->header);
+    }
+    public function epouv(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Evaluation_Pricing_of_Used_Vehicles.title');
+        return view('pages.vehiclemanageserv.epouv')->with('header',$this->header);
+    }
+    public function ifadfo(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.In_fleet_and_De_fleet_Operations.title');
+        return view('pages.vehiclemanageserv.ifadfo')->with('header',$this->header);
+    }
+    public function fucvcr(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Fleet_Used_Car_Vehicle_Condition_Report.title');
+        return view('pages.vehiclemanageserv.fucvcr')->with('header',$this->header);
+    }
+    public function feap(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Fleet_Evaluation_and_Pricing.title');
+        return view('pages.vehiclemanageserv.feap')->with('header',$this->header);
+    }
+    public function ucsff(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Used_Car_Seal_for_Fleet.title');
+        return view('pages.vehiclemanageserv.ucsff')->with('header',$this->header);
+    }
+    public function eotbmff(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.End_of_Term_Buyback_management_for_Fleets.title');
+        return view('pages.vehiclemanageserv.eotbmff')->with('header',$this->header);
+    }
+    public function rmff(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Refurbishment_Management_for_Fleets.title');
+        return view('pages.vehiclemanageserv.rmff')->with('header',$this->header);
     }
 }

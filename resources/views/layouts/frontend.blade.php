@@ -233,6 +233,43 @@
                                     <a class="nav-main-link nav-main-link-submenu" aria-haspopup="true" aria-expanded="false" href="{{ route('service.vehiclemanageserv') }}" >
                                         <span class="nav-main-link-name">@lang('frontend.menu.service_submenu.vehicle_manage')</span>
                                     </a>
+                                    <ul class="nav-main-submenu ">
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.vehiclemanageserv.epouv') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Evaluation_Pricing_of_Used_Vehicles.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.vehiclemanageserv.ifadfo') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.In_fleet_and_De_fleet_Operations.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.vehiclemanageserv.fucvcr') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.vehiclemanageserv.feap') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Fleet_Evaluation_and_Pricing.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.vehiclemanageserv.ucsff') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Used_Car_Seal_for_Fleet.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.vehiclemanageserv.eotbmff') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.End_of_Term_Buyback_management_for_Fleets.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.vehiclemanageserv.rmff') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Refurbishment_Management_for_Fleets.title')</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="nav-main-item">
                                     <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="#" >

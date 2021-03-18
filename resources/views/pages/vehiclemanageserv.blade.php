@@ -59,10 +59,10 @@
                 <div class="row">
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
                         data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="{{ route('service.claimsappraisal.ach') }}">
-                            <img class="img-fluid" src="{{ asset('media/photos/services/02_01.jpg') }}" alt="">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.epouv') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/03_01.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Automotive_Claims_Handling.title')</h4>
+                                <h4 class="mb-1">@lang('frontend.Evaluation_Pricing_of_Used_Vehicles.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -71,10 +71,10 @@
                     </div>
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
                         data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="{{ route('service.claimsappraisal.tpas') }}">
-                            <img class="img-fluid" src="{{ asset('media/photos/services/02_02.jpg') }}" alt="">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.ifadfo') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/03_02.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Third_Party_Administration_Service.title')</h4>
+                                <h4 class="mb-1">@lang('frontend.In_fleet_and_De_fleet_Operations.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -83,10 +83,10 @@
                     </div>
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
                         data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="{{ route('service.claimsappraisal.aas') }}">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.fucvcr') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/02_03.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Accident_Appraisal_Services.title')</h4>
+                                <h4 class="mb-1">@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -97,10 +97,10 @@
                 <div class="row">
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
                         data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="{{ route('service.claimsappraisal.ba') }}">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.feap') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/02_04.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Bodyshop_Appraisal.title') </h4>
+                                <h4 class="mb-1">@lang('frontend.Fleet_Evaluation_and_Pricing.title') </h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -109,22 +109,60 @@
                     </div>
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
                         data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="{{ route('service.claimsappraisal.ga') }}">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.ucsff') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Garage_Appraisal.title')</h4>
+                                <h4 class="mb-1">@lang('frontend.Used_Car_Seal_for_Fleet.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 js-appear-enabled animated fadeIn invisible" data-toggle="appear" data-offset="50"
+                    <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
                         data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="#">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.eotbmff') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">&nbsp;</h4>
+                                <h4 class="mb-1">@lang('frontend.End_of_Term_Buyback_management_for_Fleets.title')</h4>
+                                {{-- <p class="font-size-sm">
+                                    <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
+                                </p> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
+                        data-class="animated fadeIn">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.rmff') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/02_04.jpg') }}" alt="">
+                            <div class="block-content">
+                                <h4 class="mb-1">@lang('frontend.Refurbishment_Management_for_Fleets.title') </h4>
+                                {{-- <p class="font-size-sm">
+                                    <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
+                                </p> --}}
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
+                        data-class="animated fadeIn">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.ucsff') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
+                            <div class="block-content">
+                                <h4 class="mb-1">@lang('frontend.Used_Car_Seal_for_Fleet.title')</h4>
+                                {{-- <p class="font-size-sm">
+                                    <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
+                                </p> --}}
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
+                        data-class="animated fadeIn">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.eotbmff') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
+                            <div class="block-content">
+                                <h4 class="mb-1">@lang('frontend.End_of_Term_Buyback_management_for_Fleets.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
