@@ -269,6 +269,16 @@
                                                 <span class="nav-main-link-name">@lang('frontend.Refurbishment_Management_for_Fleets.title')</span>
                                             </a>
                                         </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.vehiclemanageserv.rcff') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Remarketing_Consultancy_for_Fleets.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.vehiclemanageserv.ssff') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Sales_solutions_for_Fleets.title')</span>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="nav-main-item">

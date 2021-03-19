@@ -45,3 +45,5 @@ Route::get('/service/vehiclemanageserv/feap', [FrontendController::class, "feap"
 Route::get('/service/vehiclemanageserv/ucsff', [FrontendController::class, "ucsff"])->name('service.vehiclemanageserv.ucsff');
 Route::get('/service/vehiclemanageserv/eotbmff', [FrontendController::class, "eotbmff"])->name('service.vehiclemanageserv.eotbmff');
 Route::get('/service/vehiclemanageserv/rmff', [FrontendController::class, "rmff"])->name('service.vehiclemanageserv.rmff');
+Route::get('/service/vehiclemanageserv/rcff', [FrontendController::class, "rcff"])->name('service.vehiclemanageserv.rcff');
+Route::get('/service/vehiclemanageserv/ssff', [FrontendController::class, "ssff"])->name('service.vehiclemanageserv.ssff');

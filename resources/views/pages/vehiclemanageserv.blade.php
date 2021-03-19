@@ -84,7 +84,7 @@
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
                         data-class="animated fadeIn">
                         <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.fucvcr') }}">
-                            <img class="img-fluid" src="{{ asset('media/photos/services/02_03.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/03_03.jpg') }}" alt="">
                             <div class="block-content">
                                 <h4 class="mb-1">@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.title')</h4>
                                 {{-- <p class="font-size-sm">
@@ -98,7 +98,7 @@
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
                         data-class="animated fadeIn">
                         <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.feap') }}">
-                            <img class="img-fluid" src="{{ asset('media/photos/services/02_04.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/03_04.jpg') }}" alt="">
                             <div class="block-content">
                                 <h4 class="mb-1">@lang('frontend.Fleet_Evaluation_and_Pricing.title') </h4>
                                 {{-- <p class="font-size-sm">
@@ -110,7 +110,7 @@
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
                         data-class="animated fadeIn">
                         <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.ucsff') }}">
-                            <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/03_05.jpg') }}" alt="">
                             <div class="block-content">
                                 <h4 class="mb-1">@lang('frontend.Used_Car_Seal_for_Fleet.title')</h4>
                                 {{-- <p class="font-size-sm">
@@ -122,7 +122,7 @@
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
                         data-class="animated fadeIn">
                         <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.eotbmff') }}">
-                            <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/03_06.jpg') }}" alt="">
                             <div class="block-content">
                                 <h4 class="mb-1">@lang('frontend.End_of_Term_Buyback_management_for_Fleets.title')</h4>
                                 {{-- <p class="font-size-sm">
@@ -136,7 +136,7 @@
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
                         data-class="animated fadeIn">
                         <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.rmff') }}">
-                            <img class="img-fluid" src="{{ asset('media/photos/services/02_04.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/03_07.jpg') }}" alt="">
                             <div class="block-content">
                                 <h4 class="mb-1">@lang('frontend.Refurbishment_Management_for_Fleets.title') </h4>
                                 {{-- <p class="font-size-sm">
@@ -147,10 +147,10 @@
                     </div>
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
                         data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.ucsff') }}">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.rcff') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Used_Car_Seal_for_Fleet.title')</h4>
+                                <h4 class="mb-1">@lang('frontend.Remarketing_Consultancy_for_Fleets.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -159,10 +159,10 @@
                     </div>
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
                         data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.eotbmff') }}">
-                            <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.vehiclemanageserv.ssff') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/03_09.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.End_of_Term_Buyback_management_for_Fleets.title')</h4>
+                                <h4 class="mb-1">@lang('frontend.Sales_solutions_for_Fleets.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}

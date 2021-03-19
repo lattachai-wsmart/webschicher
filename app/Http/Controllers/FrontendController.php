@@ -130,4 +130,12 @@ class FrontendController extends Controller
         $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Refurbishment_Management_for_Fleets.title');
         return view('pages.vehiclemanageserv.rmff')->with('header',$this->header);
     }
+    public function rcff(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Remarketing_Consultancy_for_Fleets.title');
+        return view('pages.vehiclemanageserv.rcff')->with('header',$this->header);
+    }
+    public function ssff(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Sales_solutions_for_Fleets.title');
+        return view('pages.vehiclemanageserv.ssff')->with('header',$this->header);
+    }
 }
