@@ -47,3 +47,7 @@ Route::get('/service/vehiclemanageserv/eotbmff', [FrontendController::class, "eo
 Route::get('/service/vehiclemanageserv/rmff', [FrontendController::class, "rmff"])->name('service.vehiclemanageserv.rmff');
 Route::get('/service/vehiclemanageserv/rcff', [FrontendController::class, "rcff"])->name('service.vehiclemanageserv.rcff');
 Route::get('/service/vehiclemanageserv/ssff', [FrontendController::class, "ssff"])->name('service.vehiclemanageserv.ssff');
+
+Route::get('/service/dealershipcer', [FrontendController::class, "dealershipcer"])->name('service.dealershipcer');
+Route::get('/service/dealershipcer/dpvia', [FrontendController::class, "dpvia"])->name('service.dealershipcer.dpvia');
+Route::get('/service/dealershipcer/dqsa', [FrontendController::class, "dqsa"])->name('service.dealershipcer.dqsa');

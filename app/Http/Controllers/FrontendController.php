@@ -138,4 +138,18 @@ class FrontendController extends Controller
         $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Sales_solutions_for_Fleets.title');
         return view('pages.vehiclemanageserv.ssff')->with('header',$this->header);
     }
+
+    //dealershipcer
+    public function dealershipcer(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Dealership_Certification_Auditing.title');
+        return view('pages.dealershipcer')->with('header',$this->header);
+    }
+    public function dpvia(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.title');
+        return view('pages.dealershipcer.dpvia')->with('header',$this->header);
+    }
+    public function dqsa(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Dealership_Quality_Standard_Assessment.title');
+        return view('pages.dealershipcer.dqsa')->with('header',$this->header);
+    }
 }

@@ -282,9 +282,21 @@
                                     </ul>
                                 </li>
                                 <li class="nav-main-item">
-                                    <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="#" >
+                                    <a class="nav-main-link nav-main-link-submenu" aria-haspopup="true" aria-expanded="false" href="{{ route('service.dealershipcer') }}" >
                                         <span class="nav-main-link-name">@lang('frontend.menu.service_submenu.dealership_cer')</span>
                                     </a>
+                                    <ul class="nav-main-submenu ">
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.dealershipcer.dpvia') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.dealershipcer.dqsa') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Dealership_Quality_Standard_Assessment.title')</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="nav-main-item">
                                     <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="#" >
