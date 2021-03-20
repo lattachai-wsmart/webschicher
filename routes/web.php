@@ -51,3 +51,9 @@ Route::get('/service/vehiclemanageserv/ssff', [FrontendController::class, "ssff"
 Route::get('/service/dealershipcer', [FrontendController::class, "dealershipcer"])->name('service.dealershipcer');
 Route::get('/service/dealershipcer/dpvia', [FrontendController::class, "dpvia"])->name('service.dealershipcer.dpvia');
 Route::get('/service/dealershipcer/dqsa', [FrontendController::class, "dqsa"])->name('service.dealershipcer.dqsa');
+
+Route::get('/service/dealershiptra', [FrontendController::class, "dealershiptra"])->name('service.dealershiptra');
+Route::get('/service/dealershiptra/pcs', [FrontendController::class, "pcs"])->name('service.dealershiptra.pcs');
+Route::get('/service/dealershiptra/stq', [FrontendController::class, "stq"])->name('service.dealershiptra.stq');
+Route::get('/service/dealershiptra/itq', [FrontendController::class, "itq"])->name('service.dealershiptra.itq');
+Route::get('/service/dealershiptra/saptq', [FrontendController::class, "saptq"])->name('service.dealershiptra.saptq');

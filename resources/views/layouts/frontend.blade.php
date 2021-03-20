@@ -299,9 +299,31 @@
                                     </ul>
                                 </li>
                                 <li class="nav-main-item">
-                                    <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="#" >
+                                    <a class="nav-main-link nav-main-link-submenu" aria-haspopup="true" aria-expanded="false" href="{{ route('service.dealershiptra') }}" >
                                         <span class="nav-main-link-name">@lang('frontend.menu.service_submenu.dealership_tra')</span>
                                     </a>
+                                    <ul class="nav-main-submenu ">
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.dealershiptra.pcs') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Personnel_Certificate_Services.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.dealershiptra.stq') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Sales_Training_Qualification.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.dealershiptra.itq') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Inspectors_Training_Qualification.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.dealershiptra.saptq') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Systems_and_Process_Training_Qualification.title')</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>

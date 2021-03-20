@@ -152,4 +152,26 @@ class FrontendController extends Controller
         $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Dealership_Quality_Standard_Assessment.title');
         return view('pages.dealershipcer.dqsa')->with('header',$this->header);
     }
+
+    //dealershiptra
+    public function dealershiptra(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Dealership_Training_Qualification.title');
+        return view('pages.dealershiptra')->with('header',$this->header);
+    }
+    public function pcs(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Personnel_Certificate_Services.title');
+        return view('pages.dealershiptra.pcs')->with('header',$this->header);
+    }
+    public function stq(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Sales_Training_Qualification.title');
+        return view('pages.dealershiptra.stq')->with('header',$this->header);
+    }
+    public function itq(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Inspectors_Training_Qualification.title');
+        return view('pages.dealershiptra.itq')->with('header',$this->header);
+    }
+    public function saptq(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Systems_and_Process_Training_Qualification.title');
+        return view('pages.dealershiptra.saptq')->with('header',$this->header);
+    }
 }
