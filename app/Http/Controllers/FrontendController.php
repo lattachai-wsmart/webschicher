@@ -35,8 +35,9 @@ class FrontendController extends Controller
 
         if (! in_array($lang, ['en', 'th', 'de'])) {
             App::setLocale('en');
+            $lang = "en";
         }
-        App::setLocale($lang);
+        // App::setLocale($lang);
         session()->put('locale', $lang);
         return redirect()->to(url()->previous());
     }
