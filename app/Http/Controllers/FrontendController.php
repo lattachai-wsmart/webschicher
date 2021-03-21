@@ -30,14 +30,14 @@ class FrontendController extends Controller
     {
         return view('pages/about')->with('header',$this->header);
     }
-    public function lang_change(Request $request)
+    public function lang_change(Request $request,$lang)
     {
 
-        if (! in_array($request->lang, ['en', 'th', 'de'])) {
+        if (! in_array($lang, ['en', 'th', 'de'])) {
             App::setLocale('en');
         }
-        App::setLocale($request->lang);
-        session()->put('locale', $request->lang);
+        App::setLocale($lang);
+        session()->put('locale', $lang);
         return redirect()->to(url()->previous());
     }
 
