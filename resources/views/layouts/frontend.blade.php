@@ -323,6 +323,11 @@
                                                 <span class="nav-main-link-name">@lang('frontend.Systems_and_Process_Training_Qualification.title')</span>
                                             </a>
                                         </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.dealershiptra.ltq') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Leadership_Training_Qualification.title')</span>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </li>
                             </ul>

@@ -57,3 +57,4 @@ Route::get('/service/dealershiptra/pcs', [FrontendController::class, "pcs"])->na
 Route::get('/service/dealershiptra/stq', [FrontendController::class, "stq"])->name('service.dealershiptra.stq');
 Route::get('/service/dealershiptra/itq', [FrontendController::class, "itq"])->name('service.dealershiptra.itq');
 Route::get('/service/dealershiptra/saptq', [FrontendController::class, "saptq"])->name('service.dealershiptra.saptq');
+Route::get('/service/dealershiptra/ltq', [FrontendController::class, "ltq"])->name('service.dealershiptra.ltq');

@@ -174,4 +174,8 @@ class FrontendController extends Controller
         $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Systems_and_Process_Training_Qualification.title');
         return view('pages.dealershiptra.saptq')->with('header',$this->header);
     }
+    public function ltq(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Leadership_Training_Qualification.title');
+        return view('pages.dealershiptra.ltq')->with('header',$this->header);
+    }
 }
