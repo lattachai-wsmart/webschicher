@@ -328,6 +328,16 @@
                                                 <span class="nav-main-link-name">@lang('frontend.Leadership_Training_Qualification.title')</span>
                                             </a>
                                         </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.dealershiptra.mts') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.Managed_Training_Services.title')</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="{{ route('service.dealershiptra.csrc') }}">
+                                                <span class="nav-main-link-name">@lang('frontend.CSR_Compliance.title')</span>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </li>
                             </ul>

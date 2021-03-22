@@ -75,49 +75,108 @@
                             </p>
                         </div>
                         <div class="row">
-                            <h3 class="row h3 mb-0 mt-0">@lang('frontend.Leadership_Training_Qualification.sub_data.1.title')</h3>
+                            <div class="row col-12 pl-0">
+                                <h3 class="row h3 mb-0 mt-0">@lang('frontend.Leadership_Training_Qualification.sub_data.1.title')</h3>
+                            </div>
+                            <div class="row">
+                                <h5 class="row h5 mb-0 mt-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.title1')</h5>
+                            </div>
+                            <div class="row">
+                                <p class="">
+                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.1.content')
+                                </p>
+                            </div>
+                            <div class="row">
+                                <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.1.title')</h5>
+                                <p class="mb-1">
+                                    @lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.1.content')
+                                </p>
+                            </div>
+                            <div class="row">
+                                <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.2.title')</h5>
+                                <p class="mb-1">
+                                    @lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.2.content')
+                                </p>
+                            </div>
+                            <div class="row">
+                                <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.3.title')</h5>
+                                <p class="row mb-1 col-12">
+                                    @lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.3.content')
+                                </p>
+                            </div>
+                            <div class="row">
+                                <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.4.title')</h5>
+                                <p class="mb-1">
+                                    @lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.4.content')
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p class="row">
+                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.1.content1')
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p class="row">
+                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.1.content2')
+                                </p>
+                            </div>
                         </div>
+
                         <div class="row">
-                            <h5 class="row h5 mb-0 mt-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.title1')</h5>
+                            <div class="row">
+                                <h3 class="row h3">@lang('frontend.Leadership_Training_Qualification.sub_data.2.title')</h3>
+                                <p class="row mb-1">
+                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.2.content')
+                                </p>
+                                <div class="row col-12">
+                                    <ol>
+                                        <li>@lang('frontend.Leadership_Training_Qualification.sub_data.2.list.1')</li>
+                                        <li>@lang('frontend.Leadership_Training_Qualification.sub_data.2.list.2')</li>
+                                        <li>@lang('frontend.Leadership_Training_Qualification.sub_data.2.list.3')</li>
+                                        <li>@lang('frontend.Leadership_Training_Qualification.sub_data.2.list.4')</li>
+                                        <li>@lang('frontend.Leadership_Training_Qualification.sub_data.2.list.5')</li>
+                                    </ol>
+                                </div>
+                                <h5 class="row h5 mb-2 mt-2">@lang('frontend.Leadership_Training_Qualification.sub_data.2.title1')</h5>
+                                <p class="row mb-1">
+                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.2.content1')
+                                </p>
+                            </div>
                         </div>
+
                         <div class="row">
-                            <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.1.content')
-                            </p>
+                            <div class="row">
+                                <h3 class="row h3">@lang('frontend.Leadership_Training_Qualification.sub_data.3.title')</h3>
+                                <p class="row mb-1">
+                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.3.content')
+                                </p>
+                                <p class="row mb-1">
+                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.3.content1')
+                                </p>
+                                <div class="row col-12"><strong >@lang('frontend.Leadership_Training_Qualification.sub_data.3.list.title')</strong></div>
+                                <div class="row col-12">
+                                    <ol>
+                                        <li>@lang('frontend.Leadership_Training_Qualification.sub_data.3.list.1')</li>
+                                        <li>@lang('frontend.Leadership_Training_Qualification.sub_data.3.list.2')</li>
+                                    </ol>
+                                </div>
+                            </div>
                         </div>
+
                         <div class="row">
-                            <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.1.title')</h5>
-                            <p class="mb-1">
-                                @lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.1.content')
-                            </p>
-                        </div>
-                        <div class="row">
-                            <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.2.title')</h5>
-                            <p class="mb-1">
-                                @lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.2.content')
-                            </p>
-                        </div>
-                        <div class="row">
-                            <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.3.title')</h5>
-                            <p class="row mb-1 col-12">
-                                @lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.3.content')
-                            </p>
-                        </div>
-                        <div class="row">
-                            <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.4.title')</h5>
-                            <p class="mb-1">
-                                @lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.4.content')
-                            </p>
-                        </div>
-                        <div class="row">
-                            <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.1.content1')
-                            </p>
-                        </div>
-                        <div class="row">
-                            <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.1.content2')
-                            </p>
+                            <div class="row">
+                                <h3 class="row h3">@lang('frontend.Leadership_Training_Qualification.sub_data.4.title')</h3>
+                                <p class="row mb-1">
+                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.4.content')
+                                </p>
+                                <p class="row ">
+                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.4.content1')
+                                </p>
+                                <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.sub_data.4.title1')</h5>
+                                <p class="row mb-1">
+                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.4.content2')
+                                </p>
+                            </div>
                         </div>
                         </article>
                     </div>

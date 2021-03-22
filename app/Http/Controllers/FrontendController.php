@@ -179,4 +179,13 @@ class FrontendController extends Controller
         $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Leadership_Training_Qualification.title');
         return view('pages.dealershiptra.ltq')->with('header',$this->header);
     }
+    public function mts(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.Managed_Training_Services.title');
+        return view('pages.dealershiptra.mts')->with('header',$this->header);
+    }
+    public function csrc(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.CSR_Compliance.title');
+        return view('pages.dealershiptra.csrc')->with('header',$this->header);
+    }
+
 }
