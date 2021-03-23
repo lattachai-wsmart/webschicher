@@ -20,43 +20,55 @@ Route::get('/', [FrontendController::class, "index"]);
 Route::get('change/lang/{lang}', [FrontendController::class, "lang_change"])->name('LangChange');
 Route::get('/about', [FrontendController::class, "about"])->name('about');
 
-Route::get('/service/vehicleanalysis', [FrontendController::class, "vehicleanalysis"])->name('service.vehicleanalysis');
-Route::get('/service/vehicleanalysis/pma', [FrontendController::class, "pma"])->name('service.vehicleanalysis.pma');
-Route::get('/service/vehicleanalysis/eta', [FrontendController::class, "eta"])->name('service.vehicleanalysis.eta');
-Route::get('/service/vehicleanalysis/spa', [FrontendController::class, "spa"])->name('service.vehicleanalysis.spa');
-Route::get('/service/vehicleanalysis/mea', [FrontendController::class, "mea"])->name('service.vehicleanalysis.mea');
-Route::get('/service/vehicleanalysis/rsa', [FrontendController::class, "rsa"])->name('service.vehicleanalysis.rsa');
-Route::get('/service/vehicleanalysis/cva', [FrontendController::class, "cva"])->name('service.vehicleanalysis.cva');
-Route::get('/service/vehicleanalysis/pvia', [FrontendController::class, "pvia"])->name('service.vehicleanalysis.pvia');
-Route::get('/service/vehicleanalysis/avia', [FrontendController::class, "avia"])->name('service.vehicleanalysis.avia');
+Route::prefix('service')->name('service.')->group(function () {
+    Route::get('vehicleanalysis', [FrontendController::class, "vehicleanalysis"])->name('vehicleanalysis');
+    Route::prefix('vehicleanalysis')->name('vehicleanalysis.')->group(function () {
+        Route::get('pma', [FrontendController::class, "pma"])->name('pma');
+        Route::get('eta', [FrontendController::class, "eta"])->name('eta');
+        Route::get('spa', [FrontendController::class, "spa"])->name('spa');
+        Route::get('mea', [FrontendController::class, "mea"])->name('mea');
+        Route::get('rsa', [FrontendController::class, "rsa"])->name('rsa');
+        Route::get('cva', [FrontendController::class, "cva"])->name('cva');
+        Route::get('pvia', [FrontendController::class, "pvia"])->name('pvia');
+        Route::get('avia', [FrontendController::class, "avia"])->name('avia');
+    });
 
-Route::get('/service/claimsappraisal', [FrontendController::class, "claimsappraisal"])->name('service.claimsappraisal');
-Route::get('/service/claimsappraisal/ach', [FrontendController::class, "ach"])->name('service.claimsappraisal.ach');
-Route::get('/service/claimsappraisal/tpas', [FrontendController::class, "tpas"])->name('service.claimsappraisal.tpas');
-Route::get('/service/claimsappraisal/aas', [FrontendController::class, "aas"])->name('service.claimsappraisal.aas');
-Route::get('/service/claimsappraisal/ba', [FrontendController::class, "ba"])->name('service.claimsappraisal.ba');
-Route::get('/service/claimsappraisal/ga', [FrontendController::class, "ga"])->name('service.claimsappraisal.ga');
+    Route::get('claimsappraisal', [FrontendController::class, "claimsappraisal"])->name('claimsappraisal');
+    Route::prefix('claimsappraisal')->name('claimsappraisal.')->group(function () {
+        Route::get('ach', [FrontendController::class, "ach"])->name('ach');
+        Route::get('tpas', [FrontendController::class, "tpas"])->name('tpas');
+        Route::get('aas', [FrontendController::class, "aas"])->name('aas');
+        Route::get('ba', [FrontendController::class, "ba"])->name('ba');
+        Route::get('ga', [FrontendController::class, "ga"])->name('ga');
+    });
 
-Route::get('/service/vehiclemanageserv', [FrontendController::class, "vehiclemanageserv"])->name('service.vehiclemanageserv');
-Route::get('/service/vehiclemanageserv/epouv', [FrontendController::class, "epouv"])->name('service.vehiclemanageserv.epouv');
-Route::get('/service/vehiclemanageserv/ifadfo', [FrontendController::class, "ifadfo"])->name('service.vehiclemanageserv.ifadfo');
-Route::get('/service/vehiclemanageserv/fucvcr', [FrontendController::class, "fucvcr"])->name('service.vehiclemanageserv.fucvcr');
-Route::get('/service/vehiclemanageserv/feap', [FrontendController::class, "feap"])->name('service.vehiclemanageserv.feap');
-Route::get('/service/vehiclemanageserv/ucsff', [FrontendController::class, "ucsff"])->name('service.vehiclemanageserv.ucsff');
-Route::get('/service/vehiclemanageserv/eotbmff', [FrontendController::class, "eotbmff"])->name('service.vehiclemanageserv.eotbmff');
-Route::get('/service/vehiclemanageserv/rmff', [FrontendController::class, "rmff"])->name('service.vehiclemanageserv.rmff');
-Route::get('/service/vehiclemanageserv/rcff', [FrontendController::class, "rcff"])->name('service.vehiclemanageserv.rcff');
-Route::get('/service/vehiclemanageserv/ssff', [FrontendController::class, "ssff"])->name('service.vehiclemanageserv.ssff');
+    Route::get('vehiclemanageserv', [FrontendController::class, "vehiclemanageserv"])->name('vehiclemanageserv');
+    Route::prefix('vehiclemanageserv')->name('vehiclemanageserv.')->group(function () {
+        Route::get('epouv', [FrontendController::class, "epouv"])->name('epouv');
+        Route::get('ifadfo', [FrontendController::class, "ifadfo"])->name('ifadfo');
+        Route::get('fucvcr', [FrontendController::class, "fucvcr"])->name('fucvcr');
+        Route::get('feap', [FrontendController::class, "feap"])->name('feap');
+        Route::get('ucsff', [FrontendController::class, "ucsff"])->name('ucsff');
+        Route::get('eotbmff', [FrontendController::class, "eotbmff"])->name('eotbmff');
+        Route::get('rmff', [FrontendController::class, "rmff"])->name('rmff');
+        Route::get('rcff', [FrontendController::class, "rcff"])->name('rcff');
+        Route::get('ssff', [FrontendController::class, "ssff"])->name('ssff');
+    });
 
-Route::get('/service/dealershipcer', [FrontendController::class, "dealershipcer"])->name('service.dealershipcer');
-Route::get('/service/dealershipcer/dpvia', [FrontendController::class, "dpvia"])->name('service.dealershipcer.dpvia');
-Route::get('/service/dealershipcer/dqsa', [FrontendController::class, "dqsa"])->name('service.dealershipcer.dqsa');
+    Route::get('dealershipcer', [FrontendController::class, "dealershipcer"])->name('dealershipcer');
+    Route::prefix('dealershipcer')->name('dealershipcer.')->group(function () {
+        Route::get('dpvia', [FrontendController::class, "dpvia"])->name('dpvia');
+        Route::get('dqsa', [FrontendController::class, "dqsa"])->name('dqsa');
+    });
 
-Route::get('/service/dealershiptra', [FrontendController::class, "dealershiptra"])->name('service.dealershiptra');
-Route::get('/service/dealershiptra/pcs', [FrontendController::class, "pcs"])->name('service.dealershiptra.pcs');
-Route::get('/service/dealershiptra/stq', [FrontendController::class, "stq"])->name('service.dealershiptra.stq');
-Route::get('/service/dealershiptra/itq', [FrontendController::class, "itq"])->name('service.dealershiptra.itq');
-Route::get('/service/dealershiptra/saptq', [FrontendController::class, "saptq"])->name('service.dealershiptra.saptq');
-Route::get('/service/dealershiptra/ltq', [FrontendController::class, "ltq"])->name('service.dealershiptra.ltq');
-Route::get('/service/dealershiptra/mts', [FrontendController::class, "mts"])->name('service.dealershiptra.mts');
-Route::get('/service/dealershiptra/csrc', [FrontendController::class, "csrc"])->name('service.dealershiptra.csrc');
+    Route::get('dealershiptra', [FrontendController::class, "dealershiptra"])->name('dealershiptra');
+    Route::prefix('dealershiptra')->name('dealershiptra.')->group(function () {
+        Route::get('pcs', [FrontendController::class, "pcs"])->name('pcs');
+        Route::get('stq', [FrontendController::class, "stq"])->name('stq');
+        Route::get('itq', [FrontendController::class, "itq"])->name('itq');
+        Route::get('saptq', [FrontendController::class, "saptq"])->name('saptq');
+        Route::get('ltq', [FrontendController::class, "ltq"])->name('ltq');
+        Route::get('mts', [FrontendController::class, "mts"])->name('mts');
+        Route::get('csrc', [FrontendController::class, "csrc"])->name('csrc');
+    });
+});
