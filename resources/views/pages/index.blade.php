@@ -149,7 +149,7 @@
     </script>
     <script>
         jQuery('#btnSearchSchi').on('click', function() {
-            let url = "{{ request()->getSchemeAndHttpHost() }}inspection/api/insp-link?schic_id=" + jQuery("#schiidsearch").val()
+            let url = "{{ request()->getSchemeAndHttpHost() }}/inspection/api/insp-link?schic_id=" + jQuery("#schiidsearch").val()
             jQuery.ajax({
                 url,
                 "type": "GET",

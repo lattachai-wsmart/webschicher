@@ -16,7 +16,7 @@ class FrontendController extends Controller
             "meta" => [
                 [
                     "name" => "description",
-                    "content" => "Schicher Test"
+                    "content" => "Schicher"
                 ],
             ],
         ];
