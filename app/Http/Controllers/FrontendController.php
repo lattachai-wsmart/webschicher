@@ -30,6 +30,10 @@ class FrontendController extends Controller
     {
         return view('pages/about')->with('header',$this->header);
     }
+    public function contact()
+    {
+        return view('pages/contact')->with('header',$this->header);
+    }
     public function lang_change(Request $request,$lang)
     {
 

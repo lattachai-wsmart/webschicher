@@ -389,7 +389,7 @@
                         </li>
                         <li class="nav-main-heading">Personal</li>
                         <li class="nav-main-item">
-                            <a class="nav-main-link " data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                            <a class="nav-main-link " aria-haspopup="true" aria-expanded="false" href="{{ route('contact') }}">
                                 {{-- <i class="nav-main-link-icon far fa-user"></i> --}}
                                 <span class="nav-main-link-name">{{__('frontend.menu.contact_us')}}</span>
                             </a>
