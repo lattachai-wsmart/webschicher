@@ -38,10 +38,10 @@
 
                 <div class="row">
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="{{ route('service.dealershipcer.dpvia') }}">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.dealershiptra.pcs') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/sub_01.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.title')</h4>
+                                <h4 class="mb-1">@lang('frontend.Personnel_Certificate_Services.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -49,10 +49,87 @@
                         </a>
                     </div>
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                        <a class="block block-rounded block-link-pop" href="{{ route('service.dealershipcer.dqsa') }}">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.dealershiptra.stq') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/sub_02.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Dealership_Quality_Standard_Assessment.title')</h4>
+                                <h4 class="mb-1">@lang('frontend.Sales_Training_Qualification.title')</h4>
+                                {{-- <p class="font-size-sm">
+                                    <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
+                                </p> --}}
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
+                        data-class="animated fadeIn">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.dealershiptra.itq') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
+                            <div class="block-content">
+                                <h4 class="mb-1">@lang('frontend.Inspectors_Training_Qualification.title')</h4>
+                                {{-- <p class="font-size-sm">
+                                    <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
+                                </p> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
+                        data-class="animated fadeIn">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.dealershiptra.saptq') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/02_04.jpg') }}" alt="">
+                            <div class="block-content">
+                                <h4 class="mb-1">@lang('frontend.Systems_and_Process_Training_Qualification.title') </h4>
+                                {{-- <p class="font-size-sm">
+                                    <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
+                                </p> --}}
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
+                        data-class="animated fadeIn">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.dealershiptra.ltq') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
+                            <div class="block-content">
+                                <h4 class="mb-1">@lang('frontend.Leadership_Training_Qualification.title')</h4>
+                                {{-- <p class="font-size-sm">
+                                    <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
+                                </p> --}}
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
+                        data-class="animated fadeIn">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.dealershiptra.mts') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
+                            <div class="block-content">
+                                <h4 class="mb-1">@lang('frontend.Managed_Training_Services.title')</h4>
+                                {{-- <p class="font-size-sm">
+                                    <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
+                                </p> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
+                        data-class="animated fadeIn">
+                        <a class="block block-rounded block-link-pop" href="{{ route('service.dealershiptra.csrc') }}">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/02_04.jpg') }}" alt="">
+                            <div class="block-content">
+                                <h4 class="mb-1">@lang('frontend.CSR_Compliance.title') </h4>
+                                {{-- <p class="font-size-sm">
+                                    <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
+                                </p> --}}
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 js-appear-enabled animated fadeIn invisible" data-toggle="appear" data-offset="50"
+                        data-class="animated fadeIn">
+                        <a class="block block-rounded block-link-pop" href="#">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
+                            <div class="block-content">
+                                <h4 class="mb-1">&nbsp;</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -72,6 +149,7 @@
                         </a>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
