@@ -4,7 +4,7 @@
 @endsection
 
 @section('content')
-    <div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/services/01.jpg') }}');">
+    <div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/services/05.jpg') }}');">
         <div class="bg-primary-dark-op">
             <div class="content content-full overflow-hidden">
                 <div class="mt-7 mb-5 text-center">
@@ -23,7 +23,7 @@
                         <div class="row gutters-tiny items-push js-gallery push img-fluid-100 js-gallery-enabled">
                             <div class="col-12 animated fadeIn d-flex justify-content-center">
                                 <div class="">
-                                    <img class="img-mh-450" src="{{ asset('media/photos/services/01.jpg') }}" alt="">
+                                    <img class="img-mh-450" src="{{ asset('media/photos/services/05.jpg') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -50,7 +50,7 @@
                     </div>
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
                         <a class="block block-rounded block-link-pop" href="{{ route('service.dealershiptra.stq') }}">
-                            <img class="img-fluid" src="{{ asset('media/photos/services/sub_02.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/03_09.jpg') }}" alt="">
                             <div class="block-content">
                                 <h4 class="mb-1">@lang('frontend.Sales_Training_Qualification.title')</h4>
                                 {{-- <p class="font-size-sm">
@@ -77,7 +77,7 @@
                     <div class="col-lg-4 js-appear-enabled animated fadeIn" data-toggle="appear" data-offset="50"
                         data-class="animated fadeIn">
                         <a class="block block-rounded block-link-pop" href="{{ route('service.dealershiptra.saptq') }}">
-                            <img class="img-fluid" src="{{ asset('media/photos/services/02_04.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('media/photos/services/05.jpg') }}" alt="">
                             <div class="block-content">
                                 <h4 class="mb-1">@lang('frontend.Systems_and_Process_Training_Qualification.title') </h4>
                                 {{-- <p class="font-size-sm">
