@@ -15,44 +15,26 @@
                     <div class="carousel-item">
                         <img class="img-fluid" src="media/photos/slidebar/shicher1-en.png" alt="">
                         <div class="carousel-caption">
-                            <h5>@lang('frontend.slidebarindex.1')</h5>
+                            <h5>SCHIC CERTIFICATES</h5>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-primary btn-sm mb-1" href="{{ route('service.vehicleanalysis') }}">Find &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-primary btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img class="img-fluid" src="media/photos/slidebar/shicher2-en.png" alt="">
                         <div class="carousel-caption">
-                            <h5>@lang('frontend.slidebarindex.2')</h5>
+                            <h5>SCHIC CERTIFICATES</h5>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-primary btn-sm mb-1" href="{{ route('service.claimsappraisal') }}">Find &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-primary btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img class="img-fluid" src="media/photos/slidebar/shicher3-en.png" alt="">
 
                         <div class="carousel-caption">
-                            <h5>@lang('frontend.slidebarindex.3')</h5>
+                            <h5>BOOK SCHICINSPECTION</h5>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-primary btn-sm mb-1" href="{{ route('service.vehiclemanageserv') }}">Find &nbsp; <i class="fa fa-caret-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="img-fluid" src="media/photos/slidebar/shicher3-en.png" alt="">
-
-                        <div class="carousel-caption">
-                            <h5>@lang('frontend.slidebarindex.4')</h5>
-                            {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-primary btn-sm mb-1" href="{{ route('service.dealershipcer') }}">Find &nbsp; <i class="fa fa-caret-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="img-fluid" src="media/photos/slidebar/shicher3-en.png" alt="">
-
-                        <div class="carousel-caption">
-                            <h5>@lang('frontend.slidebarindex.5')</h5>
-                            {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-primary btn-sm mb-1" href="{{ route('service.dealershiptra') }}">Find &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-primary btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                 </div>

@@ -62,13 +62,17 @@
                     <!-- END Left Section -->
 
                     <!-- Right Section -->
-                    <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center font-size-sm">
                         <!-- User Dropdown -->
-                        <div class="dropdown d-inline-block ml-2">
-                            <a class="btn btn-sm btn-dual d-flex align-items-center" id="page-header-user-dropdown"  href="javascript:void(0)">
-                                BOOK SCHIINSPECTION
+                        <div class="dropdown d-inline-block d-xs-none">
+                            <a class="btn btn-sm btn-dual btn-rounded d-flex align-items-center" id="page-header-user-dropdown"  href="javascript:void(0)">
+                                Book Schiinspection
                             </a>
-
+                        </div>
+                        <div class="dropdown d-inline-block ml-2 d-xs-none">
+                            <a class="btn btn-sm btn-dual btn-rounded d-flex align-items-center" id="page-header-user-dropdown"  href="javascript:void(0)">
+                                Find Qualily Usedcars
+                            </a>
                         </div>
                         <!-- END User Dropdown -->
 
