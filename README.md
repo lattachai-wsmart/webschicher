@@ -1,4 +1,6 @@
 # Start Project
+ ### add upstream
+ git remote add upstream git@github.com:lattachai-wsmart/webschicher.git
 
 Create new file .env
 
