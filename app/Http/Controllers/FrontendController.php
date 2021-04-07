@@ -192,4 +192,8 @@ class FrontendController extends Controller
         return view('pages.dealershiptra.csrc')->with('header',$this->header);
     }
 
+    public function bookingins(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.bookingins.title');
+        return view('pages.booking')->with('header', $this->header);
+    }
 }
