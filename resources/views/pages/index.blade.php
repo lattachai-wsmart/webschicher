@@ -34,7 +34,7 @@
                         <div class="carousel-caption">
                             <h5>BOOK SCHICINSPECTION</h5>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-primary btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-primary btn-sm mb-1" href="{{ route('bookingins') }}">Find &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-3">
                 <a class="block block-rounded js-appear-enabled animated bounceIn" data-class="animated bounceIn"
-                    href="#111">
+                    href="{{ route('bookingins') }}">
                     <div class="block-content block-content-full block_shadow">
                         <div class="py-5 text-center">
                             <div class="item item-2x item-rounded  text-white mx-auto">

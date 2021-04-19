@@ -21,6 +21,7 @@ Route::get('change/lang/{lang}', [FrontendController::class, "lang_change"])->na
 Route::get('/about', [FrontendController::class, "about"])->name('about');
 Route::get('contact', [FrontendController::class, "contact"])->name('contact');
 Route::get('bookins', [FrontendController::class, "bookingins"])->name('bookingins');
+Route::post('bookins/create', [FrontendController::class, "createbookingins"])->name('createbookingins');
 
 Route::prefix('service')->name('service.')->group(function () {
     Route::get('vehicleanalysis', [FrontendController::class, "vehicleanalysis"])->name('vehicleanalysis');
@@ -73,4 +74,5 @@ Route::prefix('service')->name('service.')->group(function () {
         Route::get('mts', [FrontendController::class, "mts"])->name('mts');
         Route::get('csrc', [FrontendController::class, "csrc"])->name('csrc');
     });
+
 });

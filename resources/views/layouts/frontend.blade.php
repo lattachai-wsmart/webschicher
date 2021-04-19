@@ -66,7 +66,7 @@
                         <!-- User Dropdown -->
                         <div class="dropdown d-inline-block d-xs-none">
                             <a class="btn btn-sm btn-dual btn-rounded d-flex align-items-center" id="page-header-user-dropdown"  href="{{ route('bookingins') }}">
-                                Book Schiinspection
+                                Book Schicinspection
                             </a>
                         </div>
                         <div class="dropdown d-inline-block ml-2 d-xs-none">
