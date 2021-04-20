@@ -1,6 +1,7 @@
 <?php
 
 return [
+    "please_select"=>"Please Select",
     "menu" => [
         "about_us" => "About Us",
         "service" => "Service",
