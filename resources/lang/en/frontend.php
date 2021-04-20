@@ -15,6 +15,9 @@ return [
         "presas" => "PRESS",
         "contact_us" => "CONTACT US"
     ],
+    "bookingins"=>[
+        "title"=>"Booking Schich Inspection"
+    ],
     "about" => [
         "title" => "ABOUT SCHICHER",
         "content" => "Schicher เป็นบริษัทที่ดำเนินการทางด้านการตรวจสอบ และการรับรองมาตราฐานที่เกี่ยวกับรถยนต์ ทั้งในด้านคุณภาพ การเรียกร้องค่าสินไหม การบริหารจัดการ การรับรองมาตราฐาน รวมทั้งการฝึกสอนบุคลากรให้มีมาตราฐาน

@@ -152,7 +152,7 @@
     </script>
     <script>
         jQuery('#btnSearchSchi').on('click', function() {
-            let url = "{{ request()->getSchemeAndHttpHost() }}/inspection/api/insp-link?schic_id=" + jQuery("#schiidsearch").val()
+            let url = "{{ env('URL_API') }}/inspection/api/insp-link?schic_id=" + jQuery("#schiidsearch").val()
             jQuery.ajax({
                 url,
                 "type": "GET",
@@ -173,7 +173,7 @@
                         jQuery("#showSearchContentDetail").html(text)
                         jQuery("#showSearchContentDetail2").html(data.license)
                     } else {
-                        console.log('data Else', data);
+                        // console.log('data Else', data);
                         jQuery('#showSearchContentError').html(`<div class="alert alert-light alert-dismissable col-12" role="alert">
                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                     <span aria-hidden="true">×</span>
