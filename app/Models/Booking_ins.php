@@ -13,11 +13,11 @@ class Booking_ins extends Model
         'car_brand_id',
         'car_model_id',
         'booking_date',
-        'booking_time',
-        'booking_status',
+        // 'booking_time',
+        // 'booking_status',
         'note',
-        'note_admin',
-        'status',
+        // 'note_admin',
+        // 'status',
       ];
       protected $table = 'booking_ins';
 

@@ -200,43 +200,49 @@ class FrontendController extends Controller
     }
 
     public function createbookingins(Request $request){
-
+        // print_r($request->all());
+        // return json_encode($request->all());
+        // return $request->all();
         $curl = curl_init();
-
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "http://127.0.0.1:8002/api/bookingins",
+            CURLOPT_URL => "http://127.0.0.1:8001/api/bookingins",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
             CURLOPT_TIMEOUT => 30000,
             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
             CURLOPT_CUSTOMREQUEST => "POST",
-            CURLOPT_POSTFIELDS => json_encode($request),
+            CURLOPT_POSTFIELDS => http_build_query([
+                'name' => $request->input('name'),
+                'tel' => $request->input('tel'),
+                'car_brand_id' => $request->input('brand'),
+                'car_model_id' => $request->input('model'),
+                'booking_date' => $request->input('date'),
+                'note' => $request->input('comment'),
+            ]),
             CURLOPT_HTTPHEADER => array(
              // Set here requred headers
                 "accept: */*",
                 "accept-language: en-US,en;q=0.8",
-                "content-type: application/json",
+                'Content-Type: application/x-www-form-urlencoded',
             ),
         ));
-        
+
         $response = curl_exec($curl);
         $err = curl_error($curl);
         
         curl_close($curl);
         
         if ($err) {
-            echo "1";
+            // echo "1";
             echo "cURL Error #:" . $err;
         } else {
-            echo "2";
+            // echo "2";
             print_r(json_decode($response));
         }
 
+        return back();
 
-        // $input = Booking_ins::create($request->all());
-        // return response()->json($request->all());
-        // ->withErrors(['error', 'has-error'])
     }
 
  

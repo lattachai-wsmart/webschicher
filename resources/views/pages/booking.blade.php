@@ -25,34 +25,34 @@
                         <div class="col-12 pt-lg-3 box-form">
                             <div class="form-group row">
                                 <label class="col-lg-2" for="name" align="left">Name - Surname</label>
-                                <input class="col-lg-2 form-control form-control-sm form-border" type="text" name="name" id="name" >
+                                <input class="col-lg-2 form-control form-control-sm form-border" type="text" name="name" id="name" required>
                                 <div class="col-3"></div>
                                 <label class="col-lg-1" for="tel">Phone</label>
                                 <div class="col-1"></div>
-                                <input class="col-lg-2 form-control form-control-sm form-border" type="tel" name="tel" id="tel" >
+                                <input class="col-lg-2 form-control form-control-sm form-border" type="tel" name="tel" id="tel" pattern="[0]{1}[0-9]{8,9}" required>
                             </div>
 
                             <div class="form-group row">
                                 <label class="col-lg-2" for="brand" align="left">Car Brands</label>
-                                <select class="col-lg-2 form-control form-control-sm form-border" name="brand" id="brand" >
+                                <select class="col-lg-2 form-control form-control-sm form-border" name="brand" id="brand" required>
                                     <option hidden value="">--- Please Select ---</option>
                                     {{-- <option value="เต๊นท์" {{($data->nametitle ==='เต๊นท์') ? 'selected' : ''}}>เต็นท์</option> --}}
                                 </select>
                                 <div class="col-3"></div>
-                                <label class="col-lg-2" for="model" align="left">Car Models</label>
-                                <select class="col-lg-2 form-control form-control-sm form-border" name="model" id="carmodel" >
+                                <label class="col-lg-2" for="carmodel" align="left">Car Models</label>
+                                <select class="col-lg-2 form-control form-control-sm form-border" name="model" id="carmodel" required>
                                     <option hidden value="">--- Please Select ---</option>
                                 </select>
                                 <div class="col-1"></div>
                             </div>
                             
                             <div class="form-group row">
-                                <label class="col-lg-2" for="" align="left">Appointment Date</label>
-                                <input class="col-lg-2 form-control js-flatpickr" type="date" name="date" id="date" >    
+                                <label class="col-lg-2" for="date" align="left">Appointment Date</label>
+                                <input class="col-lg-2 form-control js-flatpickr" type="date" name="date" id="date" required>    
                             </div>
                             <div class="form-group row">
-                                <label class="col-lg-2" for="" align="left">Note</label> 
-                                <textarea class="col-lg-3 form-control" rows="3" id="comment"></textarea> 
+                                <label class="col-lg-2" for="comment" align="left">Note</label> 
+                                <textarea class="col-lg-3 form-control" rows="3" id="comment" name="comment"></textarea> 
                             </div>
                             <br>
                             <div class="form-group row">
@@ -65,7 +65,6 @@
             </div>
         </div>
     </form>
-   
     <!-- END Page Content -->
 @endsection
 
@@ -77,7 +76,7 @@
 
 <script>
     jQuery.ajax({
-        url: 'http://127.0.0.1:8002/api/cars/brands',
+        url: 'http://127.0.0.1:8001/api/cars/brands',
         success: function(data){
             
                 if(data){
@@ -99,7 +98,7 @@
 
     function getmodel(id){
         jQuery.ajax({
-        url: 'http://127.0.0.1:8002/api/cars/models/'+id,
+        url: 'http://127.0.0.1:8001/api/cars/models/'+id,
         success: function(data){
             
                 if(data){
