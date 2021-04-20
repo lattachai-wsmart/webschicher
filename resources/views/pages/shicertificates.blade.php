@@ -9,7 +9,7 @@
         <div class="bg-primary-dark-op">
             <div class="content content-full overflow-hidden">
                 <div class="mt-7 mb-5 text-center">
-                    <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.about.title')</h1>
+                    <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.shicertificates.title')</h1>
                 </div>
             </div>
         </div>
@@ -17,8 +17,7 @@
     <!-- Page Content -->
     <div class="block block-rounded block-themed block-transparent mb-0">
         <div class="block-content font-size-sm">
-            <div class="row">
-                <div class="form-group col-md-4"></div>
+            <div class="row col-12" style="justify-content: center;">
                 <div class="form-group col-md-4">
                     <div class="input-group">
                         <input type="email" class="form-control" id="schiidsearch" name="schiidsearch"
@@ -30,7 +29,33 @@
                         </div>
                     </div>
                 </div>
-                <div class="form-group col-md-4"></div>
+            </div>
+            <div class="row col-12" style="justify-content: center;">
+                <div id="dataSearchShow" class="justify-content-center" style="display: flex">
+                    <div class="spinner-border text-info d-none" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div id="showSearchContent" class="row d-none">
+                        {{-- <table class="table table-borderless table-hover table-vcenter ">
+                            <tbody>
+                                <tr>
+                                    <td> --}}
+                                    <div class="col-12" style="justify-content: center;">
+                                        <h5>SHCI ID :</h5><a class="h5" href="" id="showSearchContentID"></a>
+                                    </div>
+                                    <div class="col-12" style="justify-content: center;">
+                                        <div class="font-size-sm text-muted" id="showSearchContentDetail"></div>
+                                    </div>
+                                    <div class="col-12" style="justify-content: center;">
+                                        <div class="font-size-sm text-muted" id="showSearchContentDetail2"></div>
+                                    </div>
+                                    {{-- </td>
+                                </tr>
+                            </tbody>
+                        </table> --}}
+                    </div>
+                </div>
+                <div id="showSearchContentError" class="col-12 row"></div>
             </div>
         </div>
     </div>
@@ -48,7 +73,7 @@
     </script>
     <script>
         jQuery('#btnSearchSchi').on('click', function() {
-            let url = "{{ request()->getSchemeAndHttpHost() }}/inspection/api/insp-link?schic_id=" + jQuery("#schiidsearch").val()
+            let url = "{{ env('URL_API') }}/api/insp-link?schic_id=" + jQuery("#schiidsearch").val()
             jQuery.ajax({
                 url,
                 "type": "GET",

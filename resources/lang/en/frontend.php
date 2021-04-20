@@ -15,6 +15,9 @@ return [
         "presas" => "PRESS",
         "contact_us" => "CONTACT US"
     ],
+    "shicertificates"=>[
+        "title"=>"SHCI CERTIFICATES"
+    ],
     "bookingins"=>[
         "title"=>"Booking Schich Inspection"
     ],
