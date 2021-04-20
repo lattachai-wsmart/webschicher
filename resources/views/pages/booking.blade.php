@@ -24,40 +24,40 @@
                     <div class="row">
                         <div class="col-12 pt-lg-3 box-form">
                             <div class="form-group row">
-                                <label class="col-lg-2" for="name" align="left">Name - Surname</label>
+                                <label class="col-lg-2" for="name" align="left" >@lang('frontend.bookingins.name')</label>
                                 <input class="col-lg-2 form-control form-control-sm form-border" type="text" name="name" id="name" required>
                                 <div class="col-3"></div>
-                                <label class="col-lg-1" for="tel">Phone</label>
-                                <div class="col-1"></div>
+                                <label class="col-lg-2" for="tel" >@lang('frontend.bookingins.phone')</label>
+                                
                                 <input class="col-lg-2 form-control form-control-sm form-border" type="tel" name="tel" id="tel" required>
                             </div>
 
                             <div class="form-group row">
-                                <label class="col-lg-2" for="brand" align="left">Car Brands</label>
+                                <label class="col-lg-2" for="brand" align="left" >@lang('frontend.bookingins.carbrand')</label>
                                 <select class="col-lg-2 form-control form-control-sm form-border" name="brand" id="brand" required>
-                                    <option hidden value="">--- Please Select ---</option>
+                                    <option hidden value="">@lang('frontend.bookingins.plzselect')</option>
                                     {{-- <option value="เต๊นท์" {{($data->nametitle ==='เต๊นท์') ? 'selected' : ''}}>เต็นท์</option> --}}
                                 </select>
                                 <div class="col-3"></div>
-                                <label class="col-lg-2" for="carmodel" align="left">Car Models</label>
+                                <label class="col-lg-2" for="carmodel" align="left" >@lang('frontend.bookingins.carmodel')</label>
                                 <select class="col-lg-2 form-control form-control-sm form-border" name="model" id="carmodel" required>
-                                    <option hidden value="">--- Please Select ---</option>
+                                    <option hidden value="">@lang('frontend.bookingins.plzselect')</option>
                                 </select>
                                 <div class="col-1"></div>
                             </div>
                             
                             <div class="form-group row">
-                                <label class="col-lg-2" for="date" align="left">Appointment Date</label>
+                                <label class="col-lg-2" for="date" align="left" >@lang('frontend.bookingins.date')</label>
                                 <input class="col-lg-2 form-control js-flatpickr" type="date" name="date" id="date" required>    
                             </div>
                             <div class="form-group row">
-                                <label class="col-lg-2" for="comment" align="left">Note</label> 
+                                <label class="col-lg-2" for="comment" align="left" >@lang('frontend.bookingins.note')</label> 
                                 <textarea class="col-lg-3 form-control" rows="3" id="comment" name="comment"></textarea> 
                             </div>
                             <br>
                             <div class="form-group row">
                                 <div class="col-5"></div>
-                                <button type="submit" class="btn btn-success" align="right" id="submitbooking">Booking</button>
+                                <button type="submit" class="btn btn-success" align="right" id="submitbooking" >@lang('frontend.bookingins.booking')</button>
                             </div>
                         </div>
                     </div>
@@ -82,7 +82,7 @@
                 if(data){
                     const select = jQuery('#brand');
                     select.find("option").remove();
-                    const newop = new Option("{{__('frontend.please_select')}}","");
+                    const newop = new Option("{{__('frontend.bookingins.plzselect')}}","");
                     jQuery(newop).appendTo(select)
                     data.map((item,index) => {
                         const newoption = new Option(item.name,item.id);
@@ -104,7 +104,7 @@
                 if(data){
                     const select = jQuery('#carmodel');
                     select.find("option").remove();
-                    const newop = new Option("{{__('frontend.please_select')}}","");
+                    const newop = new Option("{{__('frontend.bookingins.plzselect')}}","");
                     jQuery(newop).appendTo(select)
                     data.map((item,index) => {
                         const newoption = new Option(item.name,item.id);
