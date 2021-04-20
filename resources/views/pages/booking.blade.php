@@ -29,7 +29,7 @@
                                 <div class="col-3"></div>
                                 <label class="col-lg-1" for="tel">Phone</label>
                                 <div class="col-1"></div>
-                                <input class="col-lg-2 form-control form-control-sm form-border" type="tel" name="tel" id="tel" pattern="[0]{1}[0-9]{8,9}" required>
+                                <input class="col-lg-2 form-control form-control-sm form-border" type="tel" name="tel" id="tel" required>
                             </div>
 
                             <div class="form-group row">
