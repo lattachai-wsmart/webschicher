@@ -20,6 +20,7 @@ Route::get('/', [FrontendController::class, "index"]);
 Route::get('change/lang/{lang}', [FrontendController::class, "lang_change"])->name('LangChange');
 Route::get('/about', [FrontendController::class, "about"])->name('about');
 Route::get('contact', [FrontendController::class, "contact"])->name('contact');
+Route::get('shicertificates', [FrontendController::class, "shicertificates"])->name('shicertificates');
 
 Route::prefix('service')->name('service.')->group(function () {
     Route::get('vehicleanalysis', [FrontendController::class, "vehicleanalysis"])->name('vehicleanalysis');

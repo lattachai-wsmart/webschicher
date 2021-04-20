@@ -79,7 +79,7 @@
                         <!-- Notifications Dropdown -->
                         <div class="dropdown d-inline-block ml-2">
                             <button type="button" class="btn btn-sm btn-dual" id="page-header-notifications-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="flag-icon flag-icon-{{ session()->get('locale') == 'en'? 'us' : session()->get('locale')}}"></i>{{ strtoupper(session()->get('locale')) }}<i class="fa fa-sort-down"></i>
+                                <i class="flag-icon flag-icon-{{ session()->get('locale') == 'en'? 'us' : session()->get('locale')}}"></i>{{ strtoupper(session()->get('locale')) }}<i style="margin-top: 20px 0 0 0;" class="fa fa-sort-down ml-2"></i>
                             </button>
                             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0 border-0 font-size-sm" aria-labelledby="page-header-notifications-dropdown">
                                 {{-- <div class="p-2 bg-primary-dark text-center rounded-top">
@@ -87,13 +87,13 @@
                                 </div> --}}
                                 <ul class="nav-items">
                                     <li>
-                                        <a class="dropdown-item @if (session()->get('locale') == 'th') d-none @endif" href="{{ route('LangChange', ['lang'=>'th']) }}"><span class="flag-icon flag-icon-th"> </span>TH</a>
+                                        <a class="dropdown-item @if (session()->get('locale') == 'th') d-none @endif" href="{{ route('LangChange', ['lang'=>'th']) }}"><span class="flag-icon flag-icon-th ml-2"></span> TH</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item @if (session()->get('locale') == 'en') d-none @endif" href="{{ route('LangChange', ['lang'=>'en']) }}"><span class="flag-icon flag-icon-us"> </span>EN</a>
+                                        <a class="dropdown-item @if (session()->get('locale') == 'en') d-none @endif" href="{{ route('LangChange', ['lang'=>'en']) }}"><span class="flag-icon flag-icon-us ml-2"></span> EN</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item @if (session()->get('locale') == 'de') d-none @endif" href="{{ route('LangChange', ['lang'=>'de']) }}"><span class="flag-icon flag-icon-de"> </span>DE</a>
+                                        <a class="dropdown-item @if (session()->get('locale') == 'de') d-none @endif" href="{{ route('LangChange', ['lang'=>'de']) }}"><span class="flag-icon flag-icon-de ml-2"></span> DE</a>
                                     </li>
 
                                 </ul>

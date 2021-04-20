@@ -34,6 +34,10 @@ class FrontendController extends Controller
     {
         return view('pages/contact')->with('header',$this->header);
     }
+    public function shicertificates()
+    {
+        return view('pages/shicertificates')->with('header',$this->header);
+    }
     public function lang_change(Request $request,$lang)
     {
 
