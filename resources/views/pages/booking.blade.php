@@ -115,25 +115,7 @@
     })
     }
 
-    jQuery('#submitbooking').on('click', function(e){
-        createbooking()
-    })
-
-    function createbooking(){
-        jQuery.ajax({
-            method: 'POST',
-            url: "{{ route('createbookingins') }}",
-            beforeSend: function(){
-                
-            },
-            data: jQuery('#bookingins').serialize(),
-
-            success: function(data){ 
-                if(data){
-                    console.log(13)                   }
-                }
-        })
-    }
+   
     
 </script>
 
