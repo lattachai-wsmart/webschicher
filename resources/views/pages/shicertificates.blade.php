@@ -5,6 +5,11 @@
 
 @section('content')
 
+<style>
+    .row {
+        margin-left: 0px;
+    }
+</style>
     <div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
         <div class="bg-primary-dark-op">
             <div class="content content-full overflow-hidden">
@@ -15,10 +20,25 @@
         </div>
     </div>
     <!-- Page Content -->
+    <div class="row col-12" style="justify-content: center;">
+        <h1>Inspection Report</h1><br>
+    </div>
+    <div class="row col-12" style="justify-content: center;">
+        <div class="row col-12" style="justify-content: center;">
+            <h5>ทำไมต้องวิเคราะห์สภาพรถยนต์กับ SCHICHER</h5><br>
+        </div>
+        <p>
+            • ตรวจสอบด้วยความเป็นกลาง เชี่ยวชาญ เชื่อถือได้<br>
+            • ใช้อุปกรณ์ที่มีมาตราฐาน และกระบวนการที่มีประสิทธิภาพ<br>
+            • มั่นใจได้ว่ารถยนต์มีความปลอดภัย และมาตราฐาน<br>
+            • สร้างความอุ่นใจในทุกการขับขี่
+        </p>
+    </div>
+
     <div class="block block-rounded block-themed block-transparent mb-0">
         <div class="block-content font-size-sm">
             <div class="row col-12" style="justify-content: center;">
-                <div class="form-group col-md-4">
+                <div class="form-group col-md-9">
                     <div class="input-group">
                         <input type="email" class="form-control" id="schiidsearch" name="schiidsearch"
                             placeholder="SCHI ID">
@@ -30,29 +50,28 @@
                     </div>
                 </div>
             </div>
-            <div class="row col-12" style="justify-content: center;">
+            <div class="form-group col-md-12" style="justify-content: center;">
                 <div id="dataSearchShow" class="justify-content-center" style="display: flex">
                     <div class="spinner-border text-info d-none" role="status">
                         <span class="sr-only">Loading...</span>
                     </div>
-                    <div id="showSearchContent" class="row d-none">
-                        {{-- <table class="table table-borderless table-hover table-vcenter ">
-                            <tbody>
-                                <tr>
-                                    <td> --}}
-                                    <div class="col-12" style="justify-content: center;">
-                                        <h5>SHCI ID :</h5><a class="h5" href="" id="showSearchContentID"></a>
-                                    </div>
-                                    <div class="col-12" style="justify-content: center;">
-                                        <div class="font-size-sm text-muted" id="showSearchContentDetail"></div>
-                                    </div>
-                                    <div class="col-12" style="justify-content: center;">
-                                        <div class="font-size-sm text-muted" id="showSearchContentDetail2"></div>
-                                    </div>
-                                    {{-- </td>
-                                </tr>
-                            </tbody>
-                        </table> --}}
+                    <div id="showSearchContent" class="form-group col-md-9 d-none">
+                        <div class="form-group row" style="justify-content: center; box-shadow: 1px 1px 3px 3px rgba(199, 196, 196, 0.349); padding: 15px">
+                            <div class="form-group row col-4">
+                                <h5>SCH ID :</h5><div id="showSearchContentID" class="ml-2"></div>
+                            </div>
+                            <div class="form-group row col-4">
+                                <h5>CAR BRAND :</h5><div class="ml-2" id="showSearchContentDetail"></div>
+                            </div>
+                            <div class="form-group row col-4">
+                                <h5>NUMBER :</h5><div class="ml-2" id="showSearchContentDetail2"></div>
+                            </div>
+                            <hr style="width: 97%; margin: 0px auto; border-color: #dadad3;">
+                            <br>
+                            <div>
+                                <a class="h2 my-2" href="" id="Detail"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div id="showSearchContentError" class="col-12 row"></div>
@@ -88,7 +107,12 @@
                     if (typeof data.link != "undefined") {
                         jQuery('#showSearchContent').removeClass('d-none');
                         jQuery("#showSearchContentID").attr('href', data.link).attr('target', '_blank')
-                            .html(jQuery("#schiidsearch").val())
+                            .html((jQuery("#schiidsearch").val()))
+                        jQuery("#Detail").attr('href', data.link).attr('target', '_blank')
+                            .html(`<button class="btn btn-warning">
+                                        <i class=""></i>Detail
+                                    </button>`)
+                            // (jQuery("#schiidsearch").val())
                         const text =
                             `${data.car_year} ${data.brand_name} ${data.model_name} ${data.submodel_name}`;
                         jQuery("#showSearchContentDetail").html(text)

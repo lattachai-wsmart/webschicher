@@ -40,6 +40,10 @@ class FrontendController extends Controller
     {
         return view('pages/shicertificates')->with('header',$this->header);
     }
+    public function findqualilyusedcars()
+    {
+        return view('pages/findqualilyusedcars')->with('header',$this->header);
+    }
     public function lang_change(Request $request,$lang)
     {
 
@@ -234,9 +238,9 @@ class FrontendController extends Controller
 
         $response = curl_exec($curl);
         $err = curl_error($curl);
-        
+
         curl_close($curl);
-        
+
         if ($err) {
             // echo "1";
             echo "cURL Error #:" . $err;
@@ -249,5 +253,5 @@ class FrontendController extends Controller
 
     }
 
- 
+
 }

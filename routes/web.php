@@ -21,6 +21,7 @@ Route::get('change/lang/{lang}', [FrontendController::class, "lang_change"])->na
 Route::get('/about', [FrontendController::class, "about"])->name('about');
 Route::get('contact', [FrontendController::class, "contact"])->name('contact');
 Route::get('shicertificates', [FrontendController::class, "shicertificates"])->name('shicertificates');
+Route::get('findqualilyusedcars', [FrontendController::class, "findqualilyusedcars"])->name('findqualilyusedcars');
 Route::get('bookins', [FrontendController::class, "bookingins"])->name('bookingins');
 Route::post('bookins/create', [FrontendController::class, "createbookingins"])->name('createbookingins');
 
