@@ -80,7 +80,8 @@
 <script src="{{ asset('js/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js') }}"></script>
 <script src="{{ asset('js/plugins/flatpickr/flatpickr.min.js') }}"></script>
 <script src="{{ asset('js/plugins/select2/js/select2.full.min.js') }}"></script>
-<script>jQuery(function(){ One.helpers(['flatpickr', 'datepicker', 'select2']); });</script>
+<script src="{{ asset('js/plugins/sweetalert2/sweetalert2.min.js') }}"></script>
+<script>jQuery(function(){ One.helpers(['flatpickr', 'datepicker', 'select2', 'sweetalert2']); });</script>
 
 <script>
 
@@ -131,7 +132,34 @@
     })
     }
 
+    function sendSuccess(){
+        Swal.fire({
+            title: `
+            <h3 class="color-schic">
+                ขอขอบคุณสำหรับข้อมูลเบื้องต้น
+            </h3>`,
+            // icon: 'success',
+            html:`
+            <div>
+                ทางระบบได้รับข้อมูลของท่านเรียบร้อยแล้ว
+                <br>
+                เจ้าหน้าที่จะติดต่อกลับภายใน 24 ชั่วโมง
+            </div>`,
+            customClass: {confirmButton: 'btn btn-rounded'},
+            confirmButtonColor: '#2c3e50',
+            showCloseButton: true,
+            showCancelButton: false,
+            // focusConfirm: true,
+            confirmButtonText:
+                'กลับสู่หน้าหลัก',
+            confirmButtonAriaLabel: 'กลับสู่หน้าหลัก',
+        })
+    }
     
+    @if(session()->has('success'))
+        sendSuccess();    
+    @endif
+
 </script>
 
 @endsection
@@ -140,4 +168,6 @@
     <link rel="stylesheet" href="{{ asset('js/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css') }}">
     <link rel="stylesheet" href="{{ asset('js/plugins/flatpickr/flatpickr.min.css') }}">
     <link rel="stylesheet" href="{{ asset('js/plugins/select2/css/select2.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('js/plugins/sweetalert2/sweetalert2.min.css') }}">
+
 @endsection
