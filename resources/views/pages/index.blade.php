@@ -57,7 +57,7 @@
             </div>
             <div class="col-lg-3">
                 <a class="block block-rounded js-appear-enabled animated bounceIn" data-class="animated bounceIn"
-                    href="#222">
+                    href="{{ route('findqualilyusedcars') }}">
                     <div class="block-content block-content-full block_shadow">
                         <div class="py-5 text-center">
                             <div class="item item-2x item-rounded text-white mx-auto">
@@ -69,8 +69,8 @@
                 </a>
             </div>
             <div class="col-lg-3">
-                <a class="block block-rounded js-appear-enabled animated bounceIn" data-toggle="modal"
-                    data-class="animated bounceIn" href="javascript:void(0)" data-target="#modal-block-popin">
+                <a class="block block-rounded js-appear-enabled animated bounceIn"data-class="animated bounceIn"
+                    href="{{ route('shicertificates') }}">
                     <div class="block-content block-content-full block_shadow">
                         <div class="py-5 text-center">
                             <div class="item item-2x item-rounded text-white mx-auto">

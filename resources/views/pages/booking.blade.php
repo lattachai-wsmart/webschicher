@@ -4,6 +4,14 @@
 @endsection
 
 @section('content')
+
+    {{-- @if (session('status'))
+        {{ session('status') }}
+    @endif --}}
+    @if($errors->any())
+        <div class="alert alert-danger" role="alert">{{ implode('', $errors->all(':message')) }}</div>
+    @endif
+    
     <div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
         <div class="bg-primary-dark-op">
             <div class="content content-full overflow-hidden">
@@ -24,40 +32,40 @@
                     <div class="row">
                         <div class="col-12 pt-lg-3 box-form">
                             <div class="form-group row">
-                                <label class="col-lg-2" for="name" align="left">Name - Surname</label>
+                                <label class="col-lg-2" for="name" align="left" >@lang('frontend.bookingins.name')</label>
                                 <input class="col-lg-2 form-control form-control-sm form-border" type="text" name="name" id="name" required>
                                 <div class="col-3"></div>
-                                <label class="col-lg-1" for="tel">Phone</label>
-                                <div class="col-1"></div>
-                                <input class="col-lg-2 form-control form-control-sm form-border" type="tel" name="tel" id="tel" pattern="[0]{1}[0-9]{8,9}" required>
+                                <label class="col-lg-2" for="tel" align="left">@lang('frontend.bookingins.phone')</label>
+                                
+                                <input class="col-lg-2 form-control form-control-sm form-border" type="tel" name="tel" id="tel" required>
                             </div>
 
                             <div class="form-group row">
-                                <label class="col-lg-2" for="brand" align="left">Car Brands</label>
+                                <label class="col-lg-2" for="brand" align="left" >@lang('frontend.bookingins.carbrand')</label>
                                 <select class="col-lg-2 form-control form-control-sm form-border" name="brand" id="brand" required>
-                                    <option hidden value="">--- Please Select ---</option>
+                                    <option hidden value="">@lang('frontend.bookingins.plzselect')</option>
                                     {{-- <option value="เต๊นท์" {{($data->nametitle ==='เต๊นท์') ? 'selected' : ''}}>เต็นท์</option> --}}
                                 </select>
                                 <div class="col-3"></div>
-                                <label class="col-lg-2" for="carmodel" align="left">Car Models</label>
+                                <label class="col-lg-2" for="carmodel" align="left" >@lang('frontend.bookingins.carmodel')</label>
                                 <select class="col-lg-2 form-control form-control-sm form-border" name="model" id="carmodel" required>
-                                    <option hidden value="">--- Please Select ---</option>
+                                    <option hidden value="">@lang('frontend.bookingins.plzselect')</option>
                                 </select>
                                 <div class="col-1"></div>
                             </div>
                             
                             <div class="form-group row">
-                                <label class="col-lg-2" for="date" align="left">Appointment Date</label>
+                                <label class="col-lg-2" for="date" align="left" >@lang('frontend.bookingins.date')</label>
                                 <input class="col-lg-2 form-control js-flatpickr" type="date" name="date" id="date" required>    
                             </div>
                             <div class="form-group row">
-                                <label class="col-lg-2" for="comment" align="left">Note</label> 
+                                <label class="col-lg-2" for="comment" align="left" >@lang('frontend.bookingins.note')</label> 
                                 <textarea class="col-lg-3 form-control" rows="3" id="comment" name="comment"></textarea> 
                             </div>
                             <br>
                             <div class="form-group row">
                                 <div class="col-5"></div>
-                                <button type="submit" class="btn btn-success" align="right" id="submitbooking">Booking</button>
+                                <button type="submit" class="btn btn-success" align="right" id="submitbooking" >@lang('frontend.bookingins.booking')</button>
                             </div>
                         </div>
                     </div>
@@ -72,9 +80,16 @@
 <script src="{{ asset('js/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js') }}"></script>
 <script src="{{ asset('js/plugins/flatpickr/flatpickr.min.js') }}"></script>
 <script src="{{ asset('js/plugins/select2/js/select2.full.min.js') }}"></script>
-<script>jQuery(function(){ One.helpers(['flatpickr', 'datepicker', 'select2']); });</script>
+<script src="{{ asset('js/plugins/sweetalert2/sweetalert2.min.js') }}"></script>
+<script>jQuery(function(){ One.helpers(['flatpickr', 'datepicker', 'select2', 'sweetalert2']); });</script>
 
 <script>
+
+    // $(document).ready(function() {
+    //         $('#brand').select2();
+    //         $('#carmodel').select2();
+    //     });
+
     jQuery.ajax({
         url: 'http://127.0.0.1:8001/api/cars/brands',
         success: function(data){
@@ -82,11 +97,12 @@
                 if(data){
                     const select = jQuery('#brand');
                     select.find("option").remove();
-                    const newop = new Option("{{__('frontend.please_select')}}","");
+                    const newop = new Option("{{__('frontend.bookingins.plzselect')}}","");
                     jQuery(newop).appendTo(select)
                     data.map((item,index) => {
                         const newoption = new Option(item.name,item.id);
                         jQuery(newoption).appendTo(select)
+                        jQuery('#brand').select2();
                     });
                 }
         }
@@ -104,37 +120,46 @@
                 if(data){
                     const select = jQuery('#carmodel');
                     select.find("option").remove();
-                    const newop = new Option("{{__('frontend.please_select')}}","");
+                    const newop = new Option("{{__('frontend.bookingins.plzselect')}}","");
                     jQuery(newop).appendTo(select)
                     data.map((item,index) => {
                         const newoption = new Option(item.name,item.id);
                         jQuery(newoption).appendTo(select)
+                        jQuery('#carmodel').select2();
                     });
                 }
         }
     })
     }
 
-    jQuery('#submitbooking').on('click', function(e){
-        createbooking()
-    })
-
-    function createbooking(){
-        jQuery.ajax({
-            method: 'POST',
-            url: "{{ route('createbookingins') }}",
-            beforeSend: function(){
-                
-            },
-            data: jQuery('#bookingins').serialize(),
-
-            success: function(data){ 
-                if(data){
-                    console.log(13)                   }
-                }
+    function sendSuccess(){
+        Swal.fire({
+            title: `
+            <h3 class="color-schic">
+                ขอขอบคุณสำหรับข้อมูลเบื้องต้น
+            </h3>`,
+            // icon: 'success',
+            html:`
+            <div>
+                ทางระบบได้รับข้อมูลของท่านเรียบร้อยแล้ว
+                <br>
+                เจ้าหน้าที่จะติดต่อกลับภายใน 24 ชั่วโมง
+            </div>`,
+            customClass: {confirmButton: 'btn btn-rounded'},
+            confirmButtonColor: '#2c3e50',
+            showCloseButton: true,
+            showCancelButton: false,
+            // focusConfirm: true,
+            confirmButtonText:
+                'กลับสู่หน้าหลัก',
+            confirmButtonAriaLabel: 'กลับสู่หน้าหลัก',
         })
     }
     
+    @if(session()->has('success'))
+        sendSuccess();    
+    @endif
+
 </script>
 
 @endsection
@@ -143,4 +168,6 @@
     <link rel="stylesheet" href="{{ asset('js/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css') }}">
     <link rel="stylesheet" href="{{ asset('js/plugins/flatpickr/flatpickr.min.css') }}">
     <link rel="stylesheet" href="{{ asset('js/plugins/select2/css/select2.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('js/plugins/sweetalert2/sweetalert2.min.css') }}">
+
 @endsection

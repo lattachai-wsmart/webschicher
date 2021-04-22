@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Lang;
 use App\Models\Booking_ins;
-
+use Illuminate\Support\Facades\Validator;
 
 class FrontendController extends Controller
 {
@@ -35,6 +35,14 @@ class FrontendController extends Controller
     public function contact()
     {
         return view('pages/contact')->with('header',$this->header);
+    }
+    public function shicertificates()
+    {
+        return view('pages/shicertificates')->with('header',$this->header);
+    }
+    public function findqualilyusedcars()
+    {
+        return view('pages/findqualilyusedcars')->with('header',$this->header);
     }
     public function lang_change(Request $request,$lang)
     {
@@ -203,6 +211,19 @@ class FrontendController extends Controller
         // print_r($request->all());
         // return json_encode($request->all());
         // return $request->all();
+        $validator = Validator::make($request->all(), [
+                'name' => 'required | string',
+                'tel' => 'required | numeric',
+                'brand'=> 'required | numeric',
+                'model'=> 'required | numeric',
+                'date'=> 'required | date_format:Y-m-d',
+                'note'=> 'string'
+        ]);
+
+        if ($validator->fails()) {
+            return back()->withErrors($validator)->withInput();
+        }
+
         $curl = curl_init();
         curl_setopt_array($curl, array(
             CURLOPT_URL => "http://127.0.0.1:8001/api/bookingins",
@@ -230,9 +251,9 @@ class FrontendController extends Controller
 
         $response = curl_exec($curl);
         $err = curl_error($curl);
-        
+
         curl_close($curl);
-        
+
         if ($err) {
             // echo "1";
             echo "cURL Error #:" . $err;
@@ -241,9 +262,7 @@ class FrontendController extends Controller
             print_r(json_decode($response));
         }
 
-        return back();
-
+        return back()->with('success', 'เพิ่มข้อมูลเรียบร้อยแล้ว');
     }
 
- 
 }
