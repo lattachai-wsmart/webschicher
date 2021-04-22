@@ -4,6 +4,14 @@
 @endsection
 
 @section('content')
+
+    {{-- @if (session('status'))
+        {{ session('status') }}
+    @endif --}}
+    @if($errors->any())
+        <div class="alert alert-danger" role="alert">{{ implode('', $errors->all(':message')) }}</div>
+    @endif
+    
     <div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
         <div class="bg-primary-dark-op">
             <div class="content content-full overflow-hidden">
@@ -27,7 +35,7 @@
                                 <label class="col-lg-2" for="name" align="left" >@lang('frontend.bookingins.name')</label>
                                 <input class="col-lg-2 form-control form-control-sm form-border" type="text" name="name" id="name" required>
                                 <div class="col-3"></div>
-                                <label class="col-lg-2" for="tel" >@lang('frontend.bookingins.phone')</label>
+                                <label class="col-lg-2" for="tel" align="left">@lang('frontend.bookingins.phone')</label>
                                 
                                 <input class="col-lg-2 form-control form-control-sm form-border" type="tel" name="tel" id="tel" required>
                             </div>
@@ -75,6 +83,12 @@
 <script>jQuery(function(){ One.helpers(['flatpickr', 'datepicker', 'select2']); });</script>
 
 <script>
+
+    // $(document).ready(function() {
+    //         $('#brand').select2();
+    //         $('#carmodel').select2();
+    //     });
+
     jQuery.ajax({
         url: 'http://127.0.0.1:8001/api/cars/brands',
         success: function(data){
@@ -87,6 +101,7 @@
                     data.map((item,index) => {
                         const newoption = new Option(item.name,item.id);
                         jQuery(newoption).appendTo(select)
+                        jQuery('#brand').select2();
                     });
                 }
         }
@@ -109,13 +124,13 @@
                     data.map((item,index) => {
                         const newoption = new Option(item.name,item.id);
                         jQuery(newoption).appendTo(select)
+                        jQuery('#carmodel').select2();
                     });
                 }
         }
     })
     }
 
-   
     
 </script>
 
