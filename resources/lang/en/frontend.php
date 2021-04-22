@@ -20,7 +20,15 @@ return [
         "title"=>"SHCI CERTIFICATES"
     ],
     "bookingins"=>[
-        "title"=>"Booking Schich Inspection"
+        "title"=>"Booking Schich Inspection",
+        "name"=>"Name - Surname",
+        "phone"=>"Phone",
+        "carbrand"=>"Car Brands",
+        "carmodel"=>"Car Models",
+        "date"=>"Appointment Date",
+        "note"=>"Note",
+        "booking"=>"Booking",
+        "plzselect"=>"--- Please Select ---",
     ],
     "about" => [
         "title" => "ABOUT SCHICHER",
