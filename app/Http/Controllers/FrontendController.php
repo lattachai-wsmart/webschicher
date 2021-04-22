@@ -262,8 +262,7 @@ class FrontendController extends Controller
             print_r(json_decode($response));
         }
 
-        return back();
-
+        return back()->with('success', 'เพิ่มข้อมูลเรียบร้อยแล้ว');
     }
 
 }
