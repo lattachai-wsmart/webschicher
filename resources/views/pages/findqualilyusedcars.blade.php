@@ -14,11 +14,14 @@
     }
 </style>
 
-<div class="form-group col-md-12">
-    <div class="" style="display: flex">
-        <div class="form-group col-md-7"></div>
-        <div class="form-group col-md-4">
-            <div class="form-group row" style="justify-content: center; border-radius: 10px; box-shadow: 1px 1px 3px 3px rgba(199, 196, 196, 0.349); padding: 15px">
+<div class="form-group col-md-12" style="position: relative;">
+    <div style="justify-content: center; margin-bottom: -500px; margin: 0 auto; width: 80%;">
+        <img class="img-fluid" src="media/photos/bg-schich.png" alt="" width="100%" min-height="50px">
+    </div>
+    {{-- <div class="" style="display: flex"> --}}
+        {{-- <div class="form-group col-md-7"></div> --}}
+        <div class="form-group col-md-4" style="position: absolute; top: 40%; left: 50%;">
+            <div class="form-group row" style="justify-content: center; border-radius: 10px; background-color: #fff; box-shadow: 1px 1px 3px 3px rgba(199, 196, 196, 0.349); padding: 15px">
                 <div class="form-group row col-md-12" style="justify-content: center;">
                     <label for="brand"> กรอกรายละเอียดคุณเพื่อการค้นหา </label>
                 </div>
@@ -106,25 +109,25 @@
     })
     }
 
-    jQuery('#submitbooking').on('click', function(e){
-        createbooking()
-    })
+    // jQuery('#submitbooking').on('click', function(e){
+    //     createbooking()
+    // })
 
-    function createbooking(){
-        jQuery.ajax({
-            method: 'POST',
-            url: "{{ route('createbookingins') }}",
-            beforeSend: function(){
+    // function createbooking(){
+    //     jQuery.ajax({
+    //         method: 'POST',
+    //         url: "{{ route('createbookingins') }}",
+    //         beforeSend: function(){
 
-            },
-            data: jQuery('#bookingins').serialize(),
+    //         },
+    //         data: jQuery('#bookingins').serialize(),
 
-            success: function(data){
-                if(data){
-                    console.log(13)                   }
-                }
-        })
-    }
+    //         success: function(data){
+    //             if(data){
+    //                 console.log(13)                   }
+    //             }
+    //     })
+    // }
 
 </script>
 @endsection

@@ -11,7 +11,7 @@
     @if($errors->any())
         <div class="alert alert-danger" role="alert">{{ implode('', $errors->all(':message')) }}</div>
     @endif
-    
+
     <div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
         <div class="bg-primary-dark-op">
             <div class="content content-full overflow-hidden">
@@ -36,7 +36,7 @@
                                 <input class="col-lg-2 form-control form-control-sm form-border" type="text" name="name" id="name" required>
                                 <div class="col-3"></div>
                                 <label class="col-lg-2" for="tel" align="left">@lang('frontend.bookingins.phone')</label>
-                                
+
                                 <input class="col-lg-2 form-control form-control-sm form-border" type="tel" name="tel" id="tel" required>
                             </div>
 
@@ -53,14 +53,14 @@
                                 </select>
                                 <div class="col-1"></div>
                             </div>
-                            
+
                             <div class="form-group row">
                                 <label class="col-lg-2" for="date" align="left" >@lang('frontend.bookingins.date')</label>
-                                <input class="col-lg-2 form-control js-flatpickr" type="date" name="date" id="date" required>    
+                                <input class="col-lg-2 form-control js-flatpickr" type="date" name="date" id="date" required>
                             </div>
                             <div class="form-group row">
-                                <label class="col-lg-2" for="comment" align="left" >@lang('frontend.bookingins.note')</label> 
-                                <textarea class="col-lg-3 form-control" rows="3" id="comment" name="comment"></textarea> 
+                                <label class="col-lg-2" for="comment" align="left" >@lang('frontend.bookingins.note')</label>
+                                <textarea class="col-lg-3 form-control" rows="3" id="comment" name="comment"></textarea>
                             </div>
                             <br>
                             <div class="form-group row">
@@ -93,7 +93,7 @@
     jQuery.ajax({
         url: 'http://127.0.0.1:8001/api/cars/brands',
         success: function(data){
-            
+
                 if(data){
                     const select = jQuery('#brand');
                     select.find("option").remove();
@@ -116,7 +116,7 @@
         jQuery.ajax({
         url: 'http://127.0.0.1:8001/api/cars/models/'+id,
         success: function(data){
-            
+
                 if(data){
                     const select = jQuery('#carmodel');
                     select.find("option").remove();
@@ -155,9 +155,9 @@
             confirmButtonAriaLabel: 'กลับสู่หน้าหลัก',
         })
     }
-    
+
     @if(session()->has('success'))
-        sendSuccess();    
+        sendSuccess();
     @endif
 
 </script>
