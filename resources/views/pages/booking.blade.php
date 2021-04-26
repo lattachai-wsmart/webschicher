@@ -4,22 +4,28 @@
 @endsection
 
 @section('content')
-
-    {{-- @if (session('status'))
-        {{ session('status') }}
-    @endif --}}
+ 
     @if($errors->any())
         <div class="alert alert-danger" role="alert">{{ implode('', $errors->all(':message')) }}</div>
     @endif
     
     <style>
-        /* @media only screen and (min-device-width: 400px) {
+        @media only screen and (max-width: 1199px) {
             .bg-schich-booking { 
-                background-image: url('media/photos/about/bg-schich-booking.png'); 
+                background-image: url('media/photos/about/bg-schich-booking-space2.png');                 
                 height:500px;
                 width: 100%;
                 }
-            } */
+            }
+
+         @media only screen and (min-width: 1200px) {
+            .bg-schich-booking { 
+                background-image: url('media/photos/about/bg-schich-booking-space1.png');                 
+                height: 100%;
+                width: 104%;
+                background-repeat: no-repeat;
+            }
+        }    
     </style>
 
     <!-- Page Content -->
@@ -32,7 +38,7 @@
                 <div class="row justify-content-center">
                     <div class="col-sm-12">
                         <br>
-                    <div class="row" >
+                    <div class="row bg-schich-booking">
                         <div class="col-6"></div>
                         <div class="col-6 pt-lg-3 box-form">
                          
