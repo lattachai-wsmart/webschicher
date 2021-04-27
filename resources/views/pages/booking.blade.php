@@ -11,11 +11,11 @@
     @if($errors->any())
         <div class="alert alert-danger" role="alert">{{ implode('', $errors->all(':message')) }}</div>
     @endif
-    
+
     <style>
         /* @media only screen and (min-device-width: 400px) {
-            .bg-schich-booking { 
-                background-image: url('media/photos/about/bg-schich-booking.png'); 
+            .bg-schich-booking {
+                background-image: url('media/photos/about/bg-schich-booking.png');
                 height:500px;
                 width: 100%;
                 }
@@ -35,7 +35,7 @@
                     <div class="row" >
                         <div class="col-6"></div>
                         <div class="col-6 pt-lg-3 box-form">
-                         
+
                                 <h6>
                                     <center>
                                         @lang('frontend.bookingins.filldetail')
@@ -57,15 +57,18 @@
                                 <select class="col-lg-3 form-control form-control-sm form-border" name="model" id="carmodel" required>
                                     <option hidden value="">@lang('frontend.bookingins.plzselect')</option>
                                 </select>
+                                <div class="col-1"></div>
+                            </div>
+
                                     <br>
-                            
+
                             <div class="form-group row">
                                 <label class="col-lg-2" for="date" align="left" >@lang('frontend.bookingins.date')</label>
-                                <input class="col-lg-2 form-control js-flatpickr" type="date" name="date" id="date" required>    
+                                <input class="col-lg-2 form-control js-flatpickr" type="date" name="date" id="date" required>
                             </div>
                             <div class="form-group row">
-                                <label class="col-lg-2" for="comment" align="left" >@lang('frontend.bookingins.note')</label> 
-                                <textarea class="col-lg-3 form-control" rows="3" id="comment" name="comment"></textarea> 
+                                <label class="col-lg-2" for="comment" align="left" >@lang('frontend.bookingins.note')</label>
+                                <textarea class="col-lg-3 form-control" rows="3" id="comment" name="comment"></textarea>
                             </div>
                             <br>
                             <div class="form-group row">
@@ -115,7 +118,7 @@
         jQuery.ajax({
         url: "{{  env('URL_API')  }}/api/cars/models/"+id,
         success: function(data){
-            
+
                 if(data){
                     const select = jQuery('#carmodel');
                     select.find("option").remove();
@@ -154,9 +157,9 @@
             confirmButtonAriaLabel: 'กลับสู่หน้าหลัก',
         })
     }
-    
+
     @if(session()->has('success'))
-        sendSuccess();    
+        sendSuccess();
     @endif
 
 </script>
