@@ -24,6 +24,7 @@ Route::get('shicertificates', [FrontendController::class, "shicertificates"])->n
 Route::get('findqualilyusedcars', [FrontendController::class, "findqualilyusedcars"])->name('findqualilyusedcars');
 Route::get('bookins', [FrontendController::class, "bookingins"])->name('bookingins');
 Route::post('bookins/create', [FrontendController::class, "createbookingins"])->name('createbookingins');
+Route::get('warrantyandroadside', [FrontendController::class, "warrantynroadside"])->name('warrantynroadside');
 
 Route::prefix('service')->name('service.')->group(function () {
     Route::get('vehicleanalysis', [FrontendController::class, "vehicleanalysis"])->name('vehicleanalysis');

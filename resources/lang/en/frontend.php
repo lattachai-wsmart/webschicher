@@ -19,6 +19,9 @@ return [
     "shicertificates"=>[
         "title"=>"SHCI CERTIFICATES"
     ],
+    "warranty"=>[
+        "title"=>"WARRANTY & ROADSIDE"
+    ],
     "bookingins"=>[
         "filldetail"=>"Please fill in your personal information to book a car.",
         "title"=>"Booking Schich Inspection",

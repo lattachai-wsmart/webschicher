@@ -44,6 +44,19 @@
         <div class="row justify-content-center">
             <div class="col-lg-3">
                 <a class="block block-rounded js-appear-enabled animated bounceIn" data-class="animated bounceIn"
+                    href="{{ route('warrantynroadside') }}">
+                    <div class="block-content block-content-full block_shadow">
+                        <div class="py-5 text-center">
+                            <div class="item item-2x item-rounded  text-white mx-auto">
+                                {{-- <img src="{{ asset('media/photos/icons/book.png') }}" class="imageicon96" /> --}}
+                            </div>
+                            <div class="font-size-h4 font-w600 pt-3 mb-0">WARRANTY & ROADSIDE</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3">
+                <a class="block block-rounded js-appear-enabled animated bounceIn" data-class="animated bounceIn"
                     href="{{ route('bookingins') }}">
                     <div class="block-content block-content-full block_shadow">
                         <div class="py-5 text-center">
@@ -76,7 +89,7 @@
                             <div class="item item-2x item-rounded text-white mx-auto">
                                 <img src="{{ asset('media/photos/icons/search.png') }}" class="imageicon96" />
                             </div>
-                            <div class="font-size-h4 font-w600 pt-3 mb-0">SCHI CERTIFICATES</div>
+                            <div class="font-size-h4 font-w600 pt-3 mb-0">SCHIC CERTIFICATES</div>
                         </div>
                     </div>
                 </a>

@@ -208,9 +208,6 @@ class FrontendController extends Controller
     }
 
     public function createbookingins(Request $request){
-        // print_r($request->all());
-        // return json_encode($request->all());
-        // return $request->all();
         $validator = Validator::make($request->all(), [
                 'name' => 'required | string',
                 'tel' => 'required | numeric',
@@ -263,6 +260,11 @@ class FrontendController extends Controller
         }
 
         return back()->with('success', 'เพิ่มข้อมูลเรียบร้อยแล้ว');
+    }
+
+    public function warrantynroadside(){
+        $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.warrantynroadside.title');
+        return view('pages.warranty')->with('header', $this->header);
     }
 
 }
