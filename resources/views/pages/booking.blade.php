@@ -12,47 +12,55 @@
         <div class="alert alert-danger" role="alert">{{ implode('', $errors->all(':message')) }}</div>
     @endif
 
-    <div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
-        <div class="bg-primary-dark-op">
-            <div class="content content-full overflow-hidden">
-                <div class="mt-7 mb-5 text-center">
-                    <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.bookingins.title')</h1>
-                </div>
-            </div>
-        </div>
-    </div>
+    <style>
+        /* @media only screen and (min-device-width: 400px) {
+            .bg-schich-booking {
+                background-image: url('media/photos/about/bg-schich-booking.png');
+                height:500px;
+                width: 100%;
+                }
+            } */
+    </style>
+
     <!-- Page Content -->
     <form action="{{ route('createbookingins') }}" method='post' id="bookingins">
         @csrf
+
+        {{-- style="background-image: url('{{ asset('media/photos/about/bg-schich-booking.png') }}');" --}}
         <div class="content bg-white">
             <div class="content content-boxed">
                 <div class="row justify-content-center">
                     <div class="col-sm-12">
                         <br>
-                    <div class="row">
-                        <div class="col-12 pt-lg-3 box-form">
-                            <div class="form-group row">
-                                <label class="col-lg-2" for="name" align="left" >@lang('frontend.bookingins.name')</label>
-                                <input class="col-lg-2 form-control form-control-sm form-border" type="text" name="name" id="name" required>
-                                <div class="col-3"></div>
-                                <label class="col-lg-2" for="tel" align="left">@lang('frontend.bookingins.phone')</label>
+                    <div class="row" >
+                        <div class="col-6"></div>
+                        <div class="col-6 pt-lg-3 box-form">
 
-                                <input class="col-lg-2 form-control form-control-sm form-border" type="tel" name="tel" id="tel" required>
-                            </div>
+                                <h6>
+                                    <center>
+                                        @lang('frontend.bookingins.filldetail')
+                                    </center>
+                                </h6>
 
-                            <div class="form-group row">
-                                <label class="col-lg-2" for="brand" align="left" >@lang('frontend.bookingins.carbrand')</label>
-                                <select class="col-lg-2 form-control form-control-sm form-border" name="brand" id="brand" required>
+                                <label class="col-lg-4" for="name" align="left" >@lang('frontend.bookingins.name')</label>
+                                <input class="col-lg-4 form-control form-control-sm form-border" type="text" name="name" id="name" required>
+                                    <br>
+                                <label class="col-lg-4" for="tel" align="left">@lang('frontend.bookingins.phone')</label>
+                                <input class="col-lg-4 form-control form-control-sm form-border" type="tel" name="tel" id="tel" required>
+                                    <br>
+                                <label class="col-lg-4" for="brand" align="left" >@lang('frontend.bookingins.carbrand')</label>
+                                <select class="col-lg-4 form-control form-control-sm form-border" name="brand" id="brand" required>
                                     <option hidden value="">@lang('frontend.bookingins.plzselect')</option>
-                                    {{-- <option value="เต๊นท์" {{($data->nametitle ==='เต๊นท์') ? 'selected' : ''}}>เต็นท์</option> --}}
                                 </select>
-                                <div class="col-3"></div>
-                                <label class="col-lg-2" for="carmodel" align="left" >@lang('frontend.bookingins.carmodel')</label>
-                                <select class="col-lg-2 form-control form-control-sm form-border" name="model" id="carmodel" required>
+                                    <br>
+                                <label class="col-lg-3" for="carmodel" align="left" >@lang('frontend.bookingins.carmodel')</label>
+                                <select class="col-lg-3 form-control form-control-sm form-border" name="model" id="carmodel" required>
                                     <option hidden value="">@lang('frontend.bookingins.plzselect')</option>
                                 </select>
                                 <div class="col-1"></div>
                             </div>
+
+                                    <br>
 
                             <div class="form-group row">
                                 <label class="col-lg-2" for="date" align="left" >@lang('frontend.bookingins.date')</label>
@@ -65,7 +73,7 @@
                             <br>
                             <div class="form-group row">
                                 <div class="col-5"></div>
-                                <button type="submit" class="btn btn-success" align="right" id="submitbooking" >@lang('frontend.bookingins.booking')</button>
+                                <button type="submit" class="btn btn-success booking-bt" align="right" id="submitbooking" >@lang('frontend.bookingins.booking')</button>
                             </div>
                         </div>
                     </div>
@@ -85,15 +93,9 @@
 
 <script>
 
-    // $(document).ready(function() {
-    //         $('#brand').select2();
-    //         $('#carmodel').select2();
-    //     });
-
     jQuery.ajax({
-        url: 'http://127.0.0.1:8001/api/cars/brands',
+        url: "{{  env('URL_API')  }}/api/cars/brands",
         success: function(data){
-
                 if(data){
                     const select = jQuery('#brand');
                     select.find("option").remove();
@@ -114,7 +116,7 @@
 
     function getmodel(id){
         jQuery.ajax({
-        url: 'http://127.0.0.1:8001/api/cars/models/'+id,
+        url: "{{  env('URL_API')  }}/api/cars/models/"+id,
         success: function(data){
 
                 if(data){
@@ -136,14 +138,14 @@
         Swal.fire({
             title: `
             <h3 class="color-schic">
-                ขอขอบคุณสำหรับข้อมูลเบื้องต้น
+                @lang('frontend.bookingins.modal1')
             </h3>`,
             // icon: 'success',
             html:`
             <div>
-                ทางระบบได้รับข้อมูลของท่านเรียบร้อยแล้ว
+                @lang('frontend.bookingins.modal2')
                 <br>
-                เจ้าหน้าที่จะติดต่อกลับภายใน 24 ชั่วโมง
+                @lang('frontend.bookingins.modal3')
             </div>`,
             customClass: {confirmButton: 'btn btn-rounded'},
             confirmButtonColor: '#2c3e50',
@@ -151,7 +153,7 @@
             showCancelButton: false,
             // focusConfirm: true,
             confirmButtonText:
-                'กลับสู่หน้าหลัก',
+                `<div>@lang('frontend.bookingins.modal4')</div>`,
             confirmButtonAriaLabel: 'กลับสู่หน้าหลัก',
         })
     }
@@ -169,5 +171,4 @@
     <link rel="stylesheet" href="{{ asset('js/plugins/flatpickr/flatpickr.min.css') }}">
     <link rel="stylesheet" href="{{ asset('js/plugins/select2/css/select2.min.css') }}">
     <link rel="stylesheet" href="{{ asset('js/plugins/sweetalert2/sweetalert2.min.css') }}">
-
 @endsection
