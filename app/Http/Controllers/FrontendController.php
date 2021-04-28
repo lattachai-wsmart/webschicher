@@ -264,7 +264,15 @@ class FrontendController extends Controller
 
     public function warrantynroadside(){
         $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.warrantynroadside.title');
-        return view('pages.warranty')->with('header', $this->header);
+        return view('pages.warranty.warranty')->with('header', $this->header);
     }
-
+    public function bronze(){
+        return view('pages.warranty.bronze')->with('header',$this->header);
+    }
+    public function silver(){
+        return view('pages.warranty.silver')->with('header',$this->header);
+    }
+    public function goldplus(){
+        return view('pages.warranty.goldplus')->with('header',$this->header);
+    }
 }
