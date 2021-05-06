@@ -8,11 +8,19 @@
 .far {
     font-weight: 400;
 }
+.btn-primary {
+    background-color: var(--default-color);
+}
+
 body {
     font-family:  open sans, san-serif, SukhumvitSet;
 }
 header {
     border-bottom: 7px solid var(--default-color);
+}
+header a.btn:hover , header .nav-items a:hover{
+    background-color: var(--default-color);
+    color: white;
 }
 .content-header.schicher-header {
     height: 5rem;
@@ -111,3 +119,10 @@ main {
 .slick-slider.slick-dotted.slick-dotted-inner .slick-dots {
     bottom: 1.625rem;
 }
+
+
+
+.block.block-rounded .block-content:last-child {
+    border-radius: 1.25rem;
+}
+

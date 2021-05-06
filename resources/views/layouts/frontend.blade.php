@@ -78,9 +78,9 @@
 
                         <!-- Notifications Dropdown -->
                         <div class="dropdown d-inline-block ml-2">
-                            <button type="button" class="btn btn-sm btn-dual" id="page-header-notifications-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a href="javascript:void(0)" class="btn btn-sm btn-dual" id="page-header-notifications-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="flag-icon flag-icon-{{ session()->get('locale') == 'en'? 'us' : session()->get('locale')}}"></i>{{ strtoupper(session()->get('locale')) }}<i style="margin-top: 20px 0 0 0;" class="fa fa-sort-down ml-2"></i>
-                            </button>
+                            </a>
                             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0 border-0 font-size-sm" aria-labelledby="page-header-notifications-dropdown">
                                 {{-- <div class="p-2 bg-primary-dark text-center rounded-top">
                                     <h5 class="dropdown-header text-uppercase text-white">Notifications</h5>
