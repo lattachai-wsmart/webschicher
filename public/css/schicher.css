@@ -1,5 +1,6 @@
 :root {
     --default-color: #132d46;
+    --default-hover-color: #061f38;
 }
 @font-face {
     font-family: "SukhumvitSet";
@@ -8,8 +9,13 @@
 .far {
     font-weight: 400;
 }
-.btn-primary {
+.btn-schi {
     background-color: var(--default-color);
+    color: white;
+}
+.btn-schi:hover {
+    background-color: var(--default-hover-color);
+    color: white;
 }
 
 body {
