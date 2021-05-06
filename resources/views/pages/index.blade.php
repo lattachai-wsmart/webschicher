@@ -17,7 +17,7 @@
                         <div class="carousel-caption">
                             <h5>SCHIC CERTIFICATES</h5>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-primary btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-schi btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -25,7 +25,7 @@
                         <div class="carousel-caption">
                             <h5>SCHIC CERTIFICATES</h5>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-primary btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-schi btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -34,7 +34,7 @@
                         <div class="carousel-caption">
                             <h5>BOOK SCHICINSPECTION</h5>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-primary btn-sm mb-1" href="{{ route('bookingins') }}">Find &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-schi btn-sm mb-1" href="{{ route('bookingins') }}">Find &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                                 <input type="email" class="form-control" id="schiidsearch" name="schiidsearch"
                                     placeholder="SCHI ID">
                                 <div class="input-group-append">
-                                    <button type="button" class="btn btn-primary" id="btnSearchSchi">
+                                    <button type="button" class="btn btn-schi" id="btnSearchSchi">
                                         <i class="fa fa-search mr-1"></i> Search
                                     </button>
                                 </div>
@@ -144,7 +144,7 @@
                     </div>
                     <div class="block-content block-content-full text-right border-top">
                         {{-- <button type="button" class="btn btn-alt-primary mr-1" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button> --}}
+                        <button type="button" class="btn btn-schi" data-dismiss="modal">Ok</button> --}}
                     </div>
                 </div>
             </div>
