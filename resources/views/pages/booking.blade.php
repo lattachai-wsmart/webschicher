@@ -5,10 +5,7 @@
 @endsection
 
 @section('content')
-
-    {{-- @if (session('status'))
-        {{ session('status') }}
-    @endif --}}
+ 
     @if($errors->any())
         <div class="alert alert-danger" role="alert">{{ implode('', $errors->all(':message')) }}</div>
     @endif
