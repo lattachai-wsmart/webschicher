@@ -3,13 +3,11 @@
 @endsection
 
 @section('content')
-<style>
-.box:hover {
-    box-shadow: 0 5px 15px 2px rgba(61, 61, 61, 0.1);
-}
+<head>
+    <link rel="stylesheet" id="css-main" href="{{ asset('/css/warranty.css') }}">
+</head>
 
-</style>
-<div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
+{{-- <div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
     <div class="bg-primary-dark-op">
         <div class="content content-full overflow-hidden">
             <div class="mt-7 mb-5 text-center">
@@ -17,20 +15,25 @@
             </div>
         </div>
     </div>
+</div> --}}
+
+<div class="row col-lg-3 mb-3 mt-5 h4 bg-body-dark font-w600 rounded p-3 push text-center">
+    SMART EXTENDED WARRANTY
 </div>
+<br>
 
 <div class=" row content overflow-hidden">
     <div class="col-md-6 col-xl-3 invisible " data-toggle="appear" data-offset="50" data-timeout="200" data-class="animated fadeInUp">
         <!-- Startup Plan -->
         <div class="block block-rounded block-link-shadow text-center box" href="javascript:void(0)">
-            <div class="block-content bg-body-light" style="padding: 0;">
+            <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
                     <img  class="img-fluid" src="{{ asset('media/photos/warranty/bronze.png') }}" alt="">
                 </div>
             </div>
-            <div class="block-content" style="min-height: 220px;">
+            <div class="block-content blockContent">
                 <div class="font-size-sm py-2" >
-                   <div style="text-align:left;">
+                   <div class="textContent">
                         <ul>
                             <li>@lang('frontend.warranty.bronze_content.undertenyears')</li>
                             <li>@lang('frontend.warranty.bronze_content.runnomore')</li>
@@ -53,14 +56,14 @@
     <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="400" data-class="animated fadeInUp">
         <!-- Startup Plan -->
         <div class="block block-rounded block-link-shadow text-center box" href="javascript:void(0)">
-            <div class="block-content bg-body-light" style="padding: 0;">
+            <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
                     <img  class="img-fluid" src="{{ asset('media/photos/warranty/silver.png') }}" alt="">
                 </div>
             </div>
-            <div class="block-content" style="min-height: 220px;">
+            <div class="block-content blockContent">
                 <div class="font-size-sm py-2">
-                   <div style="text-align:left;">
+                   <div class="textContent">
                         <ul>
                             <li>@lang('frontend.warranty.silver_content.undertenyears')</li>
                             <li>@lang('frontend.warranty.silver_content.runnomore')</li>
@@ -83,14 +86,14 @@
     <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="600" data-class="animated fadeInUp">
         <!-- Startup Plan -->
         <div class="block block-rounded block-link-shadow text-center box" href="javascript:void(0)">
-            <div class="block-content bg-body-light" style="padding: 0;">
+            <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
                     <img  class="img-fluid" src="{{ asset('media/photos/warranty/goldplus.png') }}" alt="">
                 </div>
             </div>
-            <div class="block-content" style="min-height: 220px;">
+            <div class="block-content blockContent">
                 <div class="font-size-sm py-2">
-                    <div style="text-align:left;">
+                    <div class="textContent">
                         <ul>
                             <li>@lang('frontend.warranty.goldplus_content.undertenyears')</li>
                             <li>@lang('frontend.warranty.goldplus_content.runnomore')</li>
@@ -113,14 +116,14 @@
     <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="800" data-class="animated fadeInUp">
         <!-- Startup Plan -->
         <div class="block block-rounded block-link-shadow text-center box" href="javascript:void(0)">
-            <div class="block-content bg-body-light" style="padding: 0;">
+            <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
                     <img  class="img-fluid" src="{{ asset('media/photos/warranty/autosmartstd.png') }}" alt="">
                 </div>
             </div>
-            <div class="block-content" style="min-height: 220px;">
+            <div class="block-content blockContent">
                 <div class="font-size-sm py-2">
-                   <div style="text-align:left;">
+                   <div class="textContent">
                         <ul>
                             <li>@lang('frontend.warranty.autosmartstd_content.undertenyears')</li>
                             <li>@lang('frontend.warranty.autosmartstd_content.runnomore')</li>
@@ -145,14 +148,14 @@
     <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="1000" data-class="animated fadeInUp">
         <!-- Startup Plan -->
         <div class="block block-rounded block-link-shadow text-center box" href="javascript:void(0)">
-            <div class="block-content bg-body-light" style="padding: 0;">
+            <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
                     <img class="img-fluid" src="{{ asset('media/photos/warranty/autosmartdm.png') }}" alt="">
                 </div>
             </div>
-            <div class="block-content" style="min-height: 220px;">
+            <div class="block-content blockContent">
                 <div class="font-size-sm py-2" >
-                   <div style="text-align:left;">
+                   <div class="textContent">
                         <ul>
                             <li>@lang('frontend.warranty.autosmartdm_content.undertenyears')</li>
                             <li>@lang('frontend.warranty.autosmartdm_content.runnomore')</li>
@@ -171,18 +174,25 @@
         </div>
             <!-- END Startup Plan -->
     </div>
+</div>
 
-    <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="1200" data-class="animated fadeInUp">
+<div class="row col-lg-3 mb-3 mt-5 h4 bg-body-dark font-w600 rounded p-3 push text-center">
+    SMART ROADSIDE ASSISTANT SERVICE
+</div>
+<br>
+
+<div class=" row content overflow-hidden">
+    <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="200" data-class="animated fadeInUp">
         <!-- Startup Plan -->
         <div class="block block-rounded block-link-shadow text-center box" href="javascript:void(0)">
-            <div class="block-content bg-body-light" style="padding: 0;">
+            <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
                     <img  class="img-fluid" src="{{ asset('media/photos/warranty/whitecard.png') }}" alt="">
                 </div>
             </div>
-            <div class="block-content" style="min-height: 220px;">
+            <div class="block-content blockContent">
                 <div class="font-size-sm py-2">
-                   <div style="text-align:left;">
+                   <div class="textContent">
                         <ul>
                             <li>@lang('frontend.warranty.whitecard_content.door')</li>
                             <li>@lang('frontend.warranty.whitecard_content.battery')</li>
@@ -201,17 +211,17 @@
             <!-- END Startup Plan -->
     </div>
     
-    <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="1400" data-class="animated fadeInUp">
+    <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="400" data-class="animated fadeInUp">
         <!-- Startup Plan -->
         <div class="block block-rounded block-link-shadow text-center box" href="javascript:void(0)">
-            <div class="block-content bg-body-light" style="padding: 0;">
+            <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
                     <img  class="img-fluid" src="{{ asset('media/photos/warranty/whitecardplus.png') }}" alt="">
                 </div>
             </div>
-            <div class="block-content" style="min-height: 220px;">
+            <div class="block-content blockContent">
                 <div class="font-size-sm py-2">
-                   <div style="text-align:left;">
+                   <div class="textContent">
                     <ul>
                         <li>@lang('frontend.warranty.whitecardplus_content.door')</li>
                         <li>@lang('frontend.warranty.whitecardplus_content.battery')</li>

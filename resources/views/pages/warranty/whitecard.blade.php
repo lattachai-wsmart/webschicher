@@ -8,7 +8,7 @@
 
 <div class="content bg-white">
     <div class="content content-boxed">
-        <img class="img-fluid" src="{{ asset('media/photos/warranty/whitecardpg.png') }}" width="100%" alt="">
+        <img class="img-fluid sizeImgRS" src="{{ asset('media/photos/warranty/whitecardpg.png') }}" alt="">
     </div>
 </div>
 @endsection

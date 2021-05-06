@@ -4,7 +4,9 @@
 @endsection
 
 @section('content')
-<style></style>
+<head> 
+    <link rel="stylesheet" id="css-main" href="{{ asset('/css/warranty.css') }}">
+</head>
 <div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
     <div class="bg-primary-dark-op">
         <div class="content content-full overflow-hidden">
@@ -122,7 +124,7 @@
     </div>
     <div class="row">
         <div class="col-10"></div>
-        <div class="col-2 block-content block-content-full" style="align:right;">
+        <div class="col-2 block-content block-content-full morePackage">
             <a href="{{ asset('media/pdf/autosmartstd.pdf') }}" target="_blank"><span class="btn btn-secondary px-4" >@lang('frontend.warranty.packagedetail')</span></a>
         </div>
     </div>
