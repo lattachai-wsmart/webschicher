@@ -17,6 +17,12 @@
     .sizeImgRS {
         width: 100%;
     }
+    .topicBar {
+        margin-left: -45px;
+    }
+    .rsTop {
+        margin-top: 50px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -37,5 +43,11 @@
     }
     .sizeImgRS {
         width: 100%;
+    }
+    .topicBar {
+        margin-left: -25px;
+    }
+    .rsTop {
+        margin-top: 50px;
     }
 }

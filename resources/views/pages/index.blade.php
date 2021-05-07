@@ -48,7 +48,7 @@
                     <div class="block-content block-content-full block_shadow">
                         <div class="py-5 text-center">
                             <div class="item item-2x item-rounded  text-white mx-auto">
-                                {{-- <img src="{{ asset('media/photos/icons/book.png') }}" class="imageicon96" /> --}}
+                                <img src="{{ asset('media/photos/icons/warranty.png') }}" class="imageicon96" />
                             </div>
                             <div class="font-size-h4 font-w600 pt-3 mb-0">WARRANTY & ROADSIDE</div>
                         </div>

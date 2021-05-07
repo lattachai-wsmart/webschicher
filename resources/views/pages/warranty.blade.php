@@ -4,6 +4,7 @@
 
 @section('content')
 <head>
+    <link rel="stylesheet" id="css-main" href="{{ asset('/css/schicher.css') }}">
     <link rel="stylesheet" id="css-main" href="{{ asset('/css/warranty.css') }}">
 </head>
 
@@ -17,15 +18,20 @@
     </div>
 </div> --}}
 
-<div class="row col-lg-3 mb-3 mt-5 h4 bg-body-dark font-w600 rounded p-3 push text-center">
-    SMART EXTENDED WARRANTY
+{{-- <div class="row col-lg-3 mb-3 mt-5 h4 bg-body-dark font-w600 rounded p-3 push text-center"> --}}
+<br>
+<div class="row">    
+    <div class="col-lg-1"></div>
+    <div class="col-lg-3 btn-schi font-w600 rounded p-3 push text-center topicBar">
+        SMART EXTENDED WARRANTY
+    </div>  
 </div>
 <br>
 
 <div class=" row content overflow-hidden">
     <div class="col-md-6 col-xl-3 invisible " data-toggle="appear" data-offset="50" data-timeout="200" data-class="animated fadeInUp">
         <!-- Startup Plan -->
-        <div class="block block-rounded block-link-shadow text-center box" href="javascript:void(0)">
+        <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
                     <img  class="img-fluid" src="{{ asset('media/photos/warranty/bronze.png') }}" alt="">
@@ -47,7 +53,7 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warrantyandroadside.bronze') }}"><span class="btn btn-secondary px-4" >Read More</span></a>
+                <a href="{{ route('warrantyandroadside.bronze') }}"><span class="btn btn-schi px-4" >Read More</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
@@ -55,7 +61,7 @@
 
     <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="400" data-class="animated fadeInUp">
         <!-- Startup Plan -->
-        <div class="block block-rounded block-link-shadow text-center box" href="javascript:void(0)">
+        <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
                     <img  class="img-fluid" src="{{ asset('media/photos/warranty/silver.png') }}" alt="">
@@ -77,7 +83,7 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warrantyandroadside.silver') }}"><span class="btn btn-secondary px-4" >Read More</span></a>
+                <a href="{{ route('warrantyandroadside.silver') }}"><span class="btn btn-schi px-4" >Read More</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
@@ -85,7 +91,7 @@
     
     <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="600" data-class="animated fadeInUp">
         <!-- Startup Plan -->
-        <div class="block block-rounded block-link-shadow text-center box" href="javascript:void(0)">
+        <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
                     <img  class="img-fluid" src="{{ asset('media/photos/warranty/goldplus.png') }}" alt="">
@@ -107,7 +113,7 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warrantyandroadside.goldplus')}}"><span class="btn btn-secondary px-4" >Read More</span></a>
+                <a href="{{ route('warrantyandroadside.goldplus')}}"><span class="btn btn-schi px-4" >Read More</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
@@ -115,7 +121,7 @@
 
     <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="800" data-class="animated fadeInUp">
         <!-- Startup Plan -->
-        <div class="block block-rounded block-link-shadow text-center box" href="javascript:void(0)">
+        <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
                     <img  class="img-fluid" src="{{ asset('media/photos/warranty/autosmartstd.png') }}" alt="">
@@ -137,7 +143,7 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warrantyandroadside.autosmartstd') }}"><span class="btn btn-secondary px-4" >Read More</span></a>
+                <a href="{{ route('warrantyandroadside.autosmartstd') }}"><span class="btn btn-schi px-4" >Read More</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
@@ -147,7 +153,7 @@
 <div class=" row content overflow-hidden">
     <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="1000" data-class="animated fadeInUp">
         <!-- Startup Plan -->
-        <div class="block block-rounded block-link-shadow text-center box" href="javascript:void(0)">
+        <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
                     <img class="img-fluid" src="{{ asset('media/photos/warranty/autosmartdm.png') }}" alt="">
@@ -169,22 +175,26 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warrantyandroadside.autosmartdm') }}"><span class="btn btn-secondary px-4" >Read More</span></a>
+                <a href="{{ route('warrantyandroadside.autosmartdm') }}"><span class="btn btn-schi px-4" >Read More</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
     </div>
 </div>
 
-<div class="row col-lg-3 mb-3 mt-5 h4 bg-body-dark font-w600 rounded p-3 push text-center">
-    SMART ROADSIDE ASSISTANT SERVICE
+<div class="row">    
+    <div class="col-lg-1"></div>
+    <div class="col-lg-3 btn-schi font-w600 rounded p-3 push text-center topicBar rsTop">
+        SMART ROADSIDE ASSISTANT SERVICE
+    </div>  
 </div>
 <br>
+
 
 <div class=" row content overflow-hidden">
     <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="200" data-class="animated fadeInUp">
         <!-- Startup Plan -->
-        <div class="block block-rounded block-link-shadow text-center box" href="javascript:void(0)">
+        <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
                     <img  class="img-fluid" src="{{ asset('media/photos/warranty/whitecard.png') }}" alt="">
@@ -205,7 +215,7 @@
                 </div>
             </div>
         <div class="block-content block-content-full bg-body-light">
-            <a href="{{ route('warrantyandroadside.whitecard') }}"><span class="btn btn-secondary px-4" >Read More</span></a>
+            <a href="{{ route('warrantyandroadside.whitecard') }}"><span class="btn btn-schi px-4" >Read More</span></a>
         </div>
         </div>
             <!-- END Startup Plan -->
@@ -213,7 +223,7 @@
     
     <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="400" data-class="animated fadeInUp">
         <!-- Startup Plan -->
-        <div class="block block-rounded block-link-shadow text-center box" href="javascript:void(0)">
+        <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
                     <img  class="img-fluid" src="{{ asset('media/photos/warranty/whitecardplus.png') }}" alt="">
@@ -234,7 +244,7 @@
                 </div>
             </div>
         <div class="block-content block-content-full bg-body-light">
-            <a href="{{ route('warrantyandroadside.whitecardplus') }}"><span class="btn btn-secondary px-4" >Read More</span></a>
+            <a href="{{ route('warrantyandroadside.whitecardplus') }}"><span class="btn btn-schi px-4" >Read More</span></a>
         </div>
         </div>
             <!-- END Startup Plan -->
