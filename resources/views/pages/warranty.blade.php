@@ -31,7 +31,7 @@
 <div class=" row content overflow-hidden">
     <div class="col-md-6 col-xl-3 invisible " data-toggle="appear" data-offset="50" data-timeout="200" data-class="animated fadeInUp">
         <!-- Startup Plan -->
-        <div class="block block-link-shadow text-center box" href="javascript:void(0)">
+        <div class="block block-link-shadow text-center box " href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
                     <img  class="img-fluid" src="{{ asset('media/photos/warranty/bronze.png') }}" alt="">

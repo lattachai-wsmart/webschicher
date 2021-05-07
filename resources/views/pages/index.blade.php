@@ -76,7 +76,7 @@
                             <div class="item item-2x item-rounded text-white mx-auto">
                                 <img src="{{ asset('media/photos/icons/cars.png') }}" class="imageicon96" />
                             </div>
-                            <div class="font-size-h4 font-w600 pt-3 mb-0">FIND QUALILY USEDCARS</div>
+                            <div class="font-size-h4 font-w600 pt-3 mb-0">FIND CERTIFIED USEDCARS</div>
                         </div>
                     </div>
                 </a>

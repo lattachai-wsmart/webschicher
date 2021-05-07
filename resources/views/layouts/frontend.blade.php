@@ -71,7 +71,7 @@
                         </div>
                         <div class="dropdown d-inline-block ml-2 d-xs-none">
                             <a class="btn btn-sm btn-dual btn-rounded d-flex align-items-center" id="page-header-user-dropdown"  href="javascript:void(0)">
-                                Find Qualily Usedcars
+                                Find Certified Usedcars
                             </a>
                         </div>
                         <!-- END User Dropdown -->

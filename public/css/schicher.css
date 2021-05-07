@@ -2,32 +2,40 @@
     --default-color: #132d46;
     --default-hover-color: #061f38;
 }
+
 @font-face {
     font-family: "SukhumvitSet";
     src: url(../fonts/sukhumvit-set/SukhumvitSet-Light.ttf) format("truetype");
 }
+
 .far {
     font-weight: 400;
 }
+
 .btn-schi {
     background-color: var(--default-color);
     color: white;
 }
+
 .btn-schi:hover {
     background-color: var(--default-hover-color);
     color: white;
 }
 
 body {
-    font-family:  open sans, san-serif, SukhumvitSet;
+    font-family: open sans, san-serif, SukhumvitSet;
 }
+
 header {
     border-bottom: 7px solid var(--default-color);
 }
-header a.btn:hover , header .nav-items a:hover{
+
+header a.btn:hover,
+header .nav-items a:hover {
     background-color: var(--default-color);
     color: white;
 }
+
 .content-header.schicher-header {
     height: 5rem;
 }
@@ -65,7 +73,7 @@ header a.btn:hover , header .nav-items a:hover{
 }
 
 .slidebarTop img {
-    height: 690px;
+    /* height: 690px; */
     width: 100%;
 }
 
@@ -126,9 +134,6 @@ main {
     bottom: 1.625rem;
 }
 
-
-
 .block.block-rounded .block-content:last-child {
     border-radius: 1.25rem;
 }
-
