@@ -1,6 +1,57 @@
 <?php
 
 return [
+    "please_select"=>"Please Select",
+    "menu" => [
+        "about_us" => "About Us",
+        "service" => "Service",
+        "service_submenu" => [
+            "vehicle_analysis" => "Vehicle Analysis",
+            "claims_appraisal" => "Claims & Appraisal",
+            "vehicle_manage" => "Vehicle Management Services",
+            "dealership_cer" => "Dealership Certification & Auditing",
+            "dealership_tra" => "Dealership Training & Qualification",
+        ],
+        "job_careers" => "JOB & CAREERS",
+        "presas" => "PRESS",
+        "contact_us" => "CONTACT US"
+    ],
+    "shicertificates"=>[
+        "title"=>"SHCI CERTIFICATES"
+    ],
+    "bookingins"=>[
+        "filldetail"=>"Please fill in your personal information to book a car.",
+        "title"=>"Booking Schich Inspection",
+        "name"=>"Name - Surname",
+        "phone"=>"Phone",
+        "carbrand"=>"Car Brands",
+        "carmodel"=>"Car Models",
+        "date"=>"Appointment Date",
+        "note"=>"Note",
+        "booking"=>"Booking",
+        "plzselect"=>"--- Please Select ---",
+        "modal1"=>"Thank you for the information.",
+        "modal2"=>"We have received your information.",
+        "modal3"=>"We will contact you back within 24 hours.",
+        "modal4"=>"Back"
+    ],
+    "findqualily"=>[
+        "title"=>"Detail For Search",
+        "carbrand"=>"Car Brands",
+        "carmodel"=>"Car Models",
+        "name"=>"Name - Surname",
+        "tel"=>"Tel",
+        "search"=>"Search",
+        "finish"=>"Private & Quality",
+        "pleaseselect"=>"--- Please Select ---",
+        "modal1"=>"Thank you for the information.",
+        "modal2"=>"We have received your information.",
+        "modal3"=>"We will contact you back within 24 hours.",
+        "modal4"=>"Back"
+    ],
+    "about" => [
+        "title" => "ABOUT SCHICHER",
+        "content" => "Schicher เป็นบริษัทที่ดำเนินการทางด้านการตรวจสอบ และการรับรองมาตราฐานที่เกี่ยวกับรถยนต์ ทั้งในด้านคุณภาพ การเรียกร้องค่าสินไหม การบริหารจัดการ การรับรองมาตราฐาน รวมทั้งการฝึกสอนบุคลากรให้มีมาตราฐาน
     'please_select' => 'Please Select',
     'menu' => [
         'about_us' => 'About Us',

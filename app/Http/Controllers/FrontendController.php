@@ -262,6 +262,58 @@ class FrontendController extends Controller
         return back()->with('success', 'เพิ่มข้อมูลเรียบร้อยแล้ว');
     }
 
+    public function booking_search_cars(Request $request) {
+
+        $validator = Validator::make($request->all(), [
+            'brand'=> 'required | string',
+            'model'=> 'required | string',
+            'name' => 'required | string',
+            'tel' => 'required | numeric',
+        ]);
+
+        // return $request;
+
+        if ($validator->fails()) {
+            return back()->withError($validator)->withInput();
+        }
+
+        $curl = curl_init();
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => "http://127.0.0.1:8080/api/bookingins",
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "POST",
+            CURLOPT_POSTFIELDS => http_build_query([
+                'name' => $request->input('name'),
+                'tel' => $request->input('tel'),
+                'car_brand_id' => $request->input('brand'),
+                'car_model_id' => $request->input('model'),
+            ]),
+            CURLOPT_HTTPHEADER => array(
+                "accept: */*",
+                "accept-language: en-US,en;q=0.8",
+                'Content-Type: application/x-www-form-urlencoded',
+            ),
+        ));
+
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+
+        curl_close($curl);
+
+        if ($err) {
+            echo "cURL Error #:" . $err;
+        } else {
+            print_r(json_decode($response));
+
+            return back()->with('success', 'Insert data successfurry.');
+        }
+
+    }
+
     public function warrantynroadside(){
         $this->header["header"] = $this->header["header"] ." | ". Lang::get('frontend.warranty.title');
         return view('pages.warranty')->with('header', $this->header);
