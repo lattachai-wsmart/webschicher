@@ -30,7 +30,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="img-fluid" src="media/photos/slidebar/shicher1-en.png" alt="">
+                        <img class="img-fluid" src="media/photos/slidebar/slide-3.png" alt="">
                         <div class="carousel-caption">
                             <h5>SCHIC CERTIFICATES</h5>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
