@@ -13,6 +13,23 @@
                 <div class="js-slider slick-nav-black slick-dotted-inner slick-dotted-white" data-arrows="true"
                     data-dots="true" data-autoplay="true" data-autoplay-speed="3000">
                     <div class="carousel-item">
+                        <img class="img-fluid" src="media/photos/slidebar/shicher3-en-1.png" alt="">
+
+                        <div class="carousel-caption">
+                            <h5>BOOK SCHIC INSPECTION</h5>
+                            {{-- <div class="textSlide">&nbsp;</div> --}}
+                            <a class="btn btn-schi btn-sm mb-1" href="{{ route('bookingins') }}">Find &nbsp; <i class="fa fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="media/photos/slidebar/shicher2-en.png" alt="">
+                        <div class="carousel-caption">
+                            <h5>FIND CERTIFIED USEDCARS</h5>
+                            {{-- <div class="textSlide">&nbsp;</div> --}}
+                            <a class="btn btn-schi btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
                         <img class="img-fluid" src="media/photos/slidebar/shicher1-en.png" alt="">
                         <div class="carousel-caption">
                             <h5>SCHIC CERTIFICATES</h5>
@@ -20,29 +37,12 @@
                             <a class="btn btn-schi btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img class="img-fluid" src="media/photos/slidebar/shicher2-en.png" alt="">
-                        <div class="carousel-caption">
-                            <h5>SCHIC CERTIFICATES</h5>
-                            {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-schi btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="img-fluid" src="media/photos/slidebar/shicher3-en.png" alt="">
-
-                        <div class="carousel-caption">
-                            <h5>BOOK SCHICINSPECTION</h5>
-                            {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-schi btn-sm mb-1" href="{{ route('bookingins') }}">Find &nbsp; <i class="fa fa-caret-right"></i></a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-lg-3">
+            {{-- <div class="col-lg-3">
                 <a class="block block-rounded js-appear-enabled animated bounceIn" data-class="animated bounceIn"
                     href="{{ route('warrantynroadside') }}">
                     <div class="block-content block-content-full block_shadow">
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                 </a>
-            </div>
+            </div> --}}
             <div class="col-lg-3">
                 <a class="block block-rounded js-appear-enabled animated bounceIn" data-class="animated bounceIn"
                     href="{{ route('bookingins') }}">
@@ -63,11 +63,12 @@
                             <div class="item item-2x item-rounded  text-white mx-auto">
                                 <img src="{{ asset('media/photos/icons/book.png') }}" class="imageicon96" />
                             </div>
-                            <div class="font-size-h4 font-w600 pt-3 mb-0">BOOK SCHICINSPECTION</div>
+                            <div class="font-size-h4 font-w600 pt-3 mb-0">BOOK SCHIC INSPECTION</div>
                         </div>
                     </div>
                 </a>
             </div>
+            <div class="col-lg-1"></div>
             <div class="col-lg-3">
                 <a class="block block-rounded js-appear-enabled animated bounceIn" data-class="animated bounceIn"
                     href="{{ route('findqualilyusedcars') }}">
@@ -81,6 +82,7 @@
                     </div>
                 </a>
             </div>
+            <div class="col-lg-1"></div>
             <div class="col-lg-3">
                 <a class="block block-rounded js-appear-enabled animated bounceIn"data-class="animated bounceIn"
                     href="{{ route('shicertificates') }}">
