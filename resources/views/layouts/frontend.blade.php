@@ -66,7 +66,7 @@
                 <!-- Left Section -->
                 <div class="d-flex align-items-center">
                     <div class="div_logo">
-                        <a href="/"><img src="{{ asset('media/photos/main-logo.png') }}" /></a>
+                        <a href="/"><img src="{{ asset('media/photos//main-logo-mini.png') }}" /></a>
                     </div>
                 </div>
                 <!-- END Left Section -->

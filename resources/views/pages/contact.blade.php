@@ -27,8 +27,7 @@
                             <div class="col-md-12" style="height: 450px">
                                 <div class="block block-rounded">
                                     <div class="options-container">
-                                        <img width="100%" height="450px"
-                                            src="{{ asset('media/photos/wasuta-building.png') }}" />
+                                        <img width="100%" height="450px" src="{{ asset('media/photos/wasuta-building.jpg') }}"  />
                                     </div>
                                 </div>
                             </div>

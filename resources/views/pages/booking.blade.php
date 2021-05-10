@@ -15,8 +15,8 @@
 
         {{-- style="background-image: url('{{ asset('media/photos/about/bg-schich-booking.png') }}');" --}}
         <div class="content bg-white position-relative show-content">
-            <div class="">
-                <img src="{{ asset('media/photos/about/bg-schich.png') }}" class="image-bg-bookins" />
+            <div>
+                <img src="{{ asset('media/photos/about/bg-schich-2.png') }}" class="image-bg-bookins" />
             </div>
             <div class="">
                 <div class="row justify-content-center">
@@ -24,10 +24,10 @@
 
                         <div class="row" id="box-show-form" >
                             <div class="col-xl-7 mb-5 text-title-left d-none d-md-block">
-                                <Text class="text-white h2">หารถคุณภาพ</Text><br/>
-                                <Text class="text-white h2">มากกว่า</Text> <Text class="h1">10,000</Text> <Text class="text-white h2">คัน</Text><br/>
-                                <Text class="text-white h2">ที่มีการตรวจโดย</Text><br/>
-                                <Text class="h1">Schic Inspection</Text>
+                                <Text class="text-white h2 " style="font-size:40px; font-family:SukhumvitSet;  letter-spacing: 3px;">ตรวจสภาพรถยนต์กับ</Text><br/>
+                                <Text class="text-white h1" style="font-size:80px; font-family:AngsananewSet; font-weight: 200;">S C H I C H </Text> <Text class="h1" style="color:#FDCC01; font-size:80px; font-family:AngsananewSet;">E R</Text><br/>
+                                <Text class="text-white h2" style="font-size:40px; font-family:SukhumvitSet; letter-spacing: 3px; ">มาตรฐาน GERMANY</Text><br/>
+                                <Text class="text-white h2" style="font-size:40px; font-family:SukhumvitSet; letter-spacing: -2px; line-height: 2.2;">เป็นกลาง เชี่ยวชาญ เชื่อถือได้</Text>
                             </div>
                             <div class="col-xl-5 box-form bg-white rounded">
                                 <form action="{{ route('createbookingins') }}" method='post' class="col-12" id="bookingins">

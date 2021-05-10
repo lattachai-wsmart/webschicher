@@ -8,6 +8,11 @@
     src: url(../fonts/sukhumvit-set/SukhumvitSet-Light.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: "AngsananewSet";
+    src: url(../fonts/angsananew-set/angsab.ttf) format("truetype");
+}
+
 .far {
     font-weight: 400;
 }
@@ -23,7 +28,7 @@
 }
 
 body {
-    font-family: open sans, san-serif, SukhumvitSet;
+    font-family: open sans, san-serif, SukhumvitSet, AngsananewSet;
 }
 
 header {
@@ -67,8 +72,8 @@ header .nav-items a:hover {
 }
 
 .div_logo img {
-    width: 98%;
-    height: 98%;
+    width: 100%;
+    height: 100%;
     margin: auto;
 }
 
