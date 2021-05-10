@@ -90,8 +90,9 @@
 
                     <!-- Notifications Dropdown -->
                     <div class="dropdown d-inline-block ml-2">
-                        <a href="javascript:void(0)" class="btn btn-sm btn-dual" id="page-header-notifications-dropdown"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a href="javascript:void(0)" class="btn btn-sm btn-dual d-none"
+                            id="page-header-notifications-dropdown" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
                             <i
                                 class="flag-icon flag-icon-{{ session()->get('locale') == 'en' ? 'us' : session()->get('locale') }}"></i>{{ strtoupper(session()->get('locale')) }}<i
                                 style="margin-top: 20px 0 0 0;" class="fa fa-sort-down ml-2"></i>
