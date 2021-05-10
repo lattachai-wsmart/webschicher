@@ -22,6 +22,7 @@ Route::get('/about', [FrontendController::class, "about"])->name('about');
 Route::get('contact', [FrontendController::class, "contact"])->name('contact');
 Route::get('shicertificates', [FrontendController::class, "shicertificates"])->name('shicertificates');
 Route::get('findqualilyusedcars', [FrontendController::class, "findqualilyusedcars"])->name('findqualilyusedcars');
+Route::post('findqualilyusedcars/create', [FrontendController::class, "booking_search_cars"])->name('booking_search_cars');
 Route::get('bookins', [FrontendController::class, "bookingins"])->name('bookingins');
 Route::post('bookins/create', [FrontendController::class, "createbookingins"])->name('createbookingins');
 

@@ -35,6 +35,20 @@ return [
         "modal3"=>"We will contact you back within 24 hours.",
         "modal4"=>"Back"
     ],
+    "findqualily"=>[
+        "title"=>"Detail For Search",
+        "carbrand"=>"Car Brands",
+        "carmodel"=>"Car Models",
+        "name"=>"Name - Surname",
+        "tel"=>"Tel",
+        "search"=>"Search",
+        "finish"=>"Private & Quality",
+        "pleaseselect"=>"--- Please Select ---",
+        "modal1"=>"Thank you for the information.",
+        "modal2"=>"We have received your information.",
+        "modal3"=>"We will contact you back within 24 hours.",
+        "modal4"=>"Back"
+    ],
     "about" => [
         "title" => "ABOUT SCHICHER",
         "content" => "Schicher เป็นบริษัทที่ดำเนินการทางด้านการตรวจสอบ และการรับรองมาตราฐานที่เกี่ยวกับรถยนต์ ทั้งในด้านคุณภาพ การเรียกร้องค่าสินไหม การบริหารจัดการ การรับรองมาตราฐาน รวมทั้งการฝึกสอนบุคลากรให้มีมาตราฐาน
