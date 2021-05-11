@@ -13,10 +13,10 @@
                 <div class="js-slider slick-nav-black slick-dotted-inner slick-dotted-white" data-arrows="true"
                     data-dots="true" data-autoplay="true" data-autoplay-speed="3000">
                     <div class="carousel-item">
-                        <img class="img-fluid" src="media/photos/slidebar/shicher3-en-1.png" alt="">
+                        <img class="img-fluid" src="media/photos/slidebar/shicher1-en.png" alt="">
 
                         <div class="carousel-caption">
-                            <h5>BOOK SCHIC INSPECTION</h5>
+                            <h4>BOOK SCHIC INSPECTION</h4>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
                             <a class="btn btn-schi btn-sm mb-1" href="{{ route('bookingins') }}">Find &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
@@ -24,15 +24,15 @@
                     <div class="carousel-item">
                         <img class="img-fluid" src="media/photos/slidebar/shicher2-en.png" alt="">
                         <div class="carousel-caption">
-                            <h5>FIND CERTIFIED USEDCARS</h5>
+                            <h4>FIND CERTIFIED USEDCARS</h4>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
                             <a class="btn btn-schi btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="img-fluid" src="media/photos/slidebar/slide-3.png" alt="">
+                        <img class="img-fluid" src="media/photos/slidebar/shicher3-en.png" alt="">
                         <div class="carousel-caption">
-                            <h5>SCHIC CERTIFICATES</h5>
+                            <h4>SCHIC CERTIFICATES</h4>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
                             <a class="btn btn-schi btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>

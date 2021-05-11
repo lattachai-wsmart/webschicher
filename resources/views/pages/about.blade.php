@@ -58,7 +58,7 @@
                         <div class="row gutters-tiny items-push js-gallery push img-fluid-100 js-gallery-enabled">
                             <div class="col-12 animated fadeIn">
                                 <div class="row justify-content-center">
-                                    <img style="width: 450px" class="img-fluid" src="{{ asset('media/photos/about/about_schic3.jpg') }}" alt="">
+                                    <img style="width: 450px" class="img-fluid" src="{{ asset('media/photos/about/about_schic3-1.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
