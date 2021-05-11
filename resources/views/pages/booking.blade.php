@@ -20,7 +20,7 @@
             </div>
             <div class="">
                 <div class="row justify-content-center">
-                    <div class="">
+                    <div>
 
                         <div class="row" id="box-show-form" >
                             <div class="col-xl-7 mb-5 text-title-left d-none d-md-block" >
