@@ -18,15 +18,15 @@
                         <div class="carousel-caption">
                             <h4>BOOK SCHIC INSPECTION</h4>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-schi btn-sm mb-1" href="{{ route('bookingins') }}">Find &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-schi btn-sm mb-1" href="{{ route('bookingins') }}">Search &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img class="img-fluid" src="media/photos/slidebar/shicher2-en.png" alt="">
                         <div class="carousel-caption">
-                            <h4>FIND CERTIFIED USEDCARS</h4>
+                            <h4>SEARCH CERTIFIED USEDCARS</h4>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-schi btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-schi btn-sm mb-1" href="#">Search &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -34,7 +34,7 @@
                         <div class="carousel-caption">
                             <h4>SCHIC CERTIFICATES</h4>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-schi btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-schi btn-sm mb-1" href="#">Search &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                             <div class="item item-2x item-rounded text-white mx-auto">
                                 <img src="{{ asset('media/photos/icons/cars.png') }}" class="imageicon96" />
                             </div>
-                            <div class="font-size-h4 font-w600 pt-3 mb-0">FIND CERTIFIED USEDCARS</div>
+                            <div class="font-size-h4 font-w600 pt-3 mb-0">SEARCH CERTIFIED USEDCARS</div>
                         </div>
                     </div>
                 </a>
