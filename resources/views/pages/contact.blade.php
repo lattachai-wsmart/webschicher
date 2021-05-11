@@ -48,7 +48,7 @@
                                 @lang('frontend.contacts.data1.row3')<br><br>
                                 {{-- <i class="fa fa-phone"></i> 02-057-1292<br> --}}
                                  <a
-                                    href="mailto:markawan@schicher.com"><i class="fa fa-envelope"></i> markawan@schicher.com</a>
+                                    href="mailto:admin@schicher.com"><i class="fa fa-envelope"></i> admin@schicher.com</a>
                             </address>
                             <address class="font-size-18 col-md-12">
                                 <div class="font-size-h4 mb-1">@lang('frontend.contacts.data2.title')</div>

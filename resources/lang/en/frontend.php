@@ -41,7 +41,7 @@ return [
         'carmodel' => 'Car Models',
         'name' => 'Name - Surname',
         'tel' => 'Tel',
-        'search' => 'Search',
+        'submit' => 'Submit',
         'finish' => 'Private & Quality',
         'pleaseselect' => '--- Please Select ---',
         'modal1' => 'Thank you for the information.',

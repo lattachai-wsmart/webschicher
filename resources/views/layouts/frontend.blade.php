@@ -82,8 +82,8 @@
                     </div>
                     <div class="dropdown d-inline-block ml-2 d-xs-none">
                         <a class="btn btn-sm btn-dual btn-rounded d-flex align-items-center"
-                            id="page-header-user-dropdown" href="javascript:void(0)">
-                            Find Certified Usedcars
+                            id="page-header-user-dropdown" href="{{ route('findqualilyusedcars') }}">
+                            Search Certified Usedcars
                         </a>
                     </div>
                     <!-- END User Dropdown -->
@@ -549,7 +549,7 @@
                             @lang('frontend.contacts.data1.row3')<br><br>
                             {{-- <i class="fa fa-phone"></i> 02-057-1292<br> --}}
                             <i class="fa fa-envelope-o"></i> <a
-                                href="mailto:markawan@schicher.com">markawan@schicher.com</a>
+                                href="mailto:admin@schicher.com"> admin@schicher.com</a>
                         </address>
                         <address class="font-size-18 col-md-3">
                             <div class="font-size-h4 mb-1">@lang('frontend.contacts.data2.title')</div>

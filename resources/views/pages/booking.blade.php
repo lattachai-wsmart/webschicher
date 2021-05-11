@@ -66,8 +66,9 @@
                                         <label class="col-lg-4" for="comment" align="left" >@lang('frontend.bookingins.note')</label>
                                         <textarea class="col-lg-8 form-control" rows="3" id="comment" name="comment"></textarea>
                                     </div>
+                                    <hr class="my-3" style="width: 97%; margin: 0px auto; border-color: #dadad3;">
                                     <div class="form-group row justify-content-center">
-                                        <button type="submit" class="btn btn-success booking-bt col-8" align="right" id="submitbooking" >@lang('frontend.bookingins.booking')</button>
+                                        <button type="submit" class="btn btn-schi booking-bt col-8" align="right" id="submitbooking" >@lang('frontend.bookingins.booking')</button>
                                     </div>
                                 </form>
                             </div>
