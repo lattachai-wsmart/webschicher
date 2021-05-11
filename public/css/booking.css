@@ -1,0 +1,40 @@
+.image-bg-bookins {
+    width: 100%;
+    max-height: 700px
+}
+
+#box-show-form {
+    position: absolute;
+    /* display: block; */
+    width: 80%;
+    left: 120px;
+    top: 50px;
+}
+
+#box-show-form .h1 {
+    font-size: 3.25rem;
+}
+
+#box-show-form .h2 {
+    font-size: 2.875rem;
+}
+
+@media (max-width: 767.98px) {
+    #box-show-form {
+        width: 90%;
+        left: 7%;
+    }
+    /* .text-title-left{
+        display: none;
+    } */
+    .show-content {
+        min-height: 90vh;
+    }
+}
+
+@media (max-width: 400.98px) {
+    #box-show-form {
+        width: 90%;
+        left: 27px;
+    }
+}

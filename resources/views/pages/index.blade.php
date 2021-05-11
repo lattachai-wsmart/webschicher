@@ -13,28 +13,28 @@
                 <div class="js-slider slick-nav-black slick-dotted-inner slick-dotted-white" data-arrows="true"
                     data-dots="true" data-autoplay="true" data-autoplay-speed="3000">
                     <div class="carousel-item">
-                        <img class="img-fluid" src="media/photos/slidebar/shicher1-en.png" alt="">
+                        <img class="img-fluid" src="media/photos/slidebar/shicher3-en-1.png" alt="">
+
                         <div class="carousel-caption">
-                            <h5>SCHIC CERTIFICATES</h5>
+                            <h5>BOOK SCHIC INSPECTION</h5>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-primary btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-schi btn-sm mb-1" href="{{ route('bookingins') }}">Find &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img class="img-fluid" src="media/photos/slidebar/shicher2-en.png" alt="">
                         <div class="carousel-caption">
-                            <h5>SCHIC CERTIFICATES</h5>
+                            <h5>FIND CERTIFIED USEDCARS</h5>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-primary btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-schi btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="img-fluid" src="media/photos/slidebar/shicher3-en.png" alt="">
-
+                        <img class="img-fluid" src="media/photos/slidebar/slide-3.png" alt="">
                         <div class="carousel-caption">
-                            <h5>BOOK SCHICINSPECTION</h5>
+                            <h5>SCHIC CERTIFICATES</h5>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-primary btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-schi btn-sm mb-1" href="#">Find &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -42,41 +42,56 @@
         </div>
 
         <div class="row justify-content-center">
+            {{-- <div class="col-lg-3">
+                <a class="block block-rounded js-appear-enabled animated bounceIn" data-class="animated bounceIn"
+                    href="{{ route('warrantynroadside') }}">
+                    <div class="block-content block-content-full block_shadow">
+                        <div class="py-5 text-center">
+                            <div class="item item-2x item-rounded  text-white mx-auto">
+                                <img src="{{ asset('media/photos/icons/warranty.png') }}" class="imageicon96" />
+                            </div>
+                            <div class="font-size-h4 font-w600 pt-3 mb-0">WARRANTY & ROADSIDE</div>
+                        </div>
+                    </div>
+                </a>
+            </div> --}}
             <div class="col-lg-3">
                 <a class="block block-rounded js-appear-enabled animated bounceIn" data-class="animated bounceIn"
-                    href="#111">
+                    href="{{ route('bookingins') }}">
                     <div class="block-content block-content-full block_shadow">
                         <div class="py-5 text-center">
                             <div class="item item-2x item-rounded  text-white mx-auto">
                                 <img src="{{ asset('media/photos/icons/book.png') }}" class="imageicon96" />
                             </div>
-                            <div class="font-size-h4 font-w600 pt-3 mb-0">BOOK SCHICINSPECTION</div>
+                            <div class="font-size-h4 font-w600 pt-3 mb-0">BOOK SCHIC INSPECTION</div>
                         </div>
                     </div>
                 </a>
             </div>
+            <div class="col-lg-1"></div>
             <div class="col-lg-3">
                 <a class="block block-rounded js-appear-enabled animated bounceIn" data-class="animated bounceIn"
-                    href="#222">
+                    href="{{ route('findqualilyusedcars') }}">
                     <div class="block-content block-content-full block_shadow">
                         <div class="py-5 text-center">
                             <div class="item item-2x item-rounded text-white mx-auto">
                                 <img src="{{ asset('media/photos/icons/cars.png') }}" class="imageicon96" />
                             </div>
-                            <div class="font-size-h4 font-w600 pt-3 mb-0">FIND QUALILY USEDCARS</div>
+                            <div class="font-size-h4 font-w600 pt-3 mb-0">FIND CERTIFIED USEDCARS</div>
                         </div>
                     </div>
                 </a>
             </div>
+            <div class="col-lg-1"></div>
             <div class="col-lg-3">
-                <a class="block block-rounded js-appear-enabled animated bounceIn" data-toggle="modal"
-                    data-class="animated bounceIn" href="javascript:void(0)" data-target="#modal-block-popin">
+                <a class="block block-rounded js-appear-enabled animated bounceIn"data-class="animated bounceIn"
+                    href="{{ route('shicertificates') }}">
                     <div class="block-content block-content-full block_shadow">
                         <div class="py-5 text-center">
                             <div class="item item-2x item-rounded text-white mx-auto">
                                 <img src="{{ asset('media/photos/icons/search.png') }}" class="imageicon96" />
                             </div>
-                            <div class="font-size-h4 font-w600 pt-3 mb-0">SCHI CERTIFICATES</div>
+                            <div class="font-size-h4 font-w600 pt-3 mb-0">SCHIC CERTIFICATES</div>
                         </div>
                     </div>
                 </a>
@@ -96,7 +111,7 @@
                                 <input type="email" class="form-control" id="schiidsearch" name="schiidsearch"
                                     placeholder="SCHI ID">
                                 <div class="input-group-append">
-                                    <button type="button" class="btn btn-primary" id="btnSearchSchi">
+                                    <button type="button" class="btn btn-schi" id="btnSearchSchi">
                                         <i class="fa fa-search mr-1"></i> Search
                                     </button>
                                 </div>
@@ -131,7 +146,7 @@
                     </div>
                     <div class="block-content block-content-full text-right border-top">
                         {{-- <button type="button" class="btn btn-alt-primary mr-1" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button> --}}
+                        <button type="button" class="btn btn-schi" data-dismiss="modal">Ok</button> --}}
                     </div>
                 </div>
             </div>
@@ -149,7 +164,7 @@
     </script>
     <script>
         jQuery('#btnSearchSchi').on('click', function() {
-            let url = "{{ request()->getSchemeAndHttpHost() }}/inspection/api/insp-link?schic_id=" + jQuery("#schiidsearch").val()
+            let url = "{{ env('URL_API') }}/inspection/api/insp-link?schic_id=" + jQuery("#schiidsearch").val()
             jQuery.ajax({
                 url,
                 "type": "GET",
@@ -170,7 +185,7 @@
                         jQuery("#showSearchContentDetail").html(text)
                         jQuery("#showSearchContentDetail2").html(data.license)
                     } else {
-                        console.log('data Else', data);
+                        // console.log('data Else', data);
                         jQuery('#showSearchContentError').html(`<div class="alert alert-light alert-dismissable col-12" role="alert">
                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                     <span aria-hidden="true">×</span>

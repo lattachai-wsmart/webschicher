@@ -20,6 +20,23 @@ Route::get('/', [FrontendController::class, "index"]);
 Route::get('change/lang/{lang}', [FrontendController::class, "lang_change"])->name('LangChange');
 Route::get('/about', [FrontendController::class, "about"])->name('about');
 Route::get('contact', [FrontendController::class, "contact"])->name('contact');
+Route::get('shicertificates', [FrontendController::class, "shicertificates"])->name('shicertificates');
+Route::get('findqualilyusedcars', [FrontendController::class, "findqualilyusedcars"])->name('findqualilyusedcars');
+Route::post('findqualilyusedcars/create', [FrontendController::class, "booking_search_cars"])->name('booking_search_cars');
+Route::get('bookins', [FrontendController::class, "bookingins"])->name('bookingins');
+Route::post('bookins/create', [FrontendController::class, "createbookingins"])->name('createbookingins');
+
+Route::get('warrantyandroadside', [FrontendController::class, "warrantynroadside"])->name('warrantynroadside');
+Route::prefix('warrantyandroadside')->name('warrantyandroadside.')->group(function () {
+    // Route::get('warrantyandroadside', [FrontendController::class, "warrantynroadside"])->name('warrantynroadside');
+    Route::get('bronze', [FrontendController::class, "bronze"])->name('bronze');
+    Route::get('silver', [FrontendController::class, "silver"])->name('silver');
+    Route::get('goldplus', [FrontendController::class, "goldplus"])->name('goldplus');
+    Route::get('autosmartstd', [FrontendController::class, "autosmartstd"])->name('autosmartstd');
+    Route::get('autosmartdm', [FrontendController::class, "autosmartdm"])->name('autosmartdm');
+    Route::get('whitecard', [FrontendController::class, "whitecard"])->name('whitecard');
+    Route::get('whitecardplus', [FrontendController::class, "whitecardplus"])->name('whitecardplus');
+});
 
 Route::prefix('service')->name('service.')->group(function () {
     Route::get('vehicleanalysis', [FrontendController::class, "vehicleanalysis"])->name('vehicleanalysis');
@@ -72,4 +89,5 @@ Route::prefix('service')->name('service.')->group(function () {
         Route::get('mts', [FrontendController::class, "mts"])->name('mts');
         Route::get('csrc', [FrontendController::class, "csrc"])->name('csrc');
     });
+
 });

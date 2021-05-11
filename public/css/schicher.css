@@ -1,16 +1,58 @@
+:root {
+    --default-color: #132d46;
+    --default-hover-color: #061f38;
+}
+
+@font-face {
+    font-family: "SukhumvitSet";
+    src: url(../fonts/sukhumvit-set/SukhumvitSet-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "AngsananewSet";
+    src: url(../fonts/angsananew-set/angsab.ttf) format("truetype");
+}
+
+.far {
+    font-weight: 400;
+}
+
+.btn-schi {
+    background-color: var(--default-color);
+    color: white;
+}
+
+.btn-schi:hover {
+    background-color: var(--default-hover-color);
+    color: white;
+}
 
 body {
-    font-family: open sans,san-serif;
+    font-family: open sans, san-serif, SukhumvitSet, AngsananewSet;
 }
+
+header {
+    border-bottom: 7px solid var(--default-color);
+}
+
+header a.btn:hover,
+header .nav-items a:hover {
+    background-color: var(--default-color);
+    color: white;
+}
+
 .content-header.schicher-header {
     height: 5rem;
 }
+
 .dropdown-menu.dropdown-menu-lg {
     min-width: 60px;
 }
+
 .content {
     padding-top: 0px;
 }
+
 .div_logo {
     /* width: 120px; */
     width: 210px;
@@ -24,54 +66,79 @@ body {
     border-bottom: none;
     border-bottom-right-radius: unset;
     border-bottom-left-radius: unset;
-    -webkit-box-shadow: 0px -5px 10px 4px rgba(216,223,227,0.74);
-    -moz-box-shadow: 0px -5px 10px 4px rgba(216,223,227,0.74);
-    box-shadow: 0px -5px 10px 4px rgba(216,223,227,0.74);
+    -webkit-box-shadow: 0px -5px 10px 4px rgba(216, 223, 227, 0.74);
+    -moz-box-shadow: 0px -5px 10px 4px rgba(216, 223, 227, 0.74);
+    box-shadow: 0px -5px 10px 4px rgba(216, 223, 227, 0.74);
 }
+
 .div_logo img {
-    width: 98%;
-    height: 98%;
+    width: 100%;
+    height: 100%;
     margin: auto;
 }
-.slidebarTop img{
-    height: 690px;
+
+.slidebarTop img {
+    /* height: 690px; */
     width: 100%;
 }
+
 .bg-schic {
-    background-color: #2c3e50;
+    background-color: var(--default-color);
 }
+
+.booking-bt {
+    background-color: var(--default-color);
+    border: var(--default-color);
+}
+
+.color-schic {
+    color: var(--default-color);
+}
+
 .nav-main-submenu .nav-main-link:hover {
-    background-color: #2c3e50;
+    background-color: var(--default-color);
     color: white !important;
 }
+
 .block_shadow {
-    -webkit-box-shadow: 0px 0px 9px 4px rgba(216,223,227,50%);
-    -moz-box-shadow: 0px 0px 9px 4px rgba(216,223,227,50%);
-    box-shadow: 0px 0px 9px 4px rgba(216,223,227,50%);
+    -webkit-box-shadow: 0px 0px 9px 4px rgba(216, 223, 227, 50%);
+    -moz-box-shadow: 0px 0px 9px 4px rgba(216, 223, 227, 50%);
+    box-shadow: 0px 0px 9px 4px rgba(216, 223, 227, 50%);
     min-height: 320px;
 }
+
 .slick-slider.slick-dotted.slick-dotted-white .slick-dots li button:before {
     color: #012c49;
 }
+
 .carousel-item {
     position: relative;
 }
+
 .carousel-caption {
     position: absolute;
     right: 85px;
     bottom: 0;
     text-align: right;
 }
+
 .imageicon96 {
     width: 96px;
     height: 96px;
 }
-main{
+
+main {
     background-color: #fff;
 }
-.img-mh-450{
+
+.img-mh-450 {
     max-height: 450px;
 }
+
 .slick-slider.slick-dotted.slick-dotted-inner .slick-dots {
     bottom: 1.625rem;
+}
+
+.block.block-rounded .block-content:last-child {
+    border-radius: 1.25rem;
 }
