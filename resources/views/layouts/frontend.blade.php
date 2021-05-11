@@ -89,20 +89,19 @@
                     <!-- END User Dropdown -->
 
                     <!-- Notifications Dropdown -->
-                    <div class="dropdown d-inline-block ml-2">
-                        <a href="javascript:void(0)" class="btn btn-sm btn-dual d-none"
-                            id="page-header-notifications-dropdown" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
+                    {{-- <div class="dropdown d-inline-block ml-2">
+                        <a href="javascript:void(0)" class="btn btn-sm btn-dual" id="page-header-notifications-dropdown"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i
                                 class="flag-icon flag-icon-{{ session()->get('locale') == 'en' ? 'us' : session()->get('locale') }}"></i>{{ strtoupper(session()->get('locale')) }}<i
                                 style="margin-top: 20px 0 0 0;" class="fa fa-sort-down ml-2"></i>
                         </a>
                         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0 border-0 font-size-sm"
-                            aria-labelledby="page-header-notifications-dropdown">
+                            aria-labelledby="page-header-notifications-dropdown"> --}}
                             {{-- <div class="p-2 bg-primary-dark text-center rounded-top">
                                     <h5 class="dropdown-header text-uppercase text-white">Notifications</h5>
                                 </div> --}}
-                            <ul class="nav-items">
+                            {{-- <ul class="nav-items">
                                 <li>
                                     <a class="dropdown-item @if (session()->get('locale') ==
                                         'th') d-none @endif"
@@ -122,14 +121,14 @@
                                             class="flag-icon flag-icon-de ml-2"></span> DE</a>
                                 </li>
 
-                            </ul>
+                            </ul> --}}
                             {{-- <div class="p-2 border-top">
                                     <a class="btn btn-sm btn-light btn-block text-center" href="javascript:void(0)">
                                         <i class="fa fa-fw fa-arrow-down mr-1"></i> Load More..
                                     </a>
                                 </div> --}}
-                        </div>
-                    </div>
+                        {{-- </div>
+                    </div> --}}
                     <!-- END Notifications Dropdown -->
                 </div>
                 <!-- END Right Section -->
