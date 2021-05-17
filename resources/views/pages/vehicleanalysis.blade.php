@@ -8,7 +8,7 @@
         <div class="bg-primary-dark-op">
             <div class="content content-full overflow-hidden">
                 <div class="mt-7 mb-5 text-center">
-                    <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.vehicleanalysis.title')</h1>
+                    <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" style="font-family:SukhumvitSet;" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.vehicleanalysis.title')</h1>
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.vehicleanalysis.pma') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/sub_01.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Periodic_Mandatory_Analysis.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Periodic_Mandatory_Analysis.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -59,7 +59,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.vehicleanalysis.eta') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/sub_02.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Emission_Tests_Analysis.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Emission_Tests_Analysis.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -70,7 +70,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.vehicleanalysis.spa') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/sub_03.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Specific_Periodic_Analysis.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Specific_Periodic_Analysis.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -83,7 +83,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.vehicleanalysis.mea') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/sub_04.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Mandatory_Export_Analysis.title') </h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Mandatory_Export_Analysis.title') </h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -94,7 +94,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.vehicleanalysis.rsa') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/sub_05.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Road_Safety_Analysis.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Road_Safety_Analysis.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -105,7 +105,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.vehicleanalysis.cva') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/sub_06.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Contract_Vehicle_Analysis.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Contract_Vehicle_Analysis.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -118,7 +118,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.vehicleanalysis.pvia') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/sub_07.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Preowned_Vehicle_Inspection_Analysis.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Preowned_Vehicle_Inspection_Analysis.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -129,7 +129,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.vehicleanalysis.avia') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/sub_08.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Auction_Vehicle_Inspection_Analysis.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Auction_Vehicle_Inspection_Analysis.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -140,7 +140,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.vehicleanalysis.avia') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/sub_08.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Auction_Vehicle_Inspection_Analysis.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Auction_Vehicle_Inspection_Analysis.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}

@@ -34,15 +34,15 @@
 
                     <div class="row" id="box-show-form" >
                         <div class="col-xl-7 mb-5 text-title-left d-none d-md-block" >
-                            <Text class="text-white h2 " style="font-size:40px; font-family:SukhumvitSet;  letter-spacing: 3px;  text-shadow: 2px 2px black;">ค้นหารถคุณภาพดี </Text><br/>
-                            <Text class="text-white h2" style="font-size:40px; font-family:SukhumvitSet; letter-spacing:3px; text-shadow: 2px 2px black;"> ที่ได้รับการการันตีจาก</Text><br/>
+                            <Text class="text-white h2 " style="font-size:45px; font-family:SukhumvitSet;  letter-spacing: 3px;  text-shadow: 2px 2px black; line-height: 2.5;">ค้นหารถคุณภาพดี </Text><br/>
+                            <Text class="text-white h2" style="font-size:45px; font-family:SukhumvitSet; letter-spacing:3px; text-shadow: 2px 2px black;"> ที่ได้รับการการันตีจาก</Text><br/>
                             <Text class="text-white h1" style="font-size:80px; font-family:AngsananewSet; font-weight: 200;   text-shadow: 2px 2px black;">S C H I C H </Text> <Text class="h1" style="color:#FDCC01; font-size:80px; font-family:AngsananewSet; text-shadow: 2px 2px black;">E R</Text><br/>
                         </div>
                         <div class="col-xl-5 box-form bg-white rounded">
                             <form action="{{ route('booking_search_cars') }}" method='post' class="col-12" id="search_cars">
                                 @csrf
                                 <div class="row justify-content-center mt-3">
-                                    <h6>
+                                    <h6  style="font-family:SukhumvitSet">
                                         @lang('frontend.findqualily.title')
                                     </h6>
                                 </div>
@@ -74,7 +74,7 @@
                                 <hr class="my-3" style="width: 97%; margin: 0px auto; border-color: #dadad3;">
         
                                 <div class="form-group row justify-content-center">
-                                    <button type="submit" class="btn btn-schi booking-bt col-8" align="right" id="submitbooking" >@lang('frontend.findqualily.submit')</button>
+                                    <button  style="font-family:SukhumvitSet" type="submit" class="btn btn-schi booking-bt col-8" align="right" id="submitbooking" >@lang('frontend.findqualily.submit')</button>
                                 </div>
  
                             </form>

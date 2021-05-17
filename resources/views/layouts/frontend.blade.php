@@ -75,13 +75,13 @@
                 <div class="d-flex align-items-center font-size-sm">
                     <!-- User Dropdown -->
                     <div class="dropdown d-inline-block d-xs-none">
-                        <a class="btn btn-sm btn-dual btn-rounded d-flex align-items-center"
+                        <a style="font-family:SukhumvitSet;" class="btn btn-sm btn-dual btn-rounded d-flex align-items-center"
                             id="page-header-user-dropdown" href="{{ route('bookingins') }}">
                             Book Inspection
                         </a>
                     </div>
                     <div class="dropdown d-inline-block ml-2 d-xs-none">
-                        <a class="btn btn-sm btn-dual btn-rounded d-flex align-items-center"
+                        <a style="font-family:SukhumvitSet;" class="btn btn-sm btn-dual btn-rounded d-flex align-items-center"
                             id="page-header-user-dropdown" href="{{ route('findqualilyusedcars') }}">
                             Search Certified Usedcars
                         </a>
@@ -538,31 +538,77 @@
         <!-- END Main Container -->
 
         <!-- Footer -->
-        <footer id="page-footer" class="bg-body-light">
-            <div class="content py-3 bg-schic">
+        <footer id="page-footer" class=" bg-body-light display-flex">                 
+            <div class="content-full py-3 bg-schic justify-content-center ">
                 <div class="row font-size-sm ">
                     <div class="block-content row text-light justify-content-center">
-                        <address class="font-size-18 col-md-3">
-                            <div class="font-size-h4 mb-1">@lang('frontend.contacts.data1.title')</div>
+                        <div class="col-md-1"></div>
+                        <address class="font-size-18 col-md-2" >
+                            {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data1.title')</div>
                             @lang('frontend.contacts.data1.row1')<br>
                             @lang('frontend.contacts.data1.row2')<br>
-                            @lang('frontend.contacts.data1.row3')<br><br>
-                            {{-- <i class="fa fa-phone"></i> 02-057-1292<br> --}}
-                            <i class="fa fa-envelope-o"></i> <a
-                                href="mailto:admin@schicher.com"> admin@schicher.com</a>
+                            @lang('frontend.contacts.data1.row3')<br><br> --}}
+
+                            <div class="font-size-h4 mb-1" >เกี่ยวกับ Schicher</div>
+                            <a style="color: white;" href="{{ route('about') }}">เกี่ยวกับเรา</a><br>
+                            <a style="color: white;" href="#">งานและอาชีพ</a><br>
+                            <a style="color: white;" href="#">PRESS</a><br>
+                            <br>
+                            <a target="_blank" href="https://www.facebook.com/schicinspection/"><i style="color: white" class="fab fa-facebook-square fa-2x" ></i></a>
+                            {{-- <i class="fa fa-envelope-o"></i> <a
+                                href="mailto:admin@schicher.com"> admin@schicher.com</a> --}}
                         </address>
+
                         <address class="font-size-18 col-md-3">
-                            <div class="font-size-h4 mb-1">@lang('frontend.contacts.data2.title')</div>
+                            {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data2.title')</div>
                             @lang('frontend.contacts.data2.row1')<br>
-                            @lang('frontend.contacts.data2.row2')​<br><br>
-                            {{-- <i class="fa fa-phone"></i> 02-057-1292<br> --}}
-                            {{-- <i class="fa fa-envelope-o"></i> <a href="mailto:markawan@schicher.com">markawan@schicher.com</a> --}}
+                            @lang('frontend.contacts.data2.row2')​<br><br> --}}
+                            <div class="font-size-h4 mb-1">บริการ</div>
+                            <a style="color: white;" href="{{ route('service.vehicleanalysis') }}">วิเคราะห์สภาพรถยนต์</a><br>
+                            <a style="color: white;" href="{{ route('service.claimsappraisal') }}">ด้านการเคลมและการประเมิน</a><br>
+                            <a style="color: white;" href="{{ route('service.vehiclemanageserv') }}">ด้านการช่วยเหลือบริหารจัดการรถยนต์</a><br>
+                            <a style="color: white;" href="{{ route('service.dealershipcer') }}">รับรองและการตรวจสอบตัวแทนจำหน่าย</a><br>
+                            <a style="color: white;" href="{{ route('service.dealershiptra') }}">ฝึกอบรมคุณสมบัติของตัวแทนจำหน่าย</a><br>
                         </address>
+
                         <address class="font-size-18 col-md-3">
-                            <div class="font-size-h4 mb-1">@lang('frontend.contacts.data3.title')</div>
+                            {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data3.title')</div>
                             @lang('frontend.contacts.data3.row1')<br><br>
-                            <a href="tel:020571292"><i class="fa fa-phone"></i> 02-057-1292</a><br>
-                            {{-- <i class="fa fa-envelope-o"></i> <a href="mailto:markawan@schicher.com">markawan@schicher.com</a> --}}
+                            <a href="tel:020571292"><i class="fa fa-phone"></i> 02-057-1292</a><br> --}}
+                            <div class="font-size-h4 mb-1">บริการแนะนำ</div>
+                            {{-- <a style="color: white;" href="">คุ้มครองชิ้นส่วนอะไหล่และช่วยเหลือฉุกเฉินบนท้องถนน</a><br> --}}
+                            <a style="color: white;" href="">จองตรวจรถกับ Schicher</a><br>
+                            <a style="color: white;" href="">ค้นหารถที่ได้รับการรับรองจาก Schicher</a><br>
+                            <a style="color: white;" href="">ค้นหารายงานการตรวจรถ</a><br>
+                        </address>
+
+                        <address class="font-size-18 col-md-3">
+                            {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data3.title')</div>
+                            @lang('frontend.contacts.data3.row1')<br><br>
+                            <a href="tel:020571292"><i class="fa fa-phone"></i> 02-057-1292</a><br> --}}
+                            <div class="font-size-h4 mb-1">ติดต่อเรา</div>
+                            <span style="color: white;">
+                                <i class="fa fa-home"></i>&nbsp;&nbsp;1168 ถนนพระราม 9
+                                เขตสวนหลวง
+                            </span><br>
+                            <span>แขวงสวนหลวง กรุงเทพมหานคร 10250</span><br>
+
+                            <span style="color: white;">
+                                <i class="fa fa-envelope"></i>
+                                <a style="color: white;" href="mailto:admin@schicher.com">&nbsp;&nbsp;admin@schicher.com</a>
+                            </span><br>
+
+                            <span style="color: white;">
+                                <i class="far fa-calendar-alt">&nbsp;&nbsp; วันจันทร์ - ศุกร์</i>
+                            </span><br>
+
+                            <span style="color: white;">
+                                <i class="fas fa-clock"></i>&nbsp;&nbsp; 10.00 - 19.00 น.​
+                            </span><br>
+
+                            <span style="color: white;">
+                                <a style="color: white;" href="tel:020571292"><i class="fa fa-phone"></i>&nbsp;&nbsp; 02-057-1292 (ตลอด 24 ชั่วโมง)</a><br>
+                            </span>
                         </address>
                     </div>
                 </div>

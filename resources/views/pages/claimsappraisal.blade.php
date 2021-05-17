@@ -8,7 +8,7 @@
         <div class="bg-primary-dark-op">
             <div class="content content-full overflow-hidden">
                 <div class="mt-7 mb-5 text-center">
-                    <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear"
+                    <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" style="font-family:SukhumvitSet;" 
                         data-class="animated fadeInDown">@lang('frontend.claimsappraisal.title')</h1>
                 </div>
             </div>
@@ -47,7 +47,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.claimsappraisal.ach') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/02_01.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Automotive_Claims_Handling.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Automotive_Claims_Handling.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -59,7 +59,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.claimsappraisal.tpas') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/02_02.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Third_Party_Administration_Service.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Third_Party_Administration_Service.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -71,7 +71,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.claimsappraisal.aas') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/02_03.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Accident_Appraisal_Services.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Accident_Appraisal_Services.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -85,7 +85,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.claimsappraisal.ba') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/02_04.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Bodyshop_Appraisal.title') </h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Bodyshop_Appraisal.title') </h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -97,7 +97,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.claimsappraisal.ga') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Garage_Appraisal.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Garage_Appraisal.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
