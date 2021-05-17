@@ -30,18 +30,18 @@
             <div class="row col-12">
                 <div class="form-group col-md-6">
                     <div class="row col-11" style="justify-content: center;">
-                        <h1>Inspection Report</h1><br>
+                        <h1 style="font-family:SukhumvitSet;">Inspection Report</h1><br>
                     </div>
                     <div class="row col-12" style="justify-content: center;">
                         <div class="row col-12" style="justify-content: center;">
-                            <h5>ทำไมต้องวิเคราะห์สภาพรถยนต์กับ SCHICHER</h5><br>
+                            <h4 style="font-family:SukhumvitSet;">ทำไมต้องวิเคราะห์สภาพรถยนต์กับ SCHICHER</h5><br>
                         </div>
                         <ul>
-                            <li>นำส่งรายงานการตรวจรถยนต์ด้วยระบบ QR Code</li>
-                            <li>ตรวจสอบคุณภาพรถด้วยผู้ตรวจมากประสบการณ์จาก TUV มาตรฐาน Germany</li>
-                            <li>การประเมินระบบภายในด้วยเทคโนโลยีระดับสากล</li>
-                            <li>ตรวจสอบอย่างละเอียด เป็นกลาง เชี่ยวชาญ เชื่อถือได้</li> 
-                            <li>บริการให้คำปรึกษาผ่าน Call Center ตลอด 24 ชั่วโมง</li> 
+                            <li style="font-family:SukhumvitSet;">นำส่งรายงานการตรวจรถยนต์ด้วยระบบ QR Code</li>
+                            <li style="font-family:SukhumvitSet;">ตรวจสอบคุณภาพรถด้วยผู้ตรวจมากประสบการณ์จาก TUV มาตรฐาน Germany</li>
+                            <li style="font-family:SukhumvitSet;">การประเมินระบบภายในด้วยเทคโนโลยีระดับสากล</li>
+                            <li style="font-family:SukhumvitSet;">ตรวจสอบอย่างละเอียด เป็นกลาง เชี่ยวชาญ เชื่อถือได้</li> 
+                            <li style="font-family:SukhumvitSet;">บริการให้คำปรึกษาผ่าน Call Center ตลอด 24 ชั่วโมง</li> 
                         </ul>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                         <input type="email" class="form-control" id="schiidsearch" name="schiidsearch"
                             placeholder="SCHI ID">
                         <div class="input-group-append">
-                            <button type="button" class="btn btn-primary" id="btnSearchSchi">
+                            <button type="button" class="btn btn-primary" id="btnSearchSchi" style="font-family:SukhumvitSet;">
                                 <i class="fa fa-search mr-1"></i> Search
                             </button>
                         </div>
