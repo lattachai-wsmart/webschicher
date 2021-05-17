@@ -26,7 +26,7 @@
         <div class="block-content font-size-sm">
             <div class="row col-12">
                 {{-- <div class="form-group col-md-4"></div> --}}
-                <div class="form-group col-md-6">
+                {{-- <div class="form-group col-md-6">
                     <div class="row col-11" style="justify-content: left;">
                         <h1 style="font-family:SukhumvitSet;">1. ผู้จัดการฝ่ายตรวจสอบรถยนต์</h1><br>
                     </div>
@@ -90,12 +90,12 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <br>
             <div class="row col-12">
                 <div class="form-group col-md-6">
                     <div class="row col-11" style="justify-content: left;">
-                        <h1 style="font-family:SukhumvitSet;">2. เจ้าหน้าที่ตรวจสอบรถยนต์</h1><br>
+                        <h1 style="font-family:SukhumvitSet;">เจ้าหน้าที่ตรวจสอบรถยนต์ (1 อัตรา)</h1><br>
                     </div>
                     <div class="row col-12" style="justify-content: left;">
                         <div class="row col-12" style="justify-content: left;">
