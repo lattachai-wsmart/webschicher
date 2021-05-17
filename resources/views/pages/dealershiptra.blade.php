@@ -8,7 +8,7 @@
         <div class="bg-primary-dark-op">
             <div class="content content-full overflow-hidden">
                 <div class="mt-7 mb-5 text-center">
-                    <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.Dealership_Training_Qualification.title')</h1>
+                    <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown" style="font-family:SukhumvitSet;" >@lang('frontend.Dealership_Training_Qualification.title')</h1>
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.dealershiptra.pcs') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/sub_01.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Personnel_Certificate_Services.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Personnel_Certificate_Services.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -52,7 +52,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.dealershiptra.stq') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/03_09.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Sales_Training_Qualification.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Sales_Training_Qualification.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -64,7 +64,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.dealershiptra.itq') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Inspectors_Training_Qualification.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Inspectors_Training_Qualification.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -79,7 +79,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.dealershiptra.saptq') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/05.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Systems_and_Process_Training_Qualification.title') </h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Systems_and_Process_Training_Qualification.title') </h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -91,7 +91,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.dealershiptra.ltq') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Leadership_Training_Qualification.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Leadership_Training_Qualification.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -103,7 +103,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.dealershiptra.mts') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/02_05.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Managed_Training_Services.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Managed_Training_Services.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -117,7 +117,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.dealershiptra.csrc') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/02_04.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.CSR_Compliance.title') </h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.CSR_Compliance.title') </h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}

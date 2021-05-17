@@ -33,7 +33,7 @@
                                 <form action="{{ route('createbookingins') }}" method='post' class="col-12" id="bookingins">
                                     @csrf
                                     <div class="row justify-content-center mt-3">
-                                        <h6>
+                                        <h6 style="font-family:SukhumvitSet">
                                             @lang('frontend.bookingins.filldetail')
                                         </h6>
                                     </div>
@@ -68,7 +68,7 @@
                                     </div>
                                     <hr class="my-3" style="width: 97%; margin: 0px auto; border-color: #dadad3;">
                                     <div class="form-group row justify-content-center">
-                                        <button type="submit" class="btn btn-schi booking-bt col-8" align="right" id="submitbooking" >@lang('frontend.bookingins.booking')</button>
+                                        <button type="submit" style="font-family:SukhumvitSet" class="btn btn-schi booking-bt col-8" align="right" id="submitbooking" >@lang('frontend.bookingins.booking')</button>
                                     </div>
                                 </form>
                             </div>
@@ -104,7 +104,7 @@
                         jQuery('#brand').select2();
                     });
                 }
-        }
+            }
     })
 
     jQuery('#brand').on('change', function(e){
@@ -115,7 +115,6 @@
         jQuery.ajax({
         url: "{{  env('URL_API')  }}/api/cars/models/"+id,
         success: function(data){
-
                 if(data){
                     const select = jQuery('#carmodel');
                     select.find("option").remove();
@@ -127,14 +126,14 @@
                         jQuery('#carmodel').select2();
                     });
                 }
-        }
-    })
+            }
+        })
     }
 
     function sendSuccess(){
         Swal.fire({
             title: `
-            <h3 class="color-schic">
+            <h3 class="color-schic" style="font-family:SukhumvitSet">
                 @lang('frontend.bookingins.modal1')
             </h3>`,
             // icon: 'success',
@@ -150,7 +149,7 @@
             showCancelButton: false,
             // focusConfirm: true,
             confirmButtonText:
-                `<div>@lang('frontend.bookingins.modal4')</div>`,
+                `<div style="font-family:SukhumvitSet">@lang('frontend.bookingins.modal4')</div>`,
             confirmButtonAriaLabel: 'กลับสู่หน้าหลัก',
         })
     }

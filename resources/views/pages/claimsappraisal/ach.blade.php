@@ -8,7 +8,7 @@
         <div class="bg-primary-dark-op">
             <div class="content content-full overflow-hidden">
                 <div class="mt-7 mb-5 text-center">
-                    <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.Automotive_Claims_Handling.title')</h1>
+                    <h1 style="font-family:SukhumvitSet;" class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.Automotive_Claims_Handling.title')</h1>
                 </div>
             </div>
         </div>
@@ -32,13 +32,13 @@
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Automotive_Claims_Handling.content')
                             </p>
                             {{-- <div class="row"><strong >@lang('frontend.Automotive_Claims_Handling.list.title')</strong></div> --}}
-                            <div class="row col-12">
+                            {{-- <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.Automotive_Claims_Handling.list.1')</li>
                                     <li>@lang('frontend.Automotive_Claims_Handling.list.2')</li>
                                     <li>@lang('frontend.Automotive_Claims_Handling.list.3')</li>
                                 </ol>
-                            </div>
+                            </div> --}}
                         </div>
                         </article>
                     </div>
