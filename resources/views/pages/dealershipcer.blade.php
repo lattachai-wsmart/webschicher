@@ -8,7 +8,7 @@
         <div class="bg-primary-dark-op">
             <div class="content content-full overflow-hidden">
                 <div class="mt-7 mb-5 text-center">
-                    <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.Dealership_Certification_Auditing.title')</h1>
+                    <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" style="font-family:SukhumvitSet;" data-class="animated fadeInDown">@lang('frontend.Dealership_Certification_Auditing.title')</h1>
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.dealershipcer.dpvia') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/sub_01.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}
@@ -52,7 +52,7 @@
                         <a class="block block-rounded block-link-pop" href="{{ route('service.dealershipcer.dqsa') }}">
                             <img class="img-fluid" src="{{ asset('media/photos/services/sub_02.jpg') }}" alt="">
                             <div class="block-content">
-                                <h4 class="mb-1">@lang('frontend.Dealership_Quality_Standard_Assessment.title')</h4>
+                                <h4 style="font-family:SukhumvitSet;" class="mb-1">@lang('frontend.Dealership_Quality_Standard_Assessment.title')</h4>
                                 {{-- <p class="font-size-sm">
                                     <span class="text-primary">Carl Wells</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                                 </p> --}}

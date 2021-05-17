@@ -8,7 +8,7 @@
         <div class="bg-primary-dark-op">
             <div class="content content-full overflow-hidden">
                 <div class="mt-7 mb-5 text-center">
-                    <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.Emission_Tests_Analysis.title')</h1>
+                    <h1 style="font-family:SukhumvitSet;" class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.Emission_Tests_Analysis.title')</h1>
                 </div>
             </div>
         </div>
@@ -35,12 +35,12 @@
                             <p class="">
                                 &nbsp; &nbsp; &nbsp; <strong>@lang('frontend.Emission_Tests_Analysis.Scicher')</strong> @lang('frontend.Emission_Tests_Analysis.content1')
                             </p>
-                            <p class="">
+                            {{-- <p class="">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Emission_Tests_Analysis.content2')
                             </p>
                             <p class="">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Emission_Tests_Analysis.content3')
-                            </p>
+                            </p> --}}
                         </div>
                         </article>
                     </div>

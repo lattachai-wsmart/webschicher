@@ -8,7 +8,7 @@
         <div class="bg-primary-dark-op">
             <div class="content content-full overflow-hidden">
                 <div class="mt-7 mb-5 text-center">
-                    <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.about.title')</h1>
+                    <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" style="font-family:SukhumvitSet;" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.about.title')</h1>
                 </div>
             </div>
         </div>

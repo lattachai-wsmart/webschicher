@@ -13,6 +13,15 @@
                 <div class="js-slider slick-nav-black slick-dotted-inner slick-dotted-white" data-arrows="true"
                     data-dots="true" data-autoplay="true" data-autoplay-speed="3000">
                     <div class="carousel-item">
+                        <img class="img-fluid" src="media/photos/slidebar/shicher0-en.png" alt="">
+
+                        <div class="carousel-caption">
+                            <h4>ABOUT SCHIC INSPECTION</h4>
+                            {{-- <div class="textSlide">&nbsp;</div> --}}
+                            <a class="btn btn-schi btn-sm mb-1" href="{{ route('service.vehicleanalysis') }}">Search &nbsp; <i class="fa fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
                         <img class="img-fluid" src="media/photos/slidebar/shicher1-en.png" alt="">
 
                         <div class="carousel-caption">
@@ -26,7 +35,7 @@
                         <div class="carousel-caption">
                             <h4>SEARCH CERTIFIED USEDCARS</h4>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-schi btn-sm mb-1" href="#">Search &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-schi btn-sm mb-1" href="{{ route('findqualilyusedcars') }}">Search &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -34,7 +43,7 @@
                         <div class="carousel-caption">
                             <h4>SCHIC CERTIFICATES</h4>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-schi btn-sm mb-1" href="#">Search &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-schi btn-sm mb-1" href="{{ route('shicertificates') }}">Search &nbsp; <i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                 </div>
