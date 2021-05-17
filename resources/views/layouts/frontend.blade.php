@@ -597,7 +597,7 @@
                             </span><br>
 
                             <span style="color: white;">
-                                <i class="far fa-calendar-alt">&nbsp;&nbsp; วันจันทร์ - ศุกร์</i>
+                                <i class="far fa-calendar-alt"><span style="font-family:SukhumvitSet;"> &nbsp; &nbsp; วันจันทร์ - ศุกร์</span></i>
                             </span><br>
 
                             <span style="color: white;">
