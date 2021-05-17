@@ -367,6 +367,7 @@ class FrontendController extends Controller
 
     public function booking_search_cars(Request $request)
     {
+        
         // $validator = Validator::make($request->all(), [
         //     'name' => 'required | string',
         //     'tel' => 'required | numeric',
@@ -378,10 +379,10 @@ class FrontendController extends Controller
         //     return back()->withError($validator)->withInput();
         // }
 
-        // return $request;
+       
         $curl = curl_init();
         curl_setopt_array($curl, [
-            CURLOPT_URL => env('URL_API').'/api/bookinginsx',
+            CURLOPT_URL => env('URL_API').'/api/search_cars',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
@@ -392,7 +393,7 @@ class FrontendController extends Controller
                 'name' => $request->input('name'),
                 'tel' => $request->input('tel'),
                 'car_brand_id' => $request->input('brand'),
-                'car_model_id' => $request->input('model'),
+                'car_model_id' => $request->input('carmodel'),
             ]),
             CURLOPT_HTTPHEADER => [
                 'accept: */*',
@@ -404,6 +405,7 @@ class FrontendController extends Controller
         $response = curl_exec($curl);
         $err = curl_error($curl);
 
+        // return $response;
         curl_close($curl);
 
         if ($err) {
