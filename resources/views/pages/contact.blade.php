@@ -91,12 +91,12 @@
                                 </div>   
                                     <a href="mailto:admin@schicher.com"><i class="fa fa-envelope"></i>&nbsp; admin@schicher.com</a>
                             </address>
-                            <address class="font-size-18 col-md-12">
+                            {{-- <address class="font-size-18 col-md-12">
                                 <div class="font-size-h4 mb-1">
                                     ติดตามเรา
                                 </div>   
                                     <a target="_blank" href="https://www.facebook.com/schicinspection/">https://www.facebook.com/schicinspection/</a>
-                            </address>
+                            </address> --}}
                         </div>    
                     </div>
                 </div>
