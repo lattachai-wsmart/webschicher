@@ -456,4 +456,9 @@ class FrontendController extends Controller
     {
         return view('pages.warranty.whitecardplus')->with('header', $this->header);
     }
+
+    public function jobandcareer()
+    {
+        return view('pages/jobandcareer')->with('header', $this->header);
+    }
 }

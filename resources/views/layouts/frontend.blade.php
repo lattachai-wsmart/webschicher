@@ -52,7 +52,6 @@
     <!-- Scripts -->
     <script>
         window.Laravel = {!! json_encode(['csrfToken' => csrf_token()]) !!};
-
     </script>
 </head>
 
@@ -449,19 +448,18 @@
                                     </ul>
                                 </li>
                                 <li class="nav-main-item">
-                                    <a class="nav-main-link " data-toggle="submenu" aria-haspopup="true"
-                                        aria-expanded="false" href="#">
+                                    <a class="nav-main-link" href="{{ route('jobandcareer') }}">
                                         {{-- <i class="nav-main-link-icon fa fa-money-bill-wave"></i> --}}
                                         <span class="nav-main-link-name">@lang('frontend.menu.job_careers')</span>
                                     </a>
 
                                 </li>
-                                <li class="nav-main-item">
+                                {{-- <li class="nav-main-item">
                                     <a class="nav-main-link" data-toggle="submenu" aria-haspopup="true"
                                         aria-expanded="false" href="#">
-                                        {{-- <i class="nav-main-link-icon fa fa-globe-americas"></i> --}}
+                                        <i class="nav-main-link-icon fa fa-globe-americas"></i>
                                         <span class="nav-main-link-name">@lang('frontend.menu.presas')</span>
-                                    </a>
+                                    </a> --}}
                                     {{-- <ul class="nav-main-submenu">
                                 <li class="nav-main-item">
                                     <a class="nav-main-link" href="javascript:void(0)">
@@ -494,7 +492,7 @@
                                     </a>
                                 </li>
                             </ul> --}}
-                                </li>
+                                {{-- </li> --}}
                                 <li class="nav-main-heading">Personal</li>
                                 <li class="nav-main-item">
                                     <a class="nav-main-link " aria-haspopup="true" aria-expanded="false"
@@ -551,8 +549,8 @@
 
                             <div class="font-size-h4 mb-1" >เกี่ยวกับ Schicher</div>
                             <a style="color: white;" href="{{ route('about') }}">เกี่ยวกับเรา</a><br>
-                            <a style="color: white;" href="#">งานและอาชีพ</a><br>
-                            <a style="color: white;" href="#">PRESS</a><br>
+                            <a style="color: white;" href="{{ route('jobandcareer') }}">งานและอาชีพ</a><br>
+                            {{-- <a style="color: white;" href="#">PRESS</a><br> --}}
                             <br>
                             <a target="_blank" href="https://www.facebook.com/schicinspection/"><i style="color: white" class="fab fa-facebook-square fa-2x" ></i></a>
                             {{-- <i class="fa fa-envelope-o"></i> <a

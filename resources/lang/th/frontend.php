@@ -15,6 +15,9 @@ return [
         'presas' => 'PRESS',
         'contact_us' => 'ติดต่อเรา',
     ],
+    'shicertificates' => [
+        'title' => 'SHCI CERTIFICATES',
+    ],
     'contacts' => [
         'data1' => [
             'title' => 'สำนักงานใหญ่',
