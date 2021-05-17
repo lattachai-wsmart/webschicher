@@ -25,6 +25,7 @@ Route::get('findqualilyusedcars', [FrontendController::class, "findqualilyusedca
 Route::post('findqualilyusedcars/create', [FrontendController::class, "booking_search_cars"])->name('booking_search_cars');
 Route::get('bookins', [FrontendController::class, "bookingins"])->name('bookingins');
 Route::post('bookins/create', [FrontendController::class, "createbookingins"])->name('createbookingins');
+Route::get('jobandcareer', [FrontendController::class, "jobandcareer"])->name('jobandcareer');
 
 Route::get('warrantyandroadside', [FrontendController::class, "warrantynroadside"])->name('warrantynroadside');
 Route::prefix('warrantyandroadside')->name('warrantyandroadside.')->group(function () {
