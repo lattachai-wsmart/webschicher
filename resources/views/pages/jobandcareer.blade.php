@@ -26,7 +26,7 @@
         <div class="block-content font-size-sm">
             <div class="row col-12">
                 {{-- <div class="form-group col-md-4"></div> --}}
-                {{-- <div class="form-group col-md-6">
+                <div class="form-group col-md-6">
                     <div class="row col-11" style="justify-content: left;">
                         <h1 style="font-family:SukhumvitSet;">1. ผู้จัดการฝ่ายตรวจสอบรถยนต์</h1><br>
                     </div>
@@ -90,12 +90,69 @@
                         </ul>
                     </div>
                 </div>
-            </div> --}}
+
+                <div class="form-group col-md-6">
+                    <div class="col-xl-10 box-form bg-white rounded">
+                        <form action="" method='post' class="col-12" id="bookingins">
+                            @csrf
+                            <div class="row col-11" style="justify-content: left;">
+                                <h1 style="font-family:SukhumvitSet;">กรอกแบบฟอร์มเพื่อสมัครงาน</h1><br>
+                            </div>
+                            <div class="row mt-2">
+                                <label class="col-lg-4" for="position" align="left" >เลือกตำแหน่งที่ต้องการ</label>
+                                <select class="col-lg-4 form-control form-control-sm form-border" name="position" id="position" required>
+                                    <option value="">@lang('frontend.bookingins.plzselect')</option>
+                                    <option value="">ผู้จัดการฝ่ายตรวจสอบรถยนต์</option>
+                                    <option value="">เจ้าหน้าที่ตรวจสอบรถยนต์</option>
+                                </select>
+                            </div>
+                            <div class="row mt-2">
+                                <label class="col-lg-4" for="salary" align="left">เงินเดือนที่คาดหวัง</label>
+                                <input class="col-lg-4 form-control form-control-sm form-border" type="number" name="salary" id="salary" required>
+                            </div>
+                            <div class="row mt-2">
+                                <label class="col-lg-4" for="firstname" align="left">ชื่อ</label>
+                                <input class="col-lg-4 form-control form-control-sm form-border" type="text" name="firstname" id="firstname" required>
+                            </div>
+                            <div class="row mt-2">
+                                <label class="col-lg-4" for="lastname" align="left">นามสกุล</label>
+                                <input class="col-lg-4 form-control form-control-sm form-border" type="text" name="lastname" id="lastname" required>
+                            </div>
+                            <div class="row mt-2">
+                                <label class="col-lg-4" for="email" align="left">อีเมล์</label>
+                                <input class="col-lg-4 form-control form-control-sm form-border" type="email" name="email" id="email" required>
+                            </div>
+                            <div class="row mt-2">
+                                <label class="col-lg-4" for="tel" align="left">เบอร์ติดต่อ</label>
+                                <input class="col-lg-4 form-control form-control-sm form-border" type="tel" name="tel" id="tel" required>
+                            </div>
+                            <div class="row mt-2">
+                                <label class="col-lg-4" for="address" align="left">ที่อยู่</label>
+                                <input class="col-lg-4 form-control form-control-sm form-border" type="text" name="address" id="address" required>
+                            </div>
+                            <div class="row mt-2">
+                                <label class="col-lg-4" for="date" align="left" >วันที่สะดวกนัดสัมภาษณ์</label>
+                                <input class="col-lg-4 form-control js-flatpickr" type="date" name="date" id="date" required>
+                            </div>
+
+                            <div class="row mt-2">
+                                <label class="col-lg-4 " for="salary" align="left">ประวัติส่วนตัว (file .pdf)</label>
+                                <input class="col-lg-4 form-control form-control-sm form-border" style="height: 37px;" type="file" name="salary" id="salary" required>
+                            </div>
+
+                            <hr class="my-3" style="width: 80%; margin: 0px auto; border-color: #dadad3;">
+                            <div class="form-group row justify-content-center">
+                                <button type="submit" style="font-family:SukhumvitSet" class="btn btn-schi booking-bt col-4" align="right" id="submitbooking" >ส่งใบสมัคร</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
             <br>
             <div class="row col-12">
                 <div class="form-group col-md-6">
                     <div class="row col-11" style="justify-content: left;">
-                        <h1 style="font-family:SukhumvitSet;">เจ้าหน้าที่ตรวจสอบรถยนต์ (1 อัตรา)</h1><br>
+                        <h1 style="font-family:SukhumvitSet;">2. เจ้าหน้าที่ตรวจสอบรถยนต์ (1 อัตรา)</h1><br>
                     </div>
                     <div class="row col-12" style="justify-content: left;">
                         <div class="row col-12" style="justify-content: left;">
