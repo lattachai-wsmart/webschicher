@@ -21,7 +21,6 @@
             <div class="">
                 <div class="row justify-content-center">
                     <div>
-
                         <div class="row" id="box-show-form" >
                             <div class="col-xl-7 mb-5 text-title-left d-none d-md-block" >
                                 <Text class="text-white h2 " style="font-size:40px; font-family:SukhumvitSet;  letter-spacing: 3px;   text-shadow: 2px 2px black;">ตรวจสภาพรถยนต์กับ</Text><br/>
