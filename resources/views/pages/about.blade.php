@@ -39,9 +39,9 @@
                             </p>
                         </div>
                         <div class="row gutters-tiny items-push js-gallery push img-fluid-100 js-gallery-enabled">
-                            <div class="col-12 animated fadeIn">
+                            <div class="col-12 animated fadeIn d-flex justify-content-center">
                                 <div class="">
-                                    <img class="img-fluid" src="{{ asset('media/photos/about/about_schic2.jpg') }}" alt="">
+                                    <img class="img-mh-450" src="{{ asset('media/photos/about/about_schic2.jpg') }}" alt="">
                                 </div>
                             </div>
                         </div>
