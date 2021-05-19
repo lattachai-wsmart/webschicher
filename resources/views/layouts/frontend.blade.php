@@ -549,10 +549,10 @@
 
                             <div class="font-size-h4 mb-1" >เกี่ยวกับ Schicher</div>
                             <a style="color: white;" href="{{ route('about') }}">เกี่ยวกับเรา</a><br>
-                            <a style="color: white;" href="{{ route('jobandcareer') }}">งานและอาชีพ</a><br>
+                            <a style="color: white;" href="{{ route('jobandcareer') }}">ร่วมงานกับเรา</a><br>
                             {{-- <a style="color: white;" href="#">PRESS</a><br> --}}
                             <br>
-                            <a target="_blank" href="https://www.facebook.com/schicinspection/"><i style="color: white" class="fab fa-facebook-square fa-2x" ></i></a>
+                            <a target="_blank" href="https://www.facebook.com/schicinspection/"><i style="color: white" class="fab fa-2x fa-facebook-square" ></i></a>
                             {{-- <i class="fa fa-envelope-o"></i> <a
                                 href="mailto:admin@schicher.com"> admin@schicher.com</a> --}}
                         </address>
