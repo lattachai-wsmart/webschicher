@@ -42,7 +42,7 @@
                                     <li>@lang('frontend.Remarketing_Consultancy_for_Fleets.list.6')</li>
                                 </ol>
                             </div>
-                            <h5 class="row h5 mt-5">@lang('frontend.Remarketing_Consultancy_for_Fleets.title1')</h5>
+                            <h5 style="font-family:SukhumvitSet" class="row h5 mt-5">@lang('frontend.Remarketing_Consultancy_for_Fleets.title1')</h5>
                             <p class="row">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Remarketing_Consultancy_for_Fleets.content1')
                             </p>
@@ -60,7 +60,7 @@
                             </p>
                         </div>
                         <div class="row">
-                            <h3 class="row h3 mt-4">@lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.1.title')</h3>
+                            <h3 style="font-family:SukhumvitSet" class="row h3 mt-4">@lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.1.title')</h3>
                             <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.1.list.1')</li>
@@ -88,7 +88,7 @@
                         </div>
 
                         <div class="row">
-                            <h3 class="row h3 mt-4">@lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.2.title')</h3>
+                            <h3 style="font-family:SukhumvitSet" class="row h3 mt-4">@lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.2.title')</h3>
                             <p class="row">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.2.content')
                             </p>
@@ -104,7 +104,7 @@
                         </div>
 
                         <div class="row">
-                            <h3 class="row h3 mt-4">@lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.title')</h3>
+                            <h3 style="font-family:SukhumvitSet" class="row h3 mt-4">@lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.title')</h3>
                             <p class="row">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.content')
                             </p>

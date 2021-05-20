@@ -31,7 +31,7 @@
                             <p class="">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Dealership_Quality_Standard_Assessment.content')
                             </p>
-                            <h3 class="row h3">@lang('frontend.Dealership_Quality_Standard_Assessment.title1')</h3>
+                            <h3 style="font-family:SukhumvitSet;" class="row h3">@lang('frontend.Dealership_Quality_Standard_Assessment.title1')</h3>
                             <p class="row">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Dealership_Quality_Standard_Assessment.content1')
                             </p>

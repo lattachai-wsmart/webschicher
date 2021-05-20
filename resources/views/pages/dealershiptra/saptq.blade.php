@@ -33,7 +33,7 @@
                             </p>
                         </div>
                         <div class="row">
-                            <h3 class="row h3 mt-4">@lang('frontend.Systems_and_Process_Training_Qualification.sub_data.1.title')</h3>
+                            <h3 style="font-family:SukhumvitSet;" class="row h3 mt-4">@lang('frontend.Systems_and_Process_Training_Qualification.sub_data.1.title')</h3>
                             <p class="">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.1.content')
                             </p>
@@ -58,7 +58,7 @@
                         </div>
 
                         <div class="row">
-                            <h3 class="row h3 mt-4">@lang('frontend.Systems_and_Process_Training_Qualification.sub_data.2.title')</h3>
+                            <h3 style="font-family:SukhumvitSet;" class="row h3 mt-4">@lang('frontend.Systems_and_Process_Training_Qualification.sub_data.2.title')</h3>
                             <p class="">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.2.content')
                             </p>
@@ -72,7 +72,7 @@
                         </div>
 
                         <div class="row">
-                            <h3 class="row h3 mt-4">@lang('frontend.Systems_and_Process_Training_Qualification.sub_data.3.title')</h3>
+                            <h3 style="font-family:SukhumvitSet;" class="row h3 mt-4">@lang('frontend.Systems_and_Process_Training_Qualification.sub_data.3.title')</h3>
                             <p class="mb-1">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.3.content')
                             </p>

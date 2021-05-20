@@ -28,11 +28,11 @@
                             </div>
                         </div>
                         <div class="row">
-                            <h5 class="row h5 mb-2 mt-2">@lang('frontend.CSR_Compliance.title1')</h5>
+                            <h5 style="font-family:SukhumvitSet;" class="row h5 mb-2 mt-2">@lang('frontend.CSR_Compliance.title1')</h5>
                             <p class="">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.CSR_Compliance.content')
                             </p>
-                            <h5 class="row h5 mb-2 mt-2">@lang('frontend.CSR_Compliance.title2')</h5>
+                            <h5 style="font-family:SukhumvitSet;" class="row h5 mb-2 mt-2">@lang('frontend.CSR_Compliance.title2')</h5>
                             <p class="mb-1">
                                 <strong class="mr-2">@lang('frontend.CSR_Compliance.content1_first')</strong>
                                 @lang('frontend.CSR_Compliance.content1')
@@ -52,7 +52,7 @@
                             <p class="">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.CSR_Compliance.content5')
                             </p>
-                            <h5 class="row h5 mb-1">@lang('frontend.CSR_Compliance.title3')</h5>
+                            <h5 style="font-family:SukhumvitSet;" class="row h5 mb-1">@lang('frontend.CSR_Compliance.title3')</h5>
                             <p class="mb-1">
                                 <strong class="mr-2">@lang('frontend.CSR_Compliance.content6_first')</strong>
                                 @lang('frontend.CSR_Compliance.content6')

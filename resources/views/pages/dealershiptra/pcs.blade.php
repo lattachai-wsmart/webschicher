@@ -43,7 +43,7 @@
                                     <li>@lang('frontend.Personnel_Certificate_Services.list.7')</li>
                                 </ol>
                             </div>
-                            <h5 class="row h5">@lang('frontend.Personnel_Certificate_Services.title1')</h5>
+                            <h5 style="font-family:SukhumvitSet;" class="row h5">@lang('frontend.Personnel_Certificate_Services.title1')</h5>
                             <p class="mb-1">
                                 <strong class="mr-2">@lang('frontend.Personnel_Certificate_Services.content1_first')</strong>
                                 @lang('frontend.Personnel_Certificate_Services.content1')

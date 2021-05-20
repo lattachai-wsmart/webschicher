@@ -36,50 +36,50 @@
                             </p>
                         </div>
                         <div class="row">
-                            <h4 class="row h4">@lang('frontend.Leadership_Training_Qualification.title1')</h4>
+                            <h4 style="font-family:SukhumvitSet;" class="row h4">@lang('frontend.Leadership_Training_Qualification.title1')</h4>
                         </div>
                         <div class="row">
-                            <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.topic.1.topic')</h5>
+                            <h5 style="font-family:SukhumvitSet;" class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.topic.1.topic')</h5>
                             <p class="mb-1">
                                 @lang('frontend.Leadership_Training_Qualification.topic.1.content')
                             </p>
                         </div>
                         <div class="row">
-                            <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.topic.2.topic')</h5>
+                            <h5 style="font-family:SukhumvitSet;" class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.topic.2.topic')</h5>
                             <p class="mb-1">
                                 @lang('frontend.Leadership_Training_Qualification.topic.2.content')
                             </p>
                         </div>
                         <div class="row">
-                            <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.topic.3.topic')</h5>
+                            <h5 style="font-family:SukhumvitSet;" class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.topic.3.topic')</h5>
                             <p class="mb-1">
                                 @lang('frontend.Leadership_Training_Qualification.topic.3.content')
                             </p>
                         </div>
                         <div class="row">
-                            <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.topic.4.topic')</h5>
+                            <h5 style="font-family:SukhumvitSet;" class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.topic.4.topic')</h5>
                             <p class="mb-1">
                                 @lang('frontend.Leadership_Training_Qualification.topic.4.content')
                             </p>
                         </div>
                         <div class="row">
-                            <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.topic.5.topic')</h5>
+                            <h5 style="font-family:SukhumvitSet;" class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.topic.5.topic')</h5>
                             <p class="mb-1">
                                 @lang('frontend.Leadership_Training_Qualification.topic.5.content')
                             </p>
                         </div>
                         <div class="row">
-                            <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.topic.6.topic')</h5>
+                            <h5 style="font-family:SukhumvitSet;" class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.topic.6.topic')</h5>
                             <p class="">
                                 @lang('frontend.Leadership_Training_Qualification.topic.6.content')
                             </p>
                         </div>
                         <div class="row">
                             <div class="row col-12 pl-0">
-                                <h3 class="row h3 mb-0 mt-0">@lang('frontend.Leadership_Training_Qualification.sub_data.1.title')</h3>
+                                <h3 style="font-family:SukhumvitSet;" class="row h3 mb-0 mt-0">@lang('frontend.Leadership_Training_Qualification.sub_data.1.title')</h3>
                             </div>
                             <div class="row">
-                                <h5 class="row h5 mb-0 mt-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.title1')</h5>
+                                <h5 style="font-family:SukhumvitSet;" class="row h5 mb-0 mt-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.title1')</h5>
                             </div>
                             <div class="row">
                                 <p class="">
@@ -93,19 +93,19 @@
                                 </p>
                             </div>
                             <div class="row">
-                                <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.2.title')</h5>
+                                <h5 style="font-family:SukhumvitSet;" class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.2.title')</h5>
                                 <p class="mb-1">
                                     @lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.2.content')
                                 </p>
                             </div>
                             <div class="row">
-                                <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.3.title')</h5>
+                                <h5 style="font-family:SukhumvitSet;" class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.3.title')</h5>
                                 <p class="row mb-1 col-12">
                                     @lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.3.content')
                                 </p>
                             </div>
                             <div class="row">
-                                <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.4.title')</h5>
+                                <h5 style="font-family:SukhumvitSet;" class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.4.title')</h5>
                                 <p class="mb-1">
                                     @lang('frontend.Leadership_Training_Qualification.sub_data.1.topic.4.content')
                                 </p>
@@ -124,7 +124,7 @@
 
                         <div class="row">
                             <div class="row">
-                                <h3 class="row h3">@lang('frontend.Leadership_Training_Qualification.sub_data.2.title')</h3>
+                                <h3 style="font-family:SukhumvitSet;" class="row h3">@lang('frontend.Leadership_Training_Qualification.sub_data.2.title')</h3>
                                 <p class="row mb-1">
                                     &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.2.content')
                                 </p>
@@ -137,7 +137,7 @@
                                         <li>@lang('frontend.Leadership_Training_Qualification.sub_data.2.list.5')</li>
                                     </ol>
                                 </div>
-                                <h5 class="row h5 mb-2 mt-2">@lang('frontend.Leadership_Training_Qualification.sub_data.2.title1')</h5>
+                                <h5 style="font-family:SukhumvitSet;" class="row h5 mb-2 mt-2">@lang('frontend.Leadership_Training_Qualification.sub_data.2.title1')</h5>
                                 <p class="row mb-1">
                                     &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.2.content1')
                                 </p>
@@ -146,7 +146,7 @@
 
                         <div class="row">
                             <div class="row">
-                                <h3 class="row h3">@lang('frontend.Leadership_Training_Qualification.sub_data.3.title')</h3>
+                                <h3 style="font-family:SukhumvitSet;" class="row h3">@lang('frontend.Leadership_Training_Qualification.sub_data.3.title')</h3>
                                 <p class="row mb-1">
                                     &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.3.content')
                                 </p>
@@ -165,14 +165,14 @@
 
                         <div class="row">
                             <div class="row">
-                                <h3 class="row h3">@lang('frontend.Leadership_Training_Qualification.sub_data.4.title')</h3>
+                                <h3 style="font-family:SukhumvitSet;" class="row h3">@lang('frontend.Leadership_Training_Qualification.sub_data.4.title')</h3>
                                 <p class="row mb-1">
                                     &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.4.content')
                                 </p>
                                 <p class="row ">
                                     &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.4.content1')
                                 </p>
-                                <h5 class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.sub_data.4.title1')</h5>
+                                <h5 style="font-family:SukhumvitSet;" class="row h5 mb-2">@lang('frontend.Leadership_Training_Qualification.sub_data.4.title1')</h5>
                                 <p class="row mb-1">
                                     &nbsp; &nbsp; &nbsp; @lang('frontend.Leadership_Training_Qualification.sub_data.4.content2')
                                 </p>
