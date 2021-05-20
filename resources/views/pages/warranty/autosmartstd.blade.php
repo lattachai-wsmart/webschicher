@@ -125,7 +125,7 @@
     <div class="row">
         <div class="col-10"></div>
         <div class="col-2 block-content block-content-full morePackage">
-            <a href="{{ asset('media/pdf/autosmartstd.pdf') }}" target="_blank"><span class="btn btn-secondary px-4" >@lang('frontend.warranty.packagedetail')</span></a>
+            <a href="{{ asset('media/pdf/autosmartstd.pdf') }}" target="_blank"><span class="btn btn-schi px-4" >@lang('frontend.warranty.packagedetail')</span></a>
         </div>
     </div>
 </div>

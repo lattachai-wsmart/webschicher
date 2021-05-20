@@ -34,7 +34,7 @@
                                 <span class="text-primary">Barbara Scott</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                             </p> --}}
                                 <p class="">
-                                    &nbsp; &nbsp; &nbsp; @lang('frontend.claimsappraisal.content')
+                                    @lang('frontend.claimsappraisal.content')
                                 </p>
                             </div>
                         </article>

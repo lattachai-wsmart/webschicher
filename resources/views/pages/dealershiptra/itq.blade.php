@@ -31,15 +31,15 @@
                             <p class="">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Inspectors_Training_Qualification.content')
                             </p>
-                            <h5 class="row h5">@lang('frontend.Inspectors_Training_Qualification.title1')</h5>
+                            <h5 style="font-family:SukhumvitSet;" class="row h5">@lang('frontend.Inspectors_Training_Qualification.title1')</h5>
                             <p class="">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Inspectors_Training_Qualification.content1')
                             </p>
-                            <h5 class="row h5">@lang('frontend.Inspectors_Training_Qualification.title2')</h5>
+                            <h5 style="font-family:SukhumvitSet;" class="row h5">@lang('frontend.Inspectors_Training_Qualification.title2')</h5>
                             <p class="">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Inspectors_Training_Qualification.content2')
                             </p>
-                            <h5 class="row h5">@lang('frontend.Inspectors_Training_Qualification.title3')</h5>
+                            <h5 style="font-family:SukhumvitSet;" class="row h5">@lang('frontend.Inspectors_Training_Qualification.title3')</h5>
                             <p class="">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Inspectors_Training_Qualification.content3')
                             </p>
@@ -72,7 +72,7 @@
                             </p>
                         </div>
                         <div class="row">
-                            <h5 class="row h5">@lang('frontend.Inspectors_Training_Qualification.title4')</h5>
+                            <h5 style="font-family:SukhumvitSet;" class="row h5">@lang('frontend.Inspectors_Training_Qualification.title4')</h5>
                             <p class="">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Inspectors_Training_Qualification.content10')
                             </p>

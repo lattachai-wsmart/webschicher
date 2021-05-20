@@ -547,9 +547,9 @@
                             @lang('frontend.contacts.data1.row2')<br>
                             @lang('frontend.contacts.data1.row3')<br><br> --}}
 
-                            <div class="font-size-h4 mb-1" >เกี่ยวกับ Schicher</div>
-                            <a style="color: white;" href="{{ route('about') }}">เกี่ยวกับเรา</a><br>
-                            <a style="color: white;" href="{{ route('jobandcareer') }}">ร่วมงานกับเรา</a><br>
+                            <div class="font-size-h4 mb-1" >@lang('frontend.footer.about.title')</div>
+                            <a style="color: white;" href="{{ route('about') }}">@lang('frontend.footer.about.row1')</a><br>
+                            <a style="color: white;" href="{{ route('jobandcareer') }}">@lang('frontend.footer.about.row2')</a><br>
                             {{-- <a style="color: white;" href="#">PRESS</a><br> --}}
                             <br>
                             <a target="_blank" href="https://www.facebook.com/schicinspection/"><i style="color: white" class="fab fa-2x fa-facebook-square" ></i></a>
@@ -561,51 +561,50 @@
                             {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data2.title')</div>
                             @lang('frontend.contacts.data2.row1')<br>
                             @lang('frontend.contacts.data2.row2')​<br><br> --}}
-                            <div class="font-size-h4 mb-1">บริการ</div>
-                            <a style="color: white;" href="{{ route('service.vehicleanalysis') }}">วิเคราะห์สภาพรถยนต์</a><br>
-                            <a style="color: white;" href="{{ route('service.claimsappraisal') }}">ด้านการเคลมและการประเมิน</a><br>
-                            <a style="color: white;" href="{{ route('service.vehiclemanageserv') }}">ด้านการช่วยเหลือบริหารจัดการรถยนต์</a><br>
-                            <a style="color: white;" href="{{ route('service.dealershipcer') }}">รับรองและการตรวจสอบตัวแทนจำหน่าย</a><br>
-                            <a style="color: white;" href="{{ route('service.dealershiptra') }}">ฝึกอบรมคุณสมบัติของตัวแทนจำหน่าย</a><br>
+                            <div class="font-size-h4 mb-1">@lang('frontend.footer.service.title')</div>
+                            <a style="color: white;" href="{{ route('service.vehicleanalysis') }}">@lang('frontend.footer.service.row1')</a><br>
+                            <a style="color: white;" href="{{ route('service.claimsappraisal') }}">@lang('frontend.footer.service.row2')</a><br>
+                            <a style="color: white;" href="{{ route('service.vehiclemanageserv') }}">@lang('frontend.footer.service.row3')</a><br>
+                            <a style="color: white;" href="{{ route('service.dealershipcer') }}">@lang('frontend.footer.service.row4')</a><br>
+                            <a style="color: white;" href="{{ route('service.dealershiptra') }}">@lang('frontend.footer.service.row5')</a><br>
                         </address>
 
                         <address class="font-size-18 col-md-3">
                             {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data3.title')</div>
                             @lang('frontend.contacts.data3.row1')<br><br>
                             <a href="tel:020571292"><i class="fa fa-phone"></i> 02-057-1292</a><br> --}}
-                            <div class="font-size-h4 mb-1">บริการแนะนำ</div>
+                            <div class="font-size-h4 mb-1">@lang('frontend.footer.recService.title')</div>
                             {{-- <a style="color: white;" href="">คุ้มครองชิ้นส่วนอะไหล่และช่วยเหลือฉุกเฉินบนท้องถนน</a><br> --}}
-                            <a style="color: white;" href="">จองตรวจรถกับ Schicher</a><br>
-                            <a style="color: white;" href="">ค้นหารถที่ได้รับการรับรองจาก Schicher</a><br>
-                            <a style="color: white;" href="">ค้นหารายงานการตรวจรถ</a><br>
+                            <a style="color: white;" href="">@lang('frontend.footer.recService.row1')</a><br>
+                            <a style="color: white;" href="">@lang('frontend.footer.recService.row2')</a><br>
+                            <a style="color: white;" href="">@lang('frontend.footer.recService.row3')</a><br>
                         </address>
 
                         <address class="font-size-18 col-md-3">
                             {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data3.title')</div>
                             @lang('frontend.contacts.data3.row1')<br><br>
                             <a href="tel:020571292"><i class="fa fa-phone"></i> 02-057-1292</a><br> --}}
-                            <div class="font-size-h4 mb-1">ติดต่อเรา</div>
+                            <div class="font-size-h4 mb-1">@lang('frontend.footer.contact.title')</div>
                             <span style="color: white;">
-                                <i class="fa fa-home"></i>&nbsp;&nbsp;1168 ถนนพระราม 9
-                                เขตสวนหลวง
+                                <i class="fa fa-home"></i>@lang('frontend.footer.contact.add1')
                             </span><br>
-                            <span>แขวงสวนหลวง กรุงเทพมหานคร 10250</span><br>
+                            <span>@lang('frontend.footer.contact.add2')</span><br>
 
                             <span style="color: white;">
                                 <i class="fa fa-envelope"></i>
-                                <a style="color: white;" href="mailto:admin@schicher.com">&nbsp;&nbsp;admin@schicher.com</a>
+                                <a style="color: white;" href="mailto:admin@schicher.com">@lang('frontend.footer.contact.email')</a>
                             </span><br>
 
                             <span style="color: white;">
-                                <i class="far fa-calendar-alt"><span style="font-family:SukhumvitSet;"> &nbsp; &nbsp; วันจันทร์ - ศุกร์</span></i>
+                                <i class="far fa-calendar-alt"><span style="font-family:SukhumvitSet;">@lang('frontend.footer.contact.date')</span></i>
                             </span><br>
 
                             <span style="color: white;">
-                                <i class="fas fa-clock"></i>&nbsp;&nbsp; 10.00 - 19.00 น.​
+                                <i class="fas fa-clock"></i>@lang('frontend.footer.contact.time')
                             </span><br>
 
                             <span style="color: white;">
-                                <a style="color: white;" href="tel:020571292"><i class="fa fa-phone"></i>&nbsp;&nbsp; 02-057-1292 (ตลอด 24 ชั่วโมง)</a><br>
+                                <a style="color: white;" href="tel:020571292"><i class="fa fa-phone"></i>@lang('frontend.footer.contact.tel')</a><br>
                             </span>
                         </address>
                     </div>

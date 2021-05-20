@@ -30,18 +30,18 @@
             <div class="row col-12">
                 <div class="form-group col-md-6">
                     <div class="row col-11" style="justify-content: center;">
-                        <h1 style="font-family:SukhumvitSet;">Inspection Report</h1><br>
+                        <h1 style="font-family:SukhumvitSet;">@lang('frontend.shicertificates.title2')</h1><br>
                     </div>
                     <div class="row col-12" style="justify-content: center;">
                         <div class="row col-12" style="justify-content: center;">
-                            <h4 style="font-family:SukhumvitSet;">ทำไมต้องวิเคราะห์สภาพรถยนต์กับ SCHICHER</h5><br>
+                            <h4 style="font-family:SukhumvitSet;">@lang('frontend.shicertificates.title3')</h5><br>
                         </div>
                         <ul>
-                            <li style="font-family:SukhumvitSet;">นำส่งรายงานการตรวจรถยนต์ด้วยระบบ QR Code</li>
-                            <li style="font-family:SukhumvitSet;">ตรวจสอบคุณภาพรถด้วยผู้ตรวจมากประสบการณ์จาก TUV มาตรฐาน Germany</li>
-                            <li style="font-family:SukhumvitSet;">การประเมินระบบภายในด้วยเทคโนโลยีระดับสากล</li>
-                            <li style="font-family:SukhumvitSet;">ตรวจสอบอย่างละเอียด เป็นกลาง เชี่ยวชาญ เชื่อถือได้</li> 
-                            <li style="font-family:SukhumvitSet;">บริการให้คำปรึกษาผ่าน Call Center ตลอด 24 ชั่วโมง</li> 
+                            <li style="font-family:SukhumvitSet;">@lang('frontend.shicertificates.row1')</li>
+                            <li style="font-family:SukhumvitSet;">@lang('frontend.shicertificates.row2')</li>
+                            <li style="font-family:SukhumvitSet;">@lang('frontend.shicertificates.row3')</li>
+                            <li style="font-family:SukhumvitSet;">@lang('frontend.shicertificates.row4')</li> 
+                            <li style="font-family:SukhumvitSet;">@lang('frontend.shicertificates.row5')</li> 
                         </ul>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
                             placeholder="SCHI ID">
                         <div class="input-group-append">
                             <button type="button" class="btn btn-primary" id="btnSearchSchi" style="font-family:SukhumvitSet;">
-                                <i class="fa fa-search mr-1"></i> Search
+                                <i class="fa fa-search mr-1"></i>@lang('frontend.shicertificates.search')
                             </button>
                         </div>
                     </div>
@@ -65,13 +65,13 @@
                             <div id="showSearchContent" class="form-group col-md-12 d-none">
                                 <div class="form-group row" style="box-shadow: 1px 1px 3px 3px rgba(199, 196, 196, 0.349); padding: 15px">
                                     <div class="form-group row col-12">
-                                        <h5>SCH ID :</h5><div id="showSearchContentID" class="ml-2"></div>
+                                        <h5>@lang('frontend.shicertificates.id')</h5><div id="showSearchContentID" class="ml-2"></div>
                                     </div>
                                     <div class="form-group row col-12">
-                                        <h5>CAR BRAND :</h5><div class="ml-2" id="showSearchContentDetail"></div>
+                                        <h5>@lang('frontend.shicertificates.carbrand')</h5><div class="ml-2" id="showSearchContentDetail"></div>
                                     </div>
                                     <div class="form-group row col-12">
-                                        <h5>NUMBER :</h5><div class="ml-2" id="showSearchContentDetail2"></div>
+                                        <h5>@lang('frontend.shicertificates.no')</h5><div class="ml-2" id="showSearchContentDetail2"></div>
                                     </div>
                                     <hr style="width: 97%; margin: 0px auto; border-color: #dadad3;">
                                     <br>

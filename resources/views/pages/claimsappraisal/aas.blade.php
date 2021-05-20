@@ -29,14 +29,14 @@
                         </div>
                         <div class="row">
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Accident_Appraisal_Services.content')
+                                @lang('frontend.Accident_Appraisal_Services.content')
                             </p>
                         </div>
                         <div class="row">
-                            <h5 class="h5">1. @lang('frontend.Accident_Appraisal_Services.Damage_Appraisal.title')</h5>
+                            <h5 class="h5" style="font-family:SukhumvitSet;">1. @lang('frontend.Accident_Appraisal_Services.Damage_Appraisal.title')</h5>
                             <div class="ml-4">
                                 <p class="">
-                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Accident_Appraisal_Services.Damage_Appraisal.content')
+                                    @lang('frontend.Accident_Appraisal_Services.Damage_Appraisal.content')
                                 </p>
                                 <div class="col-12">
                                     <div class="row"><strong >@lang('frontend.Accident_Appraisal_Services.Damage_Appraisal.list.title')</strong></div>
@@ -52,10 +52,10 @@
                             </div>
                         </div>
                         <div class="row">
-                            <h5 class="h5">2. @lang('frontend.Accident_Appraisal_Services.Tele_Appraisal_Service.title')</h5>
+                            <h5 class="h5" style="font-family:SukhumvitSet;">2. @lang('frontend.Accident_Appraisal_Services.Tele_Appraisal_Service.title')</h5>
                             <div class="ml-4">
                                 <p class="">
-                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Accident_Appraisal_Services.Tele_Appraisal_Service.content')
+                                    @lang('frontend.Accident_Appraisal_Services.Tele_Appraisal_Service.content')
                                 </p>
                                 <div class="col-12">
                                     <div class="row"><strong >@lang('frontend.Accident_Appraisal_Services.Tele_Appraisal_Service.list.title')</strong></div>
@@ -71,10 +71,10 @@
                             </div>
                         </div>
                         <div class="row">
-                            <h5 class="h5">3. @lang('frontend.Accident_Appraisal_Services.Document_Validation.title')</h5>
+                            <h5 class="h5" style="font-family:SukhumvitSet;">3. @lang('frontend.Accident_Appraisal_Services.Document_Validation.title')</h5>
                             <div class="ml-4">
                                 <p class="">
-                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Accident_Appraisal_Services.Document_Validation.content')
+                                    @lang('frontend.Accident_Appraisal_Services.Document_Validation.content')
                                 </p>
                                 <div class="col-12">
                                     <div class="row"><strong >@lang('frontend.Accident_Appraisal_Services.Document_Validation.list.title')</strong></div>
@@ -88,10 +88,10 @@
                             </div>
                         </div>
                         <div class="row">
-                            <h5 class="h5">4. @lang('frontend.Accident_Appraisal_Services.Accident_Reconstruction.title')</h5>
+                            <h5 class="h5" style="font-family:SukhumvitSet;">4. @lang('frontend.Accident_Appraisal_Services.Accident_Reconstruction.title')</h5>
                             <div class="ml-4">
                                 <p class="">
-                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Accident_Appraisal_Services.Accident_Reconstruction.content')
+                                    @lang('frontend.Accident_Appraisal_Services.Accident_Reconstruction.content')
                                 </p>
                                 <div class="col-12">
                                     <div class="row"><strong >@lang('frontend.Accident_Appraisal_Services.Accident_Reconstruction.list.title')</strong></div>
@@ -108,10 +108,10 @@
                             </div>
                         </div>
                         <div class="row">
-                            <h5 class="h5">5. @lang('frontend.Accident_Appraisal_Services.Technical_Report.title')</h5>
+                            <h5 class="h5" style="font-family:SukhumvitSet;">5. @lang('frontend.Accident_Appraisal_Services.Technical_Report.title')</h5>
                             <div class="ml-4">
                                 <p class="">
-                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Accident_Appraisal_Services.Technical_Report.content')
+                                    @lang('frontend.Accident_Appraisal_Services.Technical_Report.content')
                                 </p>
                                 <div class="col-12">
                                     {{-- <div class="row"><strong >@lang('frontend.Accident_Appraisal_Services.Technical_Report.list.title')</strong></div> --}}
@@ -124,7 +124,7 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="row"><strong >@lang('frontend.Accident_Appraisal_Services.Technical_Report.list1.title')</strong></div>
-                                    <ol>
+                                    <ol >
                                         <li>@lang('frontend.Accident_Appraisal_Services.Technical_Report.list1.1')</li>
                                         <li>@lang('frontend.Accident_Appraisal_Services.Technical_Report.list1.2')</li>
                                         <li>@lang('frontend.Accident_Appraisal_Services.Technical_Report.list1.3')</li>

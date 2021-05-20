@@ -28,7 +28,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <h5 class="row h5">@lang('frontend.Sales_Training_Qualification.title1')</h5>
+                            <h5 style="font-family:SukhumvitSet;" class="row h5">@lang('frontend.Sales_Training_Qualification.title1')</h5>
                             <p class="row">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Sales_Training_Qualification.content')
                             </p>
@@ -61,7 +61,7 @@
                             <p class="row">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Sales_Training_Qualification.content1')
                             </p>
-                            <h5 class="row h5">@lang('frontend.Sales_Training_Qualification.title2')</h5>
+                            <h5 style="font-family:SukhumvitSet;" class="row h5">@lang('frontend.Sales_Training_Qualification.title2')</h5>
                             <p class="mb-1">
                                 <strong class="mr-2">@lang('frontend.Sales_Training_Qualification.content2_first')</strong>
                                 @lang('frontend.Sales_Training_Qualification.content2')

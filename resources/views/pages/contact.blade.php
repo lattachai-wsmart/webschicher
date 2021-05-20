@@ -19,9 +19,6 @@
         <div class="content content-boxed">
             <div class="row justify-content-center">
                 <div class="col-sm-12">
-                    {{-- <div class="row">
-                        <p>@lang('frontend.contact.content')</p>
-                    </div> --}}
                     <br>
                     <div class="row col-12">
                         <div class="col-md-6">
@@ -44,36 +41,21 @@
                                 <div class="col-md-12">
                                     <address class="font-size-18 col-md-12">
                                         <div class="font-size-h4 mb-1">@lang('frontend.contacts.data1.title')</div>
-                                        บริษัท ชิเชอร์ จำกัด  1168 ถนนพระราม 9 เขตสวนหลวง <br>
-                                        แขวงสวนหลวง กรุงเทพมหานคร 10250 <br><br>
-
-                                        {{-- @lang('frontend.contacts.data1.row1')
-                                        @lang('frontend.contacts.data1.row2')<br>
-                                        @lang('frontend.contacts.data1.row3')<br><br> --}}
-                                        {{-- <i class="fa fa-phone"></i> 02-057-1292<br> --}}
+                                        @lang('frontend.contacts.data1.row1')<br>
+                                        @lang('frontend.contacts.data1.row2')<br><br>
                                     </address>
                                 </div>
                                 <div class="col-md-6">
                                     <address class="font-size-18 col-md-12">
-                                        <div class="font-size-h4 mb-1"> ศูนย์บริการลูกค้า</div>
-                                        <a href="tel:020571292"><i class="fa fa-phone"></i>&nbsp; 02-057-1292</a><br>
-                                        ตลอด 24 ชั่วโมง
-
-                                        {{-- @lang('frontend.contacts.data1.row1')
-                                        @lang('frontend.contacts.data1.row2')<br>
-                                        @lang('frontend.contacts.data1.row3')<br><br> --}}
-                                        {{-- <i class="fa fa-phone"></i> 02-057-1292<br> --}}
+                                        <div class="font-size-h4 mb-1">@lang('frontend.contacts.data2.title')</div>
+                                        <a href="tel:020571292"><i class="fa fa-phone"></i>@lang('frontend.contacts.data2.row1')</a><br>
+                                        @lang('frontend.contacts.data2.row2')
                                     </address>
                                 </div>
                                 <div class="col-md-6">
                                     <address class="font-size-18 col-md-12">
-                                        <div class="font-size-h4 mb-1">อีเมล์</div>
-                                        <a href="mailto:admin@schicher.com"><i class="fa fa-envelope"></i>&nbsp; admin@schicher.com</a>
-
-                                        {{-- @lang('frontend.contacts.data1.row1')
-                                        @lang('frontend.contacts.data1.row2')<br>
-                                        @lang('frontend.contacts.data1.row3')<br><br> --}}
-                                        {{-- <i class="fa fa-phone"></i> 02-057-1292<br> --}}
+                                        <div class="font-size-h4 mb-1">@lang('frontend.contacts.data3.title')</div>
+                                        <a href="mailto:admin@schicher.com"><i class="fa fa-envelope"></i>@lang('frontend.contacts.data3.row1')</a>
                                     </address>
                                 </div>
                             </div>
