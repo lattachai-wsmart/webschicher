@@ -34,9 +34,9 @@
 
                     <div class="row" id="box-show-form" >
                         <div class="col-xl-7 mb-5 text-title-left d-none d-md-block" >
-                            <Text class="text-white h2 " style="font-size:45px; font-family:SukhumvitSet;  letter-spacing: 3px;  text-shadow: 2px 2px black; line-height: 2.5;">ค้นหารถคุณภาพดี </Text><br/>
-                            <Text class="text-white h2" style="font-size:45px; font-family:SukhumvitSet; letter-spacing:3px; text-shadow: 2px 2px black;"> ที่ได้รับการการันตีจาก</Text><br/>
-                            <Text class="text-white h1" style="font-size:80px; font-family:AngsananewSet; font-weight: 200;   text-shadow: 2px 2px black;">S C H I C H </Text> <Text class="h1" style="color:#FDCC01; font-size:80px; font-family:AngsananewSet; text-shadow: 2px 2px black;">E R</Text><br/>
+                            <Text class="text-white h2 " style="font-size:45px; font-family:SukhumvitSet;  letter-spacing: 3px;  text-shadow: 2px 2px black; line-height: 2.5;">@lang('frontend.findqualily.banner1')</Text><br/>
+                            <Text class="text-white h2" style="font-size:45px; font-family:SukhumvitSet; letter-spacing:3px; text-shadow: 2px 2px black;">@lang('frontend.findqualily.banner2')</Text><br/>
+                            <Text class="text-white h1" style="font-size:80px; font-family:AngsananewSet; font-weight: 200;   text-shadow: 2px 2px black;">@lang('frontend.findqualily.banner3')</Text> <Text class="h1" style="color:#FDCC01; font-size:80px; font-family:AngsananewSet; text-shadow: 2px 2px black;">@lang('frontend.findqualily.banner4')</Text><br/>
                         </div>
                         <div class="col-xl-5 box-form bg-white rounded">
                             <form action="{{ route('booking_search_cars') }}" method='post' class="col-12" id="search_cars">

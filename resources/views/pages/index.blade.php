@@ -16,34 +16,34 @@
                         <img class="img-fluid" src="media/photos/slidebar/shicher0-en.png" alt="">
 
                         <div class="carousel-caption">
-                            <h4>ABOUT SCHIC INSPECTION</h4>
+                            <h4 style="font-family:SukhumvitSet;">@lang('frontend.slide.aboutSchi')</h4>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-schi btn-sm mb-1" href="{{ route('service.vehicleanalysis') }}">Search &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-schi btn-sm mb-1" href="{{ route('service.vehicleanalysis') }}">@lang('frontend.slide.search')<i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img class="img-fluid" src="media/photos/slidebar/shicher1-en.png" alt="">
 
                         <div class="carousel-caption">
-                            <h4>BOOK SCHIC INSPECTION</h4>
+                            <h4 style="font-family:SukhumvitSet;">@lang('frontend.slide.bookSchi')</h4>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-schi btn-sm mb-1" href="{{ route('bookingins') }}">Search &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-schi btn-sm mb-1" href="{{ route('bookingins') }}">@lang('frontend.slide.search')<i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img class="img-fluid" src="media/photos/slidebar/shicher2-en.png" alt="">
                         <div class="carousel-caption">
-                            <h4>SEARCH CERTIFIED USEDCARS</h4>
+                            <h4 style="font-family:SukhumvitSet;">@lang('frontend.slide.searchSchi')</h4>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-schi btn-sm mb-1" href="{{ route('findqualilyusedcars') }}">Search &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-schi btn-sm mb-1" href="{{ route('findqualilyusedcars') }}">@lang('frontend.slide.search')<i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img class="img-fluid" src="media/photos/slidebar/shicher3-en.png" alt="">
                         <div class="carousel-caption">
-                            <h4>SCHIC CERTIFICATES</h4>
+                            <h4 style="font-family:SukhumvitSet;">@lang('frontend.slide.certSchi')</h4>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
-                            <a class="btn btn-schi btn-sm mb-1" href="{{ route('shicertificates') }}">Search &nbsp; <i class="fa fa-caret-right"></i></a>
+                            <a class="btn btn-schi btn-sm mb-1" href="{{ route('shicertificates') }}">@lang('frontend.slide.search')<i class="fa fa-caret-right"></i></a>
                         </div>
                     </div>
                 </div>

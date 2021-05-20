@@ -23,10 +23,10 @@
                     <div>
                         <div class="row" id="box-show-form" >
                             <div class="col-xl-7 mb-5 text-title-left d-none d-md-block" >
-                                <Text class="text-white h2 " style="font-size:40px; font-family:SukhumvitSet;  letter-spacing: 3px;   text-shadow: 2px 2px black;">ตรวจสภาพรถยนต์กับ</Text><br/>
-                                <Text class="text-white h1" style="font-size:80px; font-family:AngsananewSet; font-weight: 200;   text-shadow: 2px 2px black;">S C H I C H </Text> <Text class="h1" style="color:#FDCC01; font-size:80px; font-family:AngsananewSet; text-shadow: 2px 2px black;">E R</Text><br/>
-                                <Text class="text-white h2" style="font-size:40px; font-family:SukhumvitSet; letter-spacing:3px; text-shadow: 2px 2px black;">มาตรฐาน GERMANY</Text><br/>
-                                <Text class="text-white h2" style="font-size:40px; font-family:SukhumvitSet; letter-spacing: -2px; line-height: 2.2;   text-shadow: 2px 2px black;">เป็นกลาง เชี่ยวชาญ เชื่อถือได้</Text>
+                                <Text class="text-white h2 " style="font-size:40px; font-family:SukhumvitSet;  letter-spacing: 3px;   text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner1')</Text><br/>
+                                <Text class="text-white h1" style="font-size:80px; font-family:AngsananewSet; font-weight: 200;   text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner2')</Text> <Text class="h1" style="color:#FDCC01; font-size:80px; font-family:AngsananewSet; text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner3')</Text><br/>
+                                <Text class="text-white h2" style="font-size:40px; font-family:SukhumvitSet; letter-spacing:3px; text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner4')</Text><br/>
+                                <Text class="text-white h2" style="font-size:40px; font-family:SukhumvitSet; letter-spacing: -2px; line-height: 2.2;   text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner5')</Text>
                             </div>
                             <div class="col-xl-5 box-form bg-white rounded">
                                 <form action="{{ route('createbookingins') }}" method='post' class="col-12" id="bookingins">
