@@ -29,7 +29,7 @@
                         </div>
                         <div class="row">
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Refurbishment_Management_for_Fleets.content')
+                                @lang('frontend.Refurbishment_Management_for_Fleets.content')
                             </p>
                             <div class="row"><strong >@lang('frontend.Refurbishment_Management_for_Fleets.list.title')</strong></div>
                             <div class="row col-12">
@@ -44,7 +44,7 @@
                             </div>
                             {{-- <h5 class="row h5 mt-5">@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.title1')</h5> --}}
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Refurbishment_Management_for_Fleets.content1')
+                                @lang('frontend.Refurbishment_Management_for_Fleets.content1')
                             </p>
                             {{-- <div class="row"><strong >@lang('frontend.Refurbishment_Management_for_Fleets.list1.title')</strong></div> --}}
                             <div class="row col-12">

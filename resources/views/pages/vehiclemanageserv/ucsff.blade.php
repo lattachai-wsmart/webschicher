@@ -29,7 +29,7 @@
                         </div>
                         <div class="row">
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Used_Car_Seal_for_Fleet.content')
+                                @lang('frontend.Used_Car_Seal_for_Fleet.content')
                             </p>
                             <div class="row"><strong >@lang('frontend.Used_Car_Seal_for_Fleet.list.title')</strong></div>
                             <div class="row col-12">
@@ -42,7 +42,7 @@
                                 </ol>
                             </div>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Used_Car_Seal_for_Fleet.content1')
+                                @lang('frontend.Used_Car_Seal_for_Fleet.content1')
                             </p>
 
                         </div>

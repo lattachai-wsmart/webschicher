@@ -29,7 +29,7 @@
                         </div>
                         <div class="row">
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Garage_Appraisal.content')
+                                @lang('frontend.Garage_Appraisal.content')
                             </p>
                             <div class="row"><strong >@lang('frontend.Garage_Appraisal.list.title')</strong></div>
                             <div class="row col-12">

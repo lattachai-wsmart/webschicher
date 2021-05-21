@@ -29,13 +29,13 @@
                         </div>
                         <div class="row">
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Systems_and_Process_Training_Qualification.content')
+                                @lang('frontend.Systems_and_Process_Training_Qualification.content')
                             </p>
                         </div>
                         <div class="row">
                             <h3 style="font-family:SukhumvitSet;" class="row h3 mt-4">@lang('frontend.Systems_and_Process_Training_Qualification.sub_data.1.title')</h3>
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.1.content')
+                                @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.1.content')
                             </p>
                             <div class="row"><strong >@lang('frontend.Systems_and_Process_Training_Qualification.sub_data.1.list.title')</strong></div>
                             <div class="row col-12">
@@ -53,28 +53,28 @@
                                 </ol>
                             </div>
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.1.content1')
+                                @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.1.content1')
                             </p>
                         </div>
 
                         <div class="row">
                             <h3 style="font-family:SukhumvitSet;" class="row h3 mt-4">@lang('frontend.Systems_and_Process_Training_Qualification.sub_data.2.title')</h3>
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.2.content')
+                                @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.2.content')
                             </p>
                             <p class="">
                                 <strong class="mr-2">@lang('frontend.Systems_and_Process_Training_Qualification.sub_data.2.content1_first')</strong>
                                 @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.2.content1')
                             </p>
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.2.content2')
+                                @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.2.content2')
                             </p>
                         </div>
 
                         <div class="row">
                             <h3 style="font-family:SukhumvitSet;" class="row h3 mt-4">@lang('frontend.Systems_and_Process_Training_Qualification.sub_data.3.title')</h3>
                             <p class="mb-1">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.3.content')
+                                @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.3.content')
                             </p>
                             <p>
                                 <strong class="">@lang('frontend.Systems_and_Process_Training_Qualification.sub_data.3.topic')</strong><br />
@@ -82,10 +82,10 @@
                                 <strong class="">@lang('frontend.Systems_and_Process_Training_Qualification.sub_data.3.topic2')</strong>
                             </p>
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.3.content1')
+                                @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.3.content1')
                             </p>
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.3.content2')
+                                @lang('frontend.Systems_and_Process_Training_Qualification.sub_data.3.content2')
                             </p>
                         </div>
                         </article>

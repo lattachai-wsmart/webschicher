@@ -30,7 +30,7 @@
                         <div class="row">
                             <h5 style="font-family:SukhumvitSet;" class="row h5 mb-2">@lang('frontend.Managed_Training_Services.title1')</h5>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Managed_Training_Services.content')
+                                @lang('frontend.Managed_Training_Services.content')
                             </p>
                             <div class="row col-12"><strong >@lang('frontend.Managed_Training_Services.list.title')</strong></div>
                             <div class="row col-12">
@@ -43,23 +43,23 @@
                                 </ol>
                             </div>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Managed_Training_Services.content1')
+                                @lang('frontend.Managed_Training_Services.content1')
                             </p>
                             <h5 style="font-family:SukhumvitSet;" class="row h5 mb-2 mt-2">@lang('frontend.Managed_Training_Services.title2')</h5>
                             <p class="row mb-2">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Managed_Training_Services.content2')
+                                @lang('frontend.Managed_Training_Services.content2')
                             </p>
                             <p class="row mb-2">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Managed_Training_Services.content3')
+                                @lang('frontend.Managed_Training_Services.content3')
                             </p>
                             <p class="row mb-2">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Managed_Training_Services.content4')
+                                @lang('frontend.Managed_Training_Services.content4')
                             </p>
                             <p class="row mb-2">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Managed_Training_Services.content5')
+                                @lang('frontend.Managed_Training_Services.content5')
                             </p>
                             <p class="row mb-2">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Managed_Training_Services.content6')
+                                @lang('frontend.Managed_Training_Services.content6')
                             </p>
                             <div class="row col-12"><strong >@lang('frontend.Managed_Training_Services.list1.title')</strong></div>
                             <div class="row col-12">

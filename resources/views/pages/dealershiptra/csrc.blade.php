@@ -30,7 +30,7 @@
                         <div class="row">
                             <h5 style="font-family:SukhumvitSet;" class="row h5 mb-2 mt-2">@lang('frontend.CSR_Compliance.title1')</h5>
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.CSR_Compliance.content')
+                                @lang('frontend.CSR_Compliance.content')
                             </p>
                             <h5 style="font-family:SukhumvitSet;" class="row h5 mb-2 mt-2">@lang('frontend.CSR_Compliance.title2')</h5>
                             <p class="mb-1">
@@ -50,7 +50,7 @@
                                 @lang('frontend.CSR_Compliance.content4')
                             </p>
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.CSR_Compliance.content5')
+                                @lang('frontend.CSR_Compliance.content5')
                             </p>
                             <h5 style="font-family:SukhumvitSet;" class="row h5 mb-1">@lang('frontend.CSR_Compliance.title3')</h5>
                             <p class="mb-1">
@@ -80,13 +80,13 @@
                                 </ol>
                             </div>
                             <p class="mb-1">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.CSR_Compliance.content9')
+                                @lang('frontend.CSR_Compliance.content9')
                             </p>
                             <p class="mb-1">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.CSR_Compliance.content10')
+                                @lang('frontend.CSR_Compliance.content10')
                             </p>
                             <p>
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.CSR_Compliance.content11')
+                                @lang('frontend.CSR_Compliance.content11')
                             </p>
                         </div>
                         </article>
