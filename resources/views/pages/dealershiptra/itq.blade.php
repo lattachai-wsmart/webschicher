@@ -29,19 +29,19 @@
                         </div>
                         <div class="row">
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Inspectors_Training_Qualification.content')
+                                @lang('frontend.Inspectors_Training_Qualification.content')
                             </p>
                             <h5 style="font-family:SukhumvitSet;" class="row h5">@lang('frontend.Inspectors_Training_Qualification.title1')</h5>
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Inspectors_Training_Qualification.content1')
+                                @lang('frontend.Inspectors_Training_Qualification.content1')
                             </p>
                             <h5 style="font-family:SukhumvitSet;" class="row h5">@lang('frontend.Inspectors_Training_Qualification.title2')</h5>
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Inspectors_Training_Qualification.content2')
+                                @lang('frontend.Inspectors_Training_Qualification.content2')
                             </p>
                             <h5 style="font-family:SukhumvitSet;" class="row h5">@lang('frontend.Inspectors_Training_Qualification.title3')</h5>
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Inspectors_Training_Qualification.content3')
+                                @lang('frontend.Inspectors_Training_Qualification.content3')
                             </p>
                         </div>
 
@@ -74,7 +74,7 @@
                         <div class="row">
                             <h5 style="font-family:SukhumvitSet;" class="row h5">@lang('frontend.Inspectors_Training_Qualification.title4')</h5>
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Inspectors_Training_Qualification.content10')
+                                @lang('frontend.Inspectors_Training_Qualification.content10')
                             </p>
                         </div>
                         </article>

@@ -30,7 +30,7 @@
                         <div class="row">
                             <h5 style="font-family:SukhumvitSet;" class="row h5">@lang('frontend.Sales_Training_Qualification.title1')</h5>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Sales_Training_Qualification.content')
+                                @lang('frontend.Sales_Training_Qualification.content')
                             </p>
                         </div>
                         <div class="row from-group">
@@ -59,7 +59,7 @@
                         </div>
                         <div class="row">
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Sales_Training_Qualification.content1')
+                                @lang('frontend.Sales_Training_Qualification.content1')
                             </p>
                             <h5 style="font-family:SukhumvitSet;" class="row h5">@lang('frontend.Sales_Training_Qualification.title2')</h5>
                             <p class="mb-1">
@@ -83,7 +83,7 @@
                                 @lang('frontend.Sales_Training_Qualification.content6')
                             </p>
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Sales_Training_Qualification.content7')
+                                @lang('frontend.Sales_Training_Qualification.content7')
                             </p>
                         </div>
                         </article>

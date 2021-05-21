@@ -64,8 +64,8 @@
             <div class="content-header schicher-header">
                 <!-- Left Section -->
                 <div class="d-flex align-items-center">
-                    <div class="div_logo">
-                        <a href="/"><img src="{{ asset('media/photos//main-logo-mini.png') }}" /></a>
+                    <div class="div_logo" style="width: 100%; height:100%;" >
+                        <a href="/"><img class="img-fluid" src="{{ asset('media/photos//main-logo-mini.png') }}" /></a>
                     </div>
                 </div>
                 <!-- END Left Section -->
@@ -76,7 +76,7 @@
                     <div class="dropdown d-inline-block d-xs-none">
                         <a style="font-family:SukhumvitSet;" class="btn btn-sm btn-dual btn-rounded d-flex align-items-center"
                             id="page-header-user-dropdown" href="{{ route('bookingins') }}">
-                            Book Inspection
+                             Book Inspection
                         </a>
                     </div>
                     <div class="dropdown d-inline-block ml-2 d-xs-none">
@@ -493,7 +493,6 @@
                                 </li>
                             </ul> --}}
                                 {{-- </li> --}}
-                                <li class="nav-main-heading">Personal</li>
                                 <li class="nav-main-item">
                                     <a class="nav-main-link " aria-haspopup="true" aria-expanded="false"
                                         href="{{ route('contact') }}">

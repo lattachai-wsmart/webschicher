@@ -146,12 +146,15 @@ return [
 
     'warranty' => [
         'title' => 'WARRANTY & ROADSIDE',
+        'title1' => 'SMART EXTENDED WARRANTY',
+        'title2' => 'SMART ROADSIDE ASSISTANT SERVICE',
         'bronze' => 'BRONZE STANDARD',
         'silver' => 'SILVER STANDARD',
         'goldplus' => 'GOLD PLUS',
         'autosmartstd' => 'AUTO SMART STANDARD',
         'autosmartdm' => 'AUTO SMART DIAMOND',
         'whitecard' => 'WHITE CARD',
+        'readmore' => 'Read More',
         'detail_topic' => [
             'terms' => 'เงื่อนไขการให้บริการ',
             'period' => 'ระยะเวลาการรับผิดชอบบริการ',

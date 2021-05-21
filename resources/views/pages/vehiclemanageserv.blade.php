@@ -34,7 +34,7 @@
                                 <span class="text-primary">Barbara Scott</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                             </p> --}}
                                 <p class="">
-                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Vehicle_Management_Services.content')
+                                    @lang('frontend.Vehicle_Management_Services.content')
                                 </p>
                                 <div class="row"><strong >@lang('frontend.Vehicle_Management_Services.list.title')</strong></div>
                                 <div class="row col-12">
@@ -49,7 +49,7 @@
                                     </ol>
                                 </div>
                                 <p class="">
-                                    &nbsp; &nbsp; &nbsp; @lang('frontend.Vehicle_Management_Services.content1')
+                                    @lang('frontend.Vehicle_Management_Services.content1')
                                 </p>
                             </div>
                         </article>

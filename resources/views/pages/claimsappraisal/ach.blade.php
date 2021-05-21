@@ -29,7 +29,7 @@
                         </div>
                         <div class="row">
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Automotive_Claims_Handling.content')
+                                @lang('frontend.Automotive_Claims_Handling.content')
                             </p>
                             {{-- <div class="row"><strong >@lang('frontend.Automotive_Claims_Handling.list.title')</strong></div> --}}
                             {{-- <div class="row col-12">

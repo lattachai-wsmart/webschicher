@@ -29,7 +29,7 @@
                         </div>
                         <div class="row">
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.In_fleet_and_De_fleet_Operations.content')
+                                @lang('frontend.In_fleet_and_De_fleet_Operations.content')
                             </p>
                             {{-- <div class="row"><strong >@lang('frontend.In_fleet_and_De_fleet_Operations.list.title')</strong></div> --}}
                             <div class="row col-12">
@@ -41,7 +41,7 @@
                                 </ol>
                             </div>
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.In_fleet_and_De_fleet_Operations.content1')
+                                @lang('frontend.In_fleet_and_De_fleet_Operations.content1')
                             </p>
                             <div class="row col-12">
                                 <ol>
