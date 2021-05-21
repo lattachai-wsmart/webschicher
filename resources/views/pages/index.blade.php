@@ -72,7 +72,7 @@
                             <div class="item item-2x item-rounded  text-white mx-auto">
                                 <img src="{{ asset('media/photos/icons/book.png') }}" class="imageicon96" />
                             </div>
-                            <div class="font-size-h4 font-w600 pt-3 mb-0">BOOK SCHIC INSPECTION</div>
+                            <div class="font-size-h4 font-w600 pt-3 mb-0">@lang('frontend.cardSelect.bookSchi')</div>
                         </div>
                     </div>
                 </a>
@@ -86,7 +86,7 @@
                             <div class="item item-2x item-rounded text-white mx-auto">
                                 <img src="{{ asset('media/photos/icons/cars.png') }}" class="imageicon96" />
                             </div>
-                            <div class="font-size-h4 font-w600 pt-3 mb-0">SEARCH CERTIFIED USEDCARS</div>
+                            <div class="font-size-h4 font-w600 pt-3 mb-0">@lang('frontend.cardSelect.searchSchi')</div>
                         </div>
                     </div>
                 </a>
@@ -100,7 +100,7 @@
                             <div class="item item-2x item-rounded text-white mx-auto">
                                 <img src="{{ asset('media/photos/icons/search.png') }}" class="imageicon96" />
                             </div>
-                            <div class="font-size-h4 font-w600 pt-3 mb-0">SCHIC CERTIFICATES</div>
+                            <div class="font-size-h4 font-w600 pt-3 mb-0">@lang('frontend.cardSelect.certSchi')</div>
                         </div>
                     </div>
                 </a>

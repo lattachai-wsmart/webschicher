@@ -30,14 +30,14 @@
                         <div class="row">
                             <h3 style="font-family:SukhumvitSet;" class="row h3">@lang('frontend.Sales_solutions_for_Fleets.sub_data.1.title')</h3>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Sales_solutions_for_Fleets.sub_data.1.content')
+                                @lang('frontend.Sales_solutions_for_Fleets.sub_data.1.content')
                             </p>
                         </div>
 
                         <div class="row">
                             <h3 style="font-family:SukhumvitSet;" class="row h3">@lang('frontend.Sales_solutions_for_Fleets.sub_data.2.title')</h3>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Sales_solutions_for_Fleets.sub_data.2.content')
+                                @lang('frontend.Sales_solutions_for_Fleets.sub_data.2.content')
                             </p>
                             <div class="row col-12">
                                 <ol>
@@ -55,27 +55,27 @@
                         <div class="row">
                             <h3 style="font-family:SukhumvitSet;" class="row h3 mt-5">@lang('frontend.Sales_solutions_for_Fleets.sub_data.3.title')</h3>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Sales_solutions_for_Fleets.sub_data.3.content')
+                                @lang('frontend.Sales_solutions_for_Fleets.sub_data.3.content')
                             </p>
                         </div>
 
                         <div class="row">
                             <h3 style="font-family:SukhumvitSet;" class="row h3 ">@lang('frontend.Sales_solutions_for_Fleets.sub_data.4.title')</h3>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Sales_solutions_for_Fleets.sub_data.4.content')
+                                @lang('frontend.Sales_solutions_for_Fleets.sub_data.4.content')
                             </p>
                         </div>
 
                         <div class="row">
                             <h3 style="font-family:SukhumvitSet;" class="row h3 ">@lang('frontend.Sales_solutions_for_Fleets.sub_data.5.title')</h3>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Sales_solutions_for_Fleets.sub_data.5.content')
+                                @lang('frontend.Sales_solutions_for_Fleets.sub_data.5.content')
                             </p>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Sales_solutions_for_Fleets.sub_data.5.content1')
+                                @lang('frontend.Sales_solutions_for_Fleets.sub_data.5.content1')
                             </p>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Sales_solutions_for_Fleets.sub_data.5.content2')
+                                @lang('frontend.Sales_solutions_for_Fleets.sub_data.5.content2')
                             </p>
                             <div class="row"><strong >@lang('frontend.Sales_solutions_for_Fleets.sub_data.5.list.title')</strong></div>
                             <div class="row col-12">
@@ -100,11 +100,11 @@
                         {{-- <div class="row">
                             <h3 class="row h3">@lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.title')</h3>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.content')
+                                @lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.content')
                             </p>
                             <h5 class="row h5">@lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.title1')</h5>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.content1')
+                                @lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.content1')
                             </p>
                             <div class="row"><strong >@lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.list.title')</strong></div>
                             <div class="row col-12">
@@ -120,10 +120,10 @@
                                 </ol>
                             </div>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.content2')
+                                @lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.content2')
                             </p>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.content3')
+                                @lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.content3')
                             </p>
                             <div class="row col-12">
                                 <ol>

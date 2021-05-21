@@ -23,7 +23,7 @@
 <div class="row">    
     <div class="col-lg-1"></div>
     <div class="col-lg-3 btn-schi font-w600 rounded p-3 push text-center topicBar">
-        SMART EXTENDED WARRANTY
+        @lang('frontend.warranty.title1')
     </div>  
 </div>
 <br>
@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warrantyandroadside.bronze') }}"><span class="btn btn-schi px-4" >Read More</span></a>
+                <a href="{{ route('warrantyandroadside.bronze') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet;">@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
@@ -83,7 +83,7 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warrantyandroadside.silver') }}"><span class="btn btn-schi px-4" >Read More</span></a>
+                <a href="{{ route('warrantyandroadside.silver') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet;">@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
@@ -113,7 +113,7 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warrantyandroadside.goldplus')}}"><span class="btn btn-schi px-4" >Read More</span></a>
+                <a href="{{ route('warrantyandroadside.goldplus')}}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet;">@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
@@ -143,7 +143,7 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warrantyandroadside.autosmartstd') }}"><span class="btn btn-schi px-4" >Read More</span></a>
+                <a href="{{ route('warrantyandroadside.autosmartstd') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet;">@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
@@ -175,7 +175,7 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warrantyandroadside.autosmartdm') }}"><span class="btn btn-schi px-4" >Read More</span></a>
+                <a href="{{ route('warrantyandroadside.autosmartdm') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet;">@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
@@ -185,7 +185,7 @@
 <div class="row">    
     <div class="col-lg-1"></div>
     <div class="col-lg-3 btn-schi font-w600 rounded p-3 push text-center topicBar rsTop">
-        SMART ROADSIDE ASSISTANT SERVICE
+        @lang('frontend.warranty.title2')
     </div>  
 </div>
 <br>
@@ -215,7 +215,7 @@
                 </div>
             </div>
         <div class="block-content block-content-full bg-body-light">
-            <a href="{{ route('warrantyandroadside.whitecard') }}"><span class="btn btn-schi px-4" >Read More</span></a>
+            <a href="{{ route('warrantyandroadside.whitecard') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet;">@lang('frontend.warranty.readmore')</span></a>
         </div>
         </div>
             <!-- END Startup Plan -->
@@ -244,7 +244,7 @@
                 </div>
             </div>
         <div class="block-content block-content-full bg-body-light">
-            <a href="{{ route('warrantyandroadside.whitecardplus') }}"><span class="btn btn-schi px-4" >Read More</span></a>
+            <a href="{{ route('warrantyandroadside.whitecardplus') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet;">@lang('frontend.warranty.readmore')</span></a>
         </div>
         </div>
             <!-- END Startup Plan -->

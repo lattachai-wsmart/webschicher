@@ -29,7 +29,7 @@
                         </div>
                         <div class="row">
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Auction_Vehicle_Inspection_Analysis.content')
+                                @lang('frontend.Auction_Vehicle_Inspection_Analysis.content')
                             </p>
                         </div>
                         </article>

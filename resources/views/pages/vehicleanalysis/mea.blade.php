@@ -33,7 +33,7 @@
                                 <span class="text-primary">Barbara Scott</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                             </p> --}}
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Mandatory_Export_Analysis.content')
+                                @lang('frontend.Mandatory_Export_Analysis.content')
                             </p>
 
                             <div class="row"><strong >@lang('frontend.Mandatory_Export_Analysis.list.title')</strong></div>

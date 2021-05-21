@@ -38,7 +38,7 @@
                                 </ol>
                             </div>
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.content')
+                                @lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.content')
                             </p>
                             <h5 style="font-family:SukhumvitSet;" class="row h5 mt-5">@lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.title1')</h5>
                             <div class="row col-12"><strong >@lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.list1.title')</strong></div>
@@ -83,23 +83,23 @@
                             <h3 style="font-family:SukhumvitSet;" class="row h3 mt-4">@lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.sub_data.1.title')</h3>
                             <h5 class="row h5 col-12">@lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.sub_data.1.title1')</h5>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.sub_data.1.content')
+                                @lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.sub_data.1.content')
                             </p>
                         </div>
                         <div class="row">
                             <h3 style="font-family:SukhumvitSet;" class="row h3 mt-4">@lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.sub_data.2.title')</h3>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.sub_data.2.content')
+                                @lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.sub_data.2.content')
                             </p>
                             <h3 style="font-family:SukhumvitSet;" class="row h3">@lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.sub_data.2.title1')</h3>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.sub_data.2.content1')
+                                @lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.sub_data.2.content1')
                             </p>
                         </div>
                         <div class="row">
                             <h3 style="font-family:SukhumvitSet;" class="row h3 mt-4">@lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.sub_data.3.title')</h3>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.sub_data.3.content')
+                                @lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.sub_data.3.content')
                             </p>
                             <div class=""><strong >@lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.sub_data.3.list.title')</strong></div>
                             <div class="row col-12">
@@ -110,7 +110,7 @@
                                 </ol>
                             </div>
                             <p class="row">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.sub_data.3.content1')
+                                @lang('frontend.Dealership_Preowned_Vehicle_Inspection_Analysis.sub_data.3.content1')
                             </p>
                         </div>
                         </article>

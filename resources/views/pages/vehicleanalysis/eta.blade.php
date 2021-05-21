@@ -33,7 +33,7 @@
                                 <span class="text-primary">Barbara Scott</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                             </p> --}}
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; <strong>@lang('frontend.Emission_Tests_Analysis.Scicher')</strong> @lang('frontend.Emission_Tests_Analysis.content1')
+                                <strong>@lang('frontend.Emission_Tests_Analysis.Scicher')</strong> @lang('frontend.Emission_Tests_Analysis.content1')
                             </p>
                             {{-- <p class="">
                                 &nbsp; &nbsp; &nbsp; @lang('frontend.Emission_Tests_Analysis.content2')

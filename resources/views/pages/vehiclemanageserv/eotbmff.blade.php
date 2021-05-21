@@ -38,7 +38,7 @@
                             </div>
                             {{-- <h5 class="row h5 mt-5">@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.title1')</h5> --}}
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.End_of_Term_Buyback_management_for_Fleets.content1')
+                                @lang('frontend.End_of_Term_Buyback_management_for_Fleets.content1')
                             </p>
                             <div class="row"><strong >@lang('frontend.End_of_Term_Buyback_management_for_Fleets.list1.title')</strong></div>
                             <div class="row col-12">

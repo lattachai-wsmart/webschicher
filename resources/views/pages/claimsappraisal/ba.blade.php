@@ -29,7 +29,7 @@
                         </div>
                         <div class="row">
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Bodyshop_Appraisal.content')
+                                @lang('frontend.Bodyshop_Appraisal.content')
                             </p>
                             <div class="row"><strong >@lang('frontend.Bodyshop_Appraisal.list.title')</strong></div>
                             <div class="row col-12">
@@ -41,7 +41,7 @@
                                 </ol>
                             </div>
                             <p class="">
-                                &nbsp; &nbsp; &nbsp; @lang('frontend.Bodyshop_Appraisal.content1')
+                                @lang('frontend.Bodyshop_Appraisal.content1')
                             </p>
                         </div>
                         </article>
