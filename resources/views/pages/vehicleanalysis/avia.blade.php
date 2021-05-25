@@ -21,9 +21,9 @@
                     <div class="row">
                         <article class="story">
                         <div class="row gutters-tiny items-push js-gallery push img-fluid-100 js-gallery-enabled">
-                            <div class="col-12 animated fadeIn d-flex justify-content-center">
-                                <div class="">
-                                    <img class="img-mh-450" src="{{ asset('media/photos/services/sub_08@2x.jpg') }}" alt="">
+                            <div class="col-md-12 animated fadeIn d-flex justify-content-center" >
+                                <div class="options-container">
+                                    <img width="100%" height="100%" src="{{ asset('media/photos/services/sub_08@2x.jpg') }}"  />
                                 </div>
                             </div>
                         </div>

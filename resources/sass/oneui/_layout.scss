@@ -1,7 +1,6 @@
 //
 // Layout
 // --------------------------------------------------
-
 // Main Structure
 #page-container {
     display: flex;
@@ -24,7 +23,6 @@
     opacity: 0;
     transition: opacity $side-transition;
     transform: translateY(-100%);
-
     @include media-breakpoint-up(lg) {
         .side-overlay-o.enable-page-overlay & {
             transform: translateY(0);
@@ -43,20 +41,19 @@
 // Main Content
 .content {
     @include content-layout($space-mobile, $space-mobile);
-
     @include media-breakpoint-up(md) {
         @include content-layout($space-base, $space-base);
     }
-
     @include media-breakpoint-up(xl) {
-        &.content-narrow { width: $space-narrow !important; }
+        &.content-narrow {
+            width: $space-narrow !important;
+        }
     }
-
-    &.content-boxed { max-width: $space-boxed !important; }
-
+    &.content-boxed {
+        max-width: $space-boxed !important;
+    }
     &.content-top {
         padding-top: $header-height + $space-mobile;
-
         @include media-breakpoint-up(lg) {
             padding-top: $header-height + $space-base;
         }

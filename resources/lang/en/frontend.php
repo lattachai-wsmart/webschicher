@@ -2,20 +2,6 @@
 
 return [
     'please_select' => 'Please Select',
-    'menu' => [
-        'about_us' => 'About Us',
-        'service' => 'Service',
-        'service_submenu' => [
-            'vehicle_analysis' => 'Vehicle Analysis',
-            'claims_appraisal' => 'Claims & Appraisal',
-            'vehicle_manage' => 'Vehicle Management Services',
-            'dealership_cer' => 'Dealership Certification & Auditing',
-            'dealership_tra' => 'Dealership Training & Qualification',
-        ],
-        'job_careers' => 'JOB & CAREERS',
-        'presas' => 'PRESS',
-        'contact_us' => 'CONTACT US',
-    ],
     'shicertificates' => [
         'title' => 'SHCI CERTIFICATES',
         'title2' => 'Inspection Report',
