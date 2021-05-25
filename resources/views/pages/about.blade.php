@@ -18,47 +18,57 @@
         <div class="content content-boxed">
             <div class="row justify-content-center">
                 <div class="col-sm-12">
-                    <div class="row">
+                    <div class="row" style="display: contents;">
                         <article class="story">
                             <p>@lang('frontend.about.content')</p>
-
-                        <div class="row gutters-tiny items-push js-gallery push img-fluid-100 js-gallery-enabled">
-                            <div class="col-12 animated fadeIn d-flex justify-content-center">
+                        <div class="row gutters-tiny items-push js-gallery push img-fluid-100 js-gallery-enabled" >
+                            {{-- <div class="col-12 animated fadeIn d-flex justify-content-center">
                                 <div class="">
-                                    <img class="img-mh-450" src="{{ asset('media/photos/about/about_schic1.jpg') }}" alt="">
+                                    <img class="img-fluid" width="100%" height="100%" class="img-mh-450" src="{{ asset('media/photos/about/about_schic1.jpg') }}" alt="">
+                                </div>
+                            </div> --}}
+
+                            <div class="col-md-12 animated fadeIn d-flex justify-content-center" >
+                                <div class="options-container">
+                                    <img width="100%" height="100%" src="{{ asset('media/photos/about/about_schic1.jpg') }}"  />
                                 </div>
                             </div>
+                            
                         </div>
-                        <div class="row">
+                        <div style="display: flex;flex-wrap: wrap;">
+                        
                             <strong class="font-size-h4">@lang('frontend.about.title1')</strong>
                             {{-- <p class="font-size-sm">
                                 <span class="text-primary">Barbara Scott</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                             </p> --}}
-                            <p class="">
+                            <div >
                                 @lang('frontend.about.content1')
-                            </p>
+                            </div>
+                            <br>
                         </div>
                         <div class="row gutters-tiny items-push js-gallery push img-fluid-100 js-gallery-enabled">
-                            <div class="col-12 animated fadeIn d-flex justify-content-center">
-                                <div class="">
-                                    <img class="img-mh-450" src="{{ asset('media/photos/about/about_schic2.jpg') }}" alt="">
+
+                            <div class="col-md-12 animated fadeIn d-flex justify-content-center" >
+                                <div class="options-container">
+                                    <img width="100%" height="100%" src="{{ asset('media/photos/about/about_schic2.jpg') }}"  />
                                 </div>
                             </div>
+
                         </div>
-                        <div class="row">
+                        <div class="row" style="display: contents;">
                             <strong class="font-size-h4">@lang('frontend.about.title2')</strong>
                             {{-- <p class="font-size-sm">
                                 <span class="text-primary">Barbara Scott</span> on July 16, 2019 · <em class="text-muted">10 min</em>
                             </p> --}}
-                            <p class="">
+                            <p>
                                 @lang('frontend.about.content2')
                             </p>
                         </div>
 
                         <div class="row gutters-tiny items-push js-gallery push img-fluid-100 js-gallery-enabled">
-                            <div class="col-12 animated fadeIn">
-                                <div class="row justify-content-center">
-                                    <img style="width: 450px" class="img-fluid" src="{{ asset('media/photos/about/about_schic3-1.png') }}" alt="">
+                            <div class="col-md-12 animated fadeIn d-flex justify-content-center" >
+                                <div class="options-container">
+                                    <img width="100%" height="100%" src="{{ asset('media/photos/about/about_schic3-1.png') }}"  />
                                 </div>
                             </div>
                         </div>
