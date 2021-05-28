@@ -33,7 +33,7 @@ Route::prefix('warranty')->name('warranty.')->group(function () {
     Route::get('bronze', [FrontendController::class, "bronze"])->name('bronze');
     Route::get('silver', [FrontendController::class, "silver"])->name('silver');
     Route::get('goldplus', [FrontendController::class, "goldplus"])->name('goldplus');
-    Route::get('autosmartstd', [FrontendController::class, "autosmartstd"])->name('autosmartstd');
+    Route::get('platinum', [FrontendController::class, "autosmartstd"])->name('autosmartstd');
     Route::get('autosmartdm', [FrontendController::class, "autosmartdm"])->name('autosmartdm');
     Route::get('whitecard', [FrontendController::class, "whitecard"])->name('whitecard');
     Route::get('whitecardplus', [FrontendController::class, "whitecardplus"])->name('whitecardplus');

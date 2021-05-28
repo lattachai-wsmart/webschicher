@@ -123,7 +123,7 @@
                             <li>@lang('frontend.warranty.goldplus_detail.remark2')</li>
                             <li>@lang('frontend.warranty.goldplus_detail.remark3')</li>    
                             <li>@lang('frontend.warranty.goldplus_detail.remark4')</li>
-                            <li>@lang('frontend.warranty.goldplus_detail.remark5')</li>                            
+                            {{-- <li>@lang('frontend.warranty.goldplus_detail.remark5')</li>                             --}}
                         </ul>
                     </div>
                 </div>
@@ -131,9 +131,9 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-10"></div>
-        <div class="col-2 block-content block-content-full morePackage">
-            <a href="#" onclick="sendSuccess()"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet; color:#132D46; background-color:#FDBE29;" >ติดต่อสอบถามข้อมูล</span></a>
+        {{-- <div class="col-10"></div> --}}
+        <div class="col-12 block-content block-content-full morePackage" align="right">
+            <a href="#" onclick="sendSuccess()"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet; color:#132D46; background-color:#FDBE29; " >ติดต่อสอบถามข้อมูล</span></a>
         </div>
     </div>
 </div>

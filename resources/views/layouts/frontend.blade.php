@@ -622,6 +622,7 @@
                             <a class="fnFooter" href="{{ route('warrantynroadside') }}">@lang('frontend.footer.recService.row1')</a><br>
                             <a class="fnFooter" href="">@lang('frontend.footer.recService.row2')</a><br>
                             <a class="fnFooter" href="">@lang('frontend.footer.recService.row3')</a><br>
+                            <a class="fnFooter" href="">@lang('frontend.footer.recService.row4')</a><br>
                         </address>
 
                         <address class="font-size-18 col-md-3">

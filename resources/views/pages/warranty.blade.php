@@ -92,7 +92,7 @@
         <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
-                    <img  class="img-fluid" src="{{ asset('media/photos/warranty/goldplus.png') }}" alt="">
+                    <img  class="img-fluid" src="{{ asset('media/photos/warranty/gold.png') }}" alt="">
                 </div>
             </div>
             <div class="block-content blockContent">
@@ -122,7 +122,7 @@
         <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
-                    <img  class="img-fluid" src="{{ asset('media/photos/warranty/autosmartstd.png') }}" alt="">
+                    <img  class="img-fluid" src="{{ asset('media/photos/warranty/platinum.png') }}" alt="">
                 </div>
             </div>
             <div class="block-content blockContent">
@@ -151,7 +151,7 @@
         <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
-                    <img class="img-fluid" src="{{ asset('media/photos/warranty/autosmartdm.png') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('media/photos/warranty/diamond.png') }}" alt="">
                 </div>
             </div>
             <div class="block-content blockContent">
