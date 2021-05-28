@@ -55,6 +55,15 @@
     </script>
 </head>
 
+<style>
+    .fnFooter{
+        color: #A4A4A4; 
+    }
+    .fnFooter:hover{
+        color: white;
+    }
+</style>
+
 <body>
     <div id="page-container" class="enable-page-overlay sidebar-dark side-scroll main-content-narrow">
 
@@ -445,6 +454,43 @@
                                                 </li>
                                             </ul>
                                         </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link nav-main-link-submenu" aria-haspopup="true"
+                                                aria-expanded="false" href="{{ route('warrantynroadside') }}">
+                                                <span
+                                                    class="nav-main-link-name">@lang('frontend.menu.service_submenu.warranty')</span>
+                                            </a>
+                                            <ul class="nav-main-submenu ">
+                                                <li class="nav-main-item">
+                                                    <a class="nav-main-link"
+                                                    href="{{ route('warranty.silver') }}">
+                                                        <span
+                                                            class="nav-main-link-name">Silver Program</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-main-item">
+                                                    <a class="nav-main-link"
+                                                        href="{{ route('warranty.goldplus') }}">
+                                                        <span
+                                                            class="nav-main-link-name">Gold Program</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-main-item">
+                                                    <a class="nav-main-link"
+                                                        href="{{ route('warranty.autosmartstd') }}">
+                                                        <span
+                                                            class="nav-main-link-name">Platinum Program</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-main-item">
+                                                    <a class="nav-main-link"
+                                                        href="{{ route('warranty.autosmartdm') }}">
+                                                        <span
+                                                            class="nav-main-link-name">Diamond Program</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="nav-main-item">
@@ -547,8 +593,8 @@
                             @lang('frontend.contacts.data1.row3')<br><br> --}}
 
                             <div class="font-size-h4 mb-1" >@lang('frontend.footer.about.title')</div>
-                            <a style="color: white;" href="{{ route('about') }}">@lang('frontend.footer.about.row1')</a><br>
-                            <a style="color: white;" href="{{ route('jobandcareer') }}">@lang('frontend.footer.about.row2')</a><br>
+                            <a class="fnFooter" href="{{ route('about') }}">@lang('frontend.footer.about.row1')</a><br>
+                            <a class="fnFooter" href="{{ route('jobandcareer') }}">@lang('frontend.footer.about.row2')</a><br>
                             {{-- <a style="color: white;" href="#">PRESS</a><br> --}}
                             <br>
                             <a target="_blank" href="https://www.facebook.com/schicinspection/"><i style="color: white" class="fab fa-2x fa-facebook-square" ></i></a>
@@ -561,11 +607,11 @@
                             @lang('frontend.contacts.data2.row1')<br>
                             @lang('frontend.contacts.data2.row2')​<br><br> --}}
                             <div class="font-size-h4 mb-1">@lang('frontend.footer.service.title')</div>
-                            <a style="color: white;" href="{{ route('service.vehicleanalysis') }}">@lang('frontend.footer.service.row1')</a><br>
-                            <a style="color: white;" href="{{ route('service.claimsappraisal') }}">@lang('frontend.footer.service.row2')</a><br>
-                            <a style="color: white;" href="{{ route('service.vehiclemanageserv') }}">@lang('frontend.footer.service.row3')</a><br>
-                            <a style="color: white;" href="{{ route('service.dealershipcer') }}">@lang('frontend.footer.service.row4')</a><br>
-                            <a style="color: white;" href="{{ route('service.dealershiptra') }}">@lang('frontend.footer.service.row5')</a><br>
+                            <a class="fnFooter" href="{{ route('service.vehicleanalysis') }}">@lang('frontend.footer.service.row1')</a><br>
+                            <a class="fnFooter" href="{{ route('service.claimsappraisal') }}">@lang('frontend.footer.service.row2')</a><br>
+                            <a class="fnFooter" href="{{ route('service.vehiclemanageserv') }}">@lang('frontend.footer.service.row3')</a><br>
+                            <a class="fnFooter" href="{{ route('service.dealershipcer') }}">@lang('frontend.footer.service.row4')</a><br>
+                            <a class="fnFooter" href="{{ route('service.dealershiptra') }}">@lang('frontend.footer.service.row5')</a><br>
                         </address>
 
                         <address class="font-size-18 col-md-3">
@@ -573,10 +619,9 @@
                             @lang('frontend.contacts.data3.row1')<br><br>
                             <a href="tel:020571292"><i class="fa fa-phone"></i> 02-057-1292</a><br> --}}
                             <div class="font-size-h4 mb-1">@lang('frontend.footer.recService.title')</div>
-                            {{-- <a style="color: white;" href="">คุ้มครองชิ้นส่วนอะไหล่และช่วยเหลือฉุกเฉินบนท้องถนน</a><br> --}}
-                            <a style="color: white;" href="">@lang('frontend.footer.recService.row1')</a><br>
-                            <a style="color: white;" href="">@lang('frontend.footer.recService.row2')</a><br>
-                            <a style="color: white;" href="">@lang('frontend.footer.recService.row3')</a><br>
+                            <a class="fnFooter" href="{{ route('warrantynroadside') }}">@lang('frontend.footer.recService.row1')</a><br>
+                            <a class="fnFooter" href="">@lang('frontend.footer.recService.row2')</a><br>
+                            <a class="fnFooter" href="">@lang('frontend.footer.recService.row3')</a><br>
                         </address>
 
                         <address class="font-size-18 col-md-3">
@@ -591,7 +636,7 @@
 
                             <span style="color: white;">
                                 <i class="fa fa-envelope"></i>
-                                <a style="color: white;" href="mailto:admin@schicher.com">@lang('frontend.footer.contact.email')</a>
+                                <a class="fnFooter" href="mailto:admin@schicher.com">@lang('frontend.footer.contact.email')</a>
                             </span><br>
 
                             <span style="color: white;">
@@ -603,7 +648,7 @@
                             </span><br>
 
                             <span style="color: white;">
-                                <a style="color: white;" href="tel:020571292"><i class="fa fa-phone"></i>@lang('frontend.footer.contact.tel')</a><br>
+                                <a class="fnFooter" href="tel:020571292"><i class="fa fa-phone"></i>@lang('frontend.footer.contact.tel')</a><br>
                             </span>
                         </address>
                     </div>

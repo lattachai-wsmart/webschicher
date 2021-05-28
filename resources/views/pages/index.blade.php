@@ -5,6 +5,15 @@
     <link rel="stylesheet" href="{{ asset('js/plugins/slick-carousel/slick-theme.css') }}">
 @endsection
 
+<style>
+    .fnTab{
+        color:#353B41;
+    }
+    .fnTab:hover{
+        color:#FDBE29;
+    }
+</style>
+
 @section('content')
     <!-- Page Content -->
     <div class="content bg-white">
@@ -51,24 +60,24 @@
         </div>
 
         <div class="row justify-content-center">
-            {{-- <div class="col-lg-3">
+            <div class="col-lg-3">
                 <a class="block block-rounded js-appear-enabled animated bounceIn" data-class="animated bounceIn"
                     href="{{ route('warrantynroadside') }}">
                     <div class="block-content block-content-full block_shadow">
-                        <div class="py-5 text-center">
+                        <div class="py-5 text-center fnTab">
                             <div class="item item-2x item-rounded  text-white mx-auto">
                                 <img src="{{ asset('media/photos/icons/warranty.png') }}" class="imageicon96" />
                             </div>
-                            <div class="font-size-h4 font-w600 pt-3 mb-0">WARRANTY & ROADSIDE</div>
+                            <div class="font-size-h4 font-w600 pt-3 mb-0">@lang('frontend.warranty.title')</div>
                         </div>
                     </div>
                 </a>
-            </div> --}}
+            </div>
             <div class="col-lg-3">
                 <a class="block block-rounded js-appear-enabled animated bounceIn" data-class="animated bounceIn"
                     href="{{ route('bookingins') }}">
                     <div class="block-content block-content-full block_shadow">
-                        <div class="py-5 text-center">
+                        <div class="py-5 text-center fnTab">
                             <div class="item item-2x item-rounded  text-white mx-auto">
                                 <img src="{{ asset('media/photos/icons/book.png') }}" class="imageicon96" />
                             </div>
@@ -77,12 +86,12 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-1"></div>
+            {{-- <div class="col-lg-1"></div> --}}
             <div class="col-lg-3">
                 <a class="block block-rounded js-appear-enabled animated bounceIn" data-class="animated bounceIn"
                     href="{{ route('findqualilyusedcars') }}">
                     <div class="block-content block-content-full block_shadow">
-                        <div class="py-5 text-center">
+                        <div class="py-5 text-center fnTab">
                             <div class="item item-2x item-rounded text-white mx-auto">
                                 <img src="{{ asset('media/photos/icons/cars.png') }}" class="imageicon96" />
                             </div>
@@ -91,12 +100,12 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-1"></div>
+            {{-- <div class="col-lg-1"></div> --}}
             <div class="col-lg-3">
                 <a class="block block-rounded js-appear-enabled animated bounceIn"data-class="animated bounceIn"
                     href="{{ route('shicertificates') }}">
                     <div class="block-content block-content-full block_shadow">
-                        <div class="py-5 text-center">
+                        <div class="py-5 text-center fnTab">
                             <div class="item item-2x item-rounded text-white mx-auto">
                                 <img src="{{ asset('media/photos/icons/search.png') }}" class="imageicon96" />
                             </div>
