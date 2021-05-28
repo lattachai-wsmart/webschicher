@@ -74,7 +74,7 @@
                                 <hr class="my-3" style="width: 97%; margin: 0px auto; border-color: #dadad3;">
         
                                 <div class="form-group row justify-content-center">
-                                    <button  style="font-family:SukhumvitSet" type="submit" class="btn btn-schi booking-bt col-8" align="right" id="submitbooking" >@lang('frontend.findqualily.submit')</button>
+                                    <button  style="font-family:SukhumvitSet; color:#132D46; background-color:#FDBE29;" type="submit" class="btn btn-schi booking-bt col-8" align="right" id="submitbooking" >@lang('frontend.findqualily.submit')</button>
                                 </div>
  
                             </form>

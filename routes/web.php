@@ -27,8 +27,8 @@ Route::get('bookins', [FrontendController::class, "bookingins"])->name('bookingi
 Route::post('bookins/create', [FrontendController::class, "createbookingins"])->name('createbookingins');
 Route::get('jobandcareer', [FrontendController::class, "jobandcareer"])->name('jobandcareer');
 
-Route::get('warrantyandroadside', [FrontendController::class, "warrantynroadside"])->name('warrantynroadside');
-Route::prefix('warrantyandroadside')->name('warrantyandroadside.')->group(function () {
+Route::get('warranty', [FrontendController::class, "warrantynroadside"])->name('warrantynroadside');
+Route::prefix('warranty')->name('warranty.')->group(function () {
     // Route::get('warrantyandroadside', [FrontendController::class, "warrantynroadside"])->name('warrantynroadside');
     Route::get('bronze', [FrontendController::class, "bronze"])->name('bronze');
     Route::get('silver', [FrontendController::class, "silver"])->name('silver');

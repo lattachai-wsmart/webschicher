@@ -52,7 +52,7 @@
                                     <br>
                                     <div class="input-group col-12" style="justify-content: center;">
                                         <div class="form-group row justify-content-center">
-                                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeERj8N2niDqH1MMOPjhhbnZ-Q0PI0X7jpuZ4Al_I4DOeVHsQ/viewform"><button style="font-family:SukhumvitSet" type="submit" class="btn btn-schi booking-bt" align="right" id="submitbooking">
+                                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeERj8N2niDqH1MMOPjhhbnZ-Q0PI0X7jpuZ4Al_I4DOeVHsQ/viewform"><button style="font-family:SukhumvitSet; color:#132D46; background-color:#FDBE29;" type="submit" class="btn booking-bt" align="right" id="submitbooking">
                                                 <i class="fas fa-user-md"></i>@lang('frontend.career.data.apply')
                                             </button></a> 
                                         </div>

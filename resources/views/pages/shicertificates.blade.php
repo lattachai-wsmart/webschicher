@@ -50,7 +50,7 @@
                         <input type="email" class="form-control" id="schiidsearch" name="schiidsearch"
                             placeholder="SCHI ID">
                         <div class="input-group-append">
-                            <button type="button" class="btn btn-primary" id="btnSearchSchi" style="font-family:SukhumvitSet;">
+                            <button type="button" class="btn" id="btnSearchSchi" style="font-family:SukhumvitSet; color:#132D46; background-color:#FDBE29;">
                                 <i class="fa fa-search mr-1"></i>@lang('frontend.shicertificates.search')
                             </button>
                         </div>

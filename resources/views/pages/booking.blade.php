@@ -24,7 +24,7 @@
                         <div class="row" id="box-show-form" >
                             <div class="col-xl-7 mb-5 text-title-left d-none d-md-block" >
                                 <Text class="text-white h2 " style="font-size:40px; font-family:SukhumvitSet;  letter-spacing: 3px;   text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner1')</Text><br/>
-                                <Text class="text-white h1" style="font-size:80px; font-family:AngsananewSet; font-weight: 200;   text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner2')</Text> <Text class="h1" style="color:#FDCC01; font-size:80px; font-family:AngsananewSet; text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner3')</Text><br/>
+                                <Text class="text-white h1" style="font-size:80px; font-family:AngsananewSet; font-weight: 200;   text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner2')</Text> <Text class="h1" style="color:#FDBE29; font-size:80px; font-family:AngsananewSet; text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner3')</Text><br/>
                                 <Text class="text-white h2" style="font-size:40px; font-family:SukhumvitSet; letter-spacing:3px; text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner4')</Text><br/>
                                 <Text class="text-white h2" style="font-size:40px; font-family:SukhumvitSet; letter-spacing: -2px; line-height: 2.2;   text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner5')</Text>
                             </div>
@@ -67,7 +67,7 @@
                                     </div>
                                     <hr class="my-3" style="width: 97%; margin: 0px auto; border-color: #dadad3;">
                                     <div class="form-group row justify-content-center">
-                                        <button type="submit" style="font-family:SukhumvitSet" class="btn btn-schi booking-bt col-8" align="right" id="submitbooking" >@lang('frontend.bookingins.booking')</button>
+                                        <button type="submit" style="font-family:SukhumvitSet; color:#132D46; background-color:#FDBE29;" class="btn btn-schi booking-bt col-8" align="right" id="submitbooking" >@lang('frontend.bookingins.booking')</button>
                                     </div>
                                 </form>
                             </div>
