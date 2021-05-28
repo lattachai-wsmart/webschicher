@@ -10,6 +10,7 @@ return [
             'vehicle_manage' => 'บริการด้านการช่วยบริหารจัดการรถยนต์',
             'dealership_cer' => 'การรับรองและการตรวจสอบตัวแทนจำหน่าย',
             'dealership_tra' => 'การฝึกอบรมคุณสมบัติของตัวแทนจำหน่าย',
+            'warranty' => 'การคุ้มครองชิ้นส่วนอะไหล่รถยนต์'
         ],
         'job_careers' => 'ร่วมงานกับเรา',
         'presas' => 'PRESS',
@@ -25,7 +26,7 @@ return [
     ],
 
     'cardSelect' => [
-        'warranty' => 'WARRANTY & ROADSIDE',
+        'warranty' => 'SCHIC WARRANTY',
         'bookSchi' => 'BOOK SCHIC INSPECTION',
         'searchSchi' => 'SEARCH CERTIFIED USEDCARS',
         'certSchi' => 'SCHIC CERTIFICATES',
@@ -109,14 +110,14 @@ return [
     ],
 
     'warranty' => [
-        'title' => 'WARRANTY & ROADSIDE',
+        'title' => 'SCHIC WARRANTY',
         'title1' => 'บริการคุ้มครองชิ้นส่วนอะไหล่รถ',
         'title2' => 'บริการช่วยเหลือฉุกเฉินบนท้องถนน 24 ชั่วโมง',
         'bronze' => 'BRONZE STANDARD',
-        'silver' => 'SILVER STANDARD',
-        'goldplus' => 'GOLD PLUS',
+        'silver' => 'SILVER PROGRAM',
+        'goldplus' => 'GOLD PROGRAM',
         'autosmartstd' => 'AUTO SMART STANDARD',
-        'autosmartdm' => 'AUTO SMART DIAMOND',
+        'autosmartdm' => 'DIAMOND PROGRAM',
         'whitecard' => 'WHITE CARD',
         'packagedetail' => 'รายละเอียดแพคเกจ',
         'readmore' => 'เพิ่มเติม',

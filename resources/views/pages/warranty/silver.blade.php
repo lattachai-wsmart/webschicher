@@ -4,6 +4,7 @@
 @endsection
 
 @section('content')
+
 <head> 
     <link rel="stylesheet" id="css-main" href="{{ asset('/css/warranty.css') }}">
 </head>
@@ -134,8 +135,42 @@
     <div class="row">
         <div class="col-10"></div>
         <div class="col-2 block-content block-content-full morePackage">
-            <a href="{{ asset('media/pdf/silver.pdf') }}" target="_blank"><span class="btn btn-schi px-4" >@lang('frontend.warranty.packagedetail')</span></a>
+            <a href="#" onclick="sendSuccess()"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet; color:#132D46; background-color:#FDBE29;" >ติดต่อสอบถามข้อมูล</span></a>
         </div>
     </div>
 </div>
+@endsection
+
+@section('js_after')
+<script src="{{ asset('js/plugins/sweetalert2/sweetalert2.min.js') }}"></script>
+<script>
+     function sendSuccess(){
+        Swal.fire({
+            title: `
+            <h3 class="color-schic" style="font-family:SukhumvitSet">
+               สอบถามรายละเอียดเพิ่มเติม
+            </h3>`,
+            // icon: 'success',
+            html:`
+            <div>
+                โทร: 02-057-1292 (ตลอด 24 ชั่วโมง)
+                <br>
+                Email: admin@schicher.com
+            </div>`,
+            customClass: {confirmButton: 'btn btn-rounded'},
+            confirmButtonColor: '#2c3e50',
+            showCloseButton: true,
+            showCancelButton: false,
+            // focusConfirm: true,
+            confirmButtonText:
+                `<div style="font-family:SukhumvitSet;">@lang('frontend.bookingins.modal4')</div>`,
+            confirmButtonAriaLabel: 'กลับสู่หน้าหลัก',
+        })
+    }
+
+</script>
+@endsection
+
+@section('css_before')
+    <link rel="stylesheet" href="{{ asset('js/plugins/sweetalert2/sweetalert2.min.css') }}">
 @endsection
