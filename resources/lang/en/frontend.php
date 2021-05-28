@@ -131,7 +131,7 @@ return [
     ],
 
     'warranty' => [
-        'title' => 'WARRANTY & ROADSIDE',
+        'title' => 'SCHIC WARRANTY',
         'title1' => 'SMART EXTENDED WARRANTY',
         'title2' => 'SMART ROADSIDE ASSISTANT SERVICE',
         'bronze' => 'BRONZE STANDARD',

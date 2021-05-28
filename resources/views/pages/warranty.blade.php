@@ -29,8 +29,7 @@
 <br>
 
 <div class=" row content overflow-hidden">
-    <div class="col-md-6 col-xl-3 invisible " data-toggle="appear" data-offset="50" data-timeout="200" data-class="animated fadeInUp">
-        <!-- Startup Plan -->
+    {{-- <div class="col-md-6 col-xl-3 invisible " data-toggle="appear" data-offset="50" data-timeout="200" data-class="animated fadeInUp">
         <div class="block block-link-shadow text-center box " href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
@@ -53,13 +52,12 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warrantyandroadside.bronze') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet;">@lang('frontend.warranty.readmore')</span></a>
+                <a href="{{ route('warranty.bronze') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet;">@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
-            <!-- END Startup Plan -->
-    </div>
+    </div> --}}
 
-    <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="400" data-class="animated fadeInUp">
+    <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="200" data-class="animated fadeInUp">
         <!-- Startup Plan -->
         <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
@@ -83,13 +81,13 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warrantyandroadside.silver') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet;">@lang('frontend.warranty.readmore')</span></a>
+                <a href="{{ route('warranty.silver') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet; color:#132D46; background-color:#FDBE29;">@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
     </div>
     
-    <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="600" data-class="animated fadeInUp">
+    <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="400" data-class="animated fadeInUp">
         <!-- Startup Plan -->
         <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
@@ -113,13 +111,13 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warrantyandroadside.goldplus')}}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet;">@lang('frontend.warranty.readmore')</span></a>
+                <a href="{{ route('warranty.goldplus')}}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet; color:#132D46; background-color:#FDBE29;">@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
     </div>
 
-    <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="800" data-class="animated fadeInUp">
+    <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="600" data-class="animated fadeInUp">
         <!-- Startup Plan -->
         <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
@@ -143,15 +141,12 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warrantyandroadside.autosmartstd') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet;">@lang('frontend.warranty.readmore')</span></a>
+                <a href="{{ route('warranty.autosmartstd') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet; color:#132D46; background-color:#FDBE29;">@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
     </div>
-</div>
-
-<div class=" row content overflow-hidden">
-    <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="1000" data-class="animated fadeInUp">
+    <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="800" data-class="animated fadeInUp">
         <!-- Startup Plan -->
         <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
@@ -175,23 +170,23 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warrantyandroadside.autosmartdm') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet;">@lang('frontend.warranty.readmore')</span></a>
+                <a href="{{ route('warranty.autosmartdm') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet; color:#132D46; background-color:#FDBE29;">@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
     </div>
 </div>
 
-<div class="row">    
+{{-- <div class="row">    
     <div class="col-lg-1"></div>
     <div class="col-lg-3 btn-schi font-w600 rounded p-3 push text-center topicBar rsTop">
         @lang('frontend.warranty.title2')
     </div>  
 </div>
-<br>
+<br> --}}
 
 
-<div class=" row content overflow-hidden">
+{{-- <div class=" row content overflow-hidden">
     <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="200" data-class="animated fadeInUp">
         <!-- Startup Plan -->
         <div class="block block-link-shadow text-center box" href="javascript:void(0)">
@@ -215,7 +210,7 @@
                 </div>
             </div>
         <div class="block-content block-content-full bg-body-light">
-            <a href="{{ route('warrantyandroadside.whitecard') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet;">@lang('frontend.warranty.readmore')</span></a>
+            <a href="{{ route('warranty.whitecard') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet;">@lang('frontend.warranty.readmore')</span></a>
         </div>
         </div>
             <!-- END Startup Plan -->
@@ -244,11 +239,11 @@
                 </div>
             </div>
         <div class="block-content block-content-full bg-body-light">
-            <a href="{{ route('warrantyandroadside.whitecardplus') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet;">@lang('frontend.warranty.readmore')</span></a>
+            <a href="{{ route('warranty.whitecardplus') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet;">@lang('frontend.warranty.readmore')</span></a>
         </div>
         </div>
             <!-- END Startup Plan -->
     </div>
-</div>
+</div> --}}
 
 @endsection
