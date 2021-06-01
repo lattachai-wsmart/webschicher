@@ -62,7 +62,7 @@
         <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
-                    <img  class="img-fluid" src="{{ asset('media/photos/warranty/silver.png') }}" alt="">
+                    <img  class="img-fluid" src="{{ asset('media/photos/warranty/BRONZE.jpg') }}" alt="">
                 </div>
             </div>
             <div class="block-content blockContent">
@@ -92,7 +92,7 @@
         <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
-                    <img  class="img-fluid" src="{{ asset('media/photos/warranty/gold.png') }}" alt="">
+                    <img  class="img-fluid" src="{{ asset('media/photos/warranty/SILVER.jpg') }}" alt="">
                 </div>
             </div>
             <div class="block-content blockContent">
@@ -122,7 +122,7 @@
         <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
-                    <img  class="img-fluid" src="{{ asset('media/photos/warranty/platinum.png') }}" alt="">
+                    <img  class="img-fluid" src="{{ asset('media/photos/warranty/GOLD.jpg') }}" alt="">
                 </div>
             </div>
             <div class="block-content blockContent">
@@ -151,7 +151,7 @@
         <div class="block block-link-shadow text-center box" href="javascript:void(0)">
             <div class="block-content bg-body-light blockImg">
                 <div class="py-2">
-                    <img class="img-fluid" src="{{ asset('media/photos/warranty/diamond.png') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('media/photos/warranty/BLACK.jpg') }}" alt="">
                 </div>
             </div>
             <div class="block-content blockContent">
