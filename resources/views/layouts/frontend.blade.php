@@ -53,6 +53,16 @@
     <script>
         window.Laravel = {!! json_encode(['csrfToken' => csrf_token()]) !!};
     </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LG5EFZR4BW"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-LG5EFZR4BW');
+    </script>
 </head>
 
 <style>
@@ -649,8 +659,9 @@
                             </span><br>
 
                             <span style="color: white;">
-                                <a class="fnFooter" href="tel:020571292"><i class="fa fa-phone"></i>@lang('frontend.footer.contact.tel')</a><br>
-                            </span>
+                                <i class="fa fa-phone"></i>
+                                <a class="fnFooter" href="tel:020571292">@lang('frontend.footer.contact.tel')</a>
+                            </span><br>
                         </address>
                     </div>
                 </div>
