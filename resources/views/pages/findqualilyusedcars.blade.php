@@ -55,7 +55,7 @@
 
                                 <div class="form-group row col-md-12">
                                     <label class="col-lg-4" for="carmodel">@lang('frontend.findqualily.carmodel')</label>
-                                    <select class="col-lg-8 form-control form-control-sm form-border mt-0 mt-lg-auto title-search" style="height: 35px;" name="carmodel" id="carmodel">
+                                    <select  style="font-family:SukhumvitSet; font-size:16px" class="col-lg-8 form-control form-control-sm form-border mt-0 mt-lg-auto title-search" style="height: 35px;" name="carmodel" id="carmodel">
                                         <option value="">@lang('frontend.findqualily.pleaseselect')</option>
                                     </select>
                                 </div>
