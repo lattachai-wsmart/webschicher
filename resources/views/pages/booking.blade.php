@@ -52,7 +52,7 @@
                                     </div>
                                     <div class="row mt-2">
                                         <label class="col-lg-4" for="carmodel" align="left" >@lang('frontend.bookingins.carmodel')</label>
-                                        <select class="col-lg-8 form-control form-control-sm form-border" name="model" id="carmodel" required>
+                                        <select class="col-lg-8 form-control form-control-sm form-border" style="font-family:SukhumvitSet; font-size:16px" name="model" id="carmodel" required>
                                             <option hidden value="">@lang('frontend.bookingins.plzselect')</option>
                                         </select>
                                     </div>
