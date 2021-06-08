@@ -74,6 +74,9 @@
     }
 </style>
 
+
+
+
 <body>
     <div id="page-container" class="enable-page-overlay sidebar-dark side-scroll main-content-narrow">
 
@@ -152,8 +155,6 @@
                 <!-- END Right Section -->
             </div>
             <!-- END Header Content -->
-
-
 
             <!-- Header Loader -->
             <!-- Please check out the Loaders page under Components category to see examples of showing/hiding it -->
@@ -475,28 +476,28 @@
                                                     <a class="nav-main-link"
                                                     href="{{ route('warranty.silver') }}">
                                                         <span
-                                                            class="nav-main-link-name">Silver Program</span>
+                                                            class="nav-main-link-name">Bronze Program</span>
                                                     </a>
                                                 </li>
                                                 <li class="nav-main-item">
                                                     <a class="nav-main-link"
                                                         href="{{ route('warranty.goldplus') }}">
                                                         <span
-                                                            class="nav-main-link-name">Gold Program</span>
+                                                            class="nav-main-link-name">silver Program</span>
                                                     </a>
                                                 </li>
                                                 <li class="nav-main-item">
                                                     <a class="nav-main-link"
                                                         href="{{ route('warranty.autosmartstd') }}">
                                                         <span
-                                                            class="nav-main-link-name">Platinum Program</span>
+                                                            class="nav-main-link-name">Gold Program</span>
                                                     </a>
                                                 </li>
                                                 <li class="nav-main-item">
                                                     <a class="nav-main-link"
                                                         href="{{ route('warranty.autosmartdm') }}">
                                                         <span
-                                                            class="nav-main-link-name">Diamond Program</span>
+                                                            class="nav-main-link-name">Black Program</span>
                                                     </a>
                                                 </li>
                                             </ul>
