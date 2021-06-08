@@ -12,6 +12,25 @@
     .fnTab:hover{
         color:#FDBE29;
     }
+
+    @media (max-width:500px){
+        .carousel-caption a.btn{
+            margin-right: -20px;
+        }
+    }
+    @media (max-width:410px){
+        .carousel-caption a.btn{
+            margin-right: -35px;
+            font-size:12px;
+        }
+    }
+    @media (max-width:400px){
+        .carousel-caption a.btn{
+            margin-right: -35px;
+            font-size:10px;
+        }
+    }
+    
 </style>
 
 @section('content')
@@ -25,7 +44,7 @@
                         <img class="img-fluid" src="media/photos/slidebar/shicher0-en.png" alt="">
 
                         <div class="carousel-caption">
-                            <h4 style="font-family:SukhumvitSet;">@lang('frontend.slide.aboutSchi')</h4>
+                            <h4 style="font-family:SukhumvitSet;" class="d-none d-md-block">@lang('frontend.slide.aboutSchi')</h4>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
                             <a class="btn btn-schi btn-sm mb-1" href="{{ route('service.vehicleanalysis') }}">@lang('frontend.slide.search')<i class="fa fa-caret-right"></i></a>
                         </div>
@@ -34,7 +53,7 @@
                         <img class="img-fluid" src="media/photos/slidebar/shicher1-en.png" alt="">
 
                         <div class="carousel-caption">
-                            <h4 style="font-family:SukhumvitSet;">@lang('frontend.slide.bookSchi')</h4>
+                            <h4 style="font-family:SukhumvitSet;" class="d-none d-md-block">@lang('frontend.slide.bookSchi')</h4>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
                             <a class="btn btn-schi btn-sm mb-1" href="{{ route('bookingins') }}">@lang('frontend.slide.search')<i class="fa fa-caret-right"></i></a>
                         </div>
@@ -42,7 +61,7 @@
                     <div class="carousel-item">
                         <img class="img-fluid" src="media/photos/slidebar/shicher2-en.png" alt="">
                         <div class="carousel-caption">
-                            <h4 style="font-family:SukhumvitSet;">@lang('frontend.slide.searchSchi')</h4>
+                            <h4 style="font-family:SukhumvitSet;" class="d-none d-md-block">@lang('frontend.slide.searchSchi')</h4>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
                             <a class="btn btn-schi btn-sm mb-1" href="{{ route('findqualilyusedcars') }}">@lang('frontend.slide.search')<i class="fa fa-caret-right"></i></a>
                         </div>
@@ -50,7 +69,7 @@
                     <div class="carousel-item">
                         <img class="img-fluid" src="media/photos/slidebar/shicher3-en.png" alt="">
                         <div class="carousel-caption">
-                            <h4 style="font-family:SukhumvitSet;">@lang('frontend.slide.certSchi')</h4>
+                            <h4 style="font-family:SukhumvitSet;" class="d-none d-md-block">@lang('frontend.slide.certSchi')</h4>
                             {{-- <div class="textSlide">&nbsp;</div> --}}
                             <a class="btn btn-schi btn-sm mb-1" href="{{ route('shicertificates') }}">@lang('frontend.slide.search')<i class="fa fa-caret-right"></i></a>
                         </div>

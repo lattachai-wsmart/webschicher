@@ -42,9 +42,9 @@ return [
         'row4' => 'ตรวจสอบอย่างละเอียด เป็นกลาง เชี่ยวชาญ เชื่อถือได้',
         'row5' => 'บริการให้คำปรึกษาผ่าน Call Center ตลอด 24 ชั่วโมง',
         'search' => 'search',
-        'id' => 'SCH ID :',
-        'carbrand' => 'CAR BRAND :',
-        'no' => 'NUMBER :'
+        'id' => 'SCH ID: ',
+        'carbrand' => 'CAR BRAND: ',
+        'no' => 'NUMBER: '
     ],
 
     'contacts' => [
@@ -92,7 +92,7 @@ return [
         ],
         'recService' => [
             'title' => 'บริการแนะนำ',
-            'row1' => 'คุ้มครองชิ้นส่วนอะไหล่และช่วยเหลือฉุกเฉินบนท้องถนน',
+            'row1' => 'บริการคุ้มครองชิ้นส่วนอะไหล่รถยนต์',
             'row2' => 'จองตรวจรถกับ Schicher',
             'row3' => 'ค้นหารถที่ได้รับการรับรองจาก Schicher',
             'row4' => 'ค้นหารายงานการตรวจสภาพรถยนต์',
@@ -111,12 +111,12 @@ return [
 
     'warranty' => [
         'title' => 'SCHIC WARRANTY',
-        'title1' => 'การบริการคุ้มครองชิ้นส่วนอะไหล่รถ',
+        'title1' => 'การบริการคุ้มครองชิ้นส่วนอะไหล่รถยนต์',
         'title2' => 'บริการช่วยเหลือฉุกเฉินบนท้องถนน 24 ชั่วโมง',
         'bronze' => 'BRONZE STANDARD',
         'silver' => 'SILVER PROGRAM',
         'goldplus' => 'GOLD PROGRAM',
-        'autosmartstd' => 'PLATINUM PROGRAM',
+        'black' => 'BLACK PROGRAM',
         'autosmartdm' => 'DIAMOND PROGRAM',
         'whitecard' => 'WHITE CARD',
         'packagedetail' => 'รายละเอียดแพคเกจ',
@@ -291,7 +291,7 @@ return [
         'banner2' => 'ที่ได้รับการการันตีจาก',
         'banner3' => 'S C H I C H ',
         'banner4' => 'E R',
-        'title' => 'กรอกรายละเอียดคุณเพื่อทำการค้นหา',
+        'title' => 'กรอกรายละเอียดเพื่อทำการค้นหารถที่คุณต้องการ',
         'carbrand' => 'ยี่ห้อรถยนต์',
         'carmodel' => 'รุ่นรถยนต์',
         'name' => 'ชื่อ-นามสกุล',
@@ -310,7 +310,7 @@ return [
         'banner3' => 'E R',
         'banner4' => 'มาตรฐาน GERMANY',
         'banner5' => 'เป็นกลาง เชี่ยวชาญ เชื่อถือได้',
-        'filldetail' => 'กรอกรายละเอียดของคุณเพื่อทำการจองรถ',
+        'filldetail' => 'กรอกรายละเอียดเพื่อทำการจองตรวจรถ',
         'title' => 'จองวันนัดตรวจรถ',
         'name' => 'ชื่อ - นามสกุล',
         'phone' => 'เบอร์ติดต่อ',
