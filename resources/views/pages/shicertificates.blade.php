@@ -10,6 +10,16 @@
         margin-right: 0px;
         margin-left: 0px;
     }
+
+    .search{
+        font-family:SukhumvitSet; 
+        color:#132D46; 
+        background-color:#f5ba32;
+    }
+    .search:hover{
+        /* text-shadow: 1px 1px 1px #ffffff; */
+        background-color:#ffb406;
+    }
 </style>
 
     <div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
@@ -50,8 +60,8 @@
                         <input type="email" class="form-control" id="schiidsearch" name="schiidsearch"
                             placeholder="SCHI ID">
                         <div class="input-group-append">
-                            <button type="button" class="btn" id="btnSearchSchi" style="font-family:SukhumvitSet; color:#132D46; background-color:#FDBE29;">
-                                <i class="fa fa-search mr-1"></i>@lang('frontend.shicertificates.search')
+                            <button type="button" class="btn search" id="btnSearchSchi" >
+                                <i class="fa fa-search mr-1 "></i>@lang('frontend.shicertificates.search')
                             </button>
                         </div>
                     </div>

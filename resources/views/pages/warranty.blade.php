@@ -8,6 +8,18 @@
     <link rel="stylesheet" id="css-main" href="{{ asset('/css/warranty.css') }}">
 </head>
 
+<style>
+    .readmore{
+        font-family:SukhumvitSet; 
+        color:#132D46; 
+        background-color:#f5ba32;
+    }
+    .readmore:hover{
+        /* text-shadow: 1px 1px 1px #ffffff; */
+        background-color:#ffb406;
+    }
+</style>
+
 {{-- <div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
     <div class="bg-primary-dark-op">
         <div class="content content-full overflow-hidden">
@@ -81,7 +93,7 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warranty.silver') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet; color:#132D46; background-color:#FDBE29;">@lang('frontend.warranty.readmore')</span></a>
+                <a href="{{ route('warranty.silver') }}"><span class="btn px-4 readmore">@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
@@ -111,7 +123,7 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warranty.goldplus')}}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet; color:#132D46; background-color:#FDBE29;">@lang('frontend.warranty.readmore')</span></a>
+                <a href="{{ route('warranty.goldplus')}}"><span class="btn readmore px-4">@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
@@ -141,7 +153,7 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warranty.autosmartstd') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet; color:#132D46; background-color:#FDBE29;">@lang('frontend.warranty.readmore')</span></a>
+                <a href="{{ route('warranty.autosmartstd') }}"><span class="btn px-4 readmore" >@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
@@ -170,7 +182,7 @@
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warranty.autosmartdm') }}"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet; color:#132D46; background-color:#FDBE29;">@lang('frontend.warranty.readmore')</span></a>
+                <a href="{{ route('warranty.autosmartdm') }}"><span class="btn px-4 readmore" >@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
