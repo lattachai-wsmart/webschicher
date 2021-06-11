@@ -608,7 +608,7 @@
                             <a class="fnFooter" href="{{ route('jobandcareer') }}">@lang('frontend.footer.about.row2')</a><br>
                             {{-- <a style="color: white;" href="#">PRESS</a><br> --}}
                             <br>
-                            <a target="_blank" href="https://www.facebook.com/schicinspection/"><i style="color: white" class="fab fa-2x fa-facebook-square" ></i></a>
+                            <a target="_blank" href="https://www.facebook.com/schicinspection/"><i class="fnFooter fab fa-2x fa-facebook-square" ></i></a>
                             {{-- <i class="fa fa-envelope-o"></i> <a
                                 href="mailto:admin@schicher.com"> admin@schicher.com</a> --}}
                         </address>
