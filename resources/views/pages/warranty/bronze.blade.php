@@ -7,6 +7,8 @@
 <head> 
     <link rel="stylesheet" id="css-main" href="{{ asset('/css/warranty.css') }}">
 </head>
+
+
 <div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
     <div class="bg-primary-dark-op">
         <div class="content content-full overflow-hidden">

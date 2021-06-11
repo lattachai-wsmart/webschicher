@@ -7,6 +7,25 @@
 <head> 
     <link rel="stylesheet" id="css-main" href="{{ asset('/css/warranty.css') }}">
 </head>
+
+<style>
+    .backModal{
+        color:#D7DBDE;
+    }
+    .backModal:hover{
+        color: white;
+    }
+    .contact{
+        font-family:SukhumvitSet; 
+        color:#132D46; 
+        background-color:#f5ba32;
+    }
+    .contact:hover{
+        /* text-shadow: 1px 1px 1px #ffffff; */
+        background-color:#ffb406;
+    }
+</style>
+
 <div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
     <div class="bg-primary-dark-op">
         <div class="content content-full overflow-hidden">
@@ -124,7 +143,8 @@
     </div>
     <div class="row">
         <div class="col-12 block-content block-content-full morePackage" align="right">
-            <a href="#" onclick="sendSuccess()"><span class="btn btn-schi px-4" style="font-family:SukhumvitSet; color:#132D46; background-color:#FDBE29;">ติดต่อสอบถามข้อมูล</span></a>
+            <a href="#" onclick="sendSuccess()" ><span class="btn contact px-4">ติดต่อสอบถามข้อมูล</span></a>
+
         </div>
     </div>
 </div>
@@ -153,7 +173,7 @@
            showCancelButton: false,
            // focusConfirm: true,
            confirmButtonText:
-               `<div style="font-family:SukhumvitSet">@lang('frontend.bookingins.modal4')</div>`,
+               `<div class="backModal" style="font-family:SukhumvitSet">@lang('frontend.bookingins.modal4')</div>`,
            confirmButtonAriaLabel: 'กลับสู่หน้าหลัก',
        })
    }
