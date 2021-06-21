@@ -367,7 +367,7 @@ class FrontendController extends Controller
 
     public function booking_search_cars(Request $request)
     {
-        
+
         // $validator = Validator::make($request->all(), [
         //     'name' => 'required | string',
         //     'tel' => 'required | numeric',
@@ -379,7 +379,7 @@ class FrontendController extends Controller
         //     return back()->withError($validator)->withInput();
         // }
 
-       
+
         $curl = curl_init();
         curl_setopt_array($curl, [
             CURLOPT_URL => env('URL_API').'/api/search_cars',
@@ -424,6 +424,11 @@ class FrontendController extends Controller
         return view('pages.warranty')->with('header', $this->header);
     }
 
+    // public function bronze()
+    // {
+    //     return view('pages.warranty.bronze')->with('header', $this->header);
+    // }
+
     public function bronze()
     {
         return view('pages.warranty.bronze')->with('header', $this->header);
@@ -434,19 +439,14 @@ class FrontendController extends Controller
         return view('pages.warranty.silver')->with('header', $this->header);
     }
 
-    public function goldplus()
+    public function gold()
     {
-        return view('pages.warranty.goldplus')->with('header', $this->header);
+        return view('pages.warranty.gold')->with('header', $this->header);
     }
 
-    public function autosmartstd()
+    public function black()
     {
-        return view('pages.warranty.autosmartstd')->with('header', $this->header);
-    }
-
-    public function autosmartdm()
-    {
-        return view('pages.warranty.autosmartdm')->with('header', $this->header);
+        return view('pages.warranty.black')->with('header', $this->header);
     }
 
     public function whitecard()
