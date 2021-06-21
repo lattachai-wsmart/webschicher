@@ -30,13 +30,13 @@ Route::get('jobandcareer', [FrontendController::class, "jobandcareer"])->name('j
 Route::get('warranty', [FrontendController::class, "warrantynroadside"])->name('warrantynroadside');
 Route::prefix('warranty')->name('warranty.')->group(function () {
     // Route::get('warrantyandroadside', [FrontendController::class, "warrantynroadside"])->name('warrantynroadside');
+    // Route::get('bronze', [FrontendController::class, "bronze"])->name('bronze');
     Route::get('bronze', [FrontendController::class, "bronze"])->name('bronze');
     Route::get('silver', [FrontendController::class, "silver"])->name('silver');
-    Route::get('goldplus', [FrontendController::class, "goldplus"])->name('goldplus');
-    Route::get('platinum', [FrontendController::class, "autosmartstd"])->name('autosmartstd');
-    Route::get('autosmartdm', [FrontendController::class, "autosmartdm"])->name('autosmartdm');
-    Route::get('whitecard', [FrontendController::class, "whitecard"])->name('whitecard');
-    Route::get('whitecardplus', [FrontendController::class, "whitecardplus"])->name('whitecardplus');
+    Route::get('gold', [FrontendController::class, "gold"])->name('gold');
+    Route::get('black', [FrontendController::class, "black"])->name('black');
+    // Route::get('whitecard', [FrontendController::class, "whitecard"])->name('whitecard');
+    // Route::get('whitecardplus', [FrontendController::class, "whitecardplus"])->name('whitecardplus');
 });
 
 Route::prefix('service')->name('service.')->group(function () {

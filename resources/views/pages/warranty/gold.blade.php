@@ -4,10 +4,9 @@
 @endsection
 
 @section('content')
-<head> 
+<head>
     <link rel="stylesheet" id="css-main" href="{{ asset('/css/warranty.css') }}">
 </head>
-
 
 <style>
     .backModal{
@@ -17,8 +16,8 @@
         color: white;
     }
     .contact{
-        font-family:SukhumvitSet; 
-        color:#132D46; 
+        font-family:SukhumvitSet;
+        color:#132D46;
         background-color:#f5ba32;
     }
     .contact:hover{
@@ -27,12 +26,11 @@
     }
 </style>
 
-
 <div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
     <div class="bg-primary-dark-op">
         <div class="content content-full overflow-hidden">
             <div class="mt-7 mb-5 text-center">
-                <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.warranty.autosmartdm')</h1>
+                <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.warranty.gold')</h1>
             </div>
         </div>
     </div>
@@ -47,9 +45,9 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.autosmartdm_detail.terms1')</li>
-                            <li>@lang('frontend.warranty.autosmartdm_detail.terms2')</li> 
-                            <li>@lang('frontend.warranty.autosmartdm_detail.terms3')</li>
+                            <li>@lang('frontend.warranty.gold_detail.terms1')</li>
+                            <li>@lang('frontend.warranty.gold_detail.terms2')</li>
+                            <li>@lang('frontend.warranty.gold_detail.terms3')</li>
                         </ul>
                     </div>
                 </div>
@@ -63,7 +61,7 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.autosmartdm_detail.period1')</li>  
+                            <li>@lang('frontend.warranty.gold_detail.period1')</li>
                         </ul>
                     </div>
                 </div>
@@ -77,7 +75,7 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.autosmartdm_detail.responsibility1')</li>   
+                            <li>@lang('frontend.warranty.gold_detail.responsibility1')</li>
                         </ul>
                     </div>
                 </div>
@@ -91,7 +89,7 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.autosmartdm_detail.privilege1')</li>
+                            <li>@lang('frontend.warranty.gold_detail.privilege1')</li>
                         </ul>
                     </div>
                 </div>
@@ -105,10 +103,10 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.autosmartdm_detail.caruncover1')</li> 
-                            <li>@lang('frontend.warranty.autosmartdm_detail.caruncover2')</li>
-                            <li>@lang('frontend.warranty.autosmartdm_detail.caruncover3')</li>
-                            <li>@lang('frontend.warranty.autosmartdm_detail.caruncover4')</li>
+                            <li>@lang('frontend.warranty.gold_detail.caruncover1')</li>
+                            <li>@lang('frontend.warranty.gold_detail.caruncover2')</li>
+                            <li>@lang('frontend.warranty.gold_detail.caruncover3')</li>
+                            <li>@lang('frontend.warranty.gold_detail.caruncover4')</li>
                         </ul>
                     </div>
                 </div>
@@ -122,7 +120,7 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.autosmartdm_detail.stuffuncover1')</li>
+                            <li>@lang('frontend.warranty.gold_detail.stuffuncover1')</li>
                         </ul>
                     </div>
                 </div>
@@ -136,7 +134,7 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                           <li>@lang('frontend.warranty.autosmartdm_detail.remark1')</li>                           
+                           <li>@lang('frontend.warranty.gold_detail.remark1')</li>
                         </ul>
                     </div>
                 </div>
@@ -146,6 +144,7 @@
     <div class="row">
         <div class="col-12 block-content block-content-full morePackage" align="right">
             <a href="#" onclick="sendSuccess()" ><span class="btn contact px-4">ติดต่อสอบถามข้อมูล</span></a>
+
         </div>
     </div>
 </div>

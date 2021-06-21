@@ -8,29 +8,12 @@
     <link rel="stylesheet" id="css-main" href="{{ asset('/css/warranty.css') }}">
 </head>
 
-<style>
-    .backModal{
-        color:#D7DBDE;
-    }
-    .backModal:hover{
-        color: white;
-    }
-    .contact{
-        font-family:SukhumvitSet; 
-        color:#132D46; 
-        background-color:#f5ba32;
-    }
-    .contact:hover{
-        /* text-shadow: 1px 1px 1px #ffffff; */
-        background-color:#ffb406;
-    }
-</style>
 
 <div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
     <div class="bg-primary-dark-op">
         <div class="content content-full overflow-hidden">
             <div class="mt-7 mb-5 text-center">
-                <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.warranty.autosmartstd')</h1>
+                <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.warranty.bronze')</h1>
             </div>
         </div>
     </div>
@@ -45,9 +28,9 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.autosmartstd_detail.terms1')</li>
-                            <li>@lang('frontend.warranty.autosmartstd_detail.terms2')</li> 
-                            <li>@lang('frontend.warranty.autosmartstd_detail.terms3')</li>
+                            <li>@lang('frontend.warranty.bronze_detail.terms1')</li>
+                            <li>@lang('frontend.warranty.bronze_detail.terms2')</li> 
+                            <li>@lang('frontend.warranty.bronze_detail.terms3')</li>
                         </ul>
                     </div>
                 </div>
@@ -61,7 +44,7 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.autosmartstd_detail.period1')</li>
+                            <li>@lang('frontend.warranty.bronze_detail.period1')</li>
                         </ul>
                     </div>
                 </div>
@@ -75,7 +58,7 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.autosmartstd_detail.responsibility1')</li>   
+                            <li>@lang('frontend.warranty.bronze_detail.responsibility1')</li>   
                         </ul>
                     </div>
                 </div>
@@ -89,7 +72,7 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.autosmartstd_detail.privilege1')</li>
+                            <li>@lang('frontend.warranty.bronze_detail.privilege1')</li>
                         </ul>
                     </div>
                 </div>
@@ -103,10 +86,10 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.autosmartstd_detail.caruncover1')</li> 
-                            <li>@lang('frontend.warranty.autosmartstd_detail.caruncover2')</li>
-                            <li>@lang('frontend.warranty.autosmartstd_detail.caruncover3')</li>
-                            <li>@lang('frontend.warranty.autosmartstd_detail.caruncover4')</li>
+                            <li>@lang('frontend.warranty.bronze_detail.caruncover1')</li> 
+                            <li>@lang('frontend.warranty.bronze_detail.caruncover2')</li>
+                            <li>@lang('frontend.warranty.bronze_detail.caruncover3')</li>
+                            <li>@lang('frontend.warranty.bronze_detail.caruncover4')</li>
                         </ul>
                     </div>
                 </div>
@@ -120,7 +103,11 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.autosmartstd_detail.stuffuncover1')</li>
+                            <li>@lang('frontend.warranty.bronze_detail.stuffuncover1')</li> 
+                            <li>@lang('frontend.warranty.bronze_detail.stuffuncover2')</li>
+                            <li>@lang('frontend.warranty.bronze_detail.stuffuncover3')</li>
+                            <li>@lang('frontend.warranty.bronze_detail.stuffuncover4')</li>
+                            <li>@lang('frontend.warranty.bronze_detail.stuffuncover5')</li>
                         </ul>
                     </div>
                 </div>
@@ -134,7 +121,11 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                           <li>@lang('frontend.warranty.autosmartstd_detail.remark1')</li>                           
+                            <li>@lang('frontend.warranty.bronze_detail.remark1')</li> 
+                            <li>@lang('frontend.warranty.bronze_detail.remark2')</li>
+                            <li>@lang('frontend.warranty.bronze_detail.remark3')</li>
+                            <li>@lang('frontend.warranty.bronze_detail.remark4')</li>
+                            <li>@lang('frontend.warranty.bronze_detail.remark5')</li>                            
                         </ul>
                     </div>
                 </div>
@@ -142,45 +133,10 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-12 block-content block-content-full morePackage" align="right">
-            <a href="#" onclick="sendSuccess()" ><span class="btn contact px-4">ติดต่อสอบถามข้อมูล</span></a>
-
+        <div class="col-10"></div>
+        <div class="col-2 block-content block-content-full morePackage">
+            <a href="{{ asset('media/pdf/bronzestd.pdf') }}" target="_blank"><span class="btn btn-schi px-4" >@lang('frontend.warranty.packagedetail')</span></a>
         </div>
     </div>
 </div>
-@endsection
-
-
-@section('js_after')
-<script src="{{ asset('js/plugins/sweetalert2/sweetalert2.min.js') }}"></script>
-<script>
-    function sendSuccess(){
-       Swal.fire({
-           title: `
-           <h3 class="color-schic" style="font-family:SukhumvitSet">
-              สอบถามรายละเอียดเพิ่มเติม
-           </h3>`,
-           // icon: 'success',
-           html:`
-           <div>
-               โทร: 02-057-1292 (ตลอด 24 ชั่วโมง)
-               <br>
-               Email: admin@schicher.com
-           </div>`,
-           customClass: {confirmButton: 'btn btn-rounded'},
-           confirmButtonColor: '#2c3e50',
-           showCloseButton: true,
-           showCancelButton: false,
-           // focusConfirm: true,
-           confirmButtonText:
-               `<div class="backModal" style="font-family:SukhumvitSet">@lang('frontend.bookingins.modal4')</div>`,
-           confirmButtonAriaLabel: 'กลับสู่หน้าหลัก',
-       })
-   }
-
-</script>
-@endsection
-
-@section('css_before')
-    <link rel="stylesheet" href="{{ asset('js/plugins/sweetalert2/sweetalert2.min.css') }}">
 @endsection
