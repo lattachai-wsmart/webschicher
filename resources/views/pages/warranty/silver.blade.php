@@ -4,8 +4,7 @@
 @endsection
 
 @section('content')
-
-<head> 
+<head>
     <link rel="stylesheet" id="css-main" href="{{ asset('/css/warranty.css') }}">
 </head>
 
@@ -16,10 +15,9 @@
     .backModal:hover{
         color: white;
     }
-
     .contact{
-        font-family:SukhumvitSet; 
-        color:#132D46; 
+        font-family:SukhumvitSet;
+        color:#132D46;
         background-color:#f5ba32;
     }
     .contact:hover{
@@ -49,7 +47,7 @@
                     <div class="col-9">
                         <ul>
                             <li>@lang('frontend.warranty.silver_detail.terms1')</li>
-                            <li>@lang('frontend.warranty.silver_detail.terms2')</li> 
+                            <li>@lang('frontend.warranty.silver_detail.terms2')</li>
                         </ul>
                     </div>
                 </div>
@@ -63,7 +61,7 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.silver_detail.period1')</li>  
+                            <li>@lang('frontend.warranty.silver_detail.period1')</li>
                         </ul>
                     </div>
                 </div>
@@ -77,7 +75,7 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.silver_detail.responsibility1')</li>   
+                            <li>@lang('frontend.warranty.silver_detail.responsibility1')</li>
                         </ul>
                     </div>
                 </div>
@@ -105,7 +103,7 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.silver_detail.caruncover1')</li> 
+                            <li>@lang('frontend.warranty.silver_detail.caruncover1')</li>
                             <li>@lang('frontend.warranty.silver_detail.caruncover2')</li>
                             <li>@lang('frontend.warranty.silver_detail.caruncover3')</li>
                             <li>@lang('frontend.warranty.silver_detail.caruncover4')</li>
@@ -123,11 +121,10 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.silver_detail.stuffuncover1')</li> 
+                            <li>@lang('frontend.warranty.silver_detail.stuffuncover1')</li>
                             <li>@lang('frontend.warranty.silver_detail.stuffuncover2')</li>
                             <li>@lang('frontend.warranty.silver_detail.stuffuncover3')</li>
                             <li>@lang('frontend.warranty.silver_detail.stuffuncover4')</li>
-                            <li>@lang('frontend.warranty.silver_detail.stuffuncover5')</li>                           
                         </ul>
                     </div>
                 </div>
@@ -143,9 +140,9 @@
                         <ul>
                             <li>@lang('frontend.warranty.silver_detail.remark1')</li>
                             <li>@lang('frontend.warranty.silver_detail.remark2')</li>
-                            <li>@lang('frontend.warranty.silver_detail.remark3')</li>    
+                            <li>@lang('frontend.warranty.silver_detail.remark3')</li>
                             <li>@lang('frontend.warranty.silver_detail.remark4')</li>
-                            {{-- <li>@lang('frontend.warranty.silver_detail.remark5')</li>--}}
+                            {{-- <li>@lang('frontend.warranty.silver_detail.remark5')</li>                             --}}
                         </ul>
                     </div>
                 </div>
@@ -153,39 +150,42 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-12 block-content block-content-full morePackage " align="right">
+        {{-- <div class="col-10"></div> --}}
+        <div class="col-12 block-content block-content-full morePackage" align="right">
             <a href="#" onclick="sendSuccess()" ><span class="btn contact px-4">ติดต่อสอบถามข้อมูล</span></a>
+
         </div>
     </div>
 </div>
 @endsection
 
+
 @section('js_after')
 <script src="{{ asset('js/plugins/sweetalert2/sweetalert2.min.js') }}"></script>
 <script>
-     function sendSuccess(){
-        Swal.fire({
-            title: `
-            <h3 class="color-schic" style="font-family:SukhumvitSet">
-               สอบถามรายละเอียดเพิ่มเติม
-            </h3>`,
-            // icon: 'success',
-            html:`
-            <div>
-                โทร: 02-057-1292 (ตลอด 24 ชั่วโมง)
-                <br>
-                Email: admin@schicher.com
-            </div>`,
-            customClass: {confirmButton: 'btn btn-rounded'},
-            confirmButtonColor: '#2c3e50',
-            showCloseButton: true,
-            showCancelButton: false,
-            // focusConfirm: true,
-            confirmButtonText:
-                `<div class="backModal" style="font-family:SukhumvitSet;">@lang('frontend.bookingins.modal4')</div>`,
-            confirmButtonAriaLabel: 'กลับสู่หน้าหลัก',
-        })
-    }
+    function sendSuccess(){
+       Swal.fire({
+           title: `
+           <h3 class="color-schic" style="font-family:SukhumvitSet">
+              สอบถามรายละเอียดเพิ่มเติม
+           </h3>`,
+           // icon: 'success',
+           html:`
+           <div>
+               โทร: 02-057-1292 (ตลอด 24 ชั่วโมง)
+               <br>
+               Email: admin@schicher.com
+           </div>`,
+           customClass: {confirmButton: 'btn btn-rounded'},
+           confirmButtonColor: '#2c3e50',
+           showCloseButton: true,
+           showCancelButton: false,
+           // focusConfirm: true,
+           confirmButtonText:
+               `<div class="backModal" style="font-family:SukhumvitSet">@lang('frontend.bookingins.modal4')</div>`,
+           confirmButtonAriaLabel: 'กลับสู่หน้าหลัก',
+       })
+   }
 
 </script>
 @endsection

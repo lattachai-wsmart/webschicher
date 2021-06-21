@@ -4,9 +4,10 @@
 @endsection
 
 @section('content')
-<head> 
+<head>
     <link rel="stylesheet" id="css-main" href="{{ asset('/css/warranty.css') }}">
 </head>
+
 
 <style>
     .backModal{
@@ -16,8 +17,8 @@
         color: white;
     }
     .contact{
-        font-family:SukhumvitSet; 
-        color:#132D46; 
+        font-family:SukhumvitSet;
+        color:#132D46;
         background-color:#f5ba32;
     }
     .contact:hover{
@@ -26,12 +27,12 @@
     }
 </style>
 
+
 <div class="bg-image mb-3" style="background-image: url('{{ asset('media/photos/about/about_schic1.jpg') }}');">
     <div class="bg-primary-dark-op">
         <div class="content content-full overflow-hidden">
             <div class="mt-7 mb-5 text-center">
-                <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">
-                    @lang('frontend.warranty.goldplus')</h1>
+                <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">@lang('frontend.warranty.black')</h1>
             </div>
         </div>
     </div>
@@ -46,8 +47,9 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.goldplus_detail.terms1')</li>
-                            <li>@lang('frontend.warranty.goldplus_detail.terms2')</li> 
+                            <li>@lang('frontend.warranty.black_detail.terms1')</li>
+                            <li>@lang('frontend.warranty.black_detail.terms2')</li>
+                            <li>@lang('frontend.warranty.black_detail.terms3')</li>
                         </ul>
                     </div>
                 </div>
@@ -61,7 +63,7 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.goldplus_detail.period1')</li>           
+                            <li>@lang('frontend.warranty.black_detail.period1')</li>
                         </ul>
                     </div>
                 </div>
@@ -75,7 +77,7 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.goldplus_detail.responsibility1')</li>   
+                            <li>@lang('frontend.warranty.black_detail.responsibility1')</li>
                         </ul>
                     </div>
                 </div>
@@ -89,7 +91,7 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.goldplus_detail.privilege1')</li>
+                            <li>@lang('frontend.warranty.black_detail.privilege1')</li>
                         </ul>
                     </div>
                 </div>
@@ -103,11 +105,10 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.goldplus_detail.caruncover1')</li> 
-                            <li>@lang('frontend.warranty.goldplus_detail.caruncover2')</li>
-                            <li>@lang('frontend.warranty.goldplus_detail.caruncover3')</li>
-                            <li>@lang('frontend.warranty.goldplus_detail.caruncover4')</li>
-                            <li>@lang('frontend.warranty.goldplus_detail.caruncover5')</li>
+                            <li>@lang('frontend.warranty.black_detail.caruncover1')</li>
+                            <li>@lang('frontend.warranty.black_detail.caruncover2')</li>
+                            <li>@lang('frontend.warranty.black_detail.caruncover3')</li>
+                            <li>@lang('frontend.warranty.black_detail.caruncover4')</li>
                         </ul>
                     </div>
                 </div>
@@ -121,10 +122,7 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.goldplus_detail.stuffuncover1')</li> 
-                            <li>@lang('frontend.warranty.goldplus_detail.stuffuncover2')</li>
-                            <li>@lang('frontend.warranty.goldplus_detail.stuffuncover3')</li>
-                            <li>@lang('frontend.warranty.goldplus_detail.stuffuncover4')</li>                           
+                            <li>@lang('frontend.warranty.black_detail.stuffuncover1')</li>
                         </ul>
                     </div>
                 </div>
@@ -138,11 +136,7 @@
                     </div>
                     <div class="col-9">
                         <ul>
-                            <li>@lang('frontend.warranty.goldplus_detail.remark1')</li>
-                            <li>@lang('frontend.warranty.goldplus_detail.remark2')</li>
-                            <li>@lang('frontend.warranty.goldplus_detail.remark3')</li>    
-                            <li>@lang('frontend.warranty.goldplus_detail.remark4')</li>
-                            {{-- <li>@lang('frontend.warranty.goldplus_detail.remark5')</li>                             --}}
+                           <li>@lang('frontend.warranty.black_detail.remark1')</li>
                         </ul>
                     </div>
                 </div>
@@ -150,10 +144,8 @@
         </div>
     </div>
     <div class="row">
-        {{-- <div class="col-10"></div> --}}
         <div class="col-12 block-content block-content-full morePackage" align="right">
             <a href="#" onclick="sendSuccess()" ><span class="btn contact px-4">ติดต่อสอบถามข้อมูล</span></a>
-
         </div>
     </div>
 </div>

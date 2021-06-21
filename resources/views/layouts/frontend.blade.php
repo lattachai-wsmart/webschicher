@@ -67,7 +67,7 @@
 
 <style>
     .fnFooter{
-        color: #A4A4A4; 
+        color: #A4A4A4;
     }
     .fnFooter:hover{
         color: white;
@@ -474,28 +474,28 @@
                                             <ul class="nav-main-submenu ">
                                                 <li class="nav-main-item">
                                                     <a class="nav-main-link"
-                                                    href="{{ route('warranty.silver') }}">
+                                                    href="{{ route('warranty.bronze') }}">
                                                         <span
                                                             class="nav-main-link-name">Bronze Program</span>
                                                     </a>
                                                 </li>
                                                 <li class="nav-main-item">
                                                     <a class="nav-main-link"
-                                                        href="{{ route('warranty.goldplus') }}">
+                                                        href="{{ route('warranty.silver') }}">
                                                         <span
                                                             class="nav-main-link-name">silver Program</span>
                                                     </a>
                                                 </li>
                                                 <li class="nav-main-item">
                                                     <a class="nav-main-link"
-                                                        href="{{ route('warranty.autosmartstd') }}">
+                                                        href="{{ route('warranty.gold') }}">
                                                         <span
                                                             class="nav-main-link-name">Gold Program</span>
                                                     </a>
                                                 </li>
                                                 <li class="nav-main-item">
                                                     <a class="nav-main-link"
-                                                        href="{{ route('warranty.autosmartdm') }}">
+                                                        href="{{ route('warranty.black') }}">
                                                         <span
                                                             class="nav-main-link-name">Black Program</span>
                                                     </a>
@@ -592,7 +592,7 @@
         <!-- END Main Container -->
 
         <!-- Footer -->
-        <footer id="page-footer" class=" bg-body-light display-flex">                 
+        <footer id="page-footer" class=" bg-body-light display-flex">
             <div class="content-full py-3 bg-schic justify-content-center ">
                 <div class="row font-size-sm ">
                     <div class="block-content row text-light justify-content-center">

@@ -10,8 +10,8 @@
 
 <style>
     .readmore{
-        font-family:SukhumvitSet; 
-        color:#132D46; 
+        font-family:SukhumvitSet;
+        color:#132D46;
         background-color:#f5ba32;
     }
     .readmore:hover{
@@ -32,11 +32,11 @@
 
 {{-- <div class="row col-lg-3 mb-3 mt-5 h4 bg-body-dark font-w600 rounded p-3 push text-center"> --}}
 <br>
-<div class="row">    
+<div class="row">
     <div class="col-lg-1"></div>
     <div class="col-lg-3 btn-schi font-w600 rounded p-3 push text-center topicBar">
         @lang('frontend.warranty.title1')
-    </div>  
+    </div>
 </div>
 <br>
 
@@ -81,24 +81,24 @@
                 <div class="font-size-sm py-2">
                    <div class="textContent">
                         <ul>
-                            <li>@lang('frontend.warranty.silver_content.undertenyears')</li>
-                            <li>@lang('frontend.warranty.silver_content.runnomore')</li>
-                            <li>@lang('frontend.warranty.silver_content.coverage')</li>
-                            <li>@lang('frontend.warranty.silver_content.item')</li>
-                            <li>@lang('frontend.warranty.silver_content.garages')</li>
-                            <li>@lang('frontend.warranty.silver_content.responsible')</li>
-                            <li>@lang('frontend.warranty.silver_content.emergency')</li>
+                            <li>@lang('frontend.warranty.bronze_content.undertenyears')</li>
+                            <li>@lang('frontend.warranty.bronze_content.runnomore')</li>
+                            <li>@lang('frontend.warranty.bronze_content.coverage')</li>
+                            <li>@lang('frontend.warranty.bronze_content.item')</li>
+                            <li>@lang('frontend.warranty.bronze_content.garages')</li>
+                            <li>@lang('frontend.warranty.bronze_content.responsible')</li>
+                            <li>@lang('frontend.warranty.bronze_content.emergency')</li>
                         </ul>
                    </div>
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warranty.silver') }}"><span class="btn px-4 readmore">@lang('frontend.warranty.readmore')</span></a>
+                <a href="{{ route('warranty.bronze') }}"><span class="btn px-4 readmore">@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
     </div>
-    
+
     <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="400" data-class="animated fadeInUp">
         <!-- Startup Plan -->
         <div class="block block-link-shadow text-center box" href="javascript:void(0)">
@@ -111,19 +111,19 @@
                 <div class="font-size-sm py-2">
                     <div class="textContent">
                         <ul>
-                            <li>@lang('frontend.warranty.goldplus_content.undertenyears')</li>
-                            <li>@lang('frontend.warranty.goldplus_content.runnomore')</li>
-                            <li>@lang('frontend.warranty.goldplus_content.coverage')</li>
-                            <li>@lang('frontend.warranty.goldplus_content.item')</li>
-                            <li>@lang('frontend.warranty.goldplus_content.garages')</li>
-                            <li>@lang('frontend.warranty.goldplus_content.responsible')</li>
-                            <li>@lang('frontend.warranty.goldplus_content.emergency')</li>
+                            <li>@lang('frontend.warranty.bronze_content.undertenyears')</li>
+                            <li>@lang('frontend.warranty.bronze_content.runnomore')</li>
+                            <li>@lang('frontend.warranty.bronze_content.coverage')</li>
+                            <li>@lang('frontend.warranty.bronze_content.item')</li>
+                            <li>@lang('frontend.warranty.bronze_content.garages')</li>
+                            <li>@lang('frontend.warranty.bronze_content.responsible')</li>
+                            <li>@lang('frontend.warranty.bronze_content.emergency')</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warranty.goldplus')}}"><span class="btn readmore px-4">@lang('frontend.warranty.readmore')</span></a>
+                <a href="{{ route('warranty.silver')}}"><span class="btn readmore px-4">@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
@@ -141,19 +141,19 @@
                 <div class="font-size-sm py-2">
                    <div class="textContent">
                         <ul>
-                            <li>@lang('frontend.warranty.autosmartstd_content.undertenyears')</li>
-                            <li>@lang('frontend.warranty.autosmartstd_content.runnomore')</li>
-                            <li>@lang('frontend.warranty.autosmartstd_content.coverage')</li>
-                            <li>@lang('frontend.warranty.autosmartstd_content.item')</li>
-                            <li>@lang('frontend.warranty.autosmartstd_content.garages')</li>
-                            <li>@lang('frontend.warranty.autosmartstd_content.responsible')</li>
-                            <li>@lang('frontend.warranty.autosmartstd_content.emergency')</li>
+                            <li>@lang('frontend.warranty.gold_content.undertenyears')</li>
+                            <li>@lang('frontend.warranty.gold_content.runnomore')</li>
+                            <li>@lang('frontend.warranty.gold_content.coverage')</li>
+                            <li>@lang('frontend.warranty.gold_content.item')</li>
+                            <li>@lang('frontend.warranty.gold_content.garages')</li>
+                            <li>@lang('frontend.warranty.gold_content.responsible')</li>
+                            <li>@lang('frontend.warranty.gold_content.emergency')</li>
                         </ul>
                    </div>
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warranty.autosmartstd') }}"><span class="btn px-4 readmore" >@lang('frontend.warranty.readmore')</span></a>
+                <a href="{{ route('warranty.gold') }}"><span class="btn px-4 readmore" >@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
@@ -170,30 +170,30 @@
                 <div class="font-size-sm py-2" >
                    <div class="textContent">
                         <ul>
-                            <li>@lang('frontend.warranty.autosmartdm_content.undertenyears')</li>
-                            <li>@lang('frontend.warranty.autosmartdm_content.runnomore')</li>
-                            <li>@lang('frontend.warranty.autosmartdm_content.coverage')</li>
-                            <li>@lang('frontend.warranty.autosmartdm_content.item')</li>
-                            <li>@lang('frontend.warranty.autosmartdm_content.garages')</li>
-                            <li>@lang('frontend.warranty.autosmartdm_content.responsible')</li>
-                            <li>@lang('frontend.warranty.autosmartdm_content.emergency')</li>
+                            <li>@lang('frontend.warranty.black_content.undertenyears')</li>
+                            <li>@lang('frontend.warranty.black_content.runnomore')</li>
+                            <li>@lang('frontend.warranty.black_content.coverage')</li>
+                            <li>@lang('frontend.warranty.black_content.item')</li>
+                            <li>@lang('frontend.warranty.black_content.garages')</li>
+                            <li>@lang('frontend.warranty.black_content.responsible')</li>
+                            <li>@lang('frontend.warranty.black_content.emergency')</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light">
-                <a href="{{ route('warranty.autosmartdm') }}"><span class="btn px-4 readmore" >@lang('frontend.warranty.readmore')</span></a>
+                <a href="{{ route('warranty.black') }}"><span class="btn px-4 readmore" >@lang('frontend.warranty.readmore')</span></a>
             </div>
         </div>
             <!-- END Startup Plan -->
     </div>
 </div>
 
-{{-- <div class="row">    
+{{-- <div class="row">
     <div class="col-lg-1"></div>
     <div class="col-lg-3 btn-schi font-w600 rounded p-3 push text-center topicBar rsTop">
         @lang('frontend.warranty.title2')
-    </div>  
+    </div>
 </div>
 <br> --}}
 
@@ -227,7 +227,7 @@
         </div>
             <!-- END Startup Plan -->
     </div>
-    
+
     <div class="col-md-6 col-xl-3 invisible" data-toggle="appear" data-offset="50" data-timeout="400" data-class="animated fadeInUp">
         <!-- Startup Plan -->
         <div class="block block-link-shadow text-center box" href="javascript:void(0)">
