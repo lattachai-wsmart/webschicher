@@ -31,7 +31,7 @@
                             <p class="">
                                 @lang('frontend.Bodyshop_Appraisal.content')
                             </p>
-                            <div class="row"><strong >@lang('frontend.Bodyshop_Appraisal.list.title')</strong></div>
+                            {{-- <div class="row"><strong >@lang('frontend.Bodyshop_Appraisal.list.title')</strong></div>
                             <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.Bodyshop_Appraisal.list.1')</li>
@@ -39,7 +39,7 @@
                                     <li>@lang('frontend.Bodyshop_Appraisal.list.3')</li>
                                     <li>@lang('frontend.Bodyshop_Appraisal.list.4')</li>
                                 </ol>
-                            </div>
+                            </div> --}}
                             <p class="">
                                 @lang('frontend.Bodyshop_Appraisal.content1')
                             </p>

@@ -230,23 +230,24 @@ return [
         'content2' => 'To improve customer experience, technology is also used to timely deliver reports to consumers via multiple online channels. Furthermore, SCHIC’s report are carefully crafted for non-professionals to easily comprehend and is further complemented by SCHIC’s experts who are on standby to explain the reports in deeper details. Apart from this, SCHIC also offers tailor made services such as Car Mileage validation to Car Accident History Checks to give customers additional peace of mind',
     ],
     'Periodic_Mandatory_Analysis' => [
-        'title' => 'Periodic Mandatory Analysis',
+        'title' => ' Vehicle Periodic Analysis',
         'content' => 'SCHIC’s Periodic Vehicle Analysis ensures that Vehicles are safe to be driven on the road. Inspection is done every 3-6 months or every 10,000 KM. If any irregularities are found, SCHIC’s experts will provide the most cost-effective solutions to the customers whether it be a simple oil change to a complex engine overhaul. Apart from safety, Car owners can also feel at peace that their vehicles are being maintained in good condition on a periodic basis which helps provide proof of maintenance that can act to signal the vehicles’ quality to potential car buyers in the future. ',
     ],
     'Emission_Tests_Analysis' => [
-        'title' => 'Emission Tests Analysis',
+        'title' => 'Vehicle Emission Analysis',
         'Scicher' => 'Schicher',
         'content1' => 'Vehicle emission analysis assesses the fuel efficiency and the amount of greenhouse gases a vehicle produces. The Vehicle is put through different test conditions according to different regulatory requirements such as the Worldwide Harmonized Light Vehicles Test Procedure (WLTP) and the European Union’s real Driving Emissions (RDE) regulations. Tests usually includes the analysis of the engine efficiency performance, effectiveness of catalytic converters, particle traps, other emission control devices and the system’s response to alternative fuels. Drivers can rest assured that an Emission report from SCHIC brings not only compliance with local emissions regulations but also greener neighborhoods with our fuel efficiency recommendation program. For Manufacturers, SCHIC’s service can facilitate expansion to new markets by developing emission tests that conforms with the local markets.',
         // 'content2' => 'ตรอ. คือ ศูนย์ตรวจสอบสภาพรถที่ได้รับการอนุญาตจากกรมการขนส่งทางบกให้สามารถดำเนินการตรวจสอบสภาพรถก่อนที่จะทำการต่อทะเบียนประจำปี รถที่จำเป็นต้องตรวจสอบสภาพก่อนที่จะต่อทะเบียนจะต้องมีอายุการใช้งานเกินกว่า 7 ปีขึ้นไป ทั้งนี้รวมถึงรถจักยานยนต์ด้วย',
         // 'content3' => 'การตรวจสอบสภาพรถยนต์กับ ตรอ. นั้นก็เพื่อความปลอดภัยและลดมลภาวะที่เกิดจากรถก่อนนำไปใช้งาน',
     ],
     'Specific_Periodic_Analysis' => [
-        'title' => 'Specific Periodic Analysis',
+        'title' => 'Vehicle Specific Analysis',
         'content' => 'Vehicle Specific Analysis provides a tailor-made Inspection experience to drivers, manufacturers or companies who are looking to customize their own inspection process. SCHIC’s expert will discuss the customers’ requirements in detail and establish a new Inspection analysis that best suits their needs. Such Customization is not simply a development of a new inspection procedure but also a development of a supporting technology and system to ensure report can be delivered efficiently to customers. The benefit of customization is that it allows clients to save both money and time as a more specific report can be crafted that will take less time to inspect. Such customization comes with no compromise to our values as our experts will continue to deliver a neutral, reliable, and professional standards in all our services. ',
     ],
     'Mandatory_Export_Analysis' => [
-        'title' => 'Mandatory Export Analysis',
-        'content' => 'Vehicle Pre-delivery Analysis ensures that new vehicles being delivered follows the specifications of the OEM. This quality assurance process includes analysis of the Exterior, Interior as well as the inner mechanical components of the vehicles. Once an analysis has been completed, a report is promptly updated online for the OEM to review. If there are slight deviations in quality, SCHIC’s experts can usually remedy the product onsite. If the deviations are significant and occur on a regular basis, SCHIC’s experts will work together with the OEM to optimize processes to prevent such defects in the future. Process change can occur at the OEM’s factory as a preventive measure or a secondary refinement process with local partners. SCHIC works hand in hand with numerous suppliers to implement and realize necessary quality standards. Whether you are a global manufacturer looking to expand presence in new countries or a Local OEM looking to reduce defect rates, SCHIC has a solution that will improve customer’s satisfaction when receiving their new vehicles.',
+        'title' => 'Vehicle Pre-delivery Analysis',
+        'content' => 'Vehicle Pre-delivery Analysis ensures that new vehicles being delivered follows the specifications of the OEM. This quality assurance process includes analysis of the Exterior, Interior as well as the inner mechanical components of the vehicles. Once an analysis has been completed, a report is promptly updated online for the OEM to review. If there are slight deviations in quality, SCHIC’s experts can usually remedy the product onsite. If the deviations are significant and occur on a regular basis, SCHIC’s experts will work together with the OEM to optimize processes to prevent such defects in the future. Process change can occur at the OEM’s factory as a preventive measure or a secondary refinement process with local partners. SCHIC works hand in hand with numerous suppliers to implement and realize necessary quality standards. Whether you are a global manufacturer looking to expand presence in new countries or a Local OEM looking to reduce defect rates, SCHIC has a solution that will improve customer’s satisfaction when receiving their new vehicles.
+',
         'list' => [
             'title' => 'Main Purpose of PDI (Pre-Delivery Inspection)',
             '1' => 'To remove the protective device of the car parts installed during transportation',
@@ -260,13 +261,13 @@ return [
         'content' => 'SCHIC’s Road Safety Analysis provides Drivers travelling long distance with peace of mind that their Vehicles are safe to get them to their destination. SCHIC’s Safety Analysis includes checks on Tyre pressures, Tyre tread depth, Windscreen Wipers, Screen wash level, Oil Level, Engine Coolant, Light functions, breaks, air conditioning&heating system and spark plug. Thus if Vehicles have passed SCHIC’s Road Safety Analysis, the chance of breakdown on the road has been significantly reduced, so drivers can spend more time where it matters. ',
     ],
     'Contract_Vehicle_Analysis' => [
-        'title' => 'Contract Vehicle Analysis',
+        'title' => 'Vehicle Export Analysis',
         'content' => 'Vehicle Export Analysis provides a neutral, reliable, and professional accreditation report for Buyers who are living in another country. This Analysis can be tailored to comply with the local country’s importing requirements. For example, some countries require proof that the vehicles have not been stolen or for the vehicles to pass certain emission standards.
         Uganda and Zambia require that the vehicles be free of CFC (R12) gas. Vehicles sent to Kenya must comply with Kenya Bureau of Standards KS1515:2000, testing for compliance with age limit rules, roadworthiness requirements, emission levels and correct odometer readings. Once the inspection is completed, an online report shall be issued so the buyers/governing regulators can have peace of mind that the cars entering the local country has complied with its regulations.
 ',
     ],
     'Preowned_Vehicle_Inspection_Analysis' => [
-        'title' => 'Preowned Vehicle Inspection Analysis',
+        'title' => 'Vehicles Preowned Analysis',
         'content' => 'SCHIC Preowned Analysis offers Car Buyers peace of mind when buying Used Vehicles.
         It is no secret that buying a used car can be a difficult endeavor as one does not know the quality of the car. The rise of the internet has bombarded customers with plethora of
         information leading to greater uncertain in their decision-making process. SCHIC’s role is to enable buyers to make better decisions by using technology and experience human capital to provide neutral, reliable, and professional Accreditation service.
@@ -282,7 +283,7 @@ return [
         ],
     ],
     'Auction_Vehicle_Inspection_Analysis' => [
-        'title' => 'Auction Vehicle Inspection Analysis',
+        'title' => 'Vehicle Auction Analysis ',
         'content' => 'Auction Analysis makes it easier for buyers to bid for the vehicles, safe in the Knowledge that the vehicles have been graded by SCHIC’s expert. This is useful for offline buyers who plan to purchase multiple cars and do not have the time to inspect all vehicles. For Online buyers, SCHIC’s report will be even more important acting as the eyes and ears so buyers can bid for vehicles from the comfort of their home. The focus on technology and experienced Human capital allows bidders to benefit from neutral, reliable, and professional Accreditation service as well as a timely delivery of the report via multiple online channels.',
     ],
     'claimsappraisal' => [
@@ -292,9 +293,8 @@ return [
 
     ],
     'Automotive_Claims_Handling' => [
-        'title' => 'Automotive Claims Handling',
-        'content' => 'As more vehicles enter the road, more accidents are occurring daily, leading to an increasing number of Claims disputes. SCHICHER’s role is to help deliver truth and transparency to the Insurance Industry by providing neutral, reliable, and professional report to all relevant stakeholders. Our reliable analysis can help solve disputes between stakeholders; disputes from the appropriate Claims amount to the authenticity of the claims themselves. Furthermore, SCHICHER also offers complete end-to-end claims handling solutions from our third party administration services to our Accident reconstruction services.
-        Apart from Claims experience, repair quality is also of utmost importance. To ensure such quality, SCHICHER also works with qualified Workshops and Bodyshops to help deliver neutral, reliable and professional service to customers. Our Workshops appraisal trademark helps insurance companies and customers identify good quality workshops. All in all, SCHICHER’s services aim to improve customers’ Claims experiences as well as ensuring that the claims quality are being upheld at the designated SCHICHER’s Workshop and Bodyshop.',
+        'title' => 'Automotive Claims Handling Services',
+        'content' => 'SCHICHER’s Automotive Claims Handling Service is an End-to-End solution for Insurance Company. Trusted by multiple global and local Insurance companies, SCHICHER handles thousands of cases daily across multiple Automotive claims services ranging from claims adjustment, fraud detection, legal protection services, auditing services, coordinating services, billing services, documentation services and expert appraisals. Apart from the hands-on experience, SCHICHER also deploys the latest technology to ensure that the best Insurance Practice can be most effectively followed. This service can be utilize as a short term solution to a temporary overflown capacity or a long term resolution as a permanent part of the Insurer’s process. ',
 
         // 'list' => [
         //     '1' => 'ผู้ให้บริการเคลมที่มีความรู้ และประสบการณ์',
@@ -303,15 +303,14 @@ return [
         // ],
     ],
     'Third_Party_Administration_Service' => [
-        'title' => 'Third Party Administration Service',
-        'content' => 'As more vehicles enter the road, more accidents are occurring daily, leading to an increasing number of Claims disputes. SCHICHER’s role is to help deliver truth and transparency to the Insurance Industry by providing neutral, reliable, and professional report to all relevant stakeholders. Our reliable analysis can help solve disputes between stakeholders; disputes from the appropriate Claims amount to the authenticity of the claims themselves. Furthermore, SCHICHER also offers complete end-to-end claims handling solutions from our third party administration services to our Accident reconstruction services.
-        Apart from Claims experience, repair quality is also of utmost importance. To ensure such quality, SCHICHER also works with qualified Workshops and Bodyshops to help deliver neutral, reliable and professional service to customers. Our Workshops appraisal trademark helps insurance companies and customers identify good quality workshops. All in all, SCHICHER’s services aim to improve customers’ Claims experiences as well as ensuring that the claims quality are being upheld at the designated SCHICHER’s Workshop and Bodyshop.',
+        'title' => 'Third Party Administration Services',
+        'content' => 'SCHICHER’s administrative services provides a comprehensive End-to-End solution for Leasing Companies, Car dealers and other Corporate Companies. Services includes 24-hour call Centre service, auditing services, coordinating services and billing services. SCHICHER’s experience in the automotive industry, technology adoption and investment in human capital allows the company to not just effectively provide administrative solutions to customers but it can also improve customers’ efficiencies and productivity as well.
+        SCHICHER’s Service is not just about following sets of specified workflows, it is also about delivering a customer-focused experience. The goal is for SCHICHER to outsource the cost of administrative tasks from customers and deliver a more productive experience as though the company is a part of the customers’ internal department. SCHICHER fundamentally believe that the best customer experience comes from when the soul of the company can be transferred to the customers.',
 
     ],
     'Accident_Appraisal_Services' => [
         'title' => 'Accident Appraisal Services',
-        'content' => '&nbsp; &nbsp; &nbsp; As more vehicles enter the road, more accidents are occurring daily, leading to an increasing number of Claims disputes. SCHICHER’s role is to help deliver truth and transparency to the Insurance Industry by providing neutral, reliable, and professional report to all relevant stakeholders. Our reliable analysis can help solve disputes between stakeholders; disputes from the appropriate Claims amount to the authenticity of the claims themselves. Furthermore, SCHICHER also offers complete end-to-end claims handling solutions from our third party administration services to our Accident reconstruction services.
-        Apart from Claims experience, repair quality is also of utmost importance. To ensure such quality, SCHICHER also works with qualified Workshops and Bodyshops to help deliver neutral, reliable and professional service to customers. Our Workshops appraisal trademark helps insurance companies and customers identify good quality workshops. All in all, SCHICHER’s services aim to improve customers’ Claims experiences as well as ensuring that the claims quality are being upheld at the designated SCHICHER’s Workshop and Bodyshop.',
+        'content' => '&nbsp; &nbsp; &nbsp; Accidents can arise from the fault of multiple stakeholders. SCHICHER’s task is to provide all stakeholders truths and transparency by providing neutral, reliable, and professional analysis. SCHICHER Services includes Damage Appraisal, Tele-Appraisal, Document validation, Accident Reconstruction and Technical Reporting. SCHICHER’s experts are trained to analyze accidents from multiple perspective to ensure that an extract determination of the incident is properly recorded. The use of the latest technologies, telematics and AI powered image recognition system makes faster accurate.',
 
         'Damage_Appraisal' => [
             'title' => 'Damage Appraisal',
@@ -327,7 +326,7 @@ return [
             ],
         ],
         'Tele_Appraisal_Service' => [
-            'title' => 'Tele-Appraisal Service',
+            'title' => 'Tele-Appraisal',
             'content' => '&nbsp; &nbsp; &nbsp; SCHICHER’s Tele-Appraisal Service aims to help stakeholders appraise the true value of an Accident’s Damage without the need for onsite Inspection. This innovative method allows our experts to provide thorough analysis of the incident from pre-existing damages, plausibility, actual loss, and vehicle’s overall condition from anywhere, making damage appraisal more efficient and cost effective for all stakeholders. In addition, our experts can also establish costs of repairs more effectively with our proprietary claims adjuster solution.',
             'list' => [
                 'title' => 'Benefits of Online Damage Assessment',
@@ -366,7 +365,7 @@ return [
             ],
         ],
         'Technical_Report' => [
-            'title' => 'Technical Report',
+            'title' => 'Technical Reporting',
             'content' => '&nbsp; &nbsp; &nbsp; Technical Reporting can be a useful service for customers looking to solve disputes between stakeholders where technical analyses are required. For example, a customer may have queries with a Warranty provider on why certain claims are not covered. SCHICHER’s report can act solve disputes by offering a neutral, reliable, and professional assessment of the situation. Similarly, advice can also be given on to customers on Workshops’ diagnostic results, Workshops’ service quality and/or Workshops’ repair quotations. Furthermore, a neutral third party may also be required to reliably analyze a Used vehicle’s condition that was found to contrast with the sales contract at the point of sales. For example, when the mileage of the car has been tampered and the customer wishes to return the vehicle to the Used car dealership. All in all, whenever a technical analysis is required, SCHICHER’s technical reporting can act as a arbitrator to all stakeholders by delivering a neutral, reliable and professional reporting',
             'list' => [
                 '1' => 'Solving all suspicions of damage incurred
@@ -379,8 +378,7 @@ return [
             ],
             'list1' => [
                 'title' => 'Benefits of Technical Reports',
-                '1' => 'Fast, comprehensive
-and high quality of reporting',
+                '1' => 'Fast, comprehensive and high quality of reporting',
                 '2' => 'There is a report to customers for transparency',
                 '3' => 'Multi-faceted auditing and give advice as needed',
                 '4' => 'Service is subject to agreement. and conditions from the insurance company',
@@ -402,8 +400,10 @@ and high quality of reporting',
         'content1' => 'All these reasons are the reason why the SCHICHER’s seal represents Trust to Consumers all over the world.',
     ],
     'Garage_Appraisal' => [
-        'title' => 'Garage Appraisal',
-        'content' => 'Choosing the right Workshops to repair your vehicles can be a daunting task. Like the Lemon’s problem for Used Cars trading, consumers are unsure of the quality of the Workshop’s repairs.  Improper repairs of the main powertrain components can increase the risks of accidents. The use of unverified parts can have serious safety issues. Improper diagnostic can lead to unnecessary costs. To rid these concerns, SCHICHER’s Workshop seal of approval can provide consumers with peace of mind that their vehicles are being repaired in accordance with SCHICHER’s standards.',
+        'title' => 'Workshop Appraisal',
+        'content' => 'Choosing the right Workshops to repair your vehicles can be a daunting task. Like the Lemon’s problem for Used Cars trading, consumers are unsure of the quality of the Workshop’s repairs.  Improper repairs of the main powertrain components can increase the risks of accidents. The use of unverified parts can have serious safety issues. Improper diagnostic can lead to unnecessary costs. To rid these concerns, SCHICHER’s Workshop seal of approval can provide consumers with peace of mind that their vehicles are being repaired in accordance with SCHICHER’s standards.
+        This is the reason why approved partners are required to prove that their team members have met certain standards of training. This is the reason why approved partners are required to possess the relevant tools and equipment. This is the reason why approved partners are required to have certain standard facilities to cater to its customers. This is the reasons why approved partners are required to keep certain spare parts to ensure prompt repair of vehicles. This is the reason why approved partners are required to pass SCHICHER’s Standard Operating Procedure Appraisal. All these reasons are the reason why the SCHICHER’s seal represents Trust to Consumers all over the world.',
+
         'list' => [
             'title' => 'What customers will receive from the services of Schicher',
             '1' => 'Rest assured that the car is certified by Germany and Europe.',
@@ -441,7 +441,7 @@ and high quality of reporting',
     'Evaluation_Pricing_of_Used_Vehicles' => [
         'title' => 'Evaluation & Pricing of Used Vehicles',
         'content' => 'Used car valuation is the preparation of appraisal documents. After the procurement of used cars for sale as an analysis giving an opinion, forecasting, or anticipating.
-Price estimation is part of the independent and reliable used car valuation and pricing project management. Schicher experts inspect 650,000 different cars. such as cars, motorcycles, trucks or buses all over the world. We use this expertise to help our customers set fair prices for their used vehicles in real-life condition.',
+        Price estimation is part of the independent and reliable used car valuation and pricing project management. Schicher experts inspect 650,000 different cars. such as cars, motorcycles, trucks or buses all over the world. We use this expertise to help our customers set fair prices for their used vehicles in real-life condition.',
         'list' => [
             'title' => 'Benefits of appraisal and pricing services',
             '1' => 'Set accurate used car prices quickly and reliable',
@@ -559,7 +559,7 @@ Price estimation is part of the independent and reliable used car valuation and 
     ],
     'Refurbishment_Management_for_Fleets' => [
         'title' => 'Refurbishment Management for Fleets',
-        'content' => 'the fastest time possible. SCHICHER’s refurbishment service aims to support this by providing a one stop service for all refurbishment related needs; establishment of vehicles that are required for refurbishments, workshops identification, Invoice analysis and recommendations, quality control, Daily reporting for repair duration and pre-delivery Inspections. SCHICHER partners will multiple workshops to provide customers with many choices. This allows us to recommend a workshops that are fairly priced and can handle the required volume at that point of time. ',
+        'content' => 'The Goal of Fleet Managers for returning vehicles is to sell those vehicles at the best price and at the fastest time possible. SCHICHER’s refurbishment service aims to support this by providing a one stop service for all refurbishment related needs; establishment of vehicles that are required for refurbishments, workshops identification, Invoice analysis and recommendations, quality control, Daily reporting for repair duration and pre-delivery Inspections. SCHICHER partners will multiple workshops to provide customers with many choices. This allows us to recommend a workshops that are fairly priced and can handle the required volume at that point of time. Services include Paintless dent repair, Body Scratch and stone chip removal, bumper repairs and re-texturing, paintwork treatment and glazed finish, Interior repairs and re-texturing, Windscreen repairs, Alloy wheel repairs, missing/damaged parts replacement, Glasurit spot repair system, Paint booths with infrared drying, Isolated damage repair and mechanical. ',
         'list' => [
             'title' => 'ประโยชน์ของการจัดการการตกแต่งใหม่สำหรับรถยนต์เพื่อนำไปฟลีท',
             '1' => 'ช่วยให้ผู้ใช้รถสามารถเพิ่มข้อเสนอการขายรถยนต์ใช้แล้ว',
@@ -674,14 +674,15 @@ Price estimation is part of the independent and reliable used car valuation and 
     ],
     'Sales_solutions_for_Fleets' => [
         'title' => 'Sales solutions for Fleets',
+        'content' => 'The Residual Value (RV) of the vehicle is often the deciding factor that determines the profitability of a fleet. SCHICHER’s Fleets Sales solutions has helped multiple fleet owners manage their portfolio with our unique sales tools from our online sales solutions, our telesales services to our customer care management. With over 100,000 vehicles sold through our platform, our experts can help identify the most efficient solutions to all fleet owners.',
         'sub_data' => [
             '1' => [
                 'title' => 'Affinity Sales',
-                'content' => 'The Residual Value (RV) of the vehicle is often the deciding factor that determines the profitability of a fleet. SCHICHER’s Fleets Sales solutions has helped multiple fleet owners manage their portfolio with our unique sales tools from our online sales solutions, our telesales services to our customer care management. With over 100,000 vehicles sold through our platform, our experts can help identify the most efficient solutions to all fleet owners',
+                'content' => 'Whether you are looking to dispose your vehicles to your employees, partners, members or certain groups of associates, SCHICHER has a multiple solution to help Fleet owners reach a good price and fairly distribute their vehicles to those affiliates. Fleet owners can choose to adopt a sealed auction process, reserve auction process, absolute auction process or a simple random selection of potential buyers. All in all, SCHICHER has the expertise to support fleet owners in all types of sales method employing technology to ensure transparency. Apart from this, the service also handles the entire sales process from vehicle financing to ownership transfer. ',
             ],
             '2' => [
-                'title' => 'Claims and Customer Care Management',
-                'content' => 'การดูแลลูกค้า (และการจัดการการเคลม) เป็นประเด็นสำคัญของการตลาดทั่วโลก แต่กระบวนการนี้ใช้เวลานาน นี่คือเหตุผลที่ Schicher ให้บริการนี้แก่ผู้ผลิตโดยนำทรัพยากรบุคคลที่ "มีความยืดหยุ่น" มาใช้เพื่อตอบสนองการบริการอย่างสูงสุด ที่ปรึกษาด้านการจัดการการเคลม และการดูแลลูกค้าของเรารับประกันความพึงพอใจของลูกค้าผ่านทางความรวดเร็วอย่างมืออาชีพ การจัดการธุรกรรม (การบริหารโลจิสติกส์การขายรถยนต์และอื่น ๆ ) การเคลม และบริการจัดการดูแลลูกค้าครอบคลุม:',
+                'title' => 'Operations Management',
+                'content' => 'The Vehicle selling process can be a hassle for many fleet owners. SCHICHER’s Operations Management Service provides a one-stop service to fleet owners. Our Service starts from simple Call Centre tasks, acting your personal Call Centre Team to answer sales related questions on your inventories. Once the sales have been accomplished, we support Fleet owners by performing administrative tasks such documents handling, ownership transfer and liaising with Financing Companies. In addition, we also support car delivery with our logistics handling services.',
                 'list' => [
                     '1' => 'บริการสนับสนุนสำหรับลูกค้ารถมือสอง (ผู้ซื้อ) และภายใต้กรอบของลำดับความสำคัญของเครือข่ายที่ออกแบบมาสำหรับกลุ่มที่สนับสนุนความร่วมมือเป็นหลัก',
                     '2' => 'มาตรฐานเดียวที่จัดการกับคำถามหรือสิ่งที่ไม่จำเป็นต้องมีของผู้เชี่ยวชาญ',
@@ -693,8 +694,8 @@ Price estimation is part of the independent and reliable used car valuation and 
                 ],
             ],
             '3' => [
-                'title' => 'Online Sales Platform',
-                'content' => 'ในช่วงแรกเน้นการใช้โฆษณาและประชาสัมพันธ์เพื่อสร้างการรับรู้ให้แก่ กลุ่มเป้าหมาย เช่นการออกบู๊ทนิทรรศการต่างๆ มีการจัดกิจกรรมผ่านโซเชียลมีเดีย รวมไปถึงการส่งตัวแทนของบริษัทเข้าไปพบกับกลุ่มเป้าหมาย',
+                'title' => 'Multichannel Sales Solutions',
+                'content' => 'In the Used Car business, speed of transaction is of utmost importance. It is even more important for Fleet owners as a 1% drop in car value can massively affect the value of the entire fleet. At SCHICHER, we can provide Fleet owners will multiple sales solutions. Due to our larger Database, our Telesales solutions is one the fastest way to help connect buyers directly to Fleet owners. In addition, our online sales service, Carcombined, does not only help promote your vehicles through our website but we also facilitate the entire selling experience from booking appointments to ownership transfer. Our E-mailings and SMS Campaigns also allow us to gauge interest from potential buyers. This is complimented by our point of sales and event management solutions where we work with partnered event organizers and dealers to promote your inventories.           ',
             ],
             '4' => [
                 'title' => 'ประชาสัมพันธ์เกี่ยวกับผลิตภัณฑ์ของบริษัทฯ',
