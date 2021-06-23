@@ -36,7 +36,7 @@
                                 @lang('frontend.Mandatory_Export_Analysis.content')
                             </p>
 
-                            <div class="row"><strong >@lang('frontend.Mandatory_Export_Analysis.list.title')</strong></div>
+                            {{-- <div class="row"><strong >@lang('frontend.Mandatory_Export_Analysis.list.title')</strong></div>
                             <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.Mandatory_Export_Analysis.list.1')</li>
@@ -44,7 +44,7 @@
                                     <li>@lang('frontend.Mandatory_Export_Analysis.list.3')</li>
                                     <li>@lang('frontend.Mandatory_Export_Analysis.list.4')</li>
                                 </ol>
-                            </div>
+                            </div> --}}
                         </div>
                         </article>
                     </div>

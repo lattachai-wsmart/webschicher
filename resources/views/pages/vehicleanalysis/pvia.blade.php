@@ -31,7 +31,7 @@
                             <p class="">
                                 @lang('frontend.Preowned_Vehicle_Inspection_Analysis.content')
                             </p>
-                            <div class="row"><strong >@lang('frontend.Preowned_Vehicle_Inspection_Analysis.list.title')</strong></div>
+                            {{-- <div class="row"><strong >@lang('frontend.Preowned_Vehicle_Inspection_Analysis.list.title')</strong></div>
                             <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.Preowned_Vehicle_Inspection_Analysis.list.1')</li>
@@ -40,7 +40,7 @@
                                     <li>@lang('frontend.Preowned_Vehicle_Inspection_Analysis.list.4')</li>
                                     <li>@lang('frontend.Preowned_Vehicle_Inspection_Analysis.list.5')</li>
                                 </ol>
-                            </div>
+                            </div> --}}
                         </div>
                         </article>
                     </div>

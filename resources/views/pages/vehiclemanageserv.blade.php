@@ -9,7 +9,7 @@
             <div class="content content-full overflow-hidden">
                 <div class="mt-7 mb-5 text-center">
                     <h1 class="h2 text-white mb-2 js-appear-enabled animated fadeInDown" data-toggle="appear" style="font-family:SukhumvitSet;"  data-class="animated fadeInDown">@lang('frontend.Vehicle_Management_Services.title')</h1>
-                       
+
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@
                                 <p class="">
                                     @lang('frontend.Vehicle_Management_Services.content')
                                 </p>
-                                <div class="row"><strong >@lang('frontend.Vehicle_Management_Services.list.title')</strong></div>
+                                {{-- <div class="row"><strong >@lang('frontend.Vehicle_Management_Services.list.title')</strong></div>
                                 <div class="row col-12">
                                     <ol class="list-unstyled">
                                         <li>@lang('frontend.Vehicle_Management_Services.list.1')</li>
@@ -47,7 +47,7 @@
                                         <li>@lang('frontend.Vehicle_Management_Services.list.6')</li>
                                         <li>@lang('frontend.Vehicle_Management_Services.list.7')</li>
                                     </ol>
-                                </div>
+                                </div> --}}
                                 <p class="">
                                     @lang('frontend.Vehicle_Management_Services.content1')
                                 </p>
