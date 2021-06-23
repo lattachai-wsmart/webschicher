@@ -34,7 +34,7 @@
                             </p>
                         </div>
 
-                        <div class="row">
+                        {{-- <div class="row">
                             <h3 style="font-family:SukhumvitSet;" class="row h3">@lang('frontend.Sales_solutions_for_Fleets.sub_data.2.title')</h3>
                             <p class="row">
                                 @lang('frontend.Sales_solutions_for_Fleets.sub_data.2.content')
@@ -50,23 +50,23 @@
                                     <li>@lang('frontend.Sales_solutions_for_Fleets.sub_data.2.list.7')</li>
                                 </ol>
                             </div>
-                        </div>
+                        </div> --}}
 
-                        <div class="row">
+                        {{-- <div class="row">
                             <h3 style="font-family:SukhumvitSet;" class="row h3 mt-5">@lang('frontend.Sales_solutions_for_Fleets.sub_data.3.title')</h3>
                             <p class="row">
                                 @lang('frontend.Sales_solutions_for_Fleets.sub_data.3.content')
                             </p>
-                        </div>
+                        </div> --}}
 
-                        <div class="row">
+                        {{-- <div class="row">
                             <h3 style="font-family:SukhumvitSet;" class="row h3 ">@lang('frontend.Sales_solutions_for_Fleets.sub_data.4.title')</h3>
                             <p class="row">
                                 @lang('frontend.Sales_solutions_for_Fleets.sub_data.4.content')
                             </p>
-                        </div>
+                        </div> --}}
 
-                        <div class="row">
+                        {{-- <div class="row">
                             <h3 style="font-family:SukhumvitSet;" class="row h3 ">@lang('frontend.Sales_solutions_for_Fleets.sub_data.5.title')</h3>
                             <p class="row">
                                 @lang('frontend.Sales_solutions_for_Fleets.sub_data.5.content')
@@ -95,7 +95,7 @@
                                     <li>@lang('frontend.Sales_solutions_for_Fleets.sub_data.5.list1.5')</li>
                                 </ol>
                             </div>
-                        </div>
+                        </div> --}}
 
                         {{-- <div class="row">
                             <h3 class="row h3">@lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.title')</h3>

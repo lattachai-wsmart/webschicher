@@ -32,15 +32,15 @@
                                 @lang('frontend.In_fleet_and_De_fleet_Operations.content')
                             </p>
                             {{-- <div class="row"><strong >@lang('frontend.In_fleet_and_De_fleet_Operations.list.title')</strong></div> --}}
-                            <div class="row col-12">
+                            {{-- <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.In_fleet_and_De_fleet_Operations.list.1')</li>
                                     <li>@lang('frontend.In_fleet_and_De_fleet_Operations.list.2')</li>
                                     <li>@lang('frontend.In_fleet_and_De_fleet_Operations.list.3')</li>
                                     <li>@lang('frontend.In_fleet_and_De_fleet_Operations.list.4')</li>
                                 </ol>
-                            </div>
-                            <p class="">
+                            </div> --}}
+                            {{-- <p class="">
                                 @lang('frontend.In_fleet_and_De_fleet_Operations.content1')
                             </p>
                             <div class="row col-12">
@@ -48,8 +48,8 @@
                                     <li>@lang('frontend.In_fleet_and_De_fleet_Operations.list1.1')</li>
                                     <li>@lang('frontend.In_fleet_and_De_fleet_Operations.list1.2')</li>
                                 </ol>
-                            </div>
-                            <div class="row"><strong >@lang('frontend.In_fleet_and_De_fleet_Operations.list2.title')</strong></div>
+                            </div> --}}
+                            {{-- <div class="row"><strong >@lang('frontend.In_fleet_and_De_fleet_Operations.list2.title')</strong></div>
                             <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.In_fleet_and_De_fleet_Operations.list2.1')</li>
@@ -57,7 +57,7 @@
                                     <li>@lang('frontend.In_fleet_and_De_fleet_Operations.list2.3')</li>
                                     <li>@lang('frontend.In_fleet_and_De_fleet_Operations.list2.4')</li>
                                 </ol>
-                            </div>
+                            </div> --}}
                         </div>
                         </article>
                     </div>

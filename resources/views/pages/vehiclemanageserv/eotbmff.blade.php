@@ -27,20 +27,24 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="row">
-                            <div class="row col-12">
+                            <p class="">
+                                @lang('frontend.End_of_Term_Buyback_management_for_Fleets.content')
+                            </p>
+                            {{-- <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.End_of_Term_Buyback_management_for_Fleets.list.1')</li>
                                     <li>@lang('frontend.End_of_Term_Buyback_management_for_Fleets.list.2')</li>
                                     <li>@lang('frontend.End_of_Term_Buyback_management_for_Fleets.list.3')</li>
                                     <li>@lang('frontend.End_of_Term_Buyback_management_for_Fleets.list.4')</li>
                                 </ol>
-                            </div>
+                            </div> --}}
                             {{-- <h5 class="row h5 mt-5">@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.title1')</h5> --}}
-                            <p class="">
+                            {{-- <p class="">
                                 @lang('frontend.End_of_Term_Buyback_management_for_Fleets.content1')
-                            </p>
-                            <div class="row"><strong >@lang('frontend.End_of_Term_Buyback_management_for_Fleets.list1.title')</strong></div>
+                            </p> --}}
+                            {{-- <div class="row"><strong >@lang('frontend.End_of_Term_Buyback_management_for_Fleets.list1.title')</strong></div>
                             <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.End_of_Term_Buyback_management_for_Fleets.list1.1')</li>
@@ -49,7 +53,7 @@
                                     <li>@lang('frontend.End_of_Term_Buyback_management_for_Fleets.list1.4')</li>
                                     <li>@lang('frontend.End_of_Term_Buyback_management_for_Fleets.list1.5')</li>
                                 </ol>
-                            </div>
+                            </div> --}}
                         </div>
                         </article>
                     </div>
