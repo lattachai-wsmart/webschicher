@@ -31,7 +31,7 @@
                             <p class="">
                                 @lang('frontend.Evaluation_Pricing_of_Used_Vehicles.content')
                             </p>
-                            <div class="row"><strong >@lang('frontend.Evaluation_Pricing_of_Used_Vehicles.list.title')</strong></div>
+                         {{--   <div class="row"><strong >@lang('frontend.Evaluation_Pricing_of_Used_Vehicles.list.title')</strong></div>
                             <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.Evaluation_Pricing_of_Used_Vehicles.list.1')</li>
@@ -41,7 +41,7 @@
                                     <li>@lang('frontend.Evaluation_Pricing_of_Used_Vehicles.list.5')</li>
                                 </ol>
                             </div>
-                        </div>
+                        </div>  --}}
                         </article>
                     </div>
                 </div>

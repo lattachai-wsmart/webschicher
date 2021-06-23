@@ -31,7 +31,7 @@
                             <p class="">
                                 @lang('frontend.Refurbishment_Management_for_Fleets.content')
                             </p>
-                            <div class="row"><strong >@lang('frontend.Refurbishment_Management_for_Fleets.list.title')</strong></div>
+                            {{-- <div class="row"><strong >@lang('frontend.Refurbishment_Management_for_Fleets.list.title')</strong></div>
                             <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.Refurbishment_Management_for_Fleets.list.1')</li>
@@ -41,13 +41,13 @@
                                     <li>@lang('frontend.Refurbishment_Management_for_Fleets.list.5')</li>
                                     <li>@lang('frontend.Refurbishment_Management_for_Fleets.list.6')</li>
                                 </ol>
-                            </div>
+                            </div> --}}
                             {{-- <h5 class="row h5 mt-5">@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.title1')</h5> --}}
-                            <p class="row">
+                            {{-- <p class="row">
                                 @lang('frontend.Refurbishment_Management_for_Fleets.content1')
-                            </p>
+                            </p> --}}
                             {{-- <div class="row"><strong >@lang('frontend.Refurbishment_Management_for_Fleets.list1.title')</strong></div> --}}
-                            <div class="row col-12">
+                            {{-- <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.Refurbishment_Management_for_Fleets.list1.1')</li>
                                     <li>@lang('frontend.Refurbishment_Management_for_Fleets.list1.2')</li>
@@ -57,8 +57,8 @@
                                     <li>@lang('frontend.Refurbishment_Management_for_Fleets.list1.6')</li>
                                     <li>@lang('frontend.Refurbishment_Management_for_Fleets.list1.7')</li>
                                 </ol>
-                            </div>
-                            <div class="row"><strong >@lang('frontend.Refurbishment_Management_for_Fleets.list2.title')</strong></div>
+                            </div> --}}
+                            {{-- <div class="row"><strong >@lang('frontend.Refurbishment_Management_for_Fleets.list2.title')</strong></div>
                             <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.Refurbishment_Management_for_Fleets.list2.1')</li>
@@ -67,7 +67,7 @@
                                     <li>@lang('frontend.Refurbishment_Management_for_Fleets.list2.4')</li>
                                     <li>@lang('frontend.Refurbishment_Management_for_Fleets.list2.5')</li>
                                 </ol>
-                            </div>
+                            </div> --}}
                         </div>
                         </article>
                     </div>

@@ -31,8 +31,8 @@
                             <p class="">
                                 @lang('frontend.Used_Car_Seal_for_Fleet.content')
                             </p>
-                            <div class="row"><strong >@lang('frontend.Used_Car_Seal_for_Fleet.list.title')</strong></div>
-                            <div class="row col-12">
+                            {{-- <div class="row"><strong >@lang('frontend.Used_Car_Seal_for_Fleet.list.title')</strong></div> --}}
+                            {{-- <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.Used_Car_Seal_for_Fleet.list.1')</li>
                                     <li>@lang('frontend.Used_Car_Seal_for_Fleet.list.2')</li>
@@ -40,7 +40,7 @@
                                     <li>@lang('frontend.Used_Car_Seal_for_Fleet.list.4')</li>
                                     <li>@lang('frontend.Used_Car_Seal_for_Fleet.list.5')</li>
                                 </ol>
-                            </div>
+                            </div> --}}
                             <p class="row">
                                 @lang('frontend.Used_Car_Seal_for_Fleet.content1')
                             </p>

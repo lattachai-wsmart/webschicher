@@ -28,10 +28,10 @@
                             </div>
                         </div>
                         <div class="row">
-                            <p class="">
+                             <p class="">
                                 @lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.content')
                             </p>
-                            <div class="row"><strong >@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.list.title')</strong></div>
+                          {{--  <div class="row"><strong >@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.list.title')</strong></div>
                             <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.list.1')</li>
@@ -41,23 +41,23 @@
                                     <li>@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.list.5')</li>
                                     <li>@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.list.6')</li>
                                 </ol>
-                            </div>
-                            <h5 class="row h5 mt-5" style="font-family:SukhumvitSet;">@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.title1')</h5>
+                            </div> --}}
+                            {{-- <h5 class="row h5 mt-5" style="font-family:SukhumvitSet;">@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.title1')</h5> --}}
                             <p class="">
                                 @lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.content1')
                             </p>
-                            <div class="row col-12">
+                            {{-- <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.list1.1')</li>
                                     <li>@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.list1.2')</li>
                                     <li>@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.list1.3')</li>
                                     <li>@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.list1.4')</li>
                                 </ol>
-                            </div>
-                            <p class="">
+                            </div> --}}
+                            {{-- <p class="">
                                 @lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.content2')
-                            </p>
-                            <div class="row col-12">
+                            </p> --}}
+                            {{-- <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.list2.1')</li>
                                     <li>@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.list2.2')</li>
@@ -72,7 +72,7 @@
                                     <li>@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.list3.2')</li>
                                     <li>@lang('frontend.Fleet_Used_Car_Vehicle_Condition_Report.list3.3')</li>
                                 </ol>
-                            </div>
+                            </div> --}}
                         </div>
                         </article>
                     </div>

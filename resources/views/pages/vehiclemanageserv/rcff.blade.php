@@ -31,7 +31,7 @@
                             <p class="">
                                 @lang('frontend.Remarketing_Consultancy_for_Fleets.content')
                             </p>
-                            <div class="row"><strong >@lang('frontend.Remarketing_Consultancy_for_Fleets.list.title')</strong></div>
+                            {{-- <div class="row"><strong >@lang('frontend.Remarketing_Consultancy_for_Fleets.list.title')</strong></div>
                             <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.Remarketing_Consultancy_for_Fleets.list.1')</li>
@@ -41,8 +41,8 @@
                                     <li>@lang('frontend.Remarketing_Consultancy_for_Fleets.list.5')</li>
                                     <li>@lang('frontend.Remarketing_Consultancy_for_Fleets.list.6')</li>
                                 </ol>
-                            </div>
-                            <h5 style="font-family:SukhumvitSet" class="row h5 mt-5">@lang('frontend.Remarketing_Consultancy_for_Fleets.title1')</h5>
+                            </div> --}}
+                            {{-- <h5 style="font-family:SukhumvitSet" class="row h5 mt-5">@lang('frontend.Remarketing_Consultancy_for_Fleets.title1')</h5>
                             <p class="row">
                                 @lang('frontend.Remarketing_Consultancy_for_Fleets.content1')
                             </p>
@@ -57,9 +57,9 @@
                             </div>
                             <p class="row">
                                 @lang('frontend.Remarketing_Consultancy_for_Fleets.content2')
-                            </p>
+                            </p> --}}
                         </div>
-                        <div class="row">
+                        {{-- <div class="row">
                             <h3 style="font-family:SukhumvitSet" class="row h3 mt-4">@lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.1.title')</h3>
                             <div class="row col-12">
                                 <ol>
@@ -85,9 +85,9 @@
                                     <li>@lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.1.list.3')</li>
                                 </ol>
                             </div>
-                        </div>
+                        </div> --}}
 
-                        <div class="row">
+                        {{-- <div class="row">
                             <h3 style="font-family:SukhumvitSet" class="row h3 mt-4">@lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.2.title')</h3>
                             <p class="row">
                                 @lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.2.content')
@@ -101,9 +101,9 @@
                                     <li>@lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.2.list.5')</li>
                                 </ol>
                             </div>
-                        </div>
+                        </div> --}}
 
-                        <div class="row">
+                        {{-- <div class="row">
                             <h3 style="font-family:SukhumvitSet" class="row h3 mt-4">@lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.title')</h3>
                             <p class="row">
                                 @lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.content')
@@ -140,7 +140,7 @@
                                     <li>@lang('frontend.Remarketing_Consultancy_for_Fleets.sub_data.3.list1.5')</li>
                                 </ol>
                             </div>
-                        </div>
+                        </div> --}}
 
                         </article>
                     </div>
