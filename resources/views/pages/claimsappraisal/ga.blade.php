@@ -31,7 +31,7 @@
                             <p class="">
                                 @lang('frontend.Garage_Appraisal.content')
                             </p>
-                            <div class="row"><strong >@lang('frontend.Garage_Appraisal.list.title')</strong></div>
+                            {{-- <div class="row"><strong >@lang('frontend.Garage_Appraisal.list.title')</strong></div>
                             <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.Garage_Appraisal.list.1')</li>
@@ -39,8 +39,8 @@
                                     <li>@lang('frontend.Garage_Appraisal.list.3')</li>
                                     <li>@lang('frontend.Garage_Appraisal.list.4')</li>
                                 </ol>
-                            </div>
-                            <div class="row"><strong >@lang('frontend.Garage_Appraisal.list1.title')</strong></div>
+                            </div> --}}
+                            {{-- <div class="row"><strong >@lang('frontend.Garage_Appraisal.list1.title')</strong></div>
                             <div class="row col-12">
                                 <ol>
                                     <li>@lang('frontend.Garage_Appraisal.list1.1')</li>
@@ -51,7 +51,7 @@
                                     <li>@lang('frontend.Garage_Appraisal.list1.6')</li>
                                     <li>@lang('frontend.Garage_Appraisal.list1.7')</li>
                                 </ol>
-                            </div>
+                            </div> --}}
                         </div>
                         </article>
                     </div>

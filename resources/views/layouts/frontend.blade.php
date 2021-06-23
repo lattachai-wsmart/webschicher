@@ -98,7 +98,7 @@
                     <div class="dropdown d-inline-block d-xs-none">
                         <a style="font-family:SukhumvitSet;" class="btn btn-sm btn-dual btn-rounded d-flex align-items-center"
                             id="page-header-user-dropdown" href="{{ route('bookingins') }}">
-                             Book Inspection
+                            Book Inspection
                         </a>
                     </div>
                     <div class="dropdown d-inline-block ml-2 d-xs-none">
@@ -110,7 +110,7 @@
                     <!-- END User Dropdown -->
 
                     <!-- Notifications Dropdown -->
-                    {{-- <div class="dropdown d-inline-block ml-2">
+                    <div class="dropdown d-inline-block ml-2">
                         <a href="javascript:void(0)" class="btn btn-sm btn-dual" id="page-header-notifications-dropdown"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i
@@ -118,11 +118,11 @@
                                 style="margin-top: 20px 0 0 0;" class="fa fa-sort-down ml-2"></i>
                         </a>
                         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0 border-0 font-size-sm"
-                            aria-labelledby="page-header-notifications-dropdown"> --}}
-                            {{-- <div class="p-2 bg-primary-dark text-center rounded-top">
+                            aria-labelledby="page-header-notifications-dropdown">
+                                {{-- <div class="p-2 bg-primary-dark text-center rounded-top">
                                     <h5 class="dropdown-header text-uppercase text-white">Notifications</h5>
                                 </div> --}}
-                            {{-- <ul class="nav-items">
+                            <ul class="nav-items">
                                 <li>
                                     <a class="dropdown-item @if (session()->get('locale') ==
                                         'th') d-none @endif"
@@ -135,21 +135,21 @@
                                         href="{{ route('LangChange', ['lang' => 'en']) }}"><span
                                             class="flag-icon flag-icon-us ml-2"></span> EN</a>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <a class="dropdown-item @if (session()->get('locale') ==
                                         'de') d-none @endif"
                                         href="{{ route('LangChange', ['lang' => 'de']) }}"><span
                                             class="flag-icon flag-icon-de ml-2"></span> DE</a>
-                                </li>
+                                </li> --}}
 
-                            </ul> --}}
+                            </ul>
                             {{-- <div class="p-2 border-top">
                                     <a class="btn btn-sm btn-light btn-block text-center" href="javascript:void(0)">
                                         <i class="fa fa-fw fa-arrow-down mr-1"></i> Load More..
                                     </a>
-                                </div> --}}
-                        {{-- </div>
-                    </div> --}}
+                            </div> --}}
+                        </div>
+                    </div>
                     <!-- END Notifications Dropdown -->
                 </div>
                 <!-- END Right Section -->
@@ -384,7 +384,7 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="nav-main-item">
+                                        {{-- <li class="nav-main-item">
                                             <a class="nav-main-link nav-main-link-submenu" aria-haspopup="true"
                                                 aria-expanded="false" href="{{ route('service.dealershipcer') }}">
                                                 <span
@@ -406,8 +406,8 @@
                                                     </a>
                                                 </li>
                                             </ul>
-                                        </li>
-                                        <li class="nav-main-item">
+                                        </li> --}}
+                                        {{-- <li class="nav-main-item">
                                             <a class="nav-main-link nav-main-link-submenu" aria-haspopup="true"
                                                 aria-expanded="false" href="{{ route('service.dealershiptra') }}">
                                                 <span
@@ -464,8 +464,8 @@
                                                     </a>
                                                 </li>
                                             </ul>
-                                        </li>
-                                        <li class="nav-main-item">
+                                        </li> --}}
+                                        {{-- <li class="nav-main-item">
                                             <a class="nav-main-link nav-main-link-submenu" aria-haspopup="true"
                                                 aria-expanded="false" href="{{ route('warrantynroadside') }}">
                                                 <span
@@ -501,7 +501,7 @@
                                                     </a>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> --}}
                                     </ul>
                                 </li>
                                 <li class="nav-main-item">
@@ -621,8 +621,8 @@
                             <a class="fnFooter" href="{{ route('service.vehicleanalysis') }}">@lang('frontend.footer.service.row1')</a><br>
                             <a class="fnFooter" href="{{ route('service.claimsappraisal') }}">@lang('frontend.footer.service.row2')</a><br>
                             <a class="fnFooter" href="{{ route('service.vehiclemanageserv') }}">@lang('frontend.footer.service.row3')</a><br>
-                            <a class="fnFooter" href="{{ route('service.dealershipcer') }}">@lang('frontend.footer.service.row4')</a><br>
-                            <a class="fnFooter" href="{{ route('service.dealershiptra') }}">@lang('frontend.footer.service.row5')</a><br>
+                            {{-- <a class="fnFooter" href="{{ route('service.dealershipcer') }}">@lang('frontend.footer.service.row4')</a><br>
+                            <a class="fnFooter" href="{{ route('service.dealershiptra') }}">@lang('frontend.footer.service.row5')</a><br> --}}
                         </address>
 
                         <address class="font-size-18 col-md-3">
@@ -630,7 +630,7 @@
                             @lang('frontend.contacts.data3.row1')<br><br>
                             <a href="tel:020571292"><i class="fa fa-phone"></i> 02-057-1292</a><br> --}}
                             <div class="font-size-h4 mb-1">@lang('frontend.footer.recService.title')</div>
-                            <a class="fnFooter" href="{{ route('warrantynroadside') }}">@lang('frontend.footer.recService.row1')</a><br>
+                            {{-- <a class="fnFooter" href="{{ route('warrantynroadside') }}">@lang('frontend.footer.recService.row1')</a><br> --}}
                             <a class="fnFooter" href="{{ route('bookingins') }}">@lang('frontend.footer.recService.row2')</a><br>
                             <a class="fnFooter" href="{{ route('findqualilyusedcars') }}">@lang('frontend.footer.recService.row3')</a><br>
                             <a class="fnFooter" href="{{ route('shicertificates') }}">@lang('frontend.footer.recService.row4')</a><br>

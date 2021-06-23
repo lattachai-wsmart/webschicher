@@ -33,10 +33,10 @@
                                     <img width="100%" height="100%" src="{{ asset('media/photos/about/about_schic1.jpg') }}"  />
                                 </div>
                             </div>
-                            
+
                         </div>
                         <div style="display: flex;flex-wrap: wrap;">
-                        
+
                             <strong class="font-size-h4">@lang('frontend.about.title1')</strong>
                             {{-- <p class="font-size-sm">
                                 <span class="text-primary">Barbara Scott</span> on July 16, 2019 · <em class="text-muted">10 min</em>
@@ -68,7 +68,7 @@
                         <div class="row gutters-tiny items-push js-gallery push img-fluid-100 js-gallery-enabled">
                             <div class="col-md-12 animated fadeIn d-flex justify-content-center" >
                                 <div class="options-container">
-                                    <img width="100%" height="100%" src="{{ asset('media/photos/about/about_schic3-1.png') }}"  />
+                                    <img width="100%" height="100%" src="{{ asset('media/photos/new-logo.png') }}"  />
                                 </div>
                             </div>
                         </div>
