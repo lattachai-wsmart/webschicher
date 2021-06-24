@@ -465,7 +465,7 @@
                                                 </li>
                                             </ul>
                                         </li> --}}
-                                        {{-- <li class="nav-main-item">
+                                        <li class="nav-main-item">
                                             <a class="nav-main-link nav-main-link-submenu" aria-haspopup="true"
                                                 aria-expanded="false" href="{{ route('warrantynroadside') }}">
                                                 <span
@@ -501,7 +501,7 @@
                                                     </a>
                                                 </li>
                                             </ul>
-                                        </li> --}}
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="nav-main-item">
@@ -630,7 +630,7 @@
                             @lang('frontend.contacts.data3.row1')<br><br>
                             <a href="tel:020571292"><i class="fa fa-phone"></i> 02-057-1292</a><br> --}}
                             <div class="font-size-h4 mb-1">@lang('frontend.footer.recService.title')</div>
-                            {{-- <a class="fnFooter" href="{{ route('warrantynroadside') }}">@lang('frontend.footer.recService.row1')</a><br> --}}
+                            <a class="fnFooter" href="{{ route('warrantynroadside') }}">@lang('frontend.footer.recService.row1')</a><br>
                             <a class="fnFooter" href="{{ route('bookingins') }}">@lang('frontend.footer.recService.row2')</a><br>
                             <a class="fnFooter" href="{{ route('findqualilyusedcars') }}">@lang('frontend.footer.recService.row3')</a><br>
                             <a class="fnFooter" href="{{ route('shicertificates') }}">@lang('frontend.footer.recService.row4')</a><br>
