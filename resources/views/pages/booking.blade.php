@@ -8,8 +8,8 @@
 @section('content')
 <style>
     .book{
-        font-family:SukhumvitSet; 
-        color:#132D46; 
+        font-family:SukhumvitSet;
+        color:#132D46;
         background-color:#f5ba32;
     }
     .book:hover{
@@ -23,7 +23,7 @@
         color: white;
     }
 </style>
- 
+
     @if($errors->any())
         <div class="alert alert-danger" role="alert">{{ implode('', $errors->all(':message')) }}</div>
     @endif
@@ -39,10 +39,10 @@
                     <div>
                         <div class="row" id="box-show-form" >
                             <div class="col-xl-7 mb-5 text-title-left d-none d-md-block" >
-                                <Text class="text-white h2 " style="font-size:40px; font-family:SukhumvitSet;  letter-spacing: 3px;   text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner1')</Text><br/>
-                                <Text class="text-white h1" style="font-size:60px; font-family:SukhumvitSet; font-weight: 600;  text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner2')</Text> 
+                                <Text class="text-white h2 " style="font-size:40px; font-family:SukhumvitSet;  letter-spacing: 3px;   text-shadow: 2px 2px black; line-height: 2;">@lang('frontend.bookingins.banner1')</Text><br/>
+                                <Text class="text-white h1" style="font-size:60px; font-family:SukhumvitSet; font-weight: 600;  text-shadow: 2px 2px black; line-height: 2;">@lang('frontend.bookingins.banner2')</Text>
                                 <Text class="h1" style="color:#FDBE29; font-size:60px; font-family:SukhumvitSet; text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner3')</Text><br/>
-                                <Text class="text-white h2" style="font-size:40px; font-family:SukhumvitSet; letter-spacing:3px; text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner4')</Text><br/>
+                                <Text class="text-white h2" style="font-size:40px; font-family:SukhumvitSet; letter-spacing:3px; text-shadow: 2px 2px black; line-height: 2;">@lang('frontend.bookingins.banner4')</Text><br/>
                                 <Text class="text-white h2" style="font-size:40px; font-family:SukhumvitSet; letter-spacing: -2px; line-height: 2.2;   text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner5')</Text>
                             </div>
                             <div class="col-xl-5 box-form bg-white rounded">

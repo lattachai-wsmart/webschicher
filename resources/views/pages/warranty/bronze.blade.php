@@ -154,7 +154,7 @@
     </div>
     <div class="row">
         <div class="col-12 block-content block-content-full morePackage " align="right">
-            <a href="#" onclick="sendSuccess()" ><span class="btn contact px-4">ติดต่อสอบถามข้อมูล</span></a>
+            <a href="#" onclick="sendSuccess()" ><span class="btn contact px-4">@lang('frontend.warranty.contactmore.title')</span></a>
         </div>
     </div>
 </div>
@@ -167,14 +167,14 @@
         Swal.fire({
             title: `
             <h3 class="color-schic" style="font-family:SukhumvitSet">
-               สอบถามรายละเอียดเพิ่มเติม
+               @lang('frontend.warranty.contactmore.modal1')
             </h3>`,
             // icon: 'success',
             html:`
             <div>
-                โทร: 02-057-1292 (ตลอด 24 ชั่วโมง)
+                @lang('frontend.warranty.contactmore.modal2')
                 <br>
-                Email: admin@schicher.com
+                @lang('frontend.warranty.contactmore.modal3')
             </div>`,
             customClass: {confirmButton: 'btn btn-rounded'},
             confirmButtonColor: '#2c3e50',
@@ -182,7 +182,7 @@
             showCancelButton: false,
             // focusConfirm: true,
             confirmButtonText:
-                `<div class="backModal" style="font-family:SukhumvitSet;">@lang('frontend.bookingins.modal4')</div>`,
+                `<div class="backModal" style="font-family:SukhumvitSet;">@lang('frontend.warranty.contactmore.modal4')</div>`,
             confirmButtonAriaLabel: 'กลับสู่หน้าหลัก',
         })
     }

@@ -111,13 +111,13 @@
                 <div class="font-size-sm py-2">
                     <div class="textContent">
                         <ul>
-                            <li>@lang('frontend.warranty.bronze_content.undertenyears')</li>
-                            <li>@lang('frontend.warranty.bronze_content.runnomore')</li>
-                            <li>@lang('frontend.warranty.bronze_content.coverage')</li>
-                            <li>@lang('frontend.warranty.bronze_content.item')</li>
-                            <li>@lang('frontend.warranty.bronze_content.garages')</li>
-                            <li>@lang('frontend.warranty.bronze_content.responsible')</li>
-                            <li>@lang('frontend.warranty.bronze_content.emergency')</li>
+                            <li>@lang('frontend.warranty.silver_content.undertenyears')</li>
+                            <li>@lang('frontend.warranty.silver_content.runnomore')</li>
+                            <li>@lang('frontend.warranty.silver_content.coverage')</li>
+                            <li>@lang('frontend.warranty.silver_content.item')</li>
+                            <li>@lang('frontend.warranty.silver_content.garages')</li>
+                            <li>@lang('frontend.warranty.silver_content.responsible')</li>
+                            <li>@lang('frontend.warranty.silver_content.emergency')</li>
                         </ul>
                     </div>
                 </div>
