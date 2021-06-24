@@ -54,13 +54,14 @@ return [
     ],
     'menu' => [
         'about_us' => 'ABOUT US',
-        'service' => 'SERVICE',
+        'service' => 'SERVICES',
         'service_submenu' => [
             'vehicle_analysis' => 'Vehicle Analysis',
             'claims_appraisal' => 'Claims & Appraisal',
             'vehicle_manage' => 'Vehicle Management Services',
             'dealership_cer' => 'Dealership Certification & Auditing',
-            'dealership_tra' => 'Dealership Training & Qualification','warranty' => 'Extended Warranty'
+            'dealership_tra' => 'Dealership Training & Qualification',
+            'warranty' => 'Schic Warranty'
         ],
         'job_careers' => 'JOIN US',
         'presas' => 'PRESS',
@@ -105,15 +106,15 @@ return [
             'row2' => 'Join Us'
         ],
         'service' => [
-            'title' => 'SERVICE',
+            'title' => 'SERVICES',
             'row1' => 'Vehicle Analysis',
             'row2' => 'Claims & Appraisal',
-            'row3' => 'Vehicle Management Service',
+            'row3' => 'Vehicle Management Services',
             'row4' => 'Dealership Certification & Auditing',
             'row5' => 'Dealership Training & Qualification',
         ],
         'recService' => [
-            'title' => 'RECOMMEND SERVICE',
+            'title' => 'RECOMMEND SERVICES',
             'row1' => 'Extended Warranty',
             'row2' => 'Book Schic Inspection',
             'row3' => 'Search Certified Usedcars',
@@ -132,7 +133,7 @@ return [
 
     'warranty' => [
         'title' => 'SCHIC WARRANTY',
-        'title1' => 'SMART EXTENDED WARRANTY',
+        'title1' => 'SCHIC EXTENDED WARRANTY',
         'title2' => 'SMART ROADSIDE ASSISTANT SERVICE',
         'bronze' => 'BRONZE STANDARD',
         'silver' => 'SILVER STANDARD',
