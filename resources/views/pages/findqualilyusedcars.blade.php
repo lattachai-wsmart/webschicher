@@ -8,7 +8,7 @@
 @section('content')
 
     <style>
-    
+
         .bg-dark {
             background-color: #00385B !important;
         }
@@ -18,8 +18,8 @@
         }
 
         .submit{
-            font-family:SukhumvitSet; 
-            color:#132D46; 
+            font-family:SukhumvitSet;
+            color:#132D46;
             background-color:#f5ba32;
         }
         .submit:hover{
@@ -39,7 +39,7 @@
         <div class="alert alert-danger" role="alert">{{ implode('', $errors->all(':message')) }}</div>
     @endif
 
-  
+
     <div class="content bg-white position-relative show-content">
         <div>
             <img src="{{ asset('media/photos/bg-schich.png') }}" class="image-bg-bookins" />
@@ -52,7 +52,7 @@
                         <div class="col-xl-7 mb-5 text-title-left d-none d-md-block" >
                             <Text class="text-white h2 " style="font-size:45px; font-family:SukhumvitSet;  letter-spacing: 3px;  text-shadow: 2px 2px black; line-height: 2.5;">@lang('frontend.findqualily.banner1')</Text><br/>
                             <Text class="text-white h2" style="font-size:45px; font-family:SukhumvitSet; letter-spacing:3px; text-shadow: 2px 2px black;">@lang('frontend.findqualily.banner2')</Text><br/>
-                            <Text class="text-white h1" style="font-size:60px; font-family:SukhumvitSet; font-weight: 600;   text-shadow: 2px 2px black;">@lang('frontend.findqualily.banner3')</Text> <Text class="h1" style="color:#FDCC01; font-size:60px; font-family:SukhumvitSet; text-shadow: 2px 2px black;">@lang('frontend.findqualily.banner4')</Text><br/>
+                            <Text class="text-white h1" style="font-size:60px; font-family:SukhumvitSet; font-weight: 600; line-height: 2.5;  text-shadow: 2px 2px black;">@lang('frontend.findqualily.banner3')</Text> <Text class="h1" style="color:#FDCC01; font-size:60px; font-family:SukhumvitSet; text-shadow: 2px 2px black;">@lang('frontend.findqualily.banner4')</Text><br/>
                         </div>
                         <div class="col-xl-5 box-form bg-white rounded">
                             <form action="{{ route('booking_search_cars') }}" method='post' class="col-12" id="search_cars">
@@ -64,7 +64,7 @@
                                 </div>
                                 <div class="form-group row col-md-12">
                                     <label class="col-lg-4" for="brand">@lang('frontend.findqualily.carbrand')</label>
-                                    <select class="col-lg-8 form-control form-control-sm form-border mt-0 mt-lg-auto title-search" style="height: 35px;" name="brand" id="brand"> 
+                                    <select class="col-lg-8 form-control form-control-sm form-border mt-0 mt-lg-auto title-search" style="height: 35px;" name="brand" id="brand">
                                         <option value="">@lang('frontend.findqualily.pleaseselect')</option>
                                     </select>
                                 </div>
@@ -75,10 +75,10 @@
                                         <option value="">@lang('frontend.findqualily.pleaseselect')</option>
                                     </select>
                                 </div>
-            
+
                                 <div class="form-group row col-md-12">
                                     <label class="col-lg-4">@lang('frontend.findqualily.name')</label>
-                                    <input class="col-lg-8 form-control form-control-sm form-border" type="text" style="height: 35px;" name="name" id="name">  
+                                    <input class="col-lg-8 form-control form-control-sm form-border" type="text" style="height: 35px;" name="name" id="name">
                                 </div>
 
                                 <div class="form-group row col-md-12">
@@ -88,7 +88,7 @@
                                 </div>
 
                                 <hr class="my-3" style="width: 97%; margin: 0px auto; border-color: #dadad3;">
-        
+
                                 <div class="form-group row justify-content-center">
                                     <button  type="submit" class="btn booking-bt col-8 submit" align="right" id="submitbooking" >@lang('frontend.findqualily.submit')</button>
                                 </div>
