@@ -51,7 +51,7 @@ class FrontendController extends Controller
 
     public function lang_change(Request $request, $lang)
     {
-        if (!in_array($lang, ['en', 'th', 'de'])) {
+        if (!in_array($lang, ['en', 'th', 'de', 'id'])) {
             App::setLocale('en');
             $lang = 'en';
         }
