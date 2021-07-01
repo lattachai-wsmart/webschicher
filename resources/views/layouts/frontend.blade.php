@@ -74,9 +74,6 @@
     }
 </style>
 
-
-
-
 <body>
     <div id="page-container" class="enable-page-overlay sidebar-dark side-scroll main-content-narrow">
 
@@ -140,7 +137,14 @@
                                         'de') d-none @endif"
                                         href="{{ route('LangChange', ['lang' => 'de']) }}"><span
                                             class="flag-icon flag-icon-de ml-2"></span> DE</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item @if (session()->get('locale') ==
+                                        'id') d-none @endif"
+                                        href="{{ route('LangChange', ['lang' => 'id']) }}"><span
+                                            class="flag-icon flag-icon-id ml-2"></span> ID</a>
                                 </li> --}}
+
 
                             </ul>
                             {{-- <div class="p-2 border-top">

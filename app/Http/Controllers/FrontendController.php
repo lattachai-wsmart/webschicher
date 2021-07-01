@@ -51,7 +51,7 @@ class FrontendController extends Controller
 
     public function lang_change(Request $request, $lang)
     {
-        if (!in_array($lang, ['en', 'th', 'de'])) {
+        if (!in_array($lang, ['en', 'th', 'de', 'id'])) {
             App::setLocale('en');
             $lang = 'en';
         }
@@ -342,7 +342,7 @@ class FrontendController extends Controller
                 'note' => $request->input('comment'),
             ]),
             CURLOPT_HTTPHEADER => [
-             // Set here requred headers
+             // Set here required headers
                 'accept: */*',
                 'accept-language: en-US,en;q=0.8',
                 'Content-Type: application/x-www-form-urlencoded',
@@ -413,7 +413,7 @@ class FrontendController extends Controller
         } else {
             print_r(json_decode($response));
 
-            return back()->with('success', 'Insert data successfurry.');
+            return back()->with('success', 'Insert data successfully.');
         }
     }
 
@@ -463,4 +463,16 @@ class FrontendController extends Controller
     {
         return view('pages/jobandcareer')->with('header', $this->header);
     }
+
+    public function policy()
+    {
+        return view('pages/policy')->with('header', $this->header);
+    }
+
+
+    public function termncondition()
+    {
+        return view('pages/termncondition')->with('header', $this->header);
+    }
+
 }
