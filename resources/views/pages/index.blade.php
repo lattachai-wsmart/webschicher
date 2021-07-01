@@ -138,7 +138,7 @@
     </div>
 
     <!-- Facebook Review -->
-    <div class="facebook_review_container">
+    {{-- <div class="facebook_review_container">
         <div class="showreview">
             <div class="facebook">
                 <div class="carousel-item">
@@ -179,7 +179,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- ENDFacebook Review -->
 
     <!-- END Page Content -->
