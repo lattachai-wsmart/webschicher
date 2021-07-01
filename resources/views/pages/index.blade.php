@@ -138,7 +138,7 @@
     </div>
 
     <!-- Facebook Review -->
-    {{-- <div class="facebook_review_container">
+    <div class="facebook_review_container">
         <div class="showreview">
             <div class="facebook">
                 <div class="carousel-item">
@@ -162,7 +162,7 @@
             <a href="javascript:void(0)" class="previous round" id="prev">&#8249;</a>
             <a href="javascript:void(0)" class="next round" id="next">&#8250;</a>
             <div class="slidecontent">
-                <div class="profile">
+                {{-- <div class="profile">
                     <div class="carousel-item">
                         <img class="icon_profile" src="media/photos/profile.png" alt="">
                     </div>
@@ -176,10 +176,10 @@
                             Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquamm! Esse architecto ad distinctio.
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
-    </div> --}}
+    </div>
     <!-- ENDFacebook Review -->
 
     <!-- END Page Content -->
@@ -288,51 +288,51 @@
         });
     });
 
-    // let pofileArray = [
-    //             {'img':'https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png', 'name':'AAAAA AAAAA', 'point':'1.1',
-    //             'comment':'Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquam! Esse architecto ad distinctio.'},
-    //             {'img':'https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png', 'name':'BBBBB BBBBB', 'point':'2.1',
-    //             'comment':'Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquam! Esse architecto ad distinctio.'},
-    //             {'img':'https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png', 'name':'CCCCC CCCCC', 'point':'3.1',
-    //             'comment':'Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquam! Esse architecto ad distinctio.'},
-    //             {'img':'https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png', 'name':'DDDDD DDDDD', 'point':'4.1',
-    //             'comment':'Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquam! Esse architecto ad distinctio.'},
-    //     ]
-    // let pofileArrayWidth = pofileArray.length*100
-    // let slidecontent = document.querySelectorAll('.slidecontent')[0]
+    let pofileArray = [
+                {'img':'https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png', 'name':'AAAAA AAAAA', 'point':'1.1',
+                'comment':'Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquam! Esse architecto ad distinctio.'},
+                {'img':'https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png', 'name':'BBBBB BBBBB', 'point':'2.1',
+                'comment':'Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquam! Esse architecto ad distinctio.'},
+                {'img':'https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png', 'name':'CCCCC CCCCC', 'point':'3.1',
+                'comment':'Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquam! Esse architecto ad distinctio.'},
+                {'img':'https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png', 'name':'DDDDD DDDDD', 'point':'4.1',
+                'comment':'Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquam! Esse architecto ad distinctio.'},
+        ]
+    let pofileArrayWidth = pofileArray.length*100
+    let slidecontent = document.querySelectorAll('.slidecontent')[0]
 
-    // pofileArray.forEach((item,index) => {
-    //     slidecontent.innerHTML += `<div class="slidecontentcontainer">
-    //                 <div class="profile">
-    //                     <div class="carousel-item">
-    //                         <img class="icon_profile" src="${item.img}" alt="">
-    //                     </div>
-    //                 </div>
-    //                 <div class="name_comment">
-    //                     <div class="first_last_name">
-    //                         ${item.name}<span class="star">⭐ ${item.point}</span> </div>
-    //                     <div class="comment">
-    //                         <div>${item.comment}</div>
-    //                     </div>
-    //                 </div>
-    //             </div>`
-    // });
+    pofileArray.forEach((item,index) => {
+        slidecontent.innerHTML += `<div class="slidecontentcontainer">
+                    <div class="profile">
+                        <div class="carousel-item">
+                            <img class="icon_profile" src="${item.img}" alt="">
+                        </div>
+                    </div>
+                    <div class="name_comment">
+                        <div class="first_last_name">
+                            ${item.name}<span class="star">⭐ ${item.point}</span> </div>
+                        <div class="comment">
+                            <div>${item.comment}</div>
+                        </div>
+                    </div>
+                </div>`
+    });
 
-    // slidecontent.style.width = `${pofileArrayWidth}%`
-    // prev = document.getElementById("prev");
-    // next = document.getElementById("next");
-    // let index = 1
-    // prev.onclick = function(){
-    //     if(index < 0) index = pofileArray.length - 1
-    //     slidecontent.style.transform = `translateX(-${index*(100/pofileArray.length)}%)`
-    //     index--
-    // };
+    slidecontent.style.width = `${pofileArrayWidth}%`
+    prev = document.getElementById("prev");
+    next = document.getElementById("next");
+    let index = 1
+    prev.onclick = function(){
+        if(index < 0) index = pofileArray.length - 1
+        slidecontent.style.transform = `translateX(-${index*(100/pofileArray.length)}%)`
+        index--
+    };
 
-    // next.onclick = function(){
-    //     if(index > pofileArray.length - 1) index = 0
-    //     slidecontent.style.transform = `translateX(-${index*(100/pofileArray.length)}%)`
-    //     index++
-    // };
+    next.onclick = function(){
+        if(index > pofileArray.length - 1) index = 0
+        slidecontent.style.transform = `translateX(-${index*(100/pofileArray.length)}%)`
+        index++
+    };
 
 </script>
 
