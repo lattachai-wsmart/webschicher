@@ -132,7 +132,7 @@
                                         href="{{ route('LangChange', ['lang' => 'en']) }}"><span
                                             class="flag-icon flag-icon-us ml-2"></span> EN</a>
                                 </li>
-                                {{-- <li>
+                                <li>
                                     <a class="dropdown-item @if (session()->get('locale') ==
                                         'de') d-none @endif"
                                         href="{{ route('LangChange', ['lang' => 'de']) }}"><span
@@ -143,7 +143,7 @@
                                         'id') d-none @endif"
                                         href="{{ route('LangChange', ['lang' => 'id']) }}"><span
                                             class="flag-icon flag-icon-id ml-2"></span> ID</a>
-                                </li> --}}
+                                </li>
 
 
                             </ul>
