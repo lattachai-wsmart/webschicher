@@ -60,9 +60,9 @@ return [
         'about_us' => 'ABOUT US',
         'service' => 'SERVICES',
         'service_submenu' => [
-            'vehicle_analysis' => 'Vehicle Analysis',
-            'claims_appraisal' => 'Claims & Appraisal',
-            'vehicle_manage' => 'Vehicle Management Services',
+            'vehicle_analysis' => 'Fahrzeuganalyse',
+            'claims_appraisal' => 'Ansprüche und Begutachtung',
+            'vehicle_manage' => 'Fahrzeugverwaltungsdienst',
             'dealership_cer' => 'Dealership Certification & Auditing',
             'dealership_tra' => 'Dealership Training & Qualification',
             'warranty' => 'Schic Warranty'
@@ -109,9 +109,9 @@ return [
         ],
         'service' => [
             'title' => 'SERVICES',
-            'row1' => 'Vehicle Analysis',
-            'row2' => 'Claims & Appraisal',
-            'row3' => 'Vehicle Management Services',
+            'row1' => 'Fahrzeuganalyse',
+            'row2' => 'Ansprüche und Begutachtung',
+            'row3' => 'Fahrzeugverwaltungsdienst',
             'row4' => 'Dealership Certification & Auditing',
             'row5' => 'Dealership Training & Qualification',
         ],
@@ -331,29 +331,28 @@ return [
 
     ],
     'vehicleanalysis' => [
-        'title' => 'Vehicle Analysis',
-        'content1' => 'SCHICHER’s Vehicle Analysis service, under the brand SCHIC Inspection, aims to provide car Buyers with peace of mind when buying used cars. As more Used cars enter the market annually, it has become increasingly difficult for car Buyers to separate good quality cars from bad ones. Thus, it is our goal to help ensure that Buyers are well informed about the quality of the cars by employing a combination of experienced talents and the latest technology to deliver neutral, reliable, and professional Accreditation services. SCHIC Inspection aims to not only ensure that all cars on the road are SAFE for drivers but also SAFE for the environment as well with our Emission Analysis program. Other Vehicle Analysis services include SCHIC’s Vehicle Export Analysis and Vehicle Auction Analysis. ',
-        'content2' => 'To improve customer experience, technology is also used to timely deliver reports to consumers via multiple online channels. Furthermore, SCHIC’s report are carefully crafted for non-professionals to easily comprehend and is further complemented by SCHIC’s experts who are on standby to explain the reports in deeper details. Apart from this, SCHIC also offers tailor made services such as Car Mileage validation to Car Accident History Checks to give customers additional peace of mind',
+        'title' => 'Fahrzeuganalyse',
+        'content1' => 'Der Fahrzeuganalysedienst von SCHICHER unter der Marke SCHIC Inspection soll Autokäufern Sicherheit beim Kauf von Gebrauchtwagen bieten. Da jährlich mehr Gebrauchtwagen auf den Markt kommen, wird es für Autokäufer immer schwieriger, gute von schlechten Autos zu unterscheiden. Daher ist es unser Ziel sicherzustellen, dass Käufer gut über die Qualität der Autos informiert sind, indem wir eine Kombination aus erfahrenen Talenten und der neuesten Technologie einsetzen, um neutrale, zuverlässige und professionelle Akkreditierungsdienste zu erbringen. Ziel von SCHIC Inspection ist es, mit unserem Emissionsanalyseprogramm nicht nur sicherzustellen, dass alle Autos auf der Straße SICHER für die Fahrer sind, sondern auch SICHER für die Umwelt. Zu den weiteren Fahrzeuganalysediensten gehören die Fahrzeugexportanalyse und die Fahrzeugauktionsanalyse von SCHIC.',
+        'content2' => 'Um das Kundenerlebnis zu verbessern, wird Technologie auch verwendet, um den Verbrauchern zeitnah Berichte über mehrere Online-Kanäle zu übermitteln. Darüber hinaus wurde der Bericht von SCHIC sorgfältig erstellt, damit er für Nichtfachmann leicht verständlich ist, und wird von SCHIC-Experten ergänzt, die bereit sind, die Berichte detaillierter zu erläutern. Darüber hinaus bietet SCHIC auch maßgeschneiderte Dienstleistungen wie die Validierung des Pkw-Kilometerstands bis hin zu Autounfall-Historien-Checks, um den Kunden zusätzliche Sicherheit zu geben.',
     ],
     'Periodic_Mandatory_Analysis' => [
-        'title' => ' Vehicle Periodic Analysis',
-        'content' => 'SCHIC’s Periodic Vehicle Analysis ensures that Vehicles are safe to be driven on the road. Inspection is done every 3-6 months or every 10,000 KM. If any irregularities are found, SCHIC’s experts will provide the most cost-effective solutions to the customers whether it be a simple oil change to a complex engine overhaul. Apart from safety, Car owners can also feel at peace that their vehicles are being maintained in good condition on a periodic basis which helps provide proof of maintenance that can act to signal the vehicles’ quality to potential car buyers in the future. ',
+        'title' => 'Periodische Fahrzeuganalyse',
+        'content' => 'Die periodische Fahrzeuganalyse von SCHIC stellt sicher, dass Fahrzeuge sicher auf der Straße gefahren werden können. Die Inspektion erfolgt alle 3-6 Monate oder alle 10.000 KM. Werden Unregelmäßigkeiten festgestellt, bieten die Experten von SCHIC den Kunden die wirtschaftlichste Lösung, vom einfachen Ölwechsel bis hin zur komplexen Motorüberholung. Abgesehen von der Sicherheit können Autobesitzer auch beruhigt sein, dass ihre Fahrzeuge regelmäßig in gutem Zustand gehalten werden, was dazu beiträgt, einen Wartungsnachweis zu erbringen, der potenziellen Autokäufern in Zukunft die Qualität der Fahrzeuge signalisieren kann.',
     ],
     'Emission_Tests_Analysis' => [
-        'title' => 'Vehicle Emission Analysis',
+        'title' => 'Fahrzeugemissionsanalyse',
         'Scicher' => 'Schicher',
-        'content1' => 'Vehicle emission analysis assesses the fuel efficiency and the amount of greenhouse gases a vehicle produces. The Vehicle is put through different test conditions according to different regulatory requirements such as the Worldwide Harmonized Light Vehicles Test Procedure (WLTP) and the European Union’s real Driving Emissions (RDE) regulations. Tests usually includes the analysis of the engine efficiency performance, effectiveness of catalytic converters, particle traps, other emission control devices and the system’s response to alternative fuels. Drivers can rest assured that an Emission report from SCHIC brings not only compliance with local emissions regulations but also greener neighborhoods with our fuel efficiency recommendation program. For Manufacturers, SCHIC’s service can facilitate expansion to new markets by developing emission tests that conforms with the local markets.',
+        'content1' => 'Die Fahrzeugemissionsanalyse bewertet die Kraftstoffeffizienz und die Menge an Treibhausgasen, die ein Fahrzeug produziert. Das Fahrzeug durchläuft verschiedene Prüfbedingungen gemäß unterschiedlichen regulatorischen Anforderungen wie dem Weltweit harmonisiertes Prüfverfahren für leichte Nutzfahrzeuge (WLTP) und den reale Fahremissionen  (RDE)-Vorschriften der Europäischen Union. Die Tests umfassen in der Regel die Analyse des Motorwirkungsgrads, der Wirksamkeit von Katalysatoren, Partikelfallen, anderen Abgasreinigungsgeräten und der Reaktion des Systems auf alternative Kraftstoffe. Autofahrer können sicher sein, dass ein Emissionsbericht von SCHIC nicht nur die Einhaltung lokaler Emissionsvorschriften, sondern auch grünere Nachbarschaften mit unserem Empfehlungsprogramm zur Kraftstoffeffizienz bringt. Für Hersteller kann der Service von SCHIC die Expansion in neue Märkte erleichtern, indem Emissionstests entwickelt werden, die den lokalen Märkten entsprechen.',
         // 'content2' => 'ตรอ. คือ ศูนย์ตรวจสอบสภาพรถที่ได้รับการอนุญาตจากกรมการขนส่งทางบกให้สามารถดำเนินการตรวจสอบสภาพรถก่อนที่จะทำการต่อทะเบียนประจำปี รถที่จำเป็นต้องตรวจสอบสภาพก่อนที่จะต่อทะเบียนจะต้องมีอายุการใช้งานเกินกว่า 7 ปีขึ้นไป ทั้งนี้รวมถึงรถจักยานยนต์ด้วย',
         // 'content3' => 'การตรวจสอบสภาพรถยนต์กับ ตรอ. นั้นก็เพื่อความปลอดภัยและลดมลภาวะที่เกิดจากรถก่อนนำไปใช้งาน',
     ],
     'Specific_Periodic_Analysis' => [
-        'title' => 'Vehicle Specific Analysis',
-        'content' => 'Vehicle Specific Analysis provides a tailor-made Inspection experience to drivers, manufacturers or companies who are looking to customize their own inspection process. SCHIC’s expert will discuss the customers’ requirements in detail and establish a new Inspection analysis that best suits their needs. Such Customization is not simply a development of a new inspection procedure but also a development of a supporting technology and system to ensure report can be delivered efficiently to customers. The benefit of customization is that it allows clients to save both money and time as a more specific report can be crafted that will take less time to inspect. Such customization comes with no compromise to our values as our experts will continue to deliver a neutral, reliable, and professional standards in all our services. ',
+        'title' => 'Fahrzeugspezifische Analyse',
+        'content' => 'Die fahrzeugspezifische Analyse bietet Fahrern, Herstellern oder Unternehmen, die ihren eigenen Inspektionsprozess anpassen möchten, ein maßgeschneidertes Inspektionserlebnis. Der Experte von SCHIC wird die Anforderungen der Kunden detailliert besprechen und eine neue Inspektionsanalyse erstellen, die ihren Bedürfnissen am besten entspricht. Eine solche Anpassung ist nicht nur eine Entwicklung eines neuen Inspektionsverfahrens, sondern auch eine Entwicklung einer unterstützenden Technologie und eines Systems, um sicherzustellen, dass Berichte effizient an die Kunden geliefert werden können. Der Vorteil der Anpassung besteht darin, dass Kunden sowohl Geld als auch Zeit sparen können, da ein spezifischerer Bericht erstellt werden kann, dessen Überprüfung weniger Zeit in Anspruch nimmt. Eine solche Anpassung geht ohne Kompromisse mit unseren Werten einher, da unsere Experten weiterhin neutrale, zuverlässige und professionelle Standards bei allen unseren Dienstleistungen bieten.',
     ],
     'Mandatory_Export_Analysis' => [
-        'title' => 'Vehicle Pre-delivery Analysis',
-        'content' => 'Vehicle Pre-delivery Analysis ensures that new vehicles being delivered follows the specifications of the OEM. This quality assurance process includes analysis of the Exterior, Interior as well as the inner mechanical components of the vehicles. Once an analysis has been completed, a report is promptly updated online for the OEM to review. If there are slight deviations in quality, SCHIC’s experts can usually remedy the product onsite. If the deviations are significant and occur on a regular basis, SCHIC’s experts will work together with the OEM to optimize processes to prevent such defects in the future. Process change can occur at the OEM’s factory as a preventive measure or a secondary refinement process with local partners. SCHIC works hand in hand with numerous suppliers to implement and realize necessary quality standards. Whether you are a global manufacturer looking to expand presence in new countries or a Local OEM looking to reduce defect rates, SCHIC has a solution that will improve customer’s satisfaction when receiving their new vehicles.
-',
+        'title' => 'Fahrzeugvorauslieferungsanalyse',
+        'content' => 'Die Fahrzeugvorauslieferungsanalyse stellt sicher, dass die Auslieferung von Neufahrzeugen den Spezifikationen des OEMs entspricht. Dieser Qualitätssicherungsprozess umfasst die Analyse des Exterieurs, des Interieurs sowie der inneren mechanischen Komponenten der Fahrzeuge. Sobald eine Analyse abgeschlossen ist, wird ein Bericht umgehend online aktualisiert, damit der OEM sie überprüfen kann. Bei geringfügigen Qualitätsabweichungen können die Experten von SCHIC das Produkt in der Regel vor Ort beheben. Wenn die Abweichungen signifikant sind und regelmäßig auftreten, optimieren die Experten von SCHIC gemeinsam mit dem OEM die Prozesse, um solche Fehler in Zukunft zu vermeiden. Prozessänderungen können im Werk des OEM als vorbeugende Maßnahme oder als sekundärer Veredelungsprozess mit lokalen Partnern erfolgen. SCHIC arbeitet mit zahlreichen Lieferanten Hand in Hand, um notwendige Qualitätsstandards umzusetzen und zu realisieren. Ganz gleich, ob Sie ein globaler Hersteller sind, der seine Präsenz in neuen Ländern ausweiten möchte, oder ein lokaler OEM, der die Fehlerquoten reduzieren möchte, SCHIC hat eine Lösung, die die Kundenzufriedenheit beim Erhalt seiner neuen Fahrzeuge verbessert.',
         'list' => [
             'title' => 'Main Purpose of PDI (Pre-Delivery Inspection)',
             '1' => 'To remove the protective device of the car parts installed during transportation',
@@ -363,21 +362,19 @@ return [
         ],
     ],
     'Road_Safety_Analysis' => [
-        'title' => 'Road Safety Analysis',
-        'content' => 'SCHIC’s Road Safety Analysis provides Drivers travelling long distance with peace of mind that their Vehicles are safe to get them to their destination. SCHIC’s Safety Analysis includes checks on Tyre pressures, Tyre tread depth, Windscreen Wipers, Screen wash level, Oil Level, Engine Coolant, Light functions, breaks, air conditioning&heating system and spark plug. Thus if Vehicles have passed SCHIC’s Road Safety Analysis, the chance of breakdown on the road has been significantly reduced, so drivers can spend more time where it matters. ',
+        'title' => 'Verkehrssicherheitsanalyse von Fahrzeugen',
+        'content' => 'Die Verkehrssicherheitsanalyse von SCHIC gibt Fahrern, die lange Strecken zurücklegen, die Gewissheit, dass ihre Fahrzeuge sicher sind, um sie an ihr Ziel zu bringen. Die Sicherheitsanalyse von SCHIC umfasst Prüfungen von Reifendruck, Reifenprofiltiefe, Scheibenwischer, Scheibenwaschstand, Ölstand, Motorkühlmittel, Lichtfunktionen, Bremsen, Klimaanlage und Heizung sowie Zündkerze. Wenn Fahrzeuge die Verkehrssicherheitsanalyse von SCHIC bestanden haben, wurde die Wahrscheinlichkeit einer Panne auf der Straße erheblich reduziert, sodass die Fahrer mehr Zeit verbringen können, wo es darauf ankommt.',
     ],
     'Contract_Vehicle_Analysis' => [
-        'title' => 'Vehicle Export Analysis',
-        'content' => 'Vehicle Export Analysis provides a neutral, reliable, and professional accreditation report for Buyers who are living in another country. This Analysis can be tailored to comply with the local country’s importing requirements. For example, some countries require proof that the vehicles have not been stolen or for the vehicles to pass certain emission standards.
-        Uganda and Zambia require that the vehicles be free of CFC (R12) gas. Vehicles sent to Kenya must comply with Kenya Bureau of Standards KS1515:2000, testing for compliance with age limit rules, roadworthiness requirements, emission levels and correct odometer readings. Once the inspection is completed, an online report shall be issued so the buyers/governing regulators can have peace of mind that the cars entering the local country has complied with its regulations.
-',
+        'title' => 'Fahrzeugexportanalyse',
+        'content' => 'Die Fahrzeugexportanalyse bietet einen neutralen, zuverlässigen und professionellen Akkreditierungsbericht für Käufer, die in einem anderen Land leben. Diese Analyse kann an die Einfuhranforderungen des jeweiligen Landes angepasst werden. Einige Länder verlangen beispielsweise einen Nachweis, dass die Fahrzeuge nicht gestohlen wurden oder dass die Fahrzeuge bestimmte Abgasnormen erfüllen.
+        Uganda und Sambia verlangen, dass die Fahrzeuge frei von FCKW (R12)-Gas sind. Fahrzeuge, die nach Kenia geschickt werden, müssen dem Kenias Büro für Standards KS1515:2000 entsprechen und auf die Einhaltung von Altersgrenzen, Verkehrstauglichkeitsanforderungen, Emissionswerten und korrekten Kilometerzählern prüfen. Sobald die Inspektion abgeschlossen ist, wird ein Online-Bericht erstellt, damit die Käufer / die zuständigen Aufsichtsbehörden sicher sein können, dass die Autos, die in das lokale Land einreisen, den Vorschriften entsprechen.',
     ],
     'Preowned_Vehicle_Inspection_Analysis' => [
-        'title' => 'Vehicles Preowned Analysis',
-        'content' => 'SCHIC Preowned Analysis offers Car Buyers peace of mind when buying Used Vehicles.
-        It is no secret that buying a used car can be a difficult endeavor as one does not know the quality of the car. The rise of the internet has bombarded customers with plethora of
-        information leading to greater uncertain in their decision-making process. SCHIC’s role is to enable buyers to make better decisions by using technology and experience human capital to provide neutral, reliable, and professional Accreditation service.
-        SCHIC Preowned Analysis consists of two main Inspection criteria: Standard and Premium. Standard Inspection analyses the mechanical health of the Vehicles from Engine to ECU, covering over 165 Mechanical parts. Premium Inspection analyses over 215 Inspection Parts, covering both the Mechanical parts of the vehicle and the non-Mechanical parts such as Vehicle Chassis, Tire Condition and Vehicle Exterior. All Inspections that passes SCHIC’s Standard Inspection are eligible for Smartsure’s Warranty program.',
+        'title' => 'Gebrauchtwagenanalyse',
+        'content' => 'Die Gebrauchtanalyse von SCHIC bietet Autokäufern Sicherheit beim Kauf von Gebrauchtfahrzeugen. Es ist kein Geheimnis, dass der Kauf eines Gebrauchtwagens ein schwieriges Unterfangen sein kann, da man die Qualität des Autos nicht kennt. Der Aufstieg des Internets hat die Kunden mit einer Fülle von Informationen, die zu größerer Unsicherheit in ihrem Entscheidungsprozess führen. Die Rolle von SCHIC besteht darin, Käufern zu ermöglichen, bessere Entscheidungen zu treffen, indem sie Technologie und erfahrenes Humankapital einsetzen, um einen neutralen, zuverlässigen und professionellen Akkreditierungsservice zu bieten.
+        Die SCHIC Gebrauchtanalyse besteht aus zwei Hauptprüfkriterien: Standard und Premium. Die Standardinspektion analysiert den mechanischen Zustand der Fahrzeuge vom Motor bis zum Steuergerät und umfasst über 165 mechanische Teile. Premium Inspection analysiert über 215 Inspektionsteile, die sowohl die mechanischen Teile des Fahrzeugs als auch die nicht-mechanischen Teile wie Fahrzeugchassis, Reifenzustand und Fahrzeugaußenseite abdecken. Alle Inspektionen, die die Standardinspektion von SCHIC bestehen, sind für das Smartsure-Garantieprogramm berechtigt.
+',
 
         'list' => [
             'title' => 'Benefits of Car Quality Assessment Before Buying',
@@ -389,18 +386,19 @@ return [
         ],
     ],
     'Auction_Vehicle_Inspection_Analysis' => [
-        'title' => 'Vehicle Auction Analysis ',
-        'content' => 'Auction Analysis makes it easier for buyers to bid for the vehicles, safe in the Knowledge that the vehicles have been graded by SCHIC’s expert. This is useful for offline buyers who plan to purchase multiple cars and do not have the time to inspect all vehicles. For Online buyers, SCHIC’s report will be even more important acting as the eyes and ears so buyers can bid for vehicles from the comfort of their home. The focus on technology and experienced Human capital allows bidders to benefit from neutral, reliable, and professional Accreditation service as well as a timely delivery of the report via multiple online channels.',
+        'title' => 'Analyse von Fahrzeugauktionen',
+        'content' => 'Die Auktionsanalyse erleichtert Käufern das Bieten auf die Fahrzeuge, sicher in dem Wissen, dass die Fahrzeuge durch den SCHIC-Experten bewertet wurden. Dies ist nützlich für Offline-Käufer, die mehrere Autos kaufen möchten und nicht die Zeit haben, alle Fahrzeuge zu inspizieren. Für Online-Käufer wird der Bericht von SCHIC noch wichtiger als Augen und Ohren, damit Käufer bequem von zu Hause aus auf Fahrzeuge bieten können. Der Fokus auf Technologie und erfahrenes Humankapital ermöglicht es Bietern, von einem neutralen, zuverlässigen und professionellen Akkreditierungsservice sowie einer zeitnahen Bereitstellung des Berichts über mehrere Online-Kanäle zu profitieren.',
     ],
     'claimsappraisal' => [
-        'title' => 'Claims & Appraisal',
-        'content' => '&nbsp; &nbsp; &nbsp; As more vehicles enter the road, more accidents are occurring daily, leading to an increasing number of Claims disputes. SCHICHER’s role is to help deliver truth and transparency to the Insurance Industry by providing neutral, reliable, and professional report to all relevant stakeholders. Our reliable analysis can help solve disputes between stakeholders; disputes from the appropriate Claims amount to the authenticity of the claims themselves. Furthermore, SCHICHER also offers complete end-to-end claims handling solutions from our third party administration services to our Accident reconstruction services.
-        Apart from Claims experience, repair quality is also of utmost importance. To ensure such quality, SCHICHER also works with qualified Workshops and Bodyshops to help deliver neutral, reliable and professional service to customers. Our Workshops appraisal trademark helps insurance companies and customers identify good quality workshops. All in all, SCHICHER’s services aim to improve customers’ Claims experiences as well as ensuring that the claims quality are being upheld at the designated SCHICHER’s Workshop and Bodyshop.',
+        'title' => 'Ansprüche und Begutachtung',
+        'content' => '&nbsp; &nbsp; &nbsp; Da immer mehr Fahrzeuge auf die Straße kommen, ereignen sich täglich mehr Unfälle, was zu einer steigenden Zahl von Schadenstreitigkeiten führt. Die Rolle von SCHICHER besteht darin, der Versicherungsbranche durch neutrale, zuverlässige und professionelle Berichte an alle relevanten Interessengruppen Wahrheit und Transparenz zu liefern. Unsere zuverlässige Analyse kann helfen, Streitigkeiten zwischen Interessengruppen zu lösen; Streitigkeiten aus den entsprechenden Ansprüchen kommen auf die Glaubwürdigkeit der Ansprüche selbst an. Darüber hinaus bietet SCHICHER auch komplette End-to-End-Schadensbearbeitungslösungen von unseren Drittverwaltungsleistungen bis hin zu unseren Unfallrekonstruktionsleistungen.
+        Neben der Schadenerfahrung ist auch die Reparaturqualität von größter Bedeutung. Um diese Qualität zu gewährleisten, arbeitet SCHICHER auch mit qualifizierten Werkstätten und Karosseriewerkstätten zusammen, um den Kunden einen neutralen, zuverlässigen und professionellen Service zu bieten. Unsere Marke für die Begutachtung von Werkstätten hilft Versicherungsunternehmen und Kunden, qualitativ hochwertige Werkstätten zu identifizieren. Alles in allem zielen die Dienstleistungen von SCHICHER darauf ab, das Schadenerlebnis der Kunden zu verbessern und die Gewährleistung der Schadenqualität in der ausgewiesenen SCHICHER-Werkstatt und - Karosseriewerk sicherzustellen.
+',
 
     ],
     'Automotive_Claims_Handling' => [
-        'title' => 'Automotive Claims Handling Services',
-        'content' => 'SCHICHER’s Automotive Claims Handling Service is an End-to-End solution for Insurance Company. Trusted by multiple global and local Insurance companies, SCHICHER handles thousands of cases daily across multiple Automotive claims services ranging from claims adjustment, fraud detection, legal protection services, auditing services, coordinating services, billing services, documentation services and expert appraisals. Apart from the hands-on experience, SCHICHER also deploys the latest technology to ensure that the best Insurance Practice can be most effectively followed. This service can be utilize as a short term solution to a temporary overflown capacity or a long term resolution as a permanent part of the Insurer’s process. ',
+        'title' => 'Kfz-Schadenbearbeitungsdienste',
+        'content' => 'Die Kfz-Schadenbearbeitungsdienste von SCHICHER ist eine End-to-End-Lösung für Versicherungsunternehmen. SCHICHER wird von mehreren globalen und lokalen Versicherungsunternehmen als vertrauenswürdig eingestuft und bearbeitet täglich Tausende von Fällen über mehrere Kfz-Schadenservices, die von Schadenregulierung, Betrugserkennung, Rechtsschutzservices, Wirtschaftsprüfungsservices, Koordinierungsservices, Abrechnungsservices, Dokumentationsservices und Experten Begutachtungen reichen. Neben der praktischen Erfahrung setzt SCHICHER auch die neueste Technologie ein, um sicherzustellen, dass die beste Versicherungspraxis am effektivsten verfolgt werden kann. Diese Dienstleistung kann als kurzfristige Lösung für eine vorübergehende Kapazitätsüberschreitung oder als langfristige Lösung als dauerhafter Bestandteil des Prozesses des Versicherers genutzt werden. ',
 
         // 'list' => [
         //     '1' => 'ผู้ให้บริการเคลมที่มีความรู้ และประสบการณ์',
@@ -409,18 +407,19 @@ return [
         // ],
     ],
     'Third_Party_Administration_Service' => [
-        'title' => 'Third Party Administration Services',
-        'content' => 'SCHICHER’s administrative services provides a comprehensive End-to-End solution for Leasing Companies, Car dealers and other Corporate Companies. Services includes 24-hour call Centre service, auditing services, coordinating services and billing services. SCHICHER’s experience in the automotive industry, technology adoption and investment in human capital allows the company to not just effectively provide administrative solutions to customers but it can also improve customers’ efficiencies and productivity as well.
-        SCHICHER’s Service is not just about following sets of specified workflows, it is also about delivering a customer-focused experience. The goal is for SCHICHER to outsource the cost of administrative tasks from customers and deliver a more productive experience as though the company is a part of the customers’ internal department. SCHICHER fundamentally believe that the best customer experience comes from when the soul of the company can be transferred to the customers.',
+        'title' => 'Verwaltungsdienste von Drittanbietern',
+        'content' => 'Die Verwaltungsdienstleistungen von SCHICHER bieten eine umfassende End-to-End-Lösung für Leasinggesellschaften, Autohändler und andere Konzerngesellschaften. Die Dienstleistungen umfassen einen 24-Stunden-Call-Center-Service, Prüfungsdienste, Koordinierungsdienste und Abrechnungsdienste. Die Erfahrung von SCHICHER in der Automobilindustrie, die Einführung von Technologien und Investitionen in das Humankapital ermöglichen es dem Unternehmen, seinen Kunden nicht nur effektive Verwaltungslösungen anzubieten, sondern auch die Effizienz und Produktivität der Kunden zu verbessern.
+        Bei der Dienst von SCHICHER geht es nicht nur darum, festgelegten Arbeitsabläufen zu folgen, sondern auch darum, ein kundenorientiertes Erlebnis zu bieten. Ziel ist es, dass SCHICHER die Kosten für verwaltungsmäßige Aufgaben von den Kunden auslagert und ein produktiveres Erlebnis bietet, als ob das Unternehmen Teil der internen Abteilung des Kunden wäre. SCHICHER glaubt grundsätzlich, dass das beste Kundenerlebnis entsteht, wenn die Seele des Unternehmens auf die Kunden übertragen werden kann.
+',
 
     ],
     'Accident_Appraisal_Services' => [
-        'title' => 'Accident Appraisal Services',
-        'content' => '&nbsp; &nbsp; &nbsp; Accidents can arise from the fault of multiple stakeholders. SCHICHER’s task is to provide all stakeholders truths and transparency by providing neutral, reliable, and professional analysis. SCHICHER Services includes Damage Appraisal, Tele-Appraisal, Document validation, Accident Reconstruction and Technical Reporting. SCHICHER’s experts are trained to analyze accidents from multiple perspective to ensure that an extract determination of the incident is properly recorded. The use of the latest technologies, telematics and AI powered image recognition system makes faster accurate.',
+        'title' => 'Unfallgutachten Dienstleistungen',
+        'content' => '&nbsp; &nbsp; &nbsp; Unfälle können durch das Verschulden mehrerer Interessengruppen entstehen. Die Aufgabe von SCHICHER ist es, allen Interessengruppen durch neutrale, zuverlässige und professionelle Analysen Wahrheiten und Transparenz zu bieten. SCHICHER Dienstleistungen umfassen Schadensgutachten, Telegutachten, Dokumentenvalidierung, Unfallrekonstruktion und Sachberichterstattung. Die Experten von SCHICHER sind darin geschult, Unfälle aus mehreren Perspektiven zu analysieren, um sicherzustellen, dass eine auszugsweise Ermittlung des Vorfalls ordnungsgemäß erfasst wird. Der Einsatz der neuesten Technologien, Telematik und KI-gestützten Bilderkennungssysteme macht schneller genauer.',
 
         'Damage_Appraisal' => [
-            'title' => 'Damage Appraisal',
-            'content' => '&nbsp; &nbsp; &nbsp; When an Accident occurs, the real value of the damages can sometimes be unclear. Does one evaluate damages from the cost of repair to bring the vehicles to its original state? How does one determine the definition of original state? What is the standard of repair required to deliver original state? SCHICHER’s appraisal service aims to help solve such problems by delivering neutral, reliable, and professional appraisal result to all stakeholders. We aim to do so by providing comprehensive description of the incident determining pre-existing damages, plausibility, actual loss, and overall vehicle’s condition. Once the damages have been established, costs of repairs shall be determined based on our proprietary claims adjuster portal to accurately determine cost of repairs by considering factors such as wages, spare parts, paint, and diminished value. ',
+            'title' => 'Schadengutachten',
+            'content' => '&nbsp; &nbsp; &nbsp; Bei einem Unfall kann der wahre Wert des Schadens manchmal unklar sein. Bewertet man Schäden aus den Reparaturkosten, um die Fahrzeuge in den Originalzustand zu versetzen? Wie bestimmt man die Definition des Urzustandes? Welcher Reparaturstandard ist erforderlich, um den Originalzustand zu liefern? Der Begutachtungsdienst von SCHICHER soll helfen, solche Probleme zu lösen, indem er allen Interessengruppen ein neutrales, zuverlässiges und professionelles Begutachtungsergebnis liefert. Unser Ziel ist es, dies durch eine umfassende Beschreibung des Vorfalls zu erreichen, die Vorschäden, Plausibilität, tatsächlichen Schaden und den Gesamtzustand des Fahrzeugs ermittelt. Sobald der Schaden festgestellt wurde, werden die Reparaturkosten basierend auf unserem proprietären Schadenregulierer-Portal ermittelt, um die Reparaturkosten unter Berücksichtigung von Faktoren wie Löhne, Ersatzteile, Farbe und Wertminderung genau zu bestimmen.',
             'list' => [
                 'title' => 'Benefits from on-site damage assessment',
                 '1' => 'Comprehensive, fast and quality assessment from technicians.',
@@ -432,8 +431,8 @@ return [
             ],
         ],
         'Tele_Appraisal_Service' => [
-            'title' => 'Tele-Appraisal',
-            'content' => '&nbsp; &nbsp; &nbsp; SCHICHER’s Tele-Appraisal Service aims to help stakeholders appraise the true value of an Accident’s Damage without the need for onsite Inspection. This innovative method allows our experts to provide thorough analysis of the incident from pre-existing damages, plausibility, actual loss, and vehicle’s overall condition from anywhere, making damage appraisal more efficient and cost effective for all stakeholders. In addition, our experts can also establish costs of repairs more effectively with our proprietary claims adjuster solution.',
+            'title' => 'Telegutachten-Dienst ',
+            'content' => '&nbsp; &nbsp; &nbsp; Der Telegutachten-Dienst von SCHICHER soll Interessengruppen dabei helfen, den wahren Wert eines Unfallschadens ohne Vor-Ort-Inspektion einzuschätzen. Mit dieser innovativen Methode können unsere Experten den Schadensfall von Vorschaden, Plausibilität, tatsächlichem Schaden und Gesamtzustand des Fahrzeugs von überall her gründlich analysieren und so die Schadensgutachtung für alle Interessengruppen effizienter und kostengünstiger machen. Darüber hinaus können unsere Experten mit unserer proprietären Schadenregulierer-Lösung auch Reparaturkosten effektiver ermitteln.',
             'list' => [
                 'title' => 'Benefits of Online Damage Assessment',
                 '1' => 'Fast, comprehensive and quality Available online',
@@ -446,8 +445,8 @@ return [
             ],
         ],
         'Document_Validation' => [
-            'title' => 'Document Validation',
-            'content' => '&nbsp; &nbsp; &nbsp; SCHICHER’s experience in the Automotive Insurance industry, technology adoption and investment in human capital allows the company to not just effectively provide Document Validation solutions to Insurer but it can sometimes improve Insurer’ efficiencies and productivity as well. The company provide checks from transportation costs, retail price surcharges, incidental costs, hourly rates, replacement value, residual value, repair time, replacement time and diminution in value. Our experts are trained to deliver such service in a timely and comprehensive manner. The goal is for SCHICHER to outsource the cost of such tasks from customers and deliver a more productive experience as though the company is a part of the customers’ internal department. ',
+            'title' => 'Dokumentenvalidierung',
+            'content' => '&nbsp; &nbsp; &nbsp; Die Erfahrung von SCHICHER in der Automobilversicherungsbranche, die Einführung von Technologien und Investitionen in das Humankapital ermöglichen es dem Unternehmen, dem Versicherer nicht nur effektive Lösungen zur Dokumentenvalidierung bereitzustellen, sondern manchmal auch die Effizienz und Produktivität des Versicherers zu verbessern. Das Unternehmen stellt Schecks aus Transportkosten, Verkaufspreiszuschlägen, Nebenkosten, Stundensätzen, Wiederbeschaffungswert, Restwert, Reparaturzeit, Wiederbeschaffungszeit und Wertminderung zur Verfügung. Unsere Experten sind geschult, um einen solchen Dienst zeitnah und umfassend zu erbringen. Ziel ist es, dass SCHICHER die Kosten für solche Aufgaben von den Kunden auslagert und ein produktiveres Erlebnis bietet, als ob das Unternehmen Teil der internen Abteilung des Kunden wäre.',
             'list' => [
                 'title' => 'Benefits of Document Auditing',
                 '1' => 'Comprehensive, fast and quality.',
@@ -457,8 +456,8 @@ return [
             ],
         ],
         'Accident_Reconstruction' => [
-            'title' => 'Accident Reconstruction',
-            'content' => '&nbsp; &nbsp; &nbsp; When an Accident occurs, it is sometimes difficult for the stakeholders involved to completely paint a unifying detail of the Accident. SCHICHER’s Accident Reconstruction service aims to shed light on the Accident by employing the latest tools from computer-assisted collision analysis, photogrammetry evaluation to onsite trace analysis. Once the cause of the accident is analyzed and the deformation examined, SCHICHER team can also help clarify the stakeholders at fault. Thus our customers can rest assured that our neutral, reliable, and professional report is based on the facts, evidence and experience.',
+            'title' => 'Unfallrekonstruktionen',
+            'content' => '&nbsp; &nbsp; &nbsp; Wenn sich ein Unfall ereignet, ist es für die beteiligten Akteure manchmal schwierig, ein einheitliches Detail des Unfalls vollständig zu zeichnen. Der Unfallrekonstruktionsservice von SCHICHER hat zum Ziel, den Unfall durch den Einsatz modernster Tools von der computergestützten Kollisionsanalyse über die photogrammetrische Auswertung bis hin zur Spurenanalyse vor Ort aufzuklären. Ist die Unfallursache analysiert und die Verformung untersucht, kann das SCHICHER-Team auch bei der Klärung der schuldhaften Beteiligten helfen. So können sich unsere Kunden darauf verlassen, dass unsere neutrale, zuverlässige und professionelle Berichterstattung auf Fakten, Beweisen und Erfahrungen basiert.',
             'list' => [
                 'title' => 'Benefits of simulating accidents',
                 '1' => 'Collect details of accident repairs and crash tests.',
@@ -471,8 +470,8 @@ return [
             ],
         ],
         'Technical_Report' => [
-            'title' => 'Technical Reporting',
-            'content' => '&nbsp; &nbsp; &nbsp; Technical Reporting can be a useful service for customers looking to solve disputes between stakeholders where technical analyses are required. For example, a customer may have queries with a Warranty provider on why certain claims are not covered. SCHICHER’s report can act solve disputes by offering a neutral, reliable, and professional assessment of the situation. Similarly, advice can also be given on to customers on Workshops’ diagnostic results, Workshops’ service quality and/or Workshops’ repair quotations. Furthermore, a neutral third party may also be required to reliably analyze a Used vehicle’s condition that was found to contrast with the sales contract at the point of sales. For example, when the mileage of the car has been tampered and the customer wishes to return the vehicle to the Used car dealership. All in all, whenever a technical analysis is required, SCHICHER’s technical reporting can act as a arbitrator to all stakeholders by delivering a neutral, reliable and professional reporting',
+            'title' => 'Sachberichterstattung',
+            'content' => '&nbsp; &nbsp; &nbsp; Sachberichterstattung kann ein nützlicher Dienst für Kunden sein, die Streitigkeiten zwischen Interessengruppen beilegen möchten, bei denen technische Analysen erforderlich sind. Beispielsweise kann ein Kunde bei einem Garantieanbieter Fragen dazu haben, warum bestimmte Ansprüche nicht abgedeckt sind. Der Bericht von SCHICHER kann durch eine neutrale, verlässliche und professionelle Einschätzung der Lage zur Lösung von Streitigkeiten beitragen. Ebenso können Kunden zu Diagnoseergebnissen der Werkstätten, der Servicequalität der Werkstätten und/oder Reparaturangeboten der Werkstätten beraten werden. Darüber hinaus kann auch ein neutraler Dritter erforderlich sein, um den Zustand eines Gebrauchtfahrzeugs, der an der Verkaufsstelle vom Kaufvertrag abweicht, zuverlässig zu analysieren. Zum Beispiel, wenn der Kilometerstand des Autos manipuliert wurde und der Kunde das Fahrzeug an den Gebrauchtwagenhändler zurückgeben möchte. Alles in allem kann die Sachberichterstattung von SCHICHER, wann immer eine technische Analyse erforderlich ist, als Schlichter für alle Interessengruppen auftreten, indem sie eine neutrale, zuverlässige und professionelle Berichterstattung liefert.',
             'list' => [
                 '1' => 'Solving all suspicions of damage incurred
                 After having repaired or buying spare parts for repairing a car',
@@ -492,9 +491,10 @@ return [
         ],
     ],
     'Bodyshop_Appraisal' => [
-        'title' => 'Bodyshop Appraisal',
-        'content' => 'Choosing the right Bodyshop and Paint shops to repair your damaged vehicles can be a daunting task. Like the Lemon’s problem for Used Cars trading, consumers are unsure of the quality of the Bodyshop’s restoration work. Improper repairs of the Chassis frame can increase the risks of future accidents. The use of unverified parts can have serious safety issues. Poor-quality paintjobs can lead to a reduction in the vehicles’ retail price. To rid these concerns, SCHICHER’s Bodyshop seal of approval can provide consumers and insurance companies with peace of mind that their vehicles are being repaired in accordance with SCHICHER’s standards.
-        This is the reason why approved partners are required to prove that their team members have met certain standards of training. This is the reason why approved partners are required to possess the relevant tools and equipment. This is the reason why approved partners are required to have certain standard facilities to cater to its customers. This is the reasons why approved partners are required to keep certain spare parts to ensure prompt repair of vehicles. This is the reason why approved partners are required to pass SCHICHER’s Standard Operating Procedure Appraisal.',
+        'title' => 'Karosseriewerk Begutachtung',
+        'content' => 'Die Auswahl der richtigen Karosserie- und Lackiererei für die Reparatur Ihrer beschädigten Fahrzeuge kann eine entmutigende Aufgabe sein. Wie beim Lemon-Problem für den Gebrauchtwagenhandel sind sich die Verbraucher hinsichtlich der Qualität der Restaurierungsarbeiten der Karosseriewerkstatt unsicher. Unsachgemäße Reparaturen des Fahrgestellrahmens können das Risiko zukünftiger Unfälle erhöhen. Die Verwendung nicht überprüfter Teile kann ernsthafte Sicherheitsprobleme haben. Schlechte Lackierungen können zu einer Reduzierung des Verkaufspreises der Fahrzeuge führen. Um diese Bedenken auszuräumen, kann das SCHICHER-Gütesiegel Karosseriebau Verbrauchern und Versicherungen die Gewissheit geben, dass ihre Fahrzeuge nach den SCHICHER-Standards repariert werden.
+        Aus diesem Grund müssen zugelassene Geschäftspartner nachweisen, dass ihre Teammitglieder bestimmte Schulungsstandards erfüllen. Aus diesem Grund müssen zugelassene Geschäftspartner über die entsprechenden Werkzeuge und Geräte verfügen. Aus diesem Grund müssen zugelassene Geschäftspartner über bestimmte Standardeinrichtungen verfügen, um ihre Kunden zu bedienen. Aus diesem Grund müssen zugelassene Geschäftspartner bestimmte Ersatzteile vorhalten, um eine schnelle Reparatur der Fahrzeuge zu gewährleisten. Aus diesem Grund müssen zugelassene Geschäftspartner die Bewertung der Standardarbeitsanweisungen von SCHICHER bestehen.
+',
 
         'list' => [
             'title' => 'Benefits of getting a seal from our company',
@@ -503,12 +503,13 @@ return [
             '3' => 'Emphasize the quality of the insurer to the service center.',
             '4' => 'Confirm the efficient service in the operation.',
         ],
-        'content1' => 'All these reasons are the reason why the SCHICHER’s seal represents Trust to Consumers all over the world.',
+        'content1' => 'All diese Gründe sind der Grund, warum das SCHICHER-Siegel Verbrauchern auf der ganzen Welt Vertrauen entgegenbringt.',
     ],
     'Garage_Appraisal' => [
-        'title' => 'Workshop Appraisal',
-        'content' => 'Choosing the right Workshops to repair your vehicles can be a daunting task. Like the Lemon’s problem for Used Cars trading, consumers are unsure of the quality of the Workshop’s repairs.  Improper repairs of the main powertrain components can increase the risks of accidents. The use of unverified parts can have serious safety issues. Improper diagnostic can lead to unnecessary costs. To rid these concerns, SCHICHER’s Workshop seal of approval can provide consumers with peace of mind that their vehicles are being repaired in accordance with SCHICHER’s standards.
-        This is the reason why approved partners are required to prove that their team members have met certain standards of training. This is the reason why approved partners are required to possess the relevant tools and equipment. This is the reason why approved partners are required to have certain standard facilities to cater to its customers. This is the reasons why approved partners are required to keep certain spare parts to ensure prompt repair of vehicles. This is the reason why approved partners are required to pass SCHICHER’s Standard Operating Procedure Appraisal. All these reasons are the reason why the SCHICHER’s seal represents Trust to Consumers all over the world.',
+        'title' => 'Werkstatt Begutachtung',
+        'content' => 'Die Auswahl der richtigen Werkstätten für die Reparatur Ihrer Fahrzeuge kann eine entmutigende Aufgabe sein. Wie beim Lemon-Problem für den Gebrauchtwagenhandel sind sich die Verbraucher über die Qualität der Reparaturen in der Werkstatt unsicher. Unsachgemäße Reparaturen der Hauptkomponenten des Antriebsstrangs können die Unfallgefahr erhöhen. Die Verwendung nicht überprüfter Teile kann ernsthafte Sicherheitsprobleme haben. Eine unsachgemäße Diagnose kann zu unnötigen Kosten führen. Um diese Bedenken auszuräumen, gibt das SCHICHER-Werkstatt-Gütesiegel Verbrauchern die Gewissheit, dass ihre Fahrzeuge nach den SCHICHER-Standards repariert werden.
+        Aus diesem Grund müssen zugelassene Geschäftspartner nachweisen, dass ihre Teammitglieder bestimmte Schulungsstandards erfüllen. Aus diesem Grund müssen zugelassene Geschäftspartner über die entsprechenden Werkzeuge und Geräte verfügen. Aus diesem Grund müssen zugelassene Geschäftspartner über bestimmte Standardeinrichtungen verfügen, um ihre Kunden zu bedienen. Aus diesem Grund müssen zugelassene Geschäftspartner bestimmte Ersatzteile vorhalten, um eine schnelle Reparatur der Fahrzeuge zu gewährleisten. Aus diesem Grund müssen zugelassene Geschäftspartner die Bewertung der Standardarbeitsanweisungen von SCHICHER bestehen. All diese Gründe sind der Grund, warum das SCHICHER-Siegel Verbrauchern auf der ganzen Welt Vertrauen entgegenbringt.
+',
 
         'list' => [
             'title' => 'What customers will receive from the services of Schicher',
@@ -530,8 +531,8 @@ return [
         ],
     ],
     'Vehicle_Management_Services' => [
-        'title' => 'Vehicle Management Services',
-        'content' => 'For Companies with fleet related operations, SCHICHER has multiple solutions that can help you manage your vehicles. Our In-fleet and De-fleet services can help you track the wellbeing of your vehicles throughout the life cycle of your fleets. Our Evaluation and Pricing service can help place an objective value on those vehicles. Furthermore, our Buyback Management service provides fleet owners with greater value certainty for returning fleets. Our professionals are trained to not only deliver neutral, reliable, and professional services but they must also deliver your philosophy as well. Our Refurbishment, Sales and Remarketing solutions aim to deliver your ideals by working closely with your team to find the most appropriate solutions to sell your fleets and deliver your values to buying customers.  ',
+        'title' => 'Fahrzeugverwaltungsdienst',
+        'content' => 'Für Unternehmen mit flottenbezogenen Aktivitäten bietet SCHICHER mehrere Lösungen, die Ihnen bei der Verwaltung Ihrer Fahrzeuge helfen können. Unsere sogenante In-Fleet- und De-Fleet Dienstleistungen können Ihnen dabei helfen, das Wohlbefinden Ihrer Fahrzeuge während des gesamten Lebenszyklus Ihrer Flotten zu verfolgen. Unser Bewertungs- und Preisservice kann dazu beitragen, diesen Fahrzeugen einen objektiven Wert zu verleihen. Darüber hinaus bietet unser Rückkauf-Verwaltung-Dienst Flottenbesitzern mehr Wertsicherheit bei der Rückgabe von Flotten. Unsere Fachleute sind geschult, um nicht nur neutrale, zuverlässige und professionelle Dienstleistungen zu erbringen, sondern müssen auch Ihre Philosophie erfüllen. Unsere Sanierungs-, Vertriebs- und Wiedervermarktungslösungen zielen darauf ab, Ihre Ideale zu erfüllen, indem wir eng mit Ihrem Team zusammenarbeiten, um die am besten geeigneten Lösungen für den Verkauf Ihrer Flotten zu finden und Ihre Werte an kaufende Kunden zu liefern. Alles in allem zielen die Fahrzeugverwaltungsdienste von SCHICHER darauf ab, Ihre betriebliche Effizienz zu steigern, das Kundenerlebnis zu verbessern und Ihrem Unternehmen mehr Gewinn zu verschaffen. ',
         'list' => [
             'title' => 'The word “Service” is separated into the following meanings:',
             '1' => 'S = Smile',
@@ -545,9 +546,10 @@ return [
         'content1' => 'All in all, SCHICHER’s Vehicle Management Services aims to enhance your operational efficiencies, improve your customer’s experience, and deliver your company greater profit. ',
     ],
     'Evaluation_Pricing_of_Used_Vehicles' => [
-        'title' => 'Evaluation & Pricing of Used Vehicles',
-        'content' => 'Used car valuation is the preparation of appraisal documents. After the procurement of used cars for sale as an analysis giving an opinion, forecasting, or anticipating.
-        Price estimation is part of the independent and reliable used car valuation and pricing project management. Schicher experts inspect 650,000 different cars. such as cars, motorcycles, trucks or buses all over the world. We use this expertise to help our customers set fair prices for their used vehicles in real-life condition.',
+        'title' => 'Flottenbewertungs- und Preisservice',
+        'content' => 'Die Bewertung & Preisservice von SCHICHER bieten Flottenbesitzern eine neutrale und zuverlässige Analyse des Wertes der Fahrzeuge durch den Einsatz von Technologie und erfahrenem Humankapital.
+        Die SCHICHER-Bewertung analysiert über 215 Inspektionsteile, die sowohl die mechanischen Teile des Fahrzeugs wie Motor, Getriebe und ECU als auch die nicht-mechanischen Teile wie Fahrzeugchassis, Reifenzustand und Fahrzeugaußenseite abdecken. Sobald die Bewertung erstellt wurde, kann unser Programm die Fahrzeuge anhand mehrerer Variantenanalysen aus historischen Datenbanken, Abschreibungstrends und aktuellen Marktpreisen angemessen bewerten. Darüber hinaus kann die Bewertung bei festgestellten Mängeln auch die Reparaturkosten annähern.
+',
         'list' => [
             'title' => 'Benefits of appraisal and pricing services',
             '1' => 'Set accurate used car prices quickly and reliable',
@@ -558,8 +560,8 @@ return [
         ],
     ],
     'In_fleet_and_De_fleet_Operations' => [
-        'title' => 'In-fleet and De-fleet Operations',
-        'content' => 'The value of your fleets determines the profits of your portfolio. Our In-fleet and De-fleet Services continuously monitors the health and wellbeing of your fleets by employing real time ODB analysis, periodic Inspection, regular Maintenance and Repairs. This ensures that your vehicles remain in good condition so a high residual value can be obtained. While mechanical evaluation is conducted in real time, periodic analysis is conducted every 3-6 months or every 10,000 KM. If any irregularities are found, SCHICHER’s experts will provide the most cost-effective solutions to your fleets whether it be a simple oil change to a complex engine overhaul. Apart from safety, Fleet owners can also feel at peace that their vehicles are being maintained in good condition on a periodic basis which helps signals to potential car buyers in the future of the car’s condition. ',
+        'title' => 'Die sogenanten In-fleet und De-Fleet Dienstleistungen',
+        'content' => 'Der Wert Ihrer Flotten bestimmt den Gewinn Ihres Portfolios. Unsere sogenanten In-Fleet- und De-Fleet Dienstleistung überwachen kontinuierlich den Zustand und das Wohlbefinden Ihrer Flotten, indem sie Echtzeit-ODB-Analysen, regelmäßige Inspektionen, regelmäßige Wartung und Reparaturen einsetzen. Dadurch wird sichergestellt, dass Ihre Fahrzeuge in einem guten Zustand bleiben und ein hoher Restwert erzielt werden kann. Während die mechanische Bewertung in Echtzeit durchgeführt wird, wird eine periodische Analyse alle 3-6 Monate oder alle 10.000 KM durchgeführt. Werden Unregelmäßigkeiten festgestellt, bieten die Experten von SCHICHER die wirtschaftlichste Lösung für Ihren Fuhrpark, vom einfachen Ölwechsel bis hin zur komplexen Motorüberholung. Abgesehen von der Sicherheit können Flottenbesitzer auch beruhigt sein, dass ihre Fahrzeuge regelmäßig in gutem Zustand gehalten werden, was den potenziellen Autokäufern in der Zukunft hilft, den Zustand des Autos zu signalisieren. ',
         'list' => [
             '1' => 'Standardized internal management management',
             '2' => 'Damage inspection',
@@ -581,8 +583,10 @@ return [
         ],
     ],
     'Fleet_Used_Car_Vehicle_Condition_Report' => [
-        'title' => 'Fleet Used Car Vehicle Condition Report',
-        'content' => 'SCHICHER’s Preowned Analysis offers potential Car Buyers peace of mind when buying your Fleet Vehicles. It is no secret that buying a used car can be a difficult endeavor as one does not know the quality of the car. The rise of the internet has bombarded customers with plethora of information leading to greater uncertainty in their decision-making process. SCHICHER’s role is to enable buyers to make better decisions by using technology and experience human capital to provide neutral, reliable, and professional Accreditation service. This, in turn, will provide fleet owners with higher retail prices.',
+        'title' => 'Fahrzeugzustandsbericht der Gebrauchtwagenflotte',
+        'content' => 'Die Gebrauchtanalyse von SCHICHER bietet potenziellen Autokäufern Sicherheit beim Kauf Ihrer Flottenfahrzeuge. Es ist kein Geheimnis, dass der Kauf eines Gebrauchtwagens ein schwieriges Unterfangen sein kann, da man die Qualität des Autos nicht kennt. Der Aufstieg des Internets hat die Kunden mit einer Fülle von Informationen bombardiert, was zu größerer Unsicherheit in ihrem Entscheidungsprozess führt. Die Rolle von SCHICHER besteht darin, Käufern zu ermöglichen, bessere Entscheidungen zu treffen, indem sie Technologie und erfahrenes Humankapital einsetzen, um einen neutralen, zuverlässigen und professionellen Akkreditierungsservice zu bieten. Dies wiederum wird Flottenbesitzern höhere Verkaufspreise bescheren.
+
+',
         'list' => [
             'title' => 'Benefits of a Used Car Assessment',
             '1' => 'Make a note and properly assess the condition of your used vehicle.',
@@ -593,7 +597,7 @@ return [
             '6' => 'Build a trust relationship with customers and used car customers That is why car owners rely on Schicher and the experience of our specialists in the marketing of used cars.',
         ],
         'title1' => 'Vehicle Condition Report',
-        'content1' => 'SCHICHER Analysis consists of two main Inspection criteria: Standard and Premium. Standard Inspection analyses the mechanical health of the Vehicle from Engine to ECU, covering over 165 Mechanical parts. All Inspections that pass Schic’s Standard Inspection are eligible for Smartsure’s Warranty program. Premium Inspection analyses over 215 Inspection Parts, covering both the Mechanical parts of the vehicle and the non-Mechanical parts such as Vehicle Chassis, Tire Condition and Vehicle Exterior.',
+        'content1' => 'Die SCHICHER-Analyse besteht aus zwei Hauptprüfkriterien: Standard und Prämie. Die Standardinspektion analysiert den mechanischen Zustand des Fahrzeugs vom Motor bis zum Steuergerät und umfasst über 165 mechanische Teile. Alle Inspektionen, die die Standardinspektion von Schic bestehen, sind für das Smartsure-Garantieprogramm berechtigt. Prämieninspektion analysiert über 215 Inspektionsteile, die sowohl die mechanischen Teile des Fahrzeugs als auch die nicht-mechanischen Teile wie Fahrzeugchassis, Reifenzustand und Fahrzeugaußenseite abdecken.',
         'list1' => [
             '1' => 'Tires and wheels',
             '2' => 'Check exterior cars',
@@ -616,9 +620,8 @@ return [
         ],
     ],
     'Fleet_Evaluation_and_Pricing' => [
-        'title' => 'Fleet Evaluation and Pricing',
-        'content' => 'SCHICHER’s Evaluation & Pricing Services offers Fleet owners neutral and reliable analysis of the value of the Vehicles by using technology and experienced human capital.
-        SCHICHER Evaluation analyses over 215 Inspection Parts, covering both the Mechanical parts of the vehicle such as Engine, Gear and ECU and the non-Mechanical parts such as Vehicle Chassis, Tire Condition and Vehicle Exterior. Once the Evaluation has been established, our program can appropriately price the Vehicles using multiple variant analysis from historical database, depreciation trends and current market prices. In addition, if defects are detected, the Evaluation can also approximate the cost of repairs.',
+        'title' => 'Das sogenante own-to-lease Programm',
+        'content' => 'Für Unternehmen, die Kapital freisetzen möchten, bietet Ihnen unser sogenannte own-to-lease Programm genau das. Der Prozess ist einfach. Wir bezahlen Sie für Ihre Flotten und leasen die Autos als Operating Lease an Sie zurück. Dieser Service wickelt den Verkauf der Fahrzeuge, die Dokumentation und die Eigentumsübertragung ab. Darüber hinaus ist dieses Programm besonders nützlich, da auch Wartungs- und Reparaturarbeiten Teil unseres Operating-Leasings sind. Flottenbesitzer profitieren nicht nur vom freien Kapital, sondern auch von den gesamten Kundenbetreuung-Lösungen.',
 
         'list' => [
             'title' => 'Car of Schicher valuation and pricing services include:',
@@ -632,8 +635,8 @@ return [
         ],
     ],
     'Used_Car_Seal_for_Fleet' => [
-        'title' => 'Used Car Seal for Fleet',
-        'content' => 'At SCHICHER, we Fundamentally believe that the core of our business will always be our people. This is the reason why all Inspectors at SCHICHER are required to complete a 3-month training program before they can inspect commercially. It is the reason why the training content is updated quarterly to ensure that the car models and inspection practices are up to date. It is the reason why each inspector must go through an annual exam to ensure that they are able to inspect in accordance with our standards. It is the reason why our Research and Development team are continually working to develop new tools to improve the Inspection processes to make our inspection more precise. ',
+        'title' => 'Gebrauchtwagensiegel für Flotte',
+        'content' => 'Wir bei SCHICHER glauben grundsätzlich, dass der Kern unseres Geschäfts immer unsere Mitarbeiter sein werden. Aus diesem Grund müssen alle Prüfer bei SCHICHER eine 3-monatige Ausbildung absolvieren, bevor sie kaufmännisch prüfen können. Aus diesem Grund werden die Schulungsinhalte vierteljährlich aktualisiert, um sicherzustellen, dass die Fahrzeugmodelle und Prüfpraktiken auf dem neuesten Stand sind. Aus diesem Grund muss sich jeder Inspektor einer jährlichen Prüfung unterziehen, um sicherzustellen, dass er gemäß unseren Standards inspizieren kann. Aus diesem Grund arbeitet unser Forschungs- und Entwicklungsteam ständig an der Entwicklung neuer Werkzeuge zur Verbesserung der Inspektionsprozesse, um unsere Inspektionen präziser zu gestalten. ',
         'list' => [
             'title' => 'ประโยชน์ของตรารับรอง Schicher สำหรับรถยนต์มือสอง คือ ',
             '1' => 'มีมาตรฐานที่มีความน่าเชื่อถือและได้รับการยอมรับจากทั่วโลก',
@@ -642,11 +645,11 @@ return [
             '4' => 'มีการตรวจสอบคุณภาพตามวัตถุประสงค์อย่างเป็นกลาง',
             '5' => 'ตรวจสอบเทคโนโลยีตัวถังรถ และระบบของรถอย่างละเอียด',
         ],
-        'content1' => 'All of these reasons are the reason why the SCHICHER’s Brand represents Trust to Consumers all over the world.',
+        'content1' => 'All diese Gründe sind der Grund, warum die Marke SCHICHER bei Verbrauchern auf der ganzen Welt für Vertrauen steht.',
     ],
     'End_of_Term_Buyback_management_for_Fleets' => [
-        'title' => 'End of Term Buyback management for Fleets',
-        'content' => 'SCHICHER’s End of Term Buyback Service provides Fleet owners with more control over their bottom line. Like our Extended Warranty product, Fleet owners can have a peace of mind that their Fleet portfolios will achieve their desired profits as the value of the Fleets at the point of return has been contractually negotiated in advance. Owners will also benefit from a more liquid cashflow as a payment date is also stated within the contract. In addition, they do not have to worry about market price volatility, rate fluctuations or seasonal resale influences that may occur if they were to sell their vehicles in the market themselves. Fleet owners will only have to be responsible for the excess mileage or additional damages that may occur beyond the coverage stated in the contract.',
+        'title' => 'Rückkauf für Flotten am Ende der Laufzeit',
+        'content' => 'Der Rückkaufservice am Ende der Laufzeit von SCHICHER bietet Flottenbesitzern mehr Kontrolle über ihr Endergebnis. Wie bei unserem Produkt mit erweiterter Garantie können Flottenbesitzer beruhigt sein, dass ihre Flottenportfolios den gewünschten Gewinn erzielen, da der Wert der Flotten zum Zeitpunkt der Rückgabe im Voraus vertraglich ausgehandelt wurde. Eigentümer profitieren auch von einem liquideren Cashflow, da auch ein Zahlungstermin im Vertrag angegeben ist. Darüber hinaus müssen sie sich keine Sorgen um Marktpreisvolatilität, Kursschwankungen oder saisonale Wiederverkaufseinflüsse machen, die auftreten können, wenn sie ihre Fahrzeuge selbst am Markt verkaufen. Flottenbesitzer müssen nur für die überschüssigen Kilometer oder zusätzliche Schäden verantwortlich sein, die über die im Vertrag angegebene Deckung hinaus auftreten können.',
         'list' => [
             '1' => 'กระบวนการ ขั้นตอน และการดำเนินการที่หมดเวลาระหว่างลูกค้าและผู้ให้บริการ',
             '2' => 'การคำนวณค่าใช้จ่ายและการออกใบแจ้งหนี้ที่เกี่ยวข้องกับรถยนต์ ',
@@ -664,8 +667,8 @@ return [
         ],
     ],
     'Refurbishment_Management_for_Fleets' => [
-        'title' => 'Refurbishment Management for Fleets',
-        'content' => 'The Goal of Fleet Managers for returning vehicles is to sell those vehicles at the best price and at the fastest time possible. SCHICHER’s refurbishment service aims to support this by providing a one stop service for all refurbishment related needs; establishment of vehicles that are required for refurbishments, workshops identification, Invoice analysis and recommendations, quality control, Daily reporting for repair duration and pre-delivery Inspections. SCHICHER partners will multiple workshops to provide customers with many choices. This allows us to recommend a workshops that are fairly priced and can handle the required volume at that point of time. Services include Paintless dent repair, Body Scratch and stone chip removal, bumper repairs and re-texturing, paintwork treatment and glazed finish, Interior repairs and re-texturing, Windscreen repairs, Alloy wheel repairs, missing/damaged parts replacement, Glasurit spot repair system, Paint booths with infrared drying, Isolated damage repair and mechanical. ',
+        'title' => 'Sanierungsmanagement für Flotten',
+        'content' => 'Das Ziel von Flottenmanagern für die Rückgabe von Fahrzeugen ist es, diese Fahrzeuge zum besten Preis und zum schnellstmöglichen Zeitpunkt zu verkaufen. Der Sanierungsservice von SCHICHER soll dies unterstützen, indem er alle sanierungsbezogenen Bedürfnisse aus einer Hand abdeckt; Einrichtung von Fahrzeugen, die für Aufarbeitungen benötigt werden, Werkstattidentifikation, Rechnungsanalyse und -empfehlungen, Qualitätskontrolle, Tägliche Berichterstattung für Reparaturdauer und Inspektionen vor der Auslieferung. SCHICHER-Partner werden mehrere Werkstätten anbieten, um den Kunden viele Auswahlmöglichkeiten zu bieten. Dies ermöglicht es uns, Werkstätten zu einem fairen Preis zu empfehlen, die das erforderliche Volumen zu diesem Zeitpunkt bewältigen können. Die Dienstleistungen umfassen Lacklose Dellenreparatur, Karosseriekratzer- und Steinschlagentfernung, Stoßfängerreparatur und Neutexturierung, Lackbehandlung und Glasur, Innenreparatur und Neutexturierung, Windschutzscheibenreparatur, Alufelgenreparatur, Ersatz von fehlenden/beschädigten Teilen, Glasurit-Fleckchen-Reparatursystem, Lackierkabinen mit Infrarottrocknung, Einzelschadensbeseitigung und mechanisch.',
         'list' => [
             'title' => 'ประโยชน์ของการจัดการการตกแต่งใหม่สำหรับรถยนต์เพื่อนำไปฟลีท',
             '1' => 'ช่วยให้ผู้ใช้รถสามารถเพิ่มข้อเสนอการขายรถยนต์ใช้แล้ว',
@@ -695,8 +698,8 @@ return [
         ],
     ],
     'Remarketing_Consultancy_for_Fleets' => [
-        'title' => 'Remarketing Consultancy for Fleets',
-        'content' => 'SCHICHER’s remarketing solutions offers Fleet owners with clear remarketing solutions. Our experts will work closely with your team to develop a macro strategy on how best to dispose your vehicles from pricing analysis, commercial communication to financing sales administration. Once such overview has been established, our team will work with you to develop most appropriate Sales Channel for your vehicles. Our goal is to develop a customized solution that addresses each stage of your value chain. ',
+        'title' => 'Wiedervermarktung-Lösungen für Flotten',
+        'content' => 'Die Wiedervermarktung-Lösungen von SCHICHER bieten Flottenbesitzern klare Wiedervermarktung-Lösungen. Unsere Experten arbeiten eng mit Ihrem Team zusammen, um eine Makrostrategie zu entwickeln, wie Sie Ihre Fahrzeuge am besten entsorgen können, von der Preisanalyse über die kommerzielle Kommunikation bis hin zur Finanzierung derVerkaufsverwaltung. Sobald eine solche Übersicht erstellt wurde, wird unser Team mit Ihnen zusammenarbeiten, um den am besten geeigneten Vertriebskanal für Ihre Fahrzeuge zu entwickeln. Unser Ziel ist es, eine maßgeschneiderte Lösung zu entwickeln, die jede Stufe Ihrer Wertschöpfungskette abdeckt. ',
         'list' => [
             'title' => 'ประโยชน์ของบริการให้คำปรึกษาด้านการตลาดสำหรับรถยนต',
             '1' => 'คำแนะนำจากผู้เชี่ยวชาญเกี่ยวกับนโยบายการค้า การส่งเสริมการขายและการปรับปรุงการตลาด',
@@ -779,16 +782,16 @@ return [
         ],
     ],
     'Sales_solutions_for_Fleets' => [
-        'title' => 'Sales solutions for Fleets',
-        'content' => 'The Residual Value (RV) of the vehicle is often the deciding factor that determines the profitability of a fleet. SCHICHER’s Fleets Sales solutions has helped multiple fleet owners manage their portfolio with our unique sales tools from our online sales solutions, our telesales services to our customer care management. With over 100,000 vehicles sold through our platform, our experts can help identify the most efficient solutions to all fleet owners.',
+        'title' => 'Vertriebslösungen für Flotten',
+        'content' => 'Der Restwert (RV) des Fahrzeugs ist oft der entscheidende Faktor, der die Rentabilität einer Flotte bestimmt. Die Flottenverkaufslösungen von SCHICHER haben mehreren Flottenbesitzern dabei geholfen, ihr Portfolio mit unseren einzigartigen Verkaufsinstrumenten von unseren Online-Verkaufslösungen, unseren Telefonverkauf-Dienstleistungen bis hin zu unserem Kundenbetreuungsmanagement zu verwalten. Mit über 100.000 verkauften Fahrzeugen über unsere Plattform können unsere Experten allen Flottenbesitzern dabei helfen, die effizientesten Lösungen zu finden.',
         'sub_data' => [
             '1' => [
-                'title' => 'Affinity Sales',
-                'content' => 'Whether you are looking to dispose your vehicles to your employees, partners, members or certain groups of associates, SCHICHER has a multiple solution to help Fleet owners reach a good price and fairly distribute their vehicles to those affiliates. Fleet owners can choose to adopt a sealed auction process, reserve auction process, absolute auction process or a simple random selection of potential buyers. All in all, SCHICHER has the expertise to support fleet owners in all types of sales method employing technology to ensure transparency. Apart from this, the service also handles the entire sales process from vehicle financing to ownership transfer. ',
+                'title' => 'Partner-Verkäufe ',
+                'content' => 'Egal, ob Sie Ihre Fahrzeuge an Ihre Mitarbeiter, Partner, Mitglieder oder bestimmte Gruppen von Mitarbeitern abgeben möchten, SCHICHER bietet eine vielseitige Lösung, um Flottenbesitzern dabei zu helfen, einen guten Preis zu erzielen und ihre Fahrzeuge angemessen an diese verbundenen Unternehmen zu verteilen. Flottenbesitzer können zwischen einem geschlossenen Auktionsverfahren, einem Reserveauktionsverfahren, einem absoluten Auktionsverfahren oder einer einfachen zufälligen Auswahl potenzieller Käufer wählen. Insgesamt verfügt SCHICHER über das Know-how, Flottenbesitzer bei allen Vertriebsmethoden technisch transparent zu unterstützen. Darüber hinaus übernimmt der Dienst auch den gesamten Verkaufsprozess von der Fahrzeugfinanzierung bis zur Eigentumsübertragung. ',
             ],
             '2' => [
-                'title' => 'Operations Management',
-                'content' => 'The Vehicle selling process can be a hassle for many fleet owners. SCHICHER’s Operations Management Service provides a one-stop service to fleet owners. Our Service starts from simple Call Centre tasks, acting your personal Call Centre Team to answer sales related questions on your inventories. Once the sales have been accomplished, we support Fleet owners by performing administrative tasks such documents handling, ownership transfer and liaising with Financing Companies. In addition, we also support car delivery with our logistics handling services.',
+                'title' => 'Betriebsführung',
+                'content' => 'Der Fahrzeugverkaufsprozess kann für viele Flottenbesitzer ein Ärgernis sein. Der Betriebsverwaltungsdienst von SCHICHER bietet Flottenbesitzern einen Dienst aus einer Hand. Unser Dienst beginnt mit einfachen Call-Center-Aufgaben und agiert als Ihr persönliches Call-Center-Team, um vertriebsbezogene Fragen zu Ihren Lagerbeständen zu beantworten. Sobald der Verkauf abgeschlossen ist, unterstützen wir Flottenbesitzer durch verwaltungsmäßige Aufgaben wie Dokumentenbearbeitung, Eigentumsübertragung und Kontaktaufnahme mit Finanzierungsunternehmen. Darüber hinaus unterstützen wir auch die Autozustellung mit unseren Logistikdienstleistungen.',
                 'list' => [
                     '1' => 'บริการสนับสนุนสำหรับลูกค้ารถมือสอง (ผู้ซื้อ) และภายใต้กรอบของลำดับความสำคัญของเครือข่ายที่ออกแบบมาสำหรับกลุ่มที่สนับสนุนความร่วมมือเป็นหลัก',
                     '2' => 'มาตรฐานเดียวที่จัดการกับคำถามหรือสิ่งที่ไม่จำเป็นต้องมีของผู้เชี่ยวชาญ',
@@ -800,8 +803,8 @@ return [
                 ],
             ],
             '3' => [
-                'title' => 'Multichannel Sales Solutions',
-                'content' => 'In the Used Car business, speed of transaction is of utmost importance. It is even more important for Fleet owners as a 1% drop in car value can massively affect the value of the entire fleet. At SCHICHER, we can provide Fleet owners will multiple sales solutions. Due to our larger Database, our Telesales solutions is one the fastest way to help connect buyers directly to Fleet owners. In addition, our online sales service, Carcombined, does not only help promote your vehicles through our website but we also facilitate the entire selling experience from booking appointments to ownership transfer. Our E-mailings and SMS Campaigns also allow us to gauge interest from potential buyers. This is complimented by our point of sales and event management solutions where we work with partnered event organizers and dealers to promote your inventories.           ',
+                'title' => 'Mehrfachkanal für Vertriebslösungen- ',
+                'content' => '    Im Gebrauchtwagengeschäft ist die Transaktionsgeschwindigkeit von größter Bedeutung. Für Flottenbesitzer ist dies noch wichtiger, da ein Rückgang des Autowertes um 1 % den Wert der gesamten Flotte massiv beeinträchtigen kann. Bei SCHICHER können wir Flottenbesitzern mehrere Vertriebslösungen anbieten. Aufgrund unserer größeren Datenbank sind unsere Telefonverkauf-Lösungen eine der schnellsten Möglichkeiten, Käufer direkt mit Flottenbesitzern zu verbinden. Darüber hinaus hilft unser soganannte Carcombined Online-Verkaufsservice, nicht nur dabei, Ihre Fahrzeuge über unsere Webseite zu bewerben, sondern wir erleichtern auch das gesamte Verkaufserlebnis von der Buchung von Terminen bis zur Eigentumsübertragung. Mit unseren E-Mailings und SMS-Kampagnen können wir auch das Interesse potenzieller Käufer messen. Dies wird durch unsere Verkaufsstelle- und Veranstaltungsmanagement-Lösungen ergänzt, bei denen wir mit Partnerveranstaltern und Händlern zusammenarbeiten, um Ihre Bestände zu bewerben.',
             ],
             '4' => [
                 'title' => 'ประชาสัมพันธ์เกี่ยวกับผลิตภัณฑ์ของบริษัทฯ',

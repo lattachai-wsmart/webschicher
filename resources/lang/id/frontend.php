@@ -61,8 +61,8 @@ return [
         'service' => 'SERVICES',
         'service_submenu' => [
             'vehicle_analysis' => 'Analisis Kenderaan',
-            'claims_appraisal' => 'Claims & Appraisal',
-            'vehicle_manage' => 'Vehicle Management Services',
+            'claims_appraisal' => 'Klaim dan Penilaian',
+            'vehicle_manage' => 'Layanan Manajemen Kendaraan',
             'dealership_cer' => 'Dealership Certification & Auditing',
             'dealership_tra' => 'Dealership Training & Qualification',
             'warranty' => 'Schic Warranty'
@@ -110,7 +110,7 @@ return [
         'service' => [
             'title' => 'SERVICES',
             'row1' => 'Analisis Kenderaan',
-            'row2' => 'Claims & Appraisal',
+            'row2' => 'Klaim dan Penilaian',
             'row3' => 'Vehicle Management Services',
             'row4' => 'Dealership Certification & Auditing',
             'row5' => 'Dealership Training & Qualification',
@@ -373,34 +373,32 @@ return [
 ',
     ],
     'Preowned_Vehicle_Inspection_Analysis' => [
-        'title' => 'Vehicles Preowned Analysis',
-        'content' => 'SCHIC Preowned Analysis offers Car Buyers peace of mind when buying Used Vehicles.
-        It is no secret that buying a used car can be a difficult endeavor as one does not know the quality of the car. The rise of the internet has bombarded customers with plethora of
-        information leading to greater uncertain in their decision-making process. SCHIC’s role is to enable buyers to make better decisions by using technology and experience human capital to provide neutral, reliable, and professional Accreditation service.
-        SCHIC Preowned Analysis consists of two main Inspection criteria: Standard and Premium. Standard Inspection analyses the mechanical health of the Vehicles from Engine to ECU, covering over 165 Mechanical parts. Premium Inspection analyses over 215 Inspection Parts, covering both the Mechanical parts of the vehicle and the non-Mechanical parts such as Vehicle Chassis, Tire Condition and Vehicle Exterior. All Inspections that passes SCHIC’s Standard Inspection are eligible for Smartsure’s Warranty program.',
+        'title' => 'Analisis Kendaraan Bekas',
+        'content' => 'Analisis Kenderaan Bekas SCHIC menawarkan ketenangan kepada pembeli mobil saat membeli kendaraan bekas. Bukan rahasia lagi bahwa membeli mobil bekas bisa menjadi usaha yang sulit karena seseorang tidak mengetahui kualitas mobil tersebut. Munculnya internet telah membombardir pelanggan dengan sejumlah besar informasi yang mengarah pada ketidakpastian yang lebih besar dalam proses pengambilan keputusan mereka. Peran SCHIC adalah untuk memungkinkan pembeli membuat keputusan yang lebih baik dengan menggunakan teknologi dan sumber daya manusia yang berpengalaman untuk memberikan layanan penjaminan yang netral, andal, dan profesional. Analisis Awal SCHIC terdiri dari dua kriteria Inspeksi utama: Standar dan Premium. Pemeriksaan Standar menganalisis kesehatan mekanis Kendaraan dari mesin ke ECU, mencakup lebih dari 165 bagian mekanik, inspeksi premium menganalisis lebih dari 215 titik Inspeksi, yang mencakup bagian mekanik kendaraan dan bagian non-mekanis seperti sasis kendaraan, kondisi ban, dan eksterior kendaraan. Semua Inspeksi yang lulus standar inspeksi SCHIC akan memenuhi syarat untuk program garansi Smartsure. ',
 
-        'list' => [
-            'title' => 'Benefits of Car Quality Assessment Before Buying',
-            '1' => 'Transparency',
-            '2' => 'Increased confidence in car trading.',
-            '3' => 'Rest assured that the car is safe. reliable and standard.',
-            '4' => 'Unbiased assessment',
-            '5' => 'Using standard equipment and efficient calculations.',
-        ],
+        // 'list' => [
+        //     'title' => 'Benefits of Car Quality Assessment Before Buying',
+        //     '1' => 'Transparency',
+        //     '2' => 'Increased confidence in car trading.',
+        //     '3' => 'Rest assured that the car is safe. reliable and standard.',
+        //     '4' => 'Unbiased assessment',
+        //     '5' => 'Using standard equipment and efficient calculations.',
+        // ],
     ],
     'Auction_Vehicle_Inspection_Analysis' => [
         'title' => 'Analisis Lelang Kendaraan ',
         'content' => 'Analisis Lelang memudahkan pembeli untuk menawar kendaraan, aman dalam pengetahuan bahwa kendaraan telah dinilai oleh ahli SCHIC. Ini berguna untuk pembeli offline yang berencana membeli beberapa mobil dan tidak mempunyai waktu untuk memeriksa semua kendaraan. Untuk pembeli Online, laporan SCHIC akan menjadi lebih penting sebagai mata dan telinga sehingga pembeli dapat menawar kendaraan dari rumah mereka yang nyaman. Fokus pada teknologi dan sumber daya manusia yang berpengalaman memungkinkan penawar untuk mendapatkan manfaat dari layanan penjaminan yang netral, andal, dan profesional serta pemberian laporan yang tepat waktu melalui berbagai saluran online.',
     ],
     'claimsappraisal' => [
-        'title' => 'Claims & Appraisal',
-        'content' => '&nbsp; &nbsp; &nbsp; As more vehicles enter the road, more accidents are occurring daily, leading to an increasing number of Claims disputes. SCHICHER’s role is to help deliver truth and transparency to the Insurance Industry by providing neutral, reliable, and professional report to all relevant stakeholders. Our reliable analysis can help solve disputes between stakeholders; disputes from the appropriate Claims amount to the authenticity of the claims themselves. Furthermore, SCHICHER also offers complete end-to-end claims handling solutions from our third party administration services to our Accident reconstruction services.
-        Apart from Claims experience, repair quality is also of utmost importance. To ensure such quality, SCHICHER also works with qualified Workshops and Bodyshops to help deliver neutral, reliable and professional service to customers. Our Workshops appraisal trademark helps insurance companies and customers identify good quality workshops. All in all, SCHICHER’s services aim to improve customers’ Claims experiences as well as ensuring that the claims quality are being upheld at the designated SCHICHER’s Workshop and Bodyshop.',
+        'title' => 'Klaim dan Penilaian',
+        'content' => '&nbsp; &nbsp; &nbsp; Karena semakin banyak kendaraan yang memasuki jalan, maka semakin banyak kecelakaan yang terjadi setiap hari, yang menyebabkan semakin banyak perselisihan klaim. Peran SCHICHER adalah membantu menyampaikan kebenaran dan transparansi kepada Industri asuransi dengan memberikan laporan yang netral, andal, dan profesional kepada semua pemilik kepentingan terkait. Analisis kami yang andal dapat membantu menyelesaikan perselisihan antar pemilik kepentingan; perselisihan dari jumlah klaim yang sesuai dengan keaslian klaim itu sendiri. Selain itu, SCHICHER juga menawarkan solusi penanganan klaim menyeluruh dari layanan administrasi pihak ketiga hingga layanan rekonstruksi kecelakaan kami.
+        Selain pengalaman klaim, kualitas perbaikan juga sangat penting. Untuk memastikan kualitas layanan tersebut, SCHICHER bekerja sama dengan bengkel dan reparasi yang memenuhi syarat untuk membantu memberikan layanan yang netral, andal, dan profesional kepada pelanggan. Merek dagang penilaian bengkel kami membantu perusahaan asuransi dan pelanggan dalam mengidentifikasi bengkel yang berkualitas baik. Secara keseluruhan, layanan SCHICHER bertujuan untuk meningkatkan pengalaman klaim kepada pelanggan serta memastikan bahwa kualitas klaim diutamakan di Workshop dan Bodyshop SCHICHER yang ditunjuk.
+',
 
     ],
     'Automotive_Claims_Handling' => [
-        'title' => 'Automotive Claims Handling Services',
-        'content' => 'SCHICHER’s Automotive Claims Handling Service is an End-to-End solution for Insurance Company. Trusted by multiple global and local Insurance companies, SCHICHER handles thousands of cases daily across multiple Automotive claims services ranging from claims adjustment, fraud detection, legal protection services, auditing services, coordinating services, billing services, documentation services and expert appraisals. Apart from the hands-on experience, SCHICHER also deploys the latest technology to ensure that the best Insurance Practice can be most effectively followed. This service can be utilize as a short term solution to a temporary overflown capacity or a long term resolution as a permanent part of the Insurer’s process. ',
+        'title' => 'Layanan Penanganan Klaim Otomotif',
+        'content' => 'Layanan Penanganan Klaim Otomotif SCHICHER adalah solusi End-to-End untuk perusahaan asuransi. Dipercaya oleh beberapa perusahaan asuransi global dan lokal, SCHICHER menangani ribuan kasus setiap hari di berbagai layanan klaim otomotif mulai dari penyesuaian klaim, deteksi penipuan, layanan perlindungan hukum, layanan audit, layanan koordinasi, layanan penagihan, layanan dokumentasi, dan penilaian ahli. Selain pengalaman langsung, SCHICHER juga menerapkan teknologi terbaru untuk memastikan bahwa praktik asuransi terbaik dapat dilakukan secara efektif. Layanan ini dapat digunakan sebagai solusi jangka pendek atas kelebihan kapasitas sementara atau solusi jangka panjang sebagai bagian permanen dari proses penanggung. ',
 
         // 'list' => [
         //     '1' => 'ผู้ให้บริการเคลมที่มีความรู้ และประสบการณ์',
@@ -409,18 +407,19 @@ return [
         // ],
     ],
     'Third_Party_Administration_Service' => [
-        'title' => 'Third Party Administration Services',
-        'content' => 'SCHICHER’s administrative services provides a comprehensive End-to-End solution for Leasing Companies, Car dealers and other Corporate Companies. Services includes 24-hour call Centre service, auditing services, coordinating services and billing services. SCHICHER’s experience in the automotive industry, technology adoption and investment in human capital allows the company to not just effectively provide administrative solutions to customers but it can also improve customers’ efficiencies and productivity as well.
-        SCHICHER’s Service is not just about following sets of specified workflows, it is also about delivering a customer-focused experience. The goal is for SCHICHER to outsource the cost of administrative tasks from customers and deliver a more productive experience as though the company is a part of the customers’ internal department. SCHICHER fundamentally believe that the best customer experience comes from when the soul of the company can be transferred to the customers.',
+        'title' => 'Layanan Administrasi Pihak Ketiga',
+        'content' => 'Layanan administrasi SCHICHER memberikan solusi End-to-End yang menyeluruh untuk perusahaan Leasing, Dealer Mobil, dan perusahaan korporat lainnya. Layanan meliputi layanan Call Center 24 jam, layanan audit, layanan koordinasi, dan layanan penagihan. Pengalaman SCHICHER dalam industri otomotif, adopsi teknologi, dan investasi dalam sumber daya manusia memungkinkan perusahaan untuk tidak hanya memberikan solusi administratif secara efektif kepada pelanggan tetapi juga dapat meningkatkan efisiensi dan produktivitas kepada pelanggan.
+        Layanan SCHICHER bukan sekadar mengikuti serangkaian alur kerja yang ditentukan, tetapi juga memberikan pengalaman yang berfokus pada pelanggan. Tujuannya adalah agar SCHICHER mengalihdayakan biaya tugas administratif dari pelanggan dan memberikan pengalaman yang lebih produktif seolah-olah perusahaan adalah bagian dari departemen internal pelanggan. Pada dasarnya Schicher percaya bahwa pengalaman pelanggan terbaik datang ketika jiwa perusahaan dapat ditransfer kepada pelanggan.
+',
 
     ],
     'Accident_Appraisal_Services' => [
-        'title' => 'Accident Appraisal Services',
-        'content' => '&nbsp; &nbsp; &nbsp; Accidents can arise from the fault of multiple stakeholders. SCHICHER’s task is to provide all stakeholders truths and transparency by providing neutral, reliable, and professional analysis. SCHICHER Services includes Damage Appraisal, Tele-Appraisal, Document validation, Accident Reconstruction and Technical Reporting. SCHICHER’s experts are trained to analyze accidents from multiple perspective to ensure that an extract determination of the incident is properly recorded. The use of the latest technologies, telematics and AI powered image recognition system makes faster accurate.',
+        'title' => 'Layanan Penilaian Kecelakaan',
+        'content' => '&nbsp; &nbsp; &nbsp; Kecelakaan dapat terjadi karena kesalahan berbagai pemilik kepentingan. Tugas SCHICHER adalah memberikan kebenaran dan transparansi kepada semua pemilik kepentingan dengan memberikan analisis yang netral, andal, dan profesional. Layanan SCHICHER mencakup penilaian kerusakan, penilaian jarak jauh, validasi dokumen, rekonstruksi kecelakaan, dan pelaporan teknis. Pakar SCHICHER dilatih untuk menganalisis kecelakaan dari berbagai perspektif untuk memastikan bahwa penentuan ekstrak dari insiden tersebut dicatat dengan benar. Penggunaan teknologi terkini, telematika dan sistem pengenalan gambar berbasis AI yang lebih akurat dan cepat.',
 
         'Damage_Appraisal' => [
-            'title' => 'Damage Appraisal',
-            'content' => '&nbsp; &nbsp; &nbsp; When an Accident occurs, the real value of the damages can sometimes be unclear. Does one evaluate damages from the cost of repair to bring the vehicles to its original state? How does one determine the definition of original state? What is the standard of repair required to deliver original state? SCHICHER’s appraisal service aims to help solve such problems by delivering neutral, reliable, and professional appraisal result to all stakeholders. We aim to do so by providing comprehensive description of the incident determining pre-existing damages, plausibility, actual loss, and overall vehicle’s condition. Once the damages have been established, costs of repairs shall be determined based on our proprietary claims adjuster portal to accurately determine cost of repairs by considering factors such as wages, spare parts, paint, and diminished value. ',
+            'title' => 'Penilaian Kerusakan',
+            'content' => '&nbsp; &nbsp; &nbsp; Ketika terjadi kecelakaan, nilai kerusakan yang sebenarnya terkadang tidak jelas. Apakah seseorang mengevaluasi kerusakan dari biaya perbaikan untuk mengembalikan kendaraan ke kondisi asli? Bagaimana cara menentukan definisi kondisi asal? Apa standar perbaikan yang diperlukan untuk mengembalikan ke keadaan asli? Layanan penilaian SCHICHER bertujuan untuk membantu memecahkan masalah tersebut dengan memberikan hasil penilaian yang netral, andal, dan profesional kepada semua pemilik kepentingan. Kami bertujuan untuk melakukannya dengan memberikan deskripsi yang komprehensif tentang insiden yang menentukan kerusakan yang sudah ada, masuk akal, kerugian yang aktual, dan kondisi kendaraan secara keseluruhan. Setelah kerusakan ditetapkan, biaya perbaikan akan ditentukan berdasarkan portal penyesuai klaim kami yang secara akurat menentukan biaya perbaikan dengan mempertimbangkan faktor-faktor seperti upah, suku cadang, cat, dan nilai penyusutan. ',
             'list' => [
                 'title' => 'Benefits from on-site damage assessment',
                 '1' => 'Comprehensive, fast and quality assessment from technicians.',
@@ -432,8 +431,8 @@ return [
             ],
         ],
         'Tele_Appraisal_Service' => [
-            'title' => 'Tele-Appraisal',
-            'content' => '&nbsp; &nbsp; &nbsp; SCHICHER’s Tele-Appraisal Service aims to help stakeholders appraise the true value of an Accident’s Damage without the need for onsite Inspection. This innovative method allows our experts to provide thorough analysis of the incident from pre-existing damages, plausibility, actual loss, and vehicle’s overall condition from anywhere, making damage appraisal more efficient and cost effective for all stakeholders. In addition, our experts can also establish costs of repairs more effectively with our proprietary claims adjuster solution.',
+            'title' => 'Penilaian Jarak Jauh',
+            'content' => '&nbsp; &nbsp; &nbsp; Layanan Penilaian Jarak Jauh SCHICHER bertujuan untuk membantu pemilik kepentingan menilai nilai sebenarnya dari kerusakan akibat kecelakaan tanpa perlu pemeriksaan di tempat. Metode inovatif ini memungkinkan para ahli kami untuk memberikan analisis menyeluruh tentang insiden dari kerusakan yang sudah ada sebelumnya, masuk akal, kerugian aktual, dan kondisi keseluruhan kendaraan dari mana saja, membuat penilaian kerusakan yang lebih efisien dan hemat untuk semua pemilik kepentingan. Selain itu, para ahli kami juga dapat menetapkan biaya perbaikan secara lebih efektif dengan solusi penyesuai klaim yang kami miliki.',
             'list' => [
                 'title' => 'Benefits of Online Damage Assessment',
                 '1' => 'Fast, comprehensive and quality Available online',
@@ -446,8 +445,8 @@ return [
             ],
         ],
         'Document_Validation' => [
-            'title' => 'Document Validation',
-            'content' => '&nbsp; &nbsp; &nbsp; SCHICHER’s experience in the Automotive Insurance industry, technology adoption and investment in human capital allows the company to not just effectively provide Document Validation solutions to Insurer but it can sometimes improve Insurer’ efficiencies and productivity as well. The company provide checks from transportation costs, retail price surcharges, incidental costs, hourly rates, replacement value, residual value, repair time, replacement time and diminution in value. Our experts are trained to deliver such service in a timely and comprehensive manner. The goal is for SCHICHER to outsource the cost of such tasks from customers and deliver a more productive experience as though the company is a part of the customers’ internal department. ',
+            'title' => 'Validasi Dokumen',
+            'content' => '&nbsp; &nbsp; &nbsp; Pengalaman SCHICHER dalam industri asuransi otomotif, adopsi teknologi dan investasi pada sumber daya manusia memungkinkan perusahaan untuk tidak hanya memberikan solusi Validasi Dokumen secara efektif kepada penanggung, tetapi kadang-kadang dapat meningkatkan efisiensi dan produktivitas pada penanggung juga. Perusahaan menyediakan pemeriksaan biaya transportasi, biaya retail tambahan, biaya tak terduga, tarif per jam, nilai penggantian, nilai sisa, waktu perbaikan, waktu penggantian dan penyusutan nilai. Pakar kami dilatih untuk memberikan layanan tersebut secara tepat waktu dan komprehensif. Tujuannya adalah agar SCHICHER mengalihdayakan biaya tersebut dari pelanggan dan memberikan pengalaman yang lebih produktif seolah-olah perusahaan adalah bagian dari departemen internal pelanggan.',
             'list' => [
                 'title' => 'Benefits of Document Auditing',
                 '1' => 'Comprehensive, fast and quality.',
@@ -457,8 +456,8 @@ return [
             ],
         ],
         'Accident_Reconstruction' => [
-            'title' => 'Accident Reconstruction',
-            'content' => '&nbsp; &nbsp; &nbsp; When an Accident occurs, it is sometimes difficult for the stakeholders involved to completely paint a unifying detail of the Accident. SCHICHER’s Accident Reconstruction service aims to shed light on the Accident by employing the latest tools from computer-assisted collision analysis, photogrammetry evaluation to onsite trace analysis. Once the cause of the accident is analyzed and the deformation examined, SCHICHER team can also help clarify the stakeholders at fault. Thus our customers can rest assured that our neutral, reliable, and professional report is based on the facts, evidence and experience.',
+            'title' => 'Rekonstruksi Kecelakaan',
+            'content' => '&nbsp; &nbsp; &nbsp; Ketika terjadi suatu kecelakaan, terkadang sulit bagi para pemilik kepentingan yang terlibat untuk menggambar secara lengkap rincian yang menyeluruh dari kecelakaan tersebut. Layanan Rekonstruksi Kecelakaan SCHICHER bertujuan untuk menjelaskan tentang kecelakaan dengan menggunakan alat terbaru dari analisis tabrakan dengan bantuan komputer, evaluasi fotogrametri hingga analisis jejak di tempat. Setelah penyebab kecelakaan dianalisis dan deformasi diperiksa, tim SCHICHER juga dapat membantu mengklarifikasi para pemilik kepentingan yang bersalah. Dengan demikian, pelanggan kami dapat yakin bahwa laporan kami netral, andal, dan profesional didasarkan pada fakta, bukti, dan pengalaman.',
             'list' => [
                 'title' => 'Benefits of simulating accidents',
                 '1' => 'Collect details of accident repairs and crash tests.',
@@ -471,8 +470,8 @@ return [
             ],
         ],
         'Technical_Report' => [
-            'title' => 'Technical Reporting',
-            'content' => '&nbsp; &nbsp; &nbsp; Technical Reporting can be a useful service for customers looking to solve disputes between stakeholders where technical analyses are required. For example, a customer may have queries with a Warranty provider on why certain claims are not covered. SCHICHER’s report can act solve disputes by offering a neutral, reliable, and professional assessment of the situation. Similarly, advice can also be given on to customers on Workshops’ diagnostic results, Workshops’ service quality and/or Workshops’ repair quotations. Furthermore, a neutral third party may also be required to reliably analyze a Used vehicle’s condition that was found to contrast with the sales contract at the point of sales. For example, when the mileage of the car has been tampered and the customer wishes to return the vehicle to the Used car dealership. All in all, whenever a technical analysis is required, SCHICHER’s technical reporting can act as a arbitrator to all stakeholders by delivering a neutral, reliable and professional reporting',
+            'title' => 'Pelaporan Teknis',
+            'content' => '&nbsp; &nbsp; &nbsp; Pelaporan Teknis dapat menjadi layanan yang bermanfaat bagi pelanggan yang ingin menyelesaikan perselisihan antara pemilik kepentingan yang memerlukan analisis teknis. Misalnya, pelanggan mungkin memiliki pertanyaan dengan penyedia Garansi tentang mengapa klaim tertentu tidak tercakup. Laporan SCHICHER dapat menyelesaikan perselisihan dengan menawarkan penilaian situasi yang netral, andal, dan profesional. Demikian pula, saran juga dapat diberikan kepada pelanggan tentang hasil pemeriksaan bengkel, kualitas layanan bengkel dan/atau penawaran perbaikan bengkel. Selain itu, pihak ketiga yang netral mungkin juga diminta untuk menganalisis secara andal akan kondisi kendaraan bekas yang ditemukan bertentangan dengan kontrak penjualan pada titik penjualan. Misalnya, ketika jarak tempuh mobil telah dirusak dan pelanggan ingin mengembalikan kendaraan ke dealer mobil bekas. Secara keseluruhan, kapan pun analisis teknis diperlukan, pelaporan teknis SCHICHER dapat bertindak sebagai penengah bagi semua pemilik kepentingan dengan memberikan pelaporan yang netral, andal, dan profesional.',
             'list' => [
                 '1' => 'Solving all suspicions of damage incurred
                 After having repaired or buying spare parts for repairing a car',
@@ -492,9 +491,10 @@ return [
         ],
     ],
     'Bodyshop_Appraisal' => [
-        'title' => 'Bodyshop Appraisal',
-        'content' => 'Choosing the right Bodyshop and Paint shops to repair your damaged vehicles can be a daunting task. Like the Lemon’s problem for Used Cars trading, consumers are unsure of the quality of the Bodyshop’s restoration work. Improper repairs of the Chassis frame can increase the risks of future accidents. The use of unverified parts can have serious safety issues. Poor-quality paintjobs can lead to a reduction in the vehicles’ retail price. To rid these concerns, SCHICHER’s Bodyshop seal of approval can provide consumers and insurance companies with peace of mind that their vehicles are being repaired in accordance with SCHICHER’s standards.
-        This is the reason why approved partners are required to prove that their team members have met certain standards of training. This is the reason why approved partners are required to possess the relevant tools and equipment. This is the reason why approved partners are required to have certain standard facilities to cater to its customers. This is the reasons why approved partners are required to keep certain spare parts to ensure prompt repair of vehicles. This is the reason why approved partners are required to pass SCHICHER’s Standard Operating Procedure Appraisal.',
+        'title' => 'Penilaian Rangka',
+        'content' => 'Memilih bengkel rangka dan cat yang tepat untuk memperbaiki kendaraan Anda yang rusak bisa menjadi tugas yang menakutkan. Seperti masalah lemon untuk perdagangan mobil bekas, konsumen tidak yakin dengan kualitas pekerjaan restorasi Bodyshop. Perbaikan rangka sasis yang tidak tepat dapat meningkatkan risiko kecelakaan di masa mendatang. Penggunaan suku cadang yang belum diverifikasi dapat menimbulkan masalah keamanan yang serius. Pengecatan berkualitas buruk dapat menyebabkan penurunan harga jual kendaraan. Untuk menghilangkan kekhawatiran ini, segel persetujuan Bodyshop SCHICHER dapat memberikan ketenangan pikiran bagi konsumen dan perusahaan asuransi bahwa kendaraan mereka sedang diperbaiki sesuai dengan standar SCHICHER.
+        Inilah alasan mengapa mitra yang disetujui diharuskan untuk membuktikan bahwa anggota tim mereka telah memenuhi standar pelatihan tertentu. Inilah alasan mengapa mitra yang disetujui diharuskan memiliki alat dan perlengkapan yang relevan. Inilah alasan mengapa mitra yang disetujui diharuskan memiliki fasilitas standar tertentu untuk melayani pelanggannya. Inilah alasan mengapa mitra yang disetujui diharuskan untuk menyimpan suku cadang tertentu untuk memastikan perbaikan kendaraan yang cepat. Inilah alasan mengapa mitra yang disetujui diharuskan lulus Penilaian Prosedur Operasi Standar SCHICHER.
+',
 
         'list' => [
             'title' => 'Benefits of getting a seal from our company',
@@ -503,12 +503,13 @@ return [
             '3' => 'Emphasize the quality of the insurer to the service center.',
             '4' => 'Confirm the efficient service in the operation.',
         ],
-        'content1' => 'All these reasons are the reason why the SCHICHER’s seal represents Trust to Consumers all over the world.',
+        'content1' => 'Semua alasan ini adalah alasan mengapa segel SCHICHER mewakili kepercayaan kepada pelanggan di seluruh dunia.',
     ],
     'Garage_Appraisal' => [
-        'title' => 'Workshop Appraisal',
-        'content' => 'Choosing the right Workshops to repair your vehicles can be a daunting task. Like the Lemon’s problem for Used Cars trading, consumers are unsure of the quality of the Workshop’s repairs.  Improper repairs of the main powertrain components can increase the risks of accidents. The use of unverified parts can have serious safety issues. Improper diagnostic can lead to unnecessary costs. To rid these concerns, SCHICHER’s Workshop seal of approval can provide consumers with peace of mind that their vehicles are being repaired in accordance with SCHICHER’s standards.
-        This is the reason why approved partners are required to prove that their team members have met certain standards of training. This is the reason why approved partners are required to possess the relevant tools and equipment. This is the reason why approved partners are required to have certain standard facilities to cater to its customers. This is the reasons why approved partners are required to keep certain spare parts to ensure prompt repair of vehicles. This is the reason why approved partners are required to pass SCHICHER’s Standard Operating Procedure Appraisal. All these reasons are the reason why the SCHICHER’s seal represents Trust to Consumers all over the world.',
+        'title' => 'Penilaian Bengkel',
+        'content' => 'Memilih bengkel yang tepat untuk memperbaiki kendaraan Anda bisa menjadi tugas yang menakutkan. Seperti masalah lemon untuk perdagangan mobil Bekas, konsumen tidak yakin dengan kualitas perbaikan bengkel. Perbaikan komponen powertrain utama yang tidak tepat dapat meningkatkan risiko kecelakaan. Penggunaan suku cadang yang belum diverifikasi dapat menimbulkan masalah keamanan yang serius. Diagnostik yang tidak tepat dapat menyebabkan biaya yang tidak perlu. Untuk menghilangkan kekhawatiran ini, segel persetujuan Bengkel SCHICHER dapat memberikan ketenangan pikiran kepada konsumen bahwa kendaraan mereka sedang diperbaiki sesuai dengan standar SCHICHER.
+        Inilah alasan mengapa mitra yang disetujui diharuskan untuk membuktikan bahwa anggota tim mereka telah memenuhi standar pelatihan tertentu. Inilah alasan mengapa mitra yang disetujui diharuskan memiliki alat dan perlengkapan yang relevan. Inilah alasan mengapa mitra yang disetujui diharuskan memiliki fasilitas standar tertentu untuk melayani pelanggannya. Inilah alasan mengapa mitra yang disetujui diharuskan untuk menyimpan suku cadang tertentu untuk memastikan perbaikan kendaraan yang cepat. Inilah alasan mengapa mitra yang disetujui diharuskan lulus Penilaian Prosedur Operasi Standar SCHICHER. Semua alasan ini adalah alasan mengapa segel SCHICHER mewakili kepercayaan kepada pelanggan di seluruh dunia.
+',
 
         'list' => [
             'title' => 'What customers will receive from the services of Schicher',
@@ -530,8 +531,8 @@ return [
         ],
     ],
     'Vehicle_Management_Services' => [
-        'title' => 'Vehicle Management Services',
-        'content' => 'For Companies with fleet related operations, SCHICHER has multiple solutions that can help you manage your vehicles. Our In-fleet and De-fleet services can help you track the wellbeing of your vehicles throughout the life cycle of your fleets. Our Evaluation and Pricing service can help place an objective value on those vehicles. Furthermore, our Buyback Management service provides fleet owners with greater value certainty for returning fleets. Our professionals are trained to not only deliver neutral, reliable, and professional services but they must also deliver your philosophy as well. Our Refurbishment, Sales and Remarketing solutions aim to deliver your ideals by working closely with your team to find the most appropriate solutions to sell your fleets and deliver your values to buying customers.  ',
+        'title' => 'Layanan Manajemen Kendaraan',
+        'content' => 'Untuk perusahaan yang beroperasi berkaitan dengan armada, SCHICHER memiliki beberapa solusi yang dapat membantu Anda mengelola kendaraan Anda. Layanan In-fleet dan De-fleet kami dapat membantu Anda melacak kondisi kendaraan Anda sepanjang siklus umur pemakaian armada Anda. Layanan Evaluasi dan Penetapan Harga kami dapat membantu menempatkan nilai objektif pada kendaraan tersebut. Selain itu, layanan Manajemen Pembelian Kembali kami memberikan kepastian nilai yang lebih besar kepada pemilik armada untuk pengembalian armada. Para ahli kami dilatih untuk tidak hanya memberikan layanan yang netral, andal, dan profesional, tetapi mereka juga harus menyampaikan filosofi Anda. Solusi perbaikan, penjualan, dan pemasaran ulang kami bertujuan untuk mewujudkan cita-cita Anda dengan bekerja sama dengan tim Anda untuk menemukan solusi yang paling tepat untuk menjual armada Anda dan memberikan nilai Anda kepada pelanggan yang membelinya. Secara keseluruhan, Layanan Manajemen Kendaraan SCHICHER bertujuan untuk meningkatkan efisiensi operasional Anda, meningkatkan pengalaman pelanggan Anda, dan memberikan keuntungan yang lebih besar bagi perusahaan Anda. ',
         'list' => [
             'title' => 'The word “Service” is separated into the following meanings:',
             '1' => 'S = Smile',
@@ -545,9 +546,10 @@ return [
         'content1' => 'All in all, SCHICHER’s Vehicle Management Services aims to enhance your operational efficiencies, improve your customer’s experience, and deliver your company greater profit. ',
     ],
     'Evaluation_Pricing_of_Used_Vehicles' => [
-        'title' => 'Evaluation & Pricing of Used Vehicles',
-        'content' => 'Used car valuation is the preparation of appraisal documents. After the procurement of used cars for sale as an analysis giving an opinion, forecasting, or anticipating.
-        Price estimation is part of the independent and reliable used car valuation and pricing project management. Schicher experts inspect 650,000 different cars. such as cars, motorcycles, trucks or buses all over the world. We use this expertise to help our customers set fair prices for their used vehicles in real-life condition.',
+        'title' => 'Layanan Evaluasi & Penilaian Harga Armada',
+        'content' => 'Layanan Evaluasi & Penilaian Harga SCHICHER menawarkan analisis nilai kendaraan yang netral dan andal kepada pemilik armada dengan menggunakan teknologi dan sumber daya manusia yang berpengalaman.
+        Evaluasi SCHICHER menganalisis lebih dari 215 titik inspeksi, yang mencakup bagian mekanis kendaraan seperti mesin, Gigi dan ECU dan bagian non-mekanis seperti sasis kendaraan, kondisi ban, dan eksterior kendaraan. Setelah menetapkan evaluasi, program kami juga dapat menetapkan harga kendaraan dengan tepat menggunakan analisis varian ganda dari basis data historis, tren depresiasi, dan harga pasar saat ini. Selain itu, jika cacat terdeteksi, Evaluasi juga dapat memperkirakan biaya perbaikan.
+',
         'list' => [
             'title' => 'Benefits of appraisal and pricing services',
             '1' => 'Set accurate used car prices quickly and reliable',
@@ -558,8 +560,8 @@ return [
         ],
     ],
     'In_fleet_and_De_fleet_Operations' => [
-        'title' => 'In-fleet and De-fleet Operations',
-        'content' => 'The value of your fleets determines the profits of your portfolio. Our In-fleet and De-fleet Services continuously monitors the health and wellbeing of your fleets by employing real time ODB analysis, periodic Inspection, regular Maintenance and Repairs. This ensures that your vehicles remain in good condition so a high residual value can be obtained. While mechanical evaluation is conducted in real time, periodic analysis is conducted every 3-6 months or every 10,000 KM. If any irregularities are found, SCHICHER’s experts will provide the most cost-effective solutions to your fleets whether it be a simple oil change to a complex engine overhaul. Apart from safety, Fleet owners can also feel at peace that their vehicles are being maintained in good condition on a periodic basis which helps signals to potential car buyers in the future of the car’s condition. ',
+        'title' => 'Layanan In-fleet dan De-fleet',
+        'content' => 'Nilai armada Anda menentukan keuntungan aset Anda. Layanan In-fleet dan De-fleet kami terus memantau kondisi dan kesejahteraan armada Anda dengan menggunakan analisis ODB real time, inspeksi berkala, pemeliharaan dan perbaikan rutin. Ini memastikan bahwa kendaraan Anda tetap dalam kondisi baik sehingga nilai residu yang tinggi dapat diperoleh. Sedangkan evaluasi mekanik dilakukan secara real time, analisis periodik dilakukan setiap 3-6 bulan atau setiap 10.000 km. Jika ditemukan kejanggalan, para ahli SCHICHER akan memberikan solusi paling hemat biaya untuk armada Anda, baik itu penggantian oli sederhana hingga perombakan mesin yang rumit. Selain keselamatan, pemilik Armada juga dapat merasakan ketenangan karena kendaraan mereka selalu dalam kondisi baik secara berkala yang membantu memberi sinyal kepada calon pembeli mobil di masa mendatang tentang kondisi mobil.',
         'list' => [
             '1' => 'Standardized internal management management',
             '2' => 'Damage inspection',
@@ -581,8 +583,9 @@ return [
         ],
     ],
     'Fleet_Used_Car_Vehicle_Condition_Report' => [
-        'title' => 'Fleet Used Car Vehicle Condition Report',
-        'content' => 'SCHICHER’s Preowned Analysis offers potential Car Buyers peace of mind when buying your Fleet Vehicles. It is no secret that buying a used car can be a difficult endeavor as one does not know the quality of the car. The rise of the internet has bombarded customers with plethora of information leading to greater uncertainty in their decision-making process. SCHICHER’s role is to enable buyers to make better decisions by using technology and experience human capital to provide neutral, reliable, and professional Accreditation service. This, in turn, will provide fleet owners with higher retail prices.',
+        'title' => 'Laporan Kondisi Kendaraan Mobil Armada Bekas',
+        'content' => 'Analisis Awal SCHICHER menawarkan ketenangan pikiran bagi calon pembeli mobil saat membeli mobil armada Anda. Bukan rahasia lagi bahwa membeli mobil bekas bisa menjadi usaha yang sulit karena seseorang tidak mengetahui kualitas mobil tersebut. Munculnya internet telah membombardir pelanggan dengan sejumlah besar informasi yang mengarah ke ketidakpastian yang lebih besar dalam proses pengambilan keputusan mereka. Peran SCHICHER adalah untuk memungkinkan pembeli membuat keputusan yang lebih baik dengan menggunakan teknologi dan sumber daya manusia yang berpengalaman untuk menyediakan layanan Akreditasi yang netral, andal, dan profesional. Ini, pada gilirannya, akan memberi pemilik armada harga jual yang lebih tinggi.
+',
         'list' => [
             'title' => 'Benefits of a Used Car Assessment',
             '1' => 'Make a note and properly assess the condition of your used vehicle.',
@@ -593,7 +596,7 @@ return [
             '6' => 'Build a trust relationship with customers and used car customers That is why car owners rely on Schicher and the experience of our specialists in the marketing of used cars.',
         ],
         'title1' => 'Vehicle Condition Report',
-        'content1' => 'SCHICHER Analysis consists of two main Inspection criteria: Standard and Premium. Standard Inspection analyses the mechanical health of the Vehicle from Engine to ECU, covering over 165 Mechanical parts. All Inspections that pass Schic’s Standard Inspection are eligible for Smartsure’s Warranty program. Premium Inspection analyses over 215 Inspection Parts, covering both the Mechanical parts of the vehicle and the non-Mechanical parts such as Vehicle Chassis, Tire Condition and Vehicle Exterior.',
+        'content1' => 'Analisis SCHICHER terdiri dari dua kriteria Inspeksi utama: Standar dan Premium. Pemeriksaan Standar menganalisis kondisi mekanis kendaraan dari mesin ke ECU, mencakup lebih dari 165 bagian mekanik. Semua Inspeksi yang lulus Inspeksi Standar Schic akan memenuhi syarat untuk program garansi Smartsure. Analisis Inspeksi Premium lebih dari 215 bagian inspeksi, yang mencakup bagian mekanik kendaraan dan bagian non-mekanik seperti sasis kendaraan, kondisi ban, dan eksterior kendaraan.',
         'list1' => [
             '1' => 'Tires and wheels',
             '2' => 'Check exterior cars',
@@ -616,9 +619,8 @@ return [
         ],
     ],
     'Fleet_Evaluation_and_Pricing' => [
-        'title' => 'Fleet Evaluation and Pricing',
-        'content' => 'SCHICHER’s Evaluation & Pricing Services offers Fleet owners neutral and reliable analysis of the value of the Vehicles by using technology and experienced human capital.
-        SCHICHER Evaluation analyses over 215 Inspection Parts, covering both the Mechanical parts of the vehicle such as Engine, Gear and ECU and the non-Mechanical parts such as Vehicle Chassis, Tire Condition and Vehicle Exterior. Once the Evaluation has been established, our program can appropriately price the Vehicles using multiple variant analysis from historical database, depreciation trends and current market prices. In addition, if defects are detected, the Evaluation can also approximate the cost of repairs.',
+        'title' => 'Program Own to Lease',
+        'content' => 'Untuk Korporasi yang ingin melepaskan modal, program Own to Lease kami dapat menawarkan hal itu kepada Anda. Prosesnya sederhana. Kami membayar untuk armada Anda dan menyewakan mobil kembali kepada Anda sebagai sewa operasi. Layanan ini meliputi penjualan kendaraan, dokumentasi dan perpindahan kepemilikan. Selain itu, program ini sangat berguna karena pemeliharaan dan perbaikan juga akan menjadi bagian dari sewa operasi kami. Pemilik armada tidak hanya menikmati keuntungan dari modal cadangan, tetapi mereka juga mendapatkan keuntungan dari seluruh solusi purna jual.',
 
         'list' => [
             'title' => 'Car of Schicher valuation and pricing services include:',
@@ -632,8 +634,8 @@ return [
         ],
     ],
     'Used_Car_Seal_for_Fleet' => [
-        'title' => 'Used Car Seal for Fleet',
-        'content' => 'At SCHICHER, we Fundamentally believe that the core of our business will always be our people. This is the reason why all Inspectors at SCHICHER are required to complete a 3-month training program before they can inspect commercially. It is the reason why the training content is updated quarterly to ensure that the car models and inspection practices are up to date. It is the reason why each inspector must go through an annual exam to ensure that they are able to inspect in accordance with our standards. It is the reason why our Research and Development team are continually working to develop new tools to improve the Inspection processes to make our inspection more precise. ',
+        'title' => 'Segel Mobil Bekas untuk Armada',
+        'content' => 'Di SCHICHER, pada dasarnya kami percaya bahwa inti bisnis kami akan selalu menjadi pelanggan kami. Inilah alasan mengapa semua inspektur di SCHICHER diwajibkan untuk menyelesaikan program pelatihan 3 bulan sebelum mereka dapat melakukan inspeksi secara komersial. Itulah alasan mengapa konten pelatihan diperbarui setiap tiga bulan untuk memastikan bahwa model mobil dan presedur inspeksi mutakhir. Itulah alasan mengapa setiap inspektur harus melalui ujian tahunan untuk memastikan bahwa mereka dapat melakukan inspeksi sesuai dengan standar kami. Inilah alasan mengapa tim riset dan pengembangan kami terus bekerja untuk mengembangkan alat baru guna meningkatkan proses Inspeksi agar inspeksi kami lebih presisi.',
         'list' => [
             'title' => 'ประโยชน์ของตรารับรอง Schicher สำหรับรถยนต์มือสอง คือ ',
             '1' => 'มีมาตรฐานที่มีความน่าเชื่อถือและได้รับการยอมรับจากทั่วโลก',
@@ -642,11 +644,11 @@ return [
             '4' => 'มีการตรวจสอบคุณภาพตามวัตถุประสงค์อย่างเป็นกลาง',
             '5' => 'ตรวจสอบเทคโนโลยีตัวถังรถ และระบบของรถอย่างละเอียด',
         ],
-        'content1' => 'All of these reasons are the reason why the SCHICHER’s Brand represents Trust to Consumers all over the world.',
+        'content1' => 'Semua alasan ini adalah alasan mengapa merek SCHICHER mewakili kepercayaan kepada konsumen di seluruh dunia.',
     ],
     'End_of_Term_Buyback_management_for_Fleets' => [
-        'title' => 'End of Term Buyback management for Fleets',
-        'content' => 'SCHICHER’s End of Term Buyback Service provides Fleet owners with more control over their bottom line. Like our Extended Warranty product, Fleet owners can have a peace of mind that their Fleet portfolios will achieve their desired profits as the value of the Fleets at the point of return has been contractually negotiated in advance. Owners will also benefit from a more liquid cashflow as a payment date is also stated within the contract. In addition, they do not have to worry about market price volatility, rate fluctuations or seasonal resale influences that may occur if they were to sell their vehicles in the market themselves. Fleet owners will only have to be responsible for the excess mileage or additional damages that may occur beyond the coverage stated in the contract.',
+        'title' => 'Berakhir Jangka Waktu Pembelian Kembali untuk Armada',
+        'content' => 'Layanan Pembelian Kembali Akhir Masa Berlaku SCHICHER membiarkan pemilik armada mengoontrol lebih tinggi atas laba mereka. Seperti produk perpanjangan garansi kami, pemilik armada akan merasa tenang bahwa portofolio armada mereka akan mencapai keuntungan yang diinginkan karena nilai armada berada pada titik pengembalian yang telah dinegosiasikan secara kontrak sebelumnya. Pemilik juga akan mendapatkan keuntungan dari arus kas yang lebih lancar karena tanggal pembayaran juga dinyatakan dalam kontrak. Selain itu, mereka tidak perlu khawatir tentang volatilitas harga pasar, fluktuasi harga atau pengaruh penjualan kembali musiman yang mungkin terjadi jika mereka menjual kendaraan mereka sendiri di pasar. Pemilik armada hanya harus bertanggung jawab atas kelebihan jarak tempuh atau kerusakan tambahan yang mungkin terjadi di luar pertanggungan yang dinyatakan dalam kontrak.',
         'list' => [
             '1' => 'กระบวนการ ขั้นตอน และการดำเนินการที่หมดเวลาระหว่างลูกค้าและผู้ให้บริการ',
             '2' => 'การคำนวณค่าใช้จ่ายและการออกใบแจ้งหนี้ที่เกี่ยวข้องกับรถยนต์ ',
@@ -664,8 +666,8 @@ return [
         ],
     ],
     'Refurbishment_Management_for_Fleets' => [
-        'title' => 'Refurbishment Management for Fleets',
-        'content' => 'The Goal of Fleet Managers for returning vehicles is to sell those vehicles at the best price and at the fastest time possible. SCHICHER’s refurbishment service aims to support this by providing a one stop service for all refurbishment related needs; establishment of vehicles that are required for refurbishments, workshops identification, Invoice analysis and recommendations, quality control, Daily reporting for repair duration and pre-delivery Inspections. SCHICHER partners will multiple workshops to provide customers with many choices. This allows us to recommend a workshops that are fairly priced and can handle the required volume at that point of time. Services include Paintless dent repair, Body Scratch and stone chip removal, bumper repairs and re-texturing, paintwork treatment and glazed finish, Interior repairs and re-texturing, Windscreen repairs, Alloy wheel repairs, missing/damaged parts replacement, Glasurit spot repair system, Paint booths with infrared drying, Isolated damage repair and mechanical. ',
+        'title' => 'Manajemen Perbaikan Armada',
+        'content' => 'Tujuan Manajer Armada untuk mengembalikan kendaraan adalah menjual kendaraan tersebut dengan harga terbaik dan secepat mungkin. Layanan perbaikan SCHICHER bertujuan untuk mendukung ini dengan menyediakan layanan satu atap untuk semua kebutuhan terkait perbaikan; penetapan kendaraan yang diperlukan untuk perbaikan, identifikasi bengkel, analisis dan rekomendasi faktur, kontrol kualitas, pelaporan harian untuk durasi perbaikan dan inspeksi pra-pengiriman. Mitra SCHICHER akan menggandakan banyak bengkel untuk memberikan banyak pilihan kepada pelanggan. Hal ini memungkinkan kami untuk merekomendasikan bengkel dengan harga yang wajar dan dapat menangani jumlah yang dibutuhkan pada saat itu. Layanan meliputi perbaikan penyok tanpa cat, Penghapusan goresan bodi dan serpihan batu, perbaikan bumper dan tekstur ulang, perawatan cat dan pelapisan kaca, perbaikan interior dan tekstur ulang, perbaikan kaca depan, perbaikan velg, penggantian suku cadang yang hilang/rusak, sistem perbaikan titik Glasurit, ruang cat dengan pengeringan inframerah, perbaikan kerusakan terisolasi dan mekanis. ',
         'list' => [
             'title' => 'ประโยชน์ของการจัดการการตกแต่งใหม่สำหรับรถยนต์เพื่อนำไปฟลีท',
             '1' => 'ช่วยให้ผู้ใช้รถสามารถเพิ่มข้อเสนอการขายรถยนต์ใช้แล้ว',
@@ -695,8 +697,8 @@ return [
         ],
     ],
     'Remarketing_Consultancy_for_Fleets' => [
-        'title' => 'Remarketing Consultancy for Fleets',
-        'content' => 'SCHICHER’s remarketing solutions offers Fleet owners with clear remarketing solutions. Our experts will work closely with your team to develop a macro strategy on how best to dispose your vehicles from pricing analysis, commercial communication to financing sales administration. Once such overview has been established, our team will work with you to develop most appropriate Sales Channel for your vehicles. Our goal is to develop a customized solution that addresses each stage of your value chain. ',
+        'title' => 'Solusi Pemasaran Ulang untuk Armada',
+        'content' => 'Solusi pemasaran ulang SCHICHER menawarkan solusi pemasaran ulang yang jelas kepada pemilik Armada. Pakar kami akan bekerja sama dengan tim Anda untuk mengembangkan strategi makro tentang cara terbaik untuk melepaskan kendaraan Anda mulai dari analisis harga, komunikasi komersial hingga pembiayaan administrasi penjualan. Setelah gambaran umum tersebut ditetapkan, tim kami akan bekerja sama dengan Anda untuk mengembangkan saluran penjualan yang paling tepat untuk kendaraan Anda. Tujuan kami adalah mengembangkan solusi khusus yang menangani setiap tahap rantai nilai Anda. ',
         'list' => [
             'title' => 'ประโยชน์ของบริการให้คำปรึกษาด้านการตลาดสำหรับรถยนต',
             '1' => 'คำแนะนำจากผู้เชี่ยวชาญเกี่ยวกับนโยบายการค้า การส่งเสริมการขายและการปรับปรุงการตลาด',
@@ -779,16 +781,16 @@ return [
         ],
     ],
     'Sales_solutions_for_Fleets' => [
-        'title' => 'Sales solutions for Fleets',
-        'content' => 'The Residual Value (RV) of the vehicle is often the deciding factor that determines the profitability of a fleet. SCHICHER’s Fleets Sales solutions has helped multiple fleet owners manage their portfolio with our unique sales tools from our online sales solutions, our telesales services to our customer care management. With over 100,000 vehicles sold through our platform, our experts can help identify the most efficient solutions to all fleet owners.',
+        'title' => 'Solusi Penjualan untuk Armada',
+        'content' => 'Nilai Residual (RV) kendaraan sering kali menjadi faktor penentu yang menentukan profitabilitas armada. Solusi Penjualan Armada SCHICHER akan membantu banyak pemilik armada mengelola aset mereka dengan alat penjualan kami yang unik mulai dari solusi penjualan online, layanan Penjualan Jarak Jauh kami hingga manajemen layanan pelanggan kami. Dengan lebih dari 100.000 kendaraan yang terjual melalui platform kami, para ahli kami dapat membantu mengidentifikasi solusi paling efisien untuk semua pemilik armada.',
         'sub_data' => [
             '1' => [
-                'title' => 'Affinity Sales',
-                'content' => 'Whether you are looking to dispose your vehicles to your employees, partners, members or certain groups of associates, SCHICHER has a multiple solution to help Fleet owners reach a good price and fairly distribute their vehicles to those affiliates. Fleet owners can choose to adopt a sealed auction process, reserve auction process, absolute auction process or a simple random selection of potential buyers. All in all, SCHICHER has the expertise to support fleet owners in all types of sales method employing technology to ensure transparency. Apart from this, the service also handles the entire sales process from vehicle financing to ownership transfer. ',
+                'title' => 'Penjualan Afiliasi ',
+                'content' => 'Baik Anda ingin menjual kendaraan Anda kepada karyawan, mitra, anggota, atau kelompok rekanan tertentu, SCHICHER memiliki banyak solusi untuk membantu pemilik armada mencapai harga yang baik dan mendistribusikan kendaraan mereka secara adil kepada afiliasi tersebut. Pemilik armada dapat memilih untuk mengadopsi proses lelang tertutup, proses lelang cadangan, proses lelang mutlak, atau pemilihan pembeli potensial secara acak sederhana. Secara keseluruhan, SCHICHER memiliki keahlian untuk mendukung pemilik armada dalam semua jenis metode penjualan yang menggunakan teknologi untuk memastikan transparansi. Selain itu, layanan ini juga menangani seluruh proses penjualan mulai dari pembiayaan kendaraan hingga pengalihan kepemilikan. ',
             ],
             '2' => [
-                'title' => 'Operations Management',
-                'content' => 'The Vehicle selling process can be a hassle for many fleet owners. SCHICHER’s Operations Management Service provides a one-stop service to fleet owners. Our Service starts from simple Call Centre tasks, acting your personal Call Centre Team to answer sales related questions on your inventories. Once the sales have been accomplished, we support Fleet owners by performing administrative tasks such documents handling, ownership transfer and liaising with Financing Companies. In addition, we also support car delivery with our logistics handling services.',
+                'title' => 'Manajemen Operasi',
+                'content' => 'Proses penjualan kendaraan dapat menjadi kerumitan bagi banyak pemilik armada. Layanan Manajemen Operasi SCHICHER menyediakan layanan satu atap untuk pemilik armada. Layanan kami dimulai dari tugas Call Center sederhana, bertindak sebagai tim Call Center pribadi Anda untuk menjawab pertanyaan terkait penjualan pada inventaris Anda. Setelah penjualan selesai, kami mendukung pemilik armada dengan melakukan tugas administrasi seperti penanganan dokumen, perpindahan kepemilikan dan hubungan dengan perusahaan pendanaan. Selain itu, kami juga mendukung pengiriman mobil dengan layanan penanganan logistik kami.',
                 'list' => [
                     '1' => 'บริการสนับสนุนสำหรับลูกค้ารถมือสอง (ผู้ซื้อ) และภายใต้กรอบของลำดับความสำคัญของเครือข่ายที่ออกแบบมาสำหรับกลุ่มที่สนับสนุนความร่วมมือเป็นหลัก',
                     '2' => 'มาตรฐานเดียวที่จัดการกับคำถามหรือสิ่งที่ไม่จำเป็นต้องมีของผู้เชี่ยวชาญ',
@@ -800,8 +802,8 @@ return [
                 ],
             ],
             '3' => [
-                'title' => 'Multichannel Sales Solutions',
-                'content' => 'In the Used Car business, speed of transaction is of utmost importance. It is even more important for Fleet owners as a 1% drop in car value can massively affect the value of the entire fleet. At SCHICHER, we can provide Fleet owners will multiple sales solutions. Due to our larger Database, our Telesales solutions is one the fastest way to help connect buyers directly to Fleet owners. In addition, our online sales service, Carcombined, does not only help promote your vehicles through our website but we also facilitate the entire selling experience from booking appointments to ownership transfer. Our E-mailings and SMS Campaigns also allow us to gauge interest from potential buyers. This is complimented by our point of sales and event management solutions where we work with partnered event organizers and dealers to promote your inventories.           ',
+                'title' => 'Solusi Penjualan Multi Saluran ',
+                'content' => 'Dalam bisnis mobil bekas, kecepatan transaksi adalah hal yang paling penting. Hal ini bahkan lebih penting bagi pemilik armada karena penurunan nilai mobil 1% dapat secara besar-besaran mempengaruhi nilai seluruh armada. Di SCHICHER, kami dapat memberikan beberapa solusi penjualan kepada pemilik armada. Karena pusat data kami yang lebih besar, solusi Penjualan Jarak Jauh kami adalah salah satu cara tercepat untuk membantu menghubungkan pembeli langsung ke pemilik armada. Selain itu, layanan penjualan online kami, Carcombined, tidak hanya membantu mempromosikan kendaraan anda melalui situs web kami, tetapi kami juga memfasilitasi seluruh pengalaman penjualan mulai dari janji temu pemesanan hingga transfer kepemilikan. Saluran Email dan SMS kami juga memungkinkan kami untuk mengukur minat dari pembeli potensial. Hal ini didukung oleh titik penjualan dan solusi manajemen kami di mana kami bekerja dengan penyelenggara acara dan dealer untuk mempromosikan aset Anda.',
             ],
             '4' => [
                 'title' => 'ประชาสัมพันธ์เกี่ยวกับผลิตภัณฑ์ของบริษัทฯ',
