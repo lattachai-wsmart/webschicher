@@ -27,5 +27,11 @@
         "sass-loader": "^10.1.1",
         "simplebar": "^5.3.0",
         "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "facebook-sdk": "^0.3.3",
+        "fix": "0.0.6",
+        "them": "0.0.4",
+        "to": "^0.2.9"
     }
 }

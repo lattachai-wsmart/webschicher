@@ -3,6 +3,7 @@
 @section('css_after')
     <link rel="stylesheet" href="{{ asset('js/plugins/slick-carousel/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('js/plugins/slick-carousel/slick-theme.css') }}">
+    <link rel="stylesheet" href="{{ asset('js/plugins/raty-js/jquery.raty.css') }}">
     <link rel="stylesheet" id="css-main" href="{{ asset('/css/facebookreview.css') }}">
 @endsection
 
@@ -141,10 +142,20 @@
     <div class="facebook_review_container">
         <div class="showreview">
             <div class="facebook">
-                <div class="carousel-item">
-                    <img class="icon_face" src="media/photos/facebook2.png" alt="">
-                    <div class="f_text1">Facebook Fanpage</div>
-                    <div class="f_text2">SCHIC inspection</div>
+                <div class="profile_facebook">
+                    <a href="https://web.facebook.com/SCHICINSPECTION/reviews/?ref=page_internal&_rdc=1&_rdr" target="_blank">
+                        <img class="icon_face" src="media/photos/facebook2.png" alt="">
+                    </a>
+                </div>
+                <div class="name_facebook">
+                    <div>
+                        <div class="f_text1">Facebook Fanpage</div>
+                        <a href="https://web.facebook.com/SCHICINSPECTION/reviews/?ref=page_internal&_rdc=1&_rdr" target="_blank">
+                            <div class="f_text2">
+                                <span class="S">S</span>CHIC inspection
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
                 <div class="dividing_line">
@@ -152,34 +163,24 @@
                 </div>
             <div class="total">
                 <div class="carousel-item">
-                    <img class="icon_face" src="media/photos/facebook2.png" alt="">
-                    <div class="p_text1">4.4 out of 5</div>
-                    <div class="p_text2">Based on the opinion of 71 people</div>
+                    <div style="font-size: 2.5rem; display: flex; justify-content: center; align-items: center;">{{ $graphNode->overall_star_rating }}
+                        <div class="js-rating" data-score="1" data-number="1"></div>
+                    </div>
+                    <div>
+                        <div style="font-size: 1.3rem;" class="p_text1">{{ $graphNode->rating_count }} out of {{ $graphNode->overall_star_rating }}</div>
+                        <div style="font-size: 1.3rem;" class="p_text2">Based on the opinion of {{ $graphNode->rating_count }} people</div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="next_previous">
             <a href="javascript:void(0)" class="previous round" id="prev">&#8249;</a>
             <a href="javascript:void(0)" class="next round" id="next">&#8250;</a>
-            <div class="slidecontent">
-                {{-- <div class="profile">
-                    <div class="carousel-item">
-                        <img class="icon_profile" src="media/photos/profile.png" alt="">
-                    </div>
-                </div>
-                <div class="name_comment">
-                    <div class="first_last_name">
-                        A'px Sevenpack<span class="star">⭐ 4.5</span>
-                    </div>
-                    <div class="comment">
-                        <div>
-                            Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquamm! Esse architecto ad distinctio.
-                        </div>
-                    </div>
-                </div> --}}
+            <div class="slidecontent" data-count="<?php echo count($graphNode->ratings->data) ?>" >
             </div>
         </div>
     </div>
+
     <!-- ENDFacebook Review -->
 
     <!-- END Page Content -->
@@ -236,14 +237,18 @@
             </div>
         </div>
     </div>
+
 @endsection
 
 @section('js_after')
+
 <script src="{{ asset('js/plugins/slick-carousel/slick.min.js') }}"></script>
+<script src="{{ asset('js/plugins/raty-js/jquery.raty.js') }}"></script>
 
 <script>
     jQuery(function() {
         One.helpers('slick');
+        jQuery('.js-rating').raty({ starType: 'i', readOnly: true , starOn: 'fa fa-fw fa-star text-warning', starOff: 'fa fa-fw fa-star text-muted'});
     });
 
 </script>
@@ -288,34 +293,33 @@
         });
     });
 
-    let pofileArray = [
-                {'img':'https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png', 'name':'AAAAA AAAAA', 'point':'1.1',
-                'comment':'Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquam! Esse architecto ad distinctio.'},
-                {'img':'https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png', 'name':'BBBBB BBBBB', 'point':'2.1',
-                'comment':'Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquam! Esse architecto ad distinctio.'},
-                {'img':'https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png', 'name':'CCCCC CCCCC', 'point':'3.1',
-                'comment':'Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquam! Esse architecto ad distinctio.'},
-                {'img':'https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png', 'name':'DDDDD DDDDD', 'point':'4.1',
-                'comment':'Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquam! Esse architecto ad distinctio.'},
-        ]
+    console.log( document.querySelectorAll('.slidecontent')[0].dataset.count )
+
+    let pofileArray = <?php echo json_encode($graphNode->ratings->data); ?>;
+    console.log(pofileArray)
+
     let pofileArrayWidth = pofileArray.length*100
     let slidecontent = document.querySelectorAll('.slidecontent')[0]
 
     pofileArray.forEach((item,index) => {
-        slidecontent.innerHTML += `<div class="slidecontentcontainer">
+        slidecontent.innerHTML += `
+        <div class="slidecontentcontainer">
                     <div class="profile">
-                        <div class="carousel-item">
-                            <img class="icon_profile" src="${item.img}" alt="">
-                        </div>
+                        <img class="icon_profile" src="https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png" alt="">
                     </div>
                     <div class="name_comment">
                         <div class="first_last_name">
-                            ${item.name}<span class="star">⭐ ${item.point}</span> </div>
+                            Mr. API &nbsp;&nbsp; SCHIC-inspection
+                            <span class="star">
+                                ${item.recommendation_type === "positive" ? '<div class="js-rating" data-score="5"></div>' : '<div class="js-rating" data-score="1"></div>'}
+                            </span>
+                        </div>
                         <div class="comment">
-                            <div>${item.comment}</div>
+                             <div>${item.review_text}</div>
                         </div>
                     </div>
-                </div>`
+                </div>
+        `
     });
 
     slidecontent.style.width = `${pofileArrayWidth}%`
@@ -337,3 +341,5 @@
 </script>
 
 @endsection
+
+
