@@ -154,7 +154,7 @@
     </div>
 
     <!-- Facebook Review -->
-    {{-- <div class="facebook_review_container">
+    <div class="facebook_review_container">
         <div class="showreview">
             <div class="facebook">
                 <div class="profile_facebook">
@@ -194,7 +194,7 @@
             <div class="slidecontent" data-count="<?php echo count($graphNode->ratings->data); ?>" >
             </div>
         </div>
-    </div> --}}
+    </div>
     <!-- ENDFacebook Review -->
 
     <!-- END Page Content -->
