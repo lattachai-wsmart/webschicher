@@ -425,7 +425,7 @@ class FrontendController extends Controller
             'app_id' => '350399116739619',
             'app_secret' => '830e73846643728238950b69e964b61b',
             'default_graph_version' => 'v3.1',
-            'default_access_token' => 'EAAEZBr6biBCMBALq0c2F0ldzZAzZBy7gTXFZBZB11UTsTm0k0pZAM6Ma0ZAxpLus6ib5ZCzWMZAp8msYIzCAiAvcfVbwzICK7kL3RS4iyZApLRreS0QZCZASpP30iOnBpl3JeS2ZAJzshYPVnB6Ps0iG2YHU18Ir9L7qSgh8DiM8LDzj1zH1kTcVhlOfpVWl6YUpFoBcZD',
+            'default_access_token' => 'EAAEZBr6biBCMBACguZAudIMiF1TEZCy1xBxPnMm2M3hROG7qECWwlHgK8cUI7KzM0GNdFsHnCdTqZCJufRmZAZAsrfZAJeOIHGbizzZCOnZBtVx0dWuMLjQbiqTtgG2Y151nFqGHO9bwrzZBfwQU2ynZCfPJZCA1w3ZB8d0ZBmC9ZCqkg4W41YODqll5IJDBZCKzTbex1U8ZD',
         ]);
 
         try {
