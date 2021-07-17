@@ -421,11 +421,10 @@ class FrontendController extends Controller
     {
 
         $fb = new \Facebook\Facebook([
-            // 'app_id' => '103446648135780',
             'app_id' => '350399116739619',
             'app_secret' => '830e73846643728238950b69e964b61b',
             'default_graph_version' => 'v3.2',
-            'default_access_token' => 'EAAEZBr6biBCMBAFPqLbKDukFhAQyZCR3RVAkZBGZB2FWYXa4jRUDlLuvZBGVNUSiMJWNEPp1vgTmFWXQVySqIJDqmV96ZC7TLbQwMOza1qdHGhYoU1Bo4uwVtuyUnNf60fq55VCOvOILoIJZAOyI6tnlZAtuVxzbnWUeGZBp6OVCF98lIBGicxLthmimmydjiNpRbQp14uEmIIk27nAATXkCI',
+            'default_access_token' => 'EAAEZBr6biBCMBAAzZBCcVqkXRtS0ZA929UQ10TawrcD4JNnsfnWLcwOL25DS3BEbUYZAwoPOiFZAbZAT28kzpJN9ogeTKRZAeEoLtuE8HUKnLR9KRKLwoURHGyF6LCZB8E9qTgE1XBTR8fvOwp5GHXz9y4ZB76ZCsQ0DuwU6fgw7u2CqCEJKVjDbdzWNVd9wIZB9hEZD',
         ]);
 
         try {
