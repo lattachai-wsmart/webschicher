@@ -417,6 +417,35 @@ class FrontendController extends Controller
         }
     }
 
+    public function facebook_review()
+    {
+
+        $fb = new \Facebook\Facebook([
+            'app_id' => '103446648135780',
+            'app_secret' => '830e73846643728238950b69e964b61b',
+            'default_graph_version' => 'v3.1',
+            'default_access_token' => 'EAAEZBr6biBCMBAKs7NelMAeZADIsDE43ZBBkICx6PBZC7126ahpQVO8nog92yuEGPEpdEETY1E4X8xhf0PkRbMsZAzVHjjhZAb8OjJ6R9bubhoZA9UK1yOZBhc97HkHGgkexZAn308rztNHZAPHepmrOq2WXdLYjvjTyuZAJZCv095r1IqfsP2U60kf8lhPSgUBNLqcZD',
+            // 'expires_in' => 10000,
+        ]);
+
+        try {
+            // Returns a `FacebookFacebookResponse` object
+            $response = $fb->get(
+                '/SCHICINSPECTION?fields=ratings{reviewer,created_time,has_rating,has_review,rating,recommendation_type,review_text},rating_count,overall_star_rating,name'
+            );
+        } catch(FacebookOtherException $e) {
+            echo 'Graph returned an error: ' . $e->getMessage();
+            exit;
+        }
+
+        $graphNode =  json_decode($response->getBody());
+        // print_r($response->getBody());
+        // print_r($graphNode->ratings->data);
+
+        return view('pages/index', compact('graphNode'))->with('header', $this->header);
+
+    }
+
     public function warrantynroadside()
     {
         $this->header['header'] = $this->header['header'].' | '.Lang::get('frontend.warranty.title');
