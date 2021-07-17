@@ -202,6 +202,8 @@
         <div class="next_previous">
             <a href="javascript:void(0)" class="previous round" id="prev">&#8249;</a>
             <a href="javascript:void(0)" class="next round" id="next">&#8250;</a>
+            <div class="slidecontent">
+            </div>
             {{-- <div class="slidecontent" data-count="<?php echo count($graphNode->ratings->data); ?>" >
             </div> --}}
         </div>
@@ -323,6 +325,15 @@
             });
         });
 
+        let pofileArray = [
+                {'img':'https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png', 'name':'AAAAA AAAAA', 'point':'1.1',
+                'comment':'Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquam! Esse architecto ad distinctio.'},
+                {'img':'https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png', 'name':'BBBBB BBBBB', 'point':'2.1',
+                'comment':'Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquam! Esse architecto ad distinctio.'},
+                {'img':'https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png', 'name':'CCCCC CCCCC', 'point':'3.1',
+                'comment':'Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquam! Esse architecto ad distinctio.'},
+        ]
+
         console.log(document.querySelectorAll('.slidecontent')[0].dataset.count)
 
         console.log(pofileArray)
@@ -331,24 +342,20 @@
         let slidecontent = document.querySelectorAll('.slidecontent')[0]
 
         pofileArray.forEach((item, index) => {
-            slidecontent.innerHTML += `
-        <div class="slidecontentcontainer">
+            slidecontent.innerHTML += `<div class="slidecontentcontainer">
                     <div class="profile">
-                        <img class="icon_profile" src="https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png" alt="">
+                        <div class="carousel-item">
+                            <img class="icon_profile" src="${item.img}" alt="">
+                        </div>
                     </div>
                     <div class="name_comment">
                         <div class="first_last_name">
-                            Mr. API &nbsp;&nbsp; SCHIC-inspection
-                            <span class="star">
-                                ${item.recommendation_type === "positive" ? '<div class="js-rating" data-score="5"></div>' : '<div class="js-rating" data-score="1"></div>'}
-                            </span>
-                        </div>
+                            ${item.name}<span class="star"><div class="js-rating" data-score="5"></div></span></div>
                         <div class="comment">
-                             <div>${item.review_text}</div>
+                            <div>${item.comment}</div>
                         </div>
                     </div>
-                </div>
-        `
+                </div>`
         });
 
         slidecontent.style.width = `${pofileArrayWidth}%`
