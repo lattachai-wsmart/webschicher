@@ -176,7 +176,7 @@
                 <div class="dividing_line">
 
                 </div>
-            <div class="total">
+            {{-- <div class="total">
                 <div class="carousel-item">
                     <div style="font-size: 2.5rem; display: flex; justify-content: center; align-items: center;">{{ $graphNode->overall_star_rating }}
                         <div class="js-rating" data-score="1" data-number="1"></div>
@@ -186,13 +186,24 @@
                         <div style="font-size: 1.3rem;" class="p_text2">Based on the opinion of {{ $graphNode->rating_count }} people</div>
                     </div>
                 </div>
+            </div> --}}
+            <div class="total">
+                <div class="carousel-item">
+                    <div style="font-size: 2.5rem; display: flex; justify-content: center; align-items: center;">3.7
+                        <div class="js-rating" data-score="1" data-number="1"></div>
+                    </div>
+                    <div>
+                        <div style="font-size: 1.3rem;" class="p_text1">3 out of 3.7</div>
+                        <div style="font-size: 1.3rem;" class="p_text2">Based on the opinion of 3 people</div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="next_previous">
             <a href="javascript:void(0)" class="previous round" id="prev">&#8249;</a>
             <a href="javascript:void(0)" class="next round" id="next">&#8250;</a>
-            <div class="slidecontent" data-count="<?php echo count($graphNode->ratings->data); ?>" >
-            </div>
+            {{-- <div class="slidecontent" data-count="<?php echo count($graphNode->ratings->data); ?>" >
+            </div> --}}
         </div>
     </div>
     <!-- ENDFacebook Review -->
@@ -252,6 +263,7 @@
         </div>
     </div>
 
+    {{-- let pofileArray = <?php echo json_encode($graphNode->ratings->data); ?>; --}}
 @endsection
 
 @section('js_after')
@@ -313,7 +325,6 @@
 
         console.log(document.querySelectorAll('.slidecontent')[0].dataset.count)
 
-        let pofileArray = <?php echo json_encode($graphNode->ratings->data); ?>;
         console.log(pofileArray)
 
         let pofileArrayWidth = pofileArray.length * 100
