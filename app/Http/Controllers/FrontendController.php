@@ -420,11 +420,16 @@ class FrontendController extends Controller
     public function facebook_review()
     {
 
+        // $fb = new \Facebook\Facebook([
+        //     'app_id' => env('350399116739619'),
+        //     'app_secret' => env('830e73846643728238950b69e964b61b'),
+        //     'default_access_token' => env('EAAEZBr6biBCMBAAIjAZAkXIu1IMsbZBSaPh9aU61506KGZCacxXMFgvDU4HiQUERtZApPUFkBvhE1YCySePlJfY4oxfm29ChxbFZBZAWto9K0Gbec64UAm1UZBXnSi4ZCUiymyoIVXJR9E6LM3gILQ9IWnGADDxs8qZCZCr7ayUaMAgzU3fv9lG7T0VIZBiM8u12aZAQZD'),
+        // ]);
+
         $fb = new \Facebook\Facebook([
             'app_id' => '350399116739619',
             'app_secret' => '830e73846643728238950b69e964b61b',
-            'default_graph_version' => 'v3.2',
-            'default_access_token' => 'EAAEZBr6biBCMBAAzZBCcVqkXRtS0ZA929UQ10TawrcD4JNnsfnWLcwOL25DS3BEbUYZAwoPOiFZAbZAT28kzpJN9ogeTKRZAeEoLtuE8HUKnLR9KRKLwoURHGyF6LCZB8E9qTgE1XBTR8fvOwp5GHXz9y4ZB76ZCsQ0DuwU6fgw7u2CqCEJKVjDbdzWNVd9wIZB9hEZD',
+            'default_access_token' => 'EAAEZBr6biBCMBAAIjAZAkXIu1IMsbZBSaPh9aU61506KGZCacxXMFgvDU4HiQUERtZApPUFkBvhE1YCySePlJfY4oxfm29ChxbFZBZAWto9K0Gbec64UAm1UZBXnSi4ZCUiymyoIVXJR9E6LM3gILQ9IWnGADDxs8qZCZCr7ayUaMAgzU3fv9lG7T0VIZBiM8u12aZAQZD',
         ]);
 
         try {
@@ -432,7 +437,7 @@ class FrontendController extends Controller
                 '/SCHICINSPECTION?fields=ratings{reviewer,created_time,has_rating,has_review,rating,recommendation_type,review_text},rating_count,overall_star_rating,name'
             );
         } catch(FacebookOtherException $e) {
-            echo 'Graph returned an error: ' . $e->getMessage();
+            // echo 'Graph returned an error: ' . $e->getMessage();
             exit;
         }
 
