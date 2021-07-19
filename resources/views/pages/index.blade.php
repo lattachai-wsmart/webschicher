@@ -188,13 +188,13 @@
                 </div>
             </div> --}}
             <div class="total">
-                <div class="carousel-item">
-                    <div style="font-size: 2.5rem; display: flex; justify-content: center; align-items: center;">3.7
+                <div class="point-item">
+                    <div class="text-item1">3.7
                         <div class="js-rating" data-score="1" data-number="1"></div>
                     </div>
-                    <div>
-                        <div style="font-size: 1.3rem;" class="p_text1">3 out of 3.7</div>
-                        <div style="font-size: 1.3rem;" class="p_text2">Based on the opinion of 3 people</div>
+                    <div class="text-item2">
+                        <div class="p_text1">3 out of 3.7</div>
+                        <div class="p_text2">Based on the opinion of 3 people</div>
                     </div>
                 </div>
             </div>
