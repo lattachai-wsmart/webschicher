@@ -138,6 +138,7 @@ main {
 
 .slick-slider.slick-dotted.slick-dotted-inner .slick-dots {
     bottom: 1.625rem;
+    right: -70px;
 }
 
 .block.block-rounded .block-content:last-child {
