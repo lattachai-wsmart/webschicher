@@ -131,6 +131,11 @@ return [
             'time' => '&nbsp;&nbsp; 10:00 AM - 7:00 PM​',
             'tel' => '&nbsp;&nbsp; 02-057-1292 (24 Hr.)',
         ],
+        'rule' => [
+            'policy' => 'Privacy Policy',
+            'cookie' => 'Cookie Policy',
+            'term' => 'Term and Conditions'
+        ],
     ],
 
     'warranty' => [
