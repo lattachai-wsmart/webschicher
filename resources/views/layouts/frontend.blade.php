@@ -63,16 +63,93 @@
 
     gtag('config', 'G-LG5EFZR4BW');
     </script>
-</head>
 
-<style>
-    .fnFooter{
-        color: #A4A4A4;
-    }
-    .fnFooter:hover{
-        color: white;
-    }
-</style>
+
+
+    <style>
+        .fnFooter{
+            color: #A4A4A4;
+        }
+        .fnFooter:hover{
+            color: white;
+        }
+
+        .popupPolicy{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 0;
+            -webkit-transform: translate3d(0,0px,650px);
+            -ms-transform: translate3d(0,0px,650px);
+            transform: translate3d(0,0px,650px);
+            will-change: transform;
+            box-sizing: border-box;
+        }
+        .popupPolicyInner{
+            background: #E9EAEE;
+            opacity: 0.75;
+            box-shadow: rgb(0 0 0 / 16%) 2px 2px 2px;
+            border-radius: 5px 5px 0px 0px;
+            padding: 10px;
+            display: grid;
+            max-width: 750px;
+            margin: 0px auto;
+            grid-template-columns: 1fr auto auto;
+            column-gap: 15px;
+            align-content: center;
+            -webkit-box-align: center;
+            align-items: center;
+            position: relative;
+        }
+        .popupPolicyInner p {
+            margin: 0px;
+            color:#132d46;
+            font-size: 16px;
+        }
+        .popupPolicyInner p a {
+            text-decoration: underline;
+            transition: all 0.5s ease 0s;
+            color: #132d46;
+            display: inline-block;
+            background: none;
+            font-size: 16px;
+            padding: 0px;
+        }
+
+        .popupPolicyInner .accept {
+            grid-column: 3 / auto;
+
+        }
+        .popupPolicyInner a {
+            background: #132d46;
+            transition: all 0.5s ease 0s;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            padding: 3px 10px;
+            height: 100%;
+            display: grid;
+            -webkit-box-align: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .accept:hover {
+            background: rgba(46, 85, 122) 90%;
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+        }
+
+
+        .popupPolicyInner p a:hover {
+            text-decoration: none;
+        }
+
+
+
+    </style>
+
+</head>
 
 <body>
     <div id="page-container" class="enable-page-overlay sidebar-dark side-scroll main-content-narrow">
@@ -610,9 +687,13 @@
                             <div class="font-size-h4 mb-1" >@lang('frontend.footer.about.title')</div>
                             <a class="fnFooter" href="{{ route('about') }}">@lang('frontend.footer.about.row1')</a><br>
                             <a class="fnFooter" href="{{ route('jobandcareer') }}">@lang('frontend.footer.about.row2')</a><br>
-                            {{-- <a style="color: white;" href="#">PRESS</a><br> --}}
                             <br>
-                            <a target="_blank" href="https://www.facebook.com/schicinspection/"><i class="fnFooter fab fa-2x fa-facebook-square" ></i></a>
+                            <a class="fnFooter" href="{{ route('policy') }}">@lang('frontend.footer.rule.policy')</a><br>
+                            <a class="fnFooter" href="{{ route('cookie') }}">@lang('frontend.footer.rule.cookie')</a><br>
+                            <a class="fnFooter" href="{{ route('termncondition') }}">@lang('frontend.footer.rule.term')</a><br>
+
+                            {{-- <a style="color: white;" href="#">PRESS</a><br> --}}
+
                             {{-- <i class="fa fa-envelope-o"></i> <a
                                 href="mailto:admin@schicher.com"> admin@schicher.com</a> --}}
                         </address>
@@ -667,12 +748,28 @@
                                 <i class="fa fa-phone"></i>
                                 <a class="fnFooter" href="tel:020571292">@lang('frontend.footer.contact.tel')</a>
                             </span><br>
+                            <br>
+                            <a target="_blank" href="https://www.facebook.com/schicinspection/"><i class="fnFooter fab fa-2x fa-facebook-square" ></i></a>
                         </address>
                     </div>
                 </div>
             </div>
         </footer>
         <!-- END Footer -->
+        @if (session()->get('approvedCookie') != true)
+        <div class="popupPolicy" id="cookie">
+            <div class="popupPolicyInner">
+                <p>
+                    บริษัท ชิเชอร์ จำกัด ใช้คุกกี้เพื่อให้ท่านได้รับประสบการณ์ การใช้งานที่ดียิ่งขึ้น
+                    <br>
+                    <a href="{{ route('cookie') }}">อ่านนโยบายคุกกี้</a>
+                    <a href="{{ route('policy') }}">อ่านนโยบายคุ้มครองข้อมูลส่วนบุคคล</a>
+                    <a href="{{ route('termncondition') }}">อ่านเงื่อนไขข้อตกลงการใช้บริการ</a>
+                </p>
+                <a onclick="approvedCookie()" class="accept" >ยอมรับ</a>
+            </div>
+        </div>
+        @endif
 
         <!-- Apps Modal -->
         <!-- Opens from the modal toggle button in the header -->
@@ -753,6 +850,42 @@
 
     <!-- OneUI Core JS -->
     <script src="{{ asset('js/oneui.app.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.2/js.cookie.js">      </script>
+
+    {{-- <script>
+
+        function myFunction() {
+            var x = document.getElementById("cookie");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+
+    </script> --}}
+
+    <script>
+
+        function approvedCookie(){
+            jQuery.ajax({
+            url: "{{ route('setcookie', 1) }}",
+            type: "GET",
+
+                success: function(data){
+                    if(data){
+                        var x = document.getElementById("cookie");
+                            if (x.style.display === "none") {
+                                x.style.display = "block";
+                            } else {
+                                x.style.display = "none";
+                            }
+                        }
+                    }
+            });
+        }
+    </script>
 
     @yield('js_after')
 </body>

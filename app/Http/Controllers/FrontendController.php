@@ -513,4 +513,9 @@ class FrontendController extends Controller
         return view('pages/cookie')->with('header', $this->header);
     }
 
+    public function setcookie($approvedCookie)
+    {
+        session()->put('approvedCookie', $approvedCookie);
+        return true;
+    }
 }
