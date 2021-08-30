@@ -154,60 +154,60 @@
     </div>
 
     <!-- Facebook Review -->
-    <div class="facebook_review_container">
-        <div class="showreview">
-            <div class="facebook">
-                <div class="profile_facebook">
-                    <a href="https://web.facebook.com/SCHICINSPECTION/reviews/?ref=page_internal&_rdc=1&_rdr" target="_blank">
-                        <img class="icon_face" src="media/photos/facebook2.png" alt="">
-                    </a>
-                </div>
-                <div class="name_facebook">
-                    <div>
-                        <div class="f_text1">Facebook Fanpage</div>
-                        <a href="https://web.facebook.com/SCHICINSPECTION/reviews/?ref=page_internal&_rdc=1&_rdr" target="_blank">
-                            <div class="f_text2">
-                                <span class="S">S</span>CHIC inspection
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-                <div class="dividing_line">
+{{--    <div class="facebook_review_container">--}}
+{{--        <div class="showreview">--}}
+{{--            <div class="facebook">--}}
+{{--                <div class="profile_facebook">--}}
+{{--                    <a href="https://web.facebook.com/SCHICINSPECTION/reviews/?ref=page_internal&_rdc=1&_rdr" target="_blank">--}}
+{{--                        <img class="icon_face" src="media/photos/facebook2.png" alt="">--}}
+{{--                    </a>--}}
+{{--                </div>--}}
+{{--                <div class="name_facebook">--}}
+{{--                    <div>--}}
+{{--                        <div class="f_text1">Facebook Fanpage</div>--}}
+{{--                        <a href="https://web.facebook.com/SCHICINSPECTION/reviews/?ref=page_internal&_rdc=1&_rdr" target="_blank">--}}
+{{--                            <div class="f_text2">--}}
+{{--                                <span class="S">S</span>CHIC inspection--}}
+{{--                            </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--                <div class="dividing_line">--}}
 
-                </div>
-            {{-- <div class="total">
-                <div class="carousel-item">
-                    <div style="font-size: 2.5rem; display: flex; justify-content: center; align-items: center;">{{ $graphNode->overall_star_rating }}
-                        <div class="js-rating" data-score="1" data-number="1"></div>
-                    </div>
-                    <div>
-                        <div style="font-size: 1.3rem;" class="p_text1">{{ $graphNode->rating_count }} out of {{ $graphNode->overall_star_rating }}</div>
-                        <div style="font-size: 1.3rem;" class="p_text2">Based on the opinion of {{ $graphNode->rating_count }} people</div>
-                    </div>
-                </div>
-            </div> --}}
-            <div class="total">
-                <div class="point-item">
-                    <div class="text-item1">3.7
-                        <div class="js-rating" data-score="1" data-number="1"></div>
-                    </div>
-                    <div class="text-item2">
-                        <div class="p_text1">3 out of 3.7</div>
-                        <div class="p_text2">Based on the opinion of 3 people</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="next_previous">
-            <a href="javascript:void(0)" class="previous round" id="prev">&#8249;</a>
-            <a href="javascript:void(0)" class="next round" id="next">&#8250;</a>
-            <div class="slidecontent">
-            </div>
-            {{-- <div class="slidecontent" data-count="<?php echo count($graphNode->ratings->data); ?>" >
-            </div> --}}
-        </div>
-    </div>
+{{--                </div>--}}
+{{--            --}}{{-- <div class="total">--}}
+{{--                <div class="carousel-item">--}}
+{{--                    <div style="font-size: 2.5rem; display: flex; justify-content: center; align-items: center;">{{ $graphNode->overall_star_rating }}--}}
+{{--                        <div class="js-rating" data-score="1" data-number="1"></div>--}}
+{{--                    </div>--}}
+{{--                    <div>--}}
+{{--                        <div style="font-size: 1.3rem;" class="p_text1">{{ $graphNode->rating_count }} out of {{ $graphNode->overall_star_rating }}</div>--}}
+{{--                        <div style="font-size: 1.3rem;" class="p_text2">Based on the opinion of {{ $graphNode->rating_count }} people</div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div> --}}
+{{--            <div class="total">--}}
+{{--                <div class="point-item">--}}
+{{--                    <div class="text-item1">3.7--}}
+{{--                        <div class="js-rating" data-score="1" data-number="1"></div>--}}
+{{--                    </div>--}}
+{{--                    <div class="text-item2">--}}
+{{--                        <div class="p_text1">3 out of 3.7</div>--}}
+{{--                        <div class="p_text2">Based on the opinion of 3 people</div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="next_previous">--}}
+{{--            <a href="javascript:void(0)" class="previous round" id="prev">&#8249;</a>--}}
+{{--            <a href="javascript:void(0)" class="next round" id="next">&#8250;</a>--}}
+{{--            <div class="slidecontent">--}}
+{{--            </div>--}}
+{{--            --}}{{-- <div class="slidecontent" data-count="<?php echo count($graphNode->ratings->data); ?>" >--}}
+{{--            </div> --}}
+{{--        </div>--}}
+{{--    </div>--}}
     <!-- ENDFacebook Review -->
 
     <!-- END Page Content -->
@@ -291,7 +291,7 @@
            js.src = "https://connect.facebook.net/en_US/sdk.js";
            fjs.parentNode.insertBefore(js, fjs);
          }(document, 'script', 'facebook-jssdk'));
-         
+
     </script>
 
     <script>
