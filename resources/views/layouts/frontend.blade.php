@@ -178,7 +178,7 @@
                     <div class="dropdown d-inline-block ml-2 d-xs-none">
                         <a style="font-family:SukhumvitSet;" class="btn btn-sm btn-dual btn-rounded d-flex align-items-center"
                             id="page-header-user-dropdown" href="{{ route('findqualilyusedcars') }}">
-                            Search Certified Usedcars
+                            Certified Usedcars
                         </a>
                     </div>
                     <!-- END User Dropdown -->
@@ -585,13 +585,13 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-main-item">
+                                {{-- <li class="nav-main-item">
                                     <a class="nav-main-link" href="{{ route('jobandcareer') }}">
-                                        {{-- <i class="nav-main-link-icon fa fa-money-bill-wave"></i> --}}
+
                                         <span class="nav-main-link-name">@lang('frontend.menu.job_careers')</span>
                                     </a>
 
-                                </li>
+                                </li> --}}
                                 {{-- <li class="nav-main-item">
                                     <a class="nav-main-link" data-toggle="submenu" aria-haspopup="true"
                                         aria-expanded="false" href="#">
@@ -686,7 +686,7 @@
 
                             <div class="font-size-h4 mb-1" >@lang('frontend.footer.about.title')</div>
                             <a class="fnFooter" href="{{ route('about') }}">@lang('frontend.footer.about.row1')</a><br>
-                            <a class="fnFooter" href="{{ route('jobandcareer') }}">@lang('frontend.footer.about.row2')</a><br>
+                            {{-- <a class="fnFooter" href="{{ route('jobandcareer') }}">@lang('frontend.footer.about.row2')</a><br> --}}
                             <br>
                             <a class="fnFooter" href="{{ route('policy') }}">@lang('frontend.footer.rule.policy')</a><br>
                             <a class="fnFooter" href="{{ route('cookie') }}">@lang('frontend.footer.rule.cookie')</a><br>
