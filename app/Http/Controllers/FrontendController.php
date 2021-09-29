@@ -347,7 +347,7 @@ class FrontendController extends Controller
                 'car_model_id' => $request->input('model'),
                 'booking_date' => $request->input('date'),
                 'note' => $request->input('comment'),
-                'partner' => $request->input('partner') ? $request->input('partner') : '',
+                'partner' => $request->input('partner') ? $request->input('partner') : null,
             ]),
             CURLOPT_HTTPHEADER => [
              // Set here required headers
