@@ -306,7 +306,14 @@ class FrontendController extends Controller
     {
         $this->header['header'] = $this->header['header'].' | '.Lang::get('frontend.bookingins.title');
 
-        return view('pages.booking')->with('header', $this->header);
+        return view('pages.booking.booking')->with('header', $this->header);
+    }
+
+    public function bookingtisco()
+    {
+        $this->header['header'] = $this->header['header'].' | '.Lang::get('frontend.bookingins.title');
+
+        return view('pages.booking.bookingtisco')->with('header', $this->header);
     }
 
     public function createbookingins(Request $request)
@@ -340,6 +347,7 @@ class FrontendController extends Controller
                 'car_model_id' => $request->input('model'),
                 'booking_date' => $request->input('date'),
                 'note' => $request->input('comment'),
+                'partner' => $request->input('partner') ? $request->input('partner') : '',
             ]),
             CURLOPT_HTTPHEADER => [
              // Set here required headers

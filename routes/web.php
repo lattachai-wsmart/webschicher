@@ -31,6 +31,8 @@ Route::get('policy', [FrontendController::class, "policy"])->name('policy');
 Route::get('cookie', [FrontendController::class, "cookie"])->name('cookie');
 Route::get('setcookie/{approvedCookie}', [FrontendController::class, "setcookie"])->name('setcookie');
 // Route::get('/', [FrontendController::class, "facebook_review"])->name('facebook_review');
+Route::get('tisco', [FrontendController::class, "bookingtisco"])->name('booking_tisco');
+
 
 Route::get('warranty', [FrontendController::class, "warrantynroadside"])->name('warrantynroadside');
 Route::prefix('warranty')->name('warranty.')->group(function () {
