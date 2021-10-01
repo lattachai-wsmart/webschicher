@@ -675,83 +675,81 @@
         <!-- Footer -->
         <footer id="page-footer" class=" bg-body-light display-flex">
             <div class="content-full py-3 bg-schic justify-content-center ">
-                <div class="row font-size-sm ">
-                    <div class="block-content row text-light justify-content-center">
-                        <div class="col-md-1"></div>
-                        <address class="font-size-18 col-md-2" >
-                            {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data1.title')</div>
-                            @lang('frontend.contacts.data1.row1')<br>
-                            @lang('frontend.contacts.data1.row2')<br>
-                            @lang('frontend.contacts.data1.row3')<br><br> --}}
+                <div class="block-content row font-size-sm text-light justify-content-center">
+                    <div class="col-md-1"></div>
+                    <address class="font-size-18 col-md-2" >
+                        {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data1.title')</div>
+                        @lang('frontend.contacts.data1.row1')<br>
+                        @lang('frontend.contacts.data1.row2')<br>
+                        @lang('frontend.contacts.data1.row3')<br><br> --}}
 
-                            <div class="font-size-h4 mb-1" >@lang('frontend.footer.about.title')</div>
-                            <a class="fnFooter" href="{{ route('about') }}">@lang('frontend.footer.about.row1')</a><br>
-                            {{-- <a class="fnFooter" href="{{ route('jobandcareer') }}">@lang('frontend.footer.about.row2')</a><br> --}}
-                            <br>
-                            <a class="fnFooter" href="{{ route('policy') }}">@lang('frontend.footer.rule.policy')</a><br>
-                            <a class="fnFooter" href="{{ route('cookie') }}">@lang('frontend.footer.rule.cookie')</a><br>
-                            <a class="fnFooter" href="{{ route('termncondition') }}">@lang('frontend.footer.rule.term')</a><br>
+                        <div class="font-size-h4 mb-1" >@lang('frontend.footer.about.title')</div>
+                        <a class="fnFooter" href="{{ route('about') }}">@lang('frontend.footer.about.row1')</a><br>
+                        {{-- <a class="fnFooter" href="{{ route('jobandcareer') }}">@lang('frontend.footer.about.row2')</a><br> --}}
+                        <br>
+                        <a class="fnFooter" href="{{ route('policy') }}">@lang('frontend.footer.rule.policy')</a><br>
+                        <a class="fnFooter" href="{{ route('cookie') }}">@lang('frontend.footer.rule.cookie')</a><br>
+                        <a class="fnFooter" href="{{ route('termncondition') }}">@lang('frontend.footer.rule.term')</a><br>
 
-                            {{-- <a style="color: white;" href="#">PRESS</a><br> --}}
+                        {{-- <a style="color: white;" href="#">PRESS</a><br> --}}
 
-                            {{-- <i class="fa fa-envelope-o"></i> <a
-                                href="mailto:admin@schicher.com"> admin@schicher.com</a> --}}
-                        </address>
+                        {{-- <i class="fa fa-envelope-o"></i> <a
+                            href="mailto:admin@schicher.com"> admin@schicher.com</a> --}}
+                    </address>
 
-                        <address class="font-size-18 col-md-3">
-                            {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data2.title')</div>
-                            @lang('frontend.contacts.data2.row1')<br>
-                            @lang('frontend.contacts.data2.row2')​<br><br> --}}
-                            <div class="font-size-h4 mb-1">@lang('frontend.footer.service.title')</div>
-                            <a class="fnFooter" href="{{ route('service.vehicleanalysis') }}">@lang('frontend.footer.service.row1')</a><br>
-                            <a class="fnFooter" href="{{ route('service.claimsappraisal') }}">@lang('frontend.footer.service.row2')</a><br>
-                            <a class="fnFooter" href="{{ route('service.vehiclemanageserv') }}">@lang('frontend.footer.service.row3')</a><br>
-                            {{-- <a class="fnFooter" href="{{ route('service.dealershipcer') }}">@lang('frontend.footer.service.row4')</a><br>
-                            <a class="fnFooter" href="{{ route('service.dealershiptra') }}">@lang('frontend.footer.service.row5')</a><br> --}}
-                        </address>
+                    <address class="font-size-18 col-md-3">
+                        {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data2.title')</div>
+                        @lang('frontend.contacts.data2.row1')<br>
+                        @lang('frontend.contacts.data2.row2')​<br><br> --}}
+                        <div class="font-size-h4 mb-1">@lang('frontend.footer.service.title')</div>
+                        <a class="fnFooter" href="{{ route('service.vehicleanalysis') }}">@lang('frontend.footer.service.row1')</a><br>
+                        <a class="fnFooter" href="{{ route('service.claimsappraisal') }}">@lang('frontend.footer.service.row2')</a><br>
+                        <a class="fnFooter" href="{{ route('service.vehiclemanageserv') }}">@lang('frontend.footer.service.row3')</a><br>
+                        {{-- <a class="fnFooter" href="{{ route('service.dealershipcer') }}">@lang('frontend.footer.service.row4')</a><br>
+                        <a class="fnFooter" href="{{ route('service.dealershiptra') }}">@lang('frontend.footer.service.row5')</a><br> --}}
+                    </address>
 
-                        <address class="font-size-18 col-md-3">
-                            {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data3.title')</div>
-                            @lang('frontend.contacts.data3.row1')<br><br>
-                            <a href="tel:020571292"><i class="fa fa-phone"></i> 02-057-1292</a><br> --}}
-                            <div class="font-size-h4 mb-1">@lang('frontend.footer.recService.title')</div>
-                            <a class="fnFooter" href="{{ route('warrantynroadside') }}">@lang('frontend.footer.recService.row1')</a><br>
-                            <a class="fnFooter" href="{{ route('bookingins') }}">@lang('frontend.footer.recService.row2')</a><br>
-                            <a class="fnFooter" href="{{ route('findqualilyusedcars') }}">@lang('frontend.footer.recService.row3')</a><br>
-                            <a class="fnFooter" href="{{ route('shicertificates') }}">@lang('frontend.footer.recService.row4')</a><br>
-                        </address>
+                    <address class="font-size-18 col-md-3">
+                        {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data3.title')</div>
+                        @lang('frontend.contacts.data3.row1')<br><br>
+                        <a href="tel:020571292"><i class="fa fa-phone"></i> 02-057-1292</a><br> --}}
+                        <div class="font-size-h4 mb-1">@lang('frontend.footer.recService.title')</div>
+                        <a class="fnFooter" href="{{ route('warrantynroadside') }}">@lang('frontend.footer.recService.row1')</a><br>
+                        <a class="fnFooter" href="{{ route('bookingins') }}">@lang('frontend.footer.recService.row2')</a><br>
+                        <a class="fnFooter" href="{{ route('findqualilyusedcars') }}">@lang('frontend.footer.recService.row3')</a><br>
+                        <a class="fnFooter" href="{{ route('shicertificates') }}">@lang('frontend.footer.recService.row4')</a><br>
+                    </address>
 
-                        <address class="font-size-18 col-md-3">
-                            {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data3.title')</div>
-                            @lang('frontend.contacts.data3.row1')<br><br>
-                            <a href="tel:020571292"><i class="fa fa-phone"></i> 02-057-1292</a><br> --}}
-                            <div class="font-size-h4 mb-1">@lang('frontend.footer.contact.title')</div>
-                            <span style="color: white;">
+                    <address class="font-size-18 col-md-3">
+                        {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data3.title')</div>
+                        @lang('frontend.contacts.data3.row1')<br><br>
+                        <a href="tel:020571292"><i class="fa fa-phone"></i> 02-057-1292</a><br> --}}
+                        <div class="font-size-h4 mb-1">@lang('frontend.footer.contact.title')</div>
+                        <span style="color: white;">
                                 <i class="fa fa-home"></i>@lang('frontend.footer.contact.add1')
                             </span><br>
-                            <span>@lang('frontend.footer.contact.add2')</span><br>
+                        <span>@lang('frontend.footer.contact.add2')</span><br>
 
-                            <span style="color: white;">
+                        <span style="color: white;">
                                 <i class="fa fa-envelope"></i>
                                 <a class="fnFooter" href="mailto:admin@schicher.com">@lang('frontend.footer.contact.email')</a>
                             </span><br>
 
-                            <span style="color: white;">
+                        <span style="color: white;">
                                 <i class="far fa-calendar-alt"><span style="font-family:SukhumvitSet;">@lang('frontend.footer.contact.date')</span></i>
                             </span><br>
 
-                            <span style="color: white;">
+                        <span style="color: white;">
                                 <i class="fas fa-clock"></i>@lang('frontend.footer.contact.time')
                             </span><br>
 
-                            <span style="color: white;">
+                        <span style="color: white;">
                                 <i class="fa fa-phone"></i>
                                 <a class="fnFooter" href="tel:020571292">@lang('frontend.footer.contact.tel')</a>
                             </span><br>
-                            <br>
-                            <a target="_blank" href="https://www.facebook.com/schicinspection/"><i class="fnFooter fab fa-2x fa-facebook-square" ></i></a>
-                        </address>
-                    </div>
+                        <br>
+                        <a target="_blank" href="https://www.facebook.com/schicinspection/"><i class="fnFooter fab fa-2x fa-facebook-square" ></i></a>
+                    </address>
                 </div>
             </div>
         </footer>
