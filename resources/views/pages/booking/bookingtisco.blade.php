@@ -43,7 +43,7 @@
     {{-- style="background-image: url('{{ asset('media/photos/about/bg-schich-booking.png') }}');" --}}
     <div class="content bg-white position-relative show-content">
         <div>
-            <img src="{{ asset('media/photos/about/tisco_'.Session::get('locale').'.png') }}" class="image-bg-bookins" />
+            <img src="{{ asset('media/photos/about/tisco1_'.Session::get('locale').'.png') }}" class="image-bg-bookins" />
         </div>
         <div class="">
             <div class="row justify-content-center">
