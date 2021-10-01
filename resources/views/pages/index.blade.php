@@ -176,25 +176,14 @@
 {{--                <div class="dividing_line">--}}
 
 {{--                </div>--}}
-{{--            --}}{{-- <div class="total">--}}
+{{--             <div class="total">--}}
 {{--                <div class="carousel-item">--}}
-{{--                    <div style="font-size: 2.5rem; display: flex; justify-content: center; align-items: center;">{{ $graphNode->overall_star_rating }}--}}
+{{--                    <div style="font-size: 2.5rem; display: flex; justify-content: center; align-items: center;">{{ $facebookReview->overall_star_rating }}--}}
 {{--                        <div class="js-rating" data-score="1" data-number="1"></div>--}}
 {{--                    </div>--}}
 {{--                    <div>--}}
-{{--                        <div style="font-size: 1.3rem;" class="p_text1">{{ $graphNode->rating_count }} out of {{ $graphNode->overall_star_rating }}</div>--}}
-{{--                        <div style="font-size: 1.3rem;" class="p_text2">Based on the opinion of {{ $graphNode->rating_count }} people</div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div> --}}
-{{--            <div class="total">--}}
-{{--                <div class="point-item">--}}
-{{--                    <div class="text-item1">3.7--}}
-{{--                        <div class="js-rating" data-score="1" data-number="1"></div>--}}
-{{--                    </div>--}}
-{{--                    <div class="text-item2">--}}
-{{--                        <div class="p_text1">3 out of 3.7</div>--}}
-{{--                        <div class="p_text2">Based on the opinion of 3 people</div>--}}
+{{--                        <div style="font-size: 1.3rem;" class="p_text1">{{ $facebookReview->rating_count }} out of {{ $facebookReview->overall_star_rating }}</div>--}}
+{{--                        <div style="font-size: 1.3rem;" class="p_text2">Based on the opinion of {{ $facebookReview->rating_count }} people</div>--}}
 {{--                    </div>--}}
 {{--                </div>--}}
 {{--            </div>--}}
@@ -202,10 +191,24 @@
 {{--        <div class="next_previous">--}}
 {{--            <a href="javascript:void(0)" class="previous round" id="prev">&#8249;</a>--}}
 {{--            <a href="javascript:void(0)" class="next round" id="next">&#8250;</a>--}}
-{{--            <div class="slidecontent">--}}
+{{--            <div class="slidecontent" data-count="{{count($facebookReview->ratings->data)}}">--}}
+{{--                @foreach($facebookReview->ratings->data as $key => $value)--}}
+{{--                    <div class="slidecontentcontainer">--}}
+{{--                        <div class="profile">--}}
+{{--                            <div class="carousel-item">--}}
+{{--                                <img class="icon_profile" src="https://satit.udru.ac.th/wp-content/uploads/2020/06/avatar-png-1.png" alt="">--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="name_comment">--}}
+{{--                            <div class="first_last_name">--}}
+{{--                                &nbsp; <span class="star"><div class="js-rating" data-score="5"></div></span></div>--}}
+{{--                            <div class="comment">--}}
+{{--                                <div>{{$value->review_text}}</div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                @endforeach--}}
 {{--            </div>--}}
-{{--            --}}{{-- <div class="slidecontent" data-count="<?php echo count($graphNode->ratings->data); ?>" >--}}
-{{--            </div> --}}
 {{--        </div>--}}
 {{--    </div>--}}
     <!-- ENDFacebook Review -->
@@ -355,29 +358,29 @@
                 'comment':'Lorem adipisicing elit. adipisci assumenda sequi vel soluta nesciunt aliquam! Esse architecto ad distinctio.'},
         ]
 
-        console.log(document.querySelectorAll('.slidecontent')[0].dataset.count)
+        // console.log(document.querySelectorAll('.slidecontent')[0].dataset.count)
 
-        console.log(pofileArray)
-
-        let pofileArrayWidth = pofileArray.length * 100
+        console.log(document.querySelectorAll('.slidecontentcontainer').length)
+        const dataCommentCount = document.querySelectorAll('.slidecontentcontainer').length;
+        let pofileArrayWidth =  dataCommentCount * 100
         let slidecontent = document.querySelectorAll('.slidecontent')[0]
 
-        pofileArray.forEach((item, index) => {
-            slidecontent.innerHTML += `<div class="slidecontentcontainer">
-                    <div class="profile">
-                        <div class="carousel-item">
-                            <img class="icon_profile" src="${item.img}" alt="">
-                        </div>
-                    </div>
-                    <div class="name_comment">
-                        <div class="first_last_name">
-                            ${item.name}<span class="star"><div class="js-rating" data-score="5"></div></span></div>
-                        <div class="comment">
-                            <div>${item.comment}</div>
-                        </div>
-                    </div>
-                </div>`
-        });
+        // pofileArray.forEach((item, index) => {
+        //     slidecontent.innerHTML += `<div class="slidecontentcontainer">
+        //             <div class="profile">
+        //                 <div class="carousel-item">
+        //                     <img class="icon_profile" src="${item.img}" alt="">
+        //                 </div>
+        //             </div>
+        //             <div class="name_comment">
+        //                 <div class="first_last_name">
+        //                     ${item.name}<span class="star"><div class="js-rating" data-score="5"></div></span></div>
+        //                 <div class="comment">
+        //                     <div>${item.comment}</div>
+        //                 </div>
+        //             </div>
+        //         </div>`
+        // });
 
         slidecontent.style.width = `${pofileArrayWidth}%`
         prev = document.getElementById("prev");
@@ -385,13 +388,13 @@
         let index = 1
         prev.onclick = function() {
             if (index < 0) index = pofileArray.length - 1
-            slidecontent.style.transform = `translateX(-${index*(100/pofileArray.length)}%)`
+            slidecontent.style.transform = `translateX(-${index*(100/dataCommentCount)}%)`
             index--
         };
 
         next.onclick = function() {
-            if (index > pofileArray.length - 1) index = 0
-            slidecontent.style.transform = `translateX(-${index*(100/pofileArray.length)}%)`
+            if (index > dataCommentCount - 1) index = 0
+            slidecontent.style.transform = `translateX(-${index*(100/dataCommentCount)}%)`
             index++
         };
     </script>

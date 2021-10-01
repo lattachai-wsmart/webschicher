@@ -425,38 +425,43 @@ class FrontendController extends Controller
         }
     }
 
-    // public function facebook_review()
-    // {
+     public function facebook_review()
+     {
+        //https://developers.facebook.com/docs/pages/access-tokens#get-a-page-access-token
+         // $fb = new \Facebook\Facebook([
+         //     'app_id' => env('350399116739619'),
+         //     'app_secret' => env('830e73846643728238950b69e964b61b'),
+         //     'default_access_token' => env('EAAEZBr6biBCMBAAIjAZAkXIu1IMsbZBSaPh9aU61506KGZCacxXMFgvDU4HiQUERtZApPUFkBvhE1YCySePlJfY4oxfm29ChxbFZBZAWto9K0Gbec64UAm1UZBXnSi4ZCUiymyoIVXJR9E6LM3gILQ9IWnGADDxs8qZCZCr7ayUaMAgzU3fv9lG7T0VIZBiM8u12aZAQZD'),
+         // ]);
 
-    //     // $fb = new \Facebook\Facebook([
-    //     //     'app_id' => env('350399116739619'),
-    //     //     'app_secret' => env('830e73846643728238950b69e964b61b'),
-    //     //     'default_access_token' => env('EAAEZBr6biBCMBAAIjAZAkXIu1IMsbZBSaPh9aU61506KGZCacxXMFgvDU4HiQUERtZApPUFkBvhE1YCySePlJfY4oxfm29ChxbFZBZAWto9K0Gbec64UAm1UZBXnSi4ZCUiymyoIVXJR9E6LM3gILQ9IWnGADDxs8qZCZCr7ayUaMAgzU3fv9lG7T0VIZBiM8u12aZAQZD'),
-    //     // ]);
+         $fb = new \Facebook\Facebook([
+             'app_id' => '350399116739619',
+             'app_secret' => '830e73846643728238950b69e964b61b',
+//             'default_access_token' => 'EAAEZBr6biBCMBAOCHmr6Kojuygxs9bw3ZBjZCZAFou46SnacZAL3PyOMR6SpZAy012A8ZCvg4c3ICYbCWMtkxcN9grOUwe8QZAyF1ZCF8FCwZCH4tTgDZCIZA2mZCNgDv6WazaxDsXBIZA7AXVlQkDmozvhLxdBoBghqBLnuAXZBkwrKXKNsUNHaZCifaYtd',
+         ]);
 
-    //     $fb = new \Facebook\Facebook([
-    //         'app_id' => '350399116739619',
-    //         'app_secret' => '830e73846643728238950b69e964b61b',
-    //         'default_access_token' => 'EAAEZBr6biBCMBAGrzqjXZClUvMQW6AWZAj1QjWrZCSvjqUQwnUmQ1aTzE2yNl1ZAKypHqMK73PSAvzZCEcHdr0c3APUqO8h06fh7L9MrsZArB071PzmrCZCqTOXmnZCgC3Q8cwO5XgZCGhWQd3oVtaZA6E1C4XqLkqcUuedssvHP0unk51N3SDJY0i6eSqnprE75GMZD',
-    //     ]);
+         $response = $fb->get('SCHICINSPECTION?fields=access_token&access_token=EAAEZBr6biBCMBAOCHmr6Kojuygxs9bw3ZBjZCZAFou46SnacZAL3PyOMR6SpZAy012A8ZCvg4c3ICYbCWMtkxcN9grOUwe8QZAyF1ZCF8FCwZCH4tTgDZCIZA2mZCNgDv6WazaxDsXBIZA7AXVlQkDmozvhLxdBoBghqBLnuAXZBkwrKXKNsUNHaZCifaYtd');
 
-    //     try {
-    //         $response = $fb->get(
-    //             '/SCHICINSPECTION?fields=ratings{reviewer,created_time,has_rating,has_review,rating,recommendation_type,review_text},rating_count,overall_star_rating,name'
-    //         );
-    //     }
-    //     catch(FacebookOtherException $e) {
-    //         echo 'Graph returned an error: ' . $e->getMessage();
-    //         exit;
-    //     }
+         $graphNode =  json_decode($response->getBody());
 
-    //     $graphNode =  json_decode($response->getBody());
-    //     // print_r($response->getBody());
-    //     // print_r($graphNode->ratings->data);
+         $url = '/SCHICINSPECTION?fields=ratings{reviewer,created_time,has_rating,has_review,rating,recommendation_type,review_text},rating_count,overall_star_rating,name&access_token='.$graphNode->access_token;
+//         echo $url;exit;
+         try {
+             $response = $fb->get($url);
+         }
+         catch(FacebookOtherException $e) {
+             echo 'Graph returned an error: ' . $e->getMessage();
+             exit;
+         }
 
-    //     return view('pages/index', compact('graphNode'))->with('header', $this->header);
+//          print_r($response->getBody());
+         $facebookReview =  json_decode($response->getBody());
+//          print_r($graphNode);
+//          exit();
 
-    // }
+         return view('pages/index', compact('facebookReview'))->with('header', $this->header);
+
+     }
 
     public function warrantynroadside()
     {

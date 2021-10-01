@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 // Example Routes
 // Route::view('/', 'index');
 Route::get('/', [FrontendController::class, "index"]);
+//Route::get('/', [FrontendController::class, "facebook_review"])->name('index');
 Route::get('change/lang/{lang}', [FrontendController::class, "lang_change"])->name('LangChange');
 Route::get('/about', [FrontendController::class, "about"])->name('about');
 Route::get('contact', [FrontendController::class, "contact"])->name('contact');
@@ -30,7 +31,6 @@ Route::get('termandcondition', [FrontendController::class, "termncondition"])->n
 Route::get('policy', [FrontendController::class, "policy"])->name('policy');
 Route::get('cookie', [FrontendController::class, "cookie"])->name('cookie');
 Route::get('setcookie/{approvedCookie}', [FrontendController::class, "setcookie"])->name('setcookie');
-// Route::get('/', [FrontendController::class, "facebook_review"])->name('facebook_review');
 Route::get('khumcarbytisco', [FrontendController::class, "bookingtisco"])->name('booking_tisco');
 
 
