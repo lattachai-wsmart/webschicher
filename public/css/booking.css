@@ -20,9 +20,14 @@
 }
 
 @media (max-width: 767.98px) {
+    .content {
+        padding: 0 0 0;
+    }
     #box-show-form {
-        width: 90%;
-        left: 7%;
+        clear: both;
+        position: unset;
+        width: 100%;
+        left: unset;
     }
     /* .text-title-left{
         display: none;
@@ -33,8 +38,8 @@
 }
 
 @media (max-width: 400.98px) {
-    #box-show-form {
-        width: 90%;
-        left: 27px;
-    }
+    /*#box-show-form {*/
+    /*    width: 90%;*/
+    /*    left: 27px;*/
+    /*}*/
 }
