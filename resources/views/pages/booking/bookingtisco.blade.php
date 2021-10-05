@@ -42,67 +42,61 @@
     <!-- Page Content -->
     {{-- style="background-image: url('{{ asset('media/photos/about/bg-schich-booking.png') }}');" --}}
     <div class="content bg-white position-relative show-content">
-        <div>
-            <img src="{{ asset('media/photos/about/tisco2_'.Session::get('locale').'.png') }}" class="image-bg-bookins" />
-        </div>
-        <div class="">
-            <div class="row justify-content-center">
-                <div>
-                    <div class="row" id="box-show-form" >
-                        <div class="col-xl-7 mb-5 text-title-left d-none d-md-block" >
-{{--                            <Text class="text-white h2 " style="font-size:40px; font-family:SukhumvitSet;  letter-spacing: 3px;   text-shadow: 2px 2px black; line-height: 2;">@lang('frontend.bookingins.banner1')</Text><br/>--}}
-{{--                            <Text class="text-white h1" style="font-size:60px; font-family:SukhumvitSet; font-weight: 600;  text-shadow: 2px 2px black; line-height: 2;">@lang('frontend.bookingins.banner2')</Text>--}}
-{{--                            <Text class="h1" style="color:#FDBE29; font-size:60px; font-family:SukhumvitSet; text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner3')</Text><br/>--}}
-{{--                            <Text class="text-white h2" style="font-size:40px; font-family:SukhumvitSet; letter-spacing:3px; text-shadow: 2px 2px black; line-height: 2;">@lang('frontend.bookingins.banner4')</Text><br/>--}}
-{{--                            <Text class="text-white h2" style="font-size:40px; font-family:SukhumvitSet; letter-spacing: -2px; line-height: 2.2;   text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner5')</Text>--}}
+        <img src="{{ asset('media/photos/about/tisco2_'.Session::get('locale').'.png') }}" class="image-bg-bookins" />
+        <div class="row justify-content-center">
+            <div class="row" id="box-show-form" >
+                <div class="col-xl-7 mb-5 text-title-left d-none d-md-block" >
+                    {{--                            <Text class="text-white h2 " style="font-size:40px; font-family:SukhumvitSet;  letter-spacing: 3px;   text-shadow: 2px 2px black; line-height: 2;">@lang('frontend.bookingins.banner1')</Text><br/>--}}
+                    {{--                            <Text class="text-white h1" style="font-size:60px; font-family:SukhumvitSet; font-weight: 600;  text-shadow: 2px 2px black; line-height: 2;">@lang('frontend.bookingins.banner2')</Text>--}}
+                    {{--                            <Text class="h1" style="color:#FDBE29; font-size:60px; font-family:SukhumvitSet; text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner3')</Text><br/>--}}
+                    {{--                            <Text class="text-white h2" style="font-size:40px; font-family:SukhumvitSet; letter-spacing:3px; text-shadow: 2px 2px black; line-height: 2;">@lang('frontend.bookingins.banner4')</Text><br/>--}}
+                    {{--                            <Text class="text-white h2" style="font-size:40px; font-family:SukhumvitSet; letter-spacing: -2px; line-height: 2.2;   text-shadow: 2px 2px black;">@lang('frontend.bookingins.banner5')</Text>--}}
+                </div>
+                <div class="col-xl-5 box-form bg-white bg-box-tisco rounded">
+                    <form action="{{ route('createbookingins') }}" method='post' class="col-12" id="bookingins">
+                        @csrf
+                        <input type="hidden" name="partner" value="tisco">
+                        <div class="row justify-content-center mt-3">
+                            <h6 style="font-family:SukhumvitSet">
+                                @lang('frontend.bookingins.filldetail')
+                            </h6>
                         </div>
-                        <div class="col-xl-5 box-form bg-white bg-box-tisco rounded">
-                            <form action="{{ route('createbookingins') }}" method='post' class="col-12" id="bookingins">
-                                @csrf
-                                <input type="hidden" name="partner" value="tisco">
-                                <div class="row justify-content-center mt-3">
-                                    <h6 style="font-family:SukhumvitSet">
-                                        @lang('frontend.bookingins.filldetail')
-                                    </h6>
-                                </div>
-                                <div class="row mt-2">
-                                    <label class="col-lg-4" for="name" align="left" >@lang('frontend.bookingins.name')</label>
-                                    <input class="col-lg-8 form-control form-control-sm form-border" type="text" name="name" id="name" required>
-                                </div>
-                                <div class="row mt-2">
-                                    <label class="col-lg-4" for="tel" align="left">@lang('frontend.bookingins.phone')</label>
-                                    <input class="col-lg-8 form-control form-control-sm form-border" type="tel" name="tel" id="tel" required>
-                                </div>
-
-                                <div class="row mt-2">
-                                    <label class="col-lg-4" for="brand" align="left" >@lang('frontend.bookingins.carbrand')</label>
-                                    <select class="col-lg-8 form-control form-control-sm form-border" name="brand" id="brand" required>
-                                        <option hidden value="">@lang('frontend.bookingins.plzselect')</option>
-                                    </select>
-                                </div>
-
-                                <div class="row mt-2">
-                                    <label class="col-lg-4" for="carmodel" align="left" >@lang('frontend.bookingins.carmodel')</label>
-                                    <select class="col-lg-8 form-control form-control-sm form-border"  name="model" id="carmodel" required>
-                                        <option hidden value="">@lang('frontend.bookingins.plzselect')</option>
-                                    </select>
-                                </div>
-
-                                <div class="row mt-2">
-                                    <label class="col-lg-4" for="date" align="left" >@lang('frontend.bookingins.date')</label>
-                                    <input class="col-lg-8 form-control js-flatpickr" type="date" name="date" id="date" required>
-                                </div>
-                                <div class="form-group row mt-1">
-                                    <label class="col-lg-4" for="comment" align="left" >@lang('frontend.bookingins.note')</label>
-                                    <textarea class="col-lg-8 form-control" rows="3" id="comment" name="comment"></textarea>
-                                </div>
-                                <hr class="my-3" style="width: 97%; margin: 0px auto; border-color: #dadad3;">
-                                <div class="form-group row justify-content-center">
-                                    <button type="submit" class="btn booking-bt book col-8" align="right" id="submitbooking" >@lang('frontend.bookingins.booking')</button>
-                                </div>
-                            </form>
+                        <div class="row mt-2">
+                            <label class="col-lg-4" for="name" align="left" >@lang('frontend.bookingins.name')</label>
+                            <input class="col-lg-8 form-control form-control-sm form-border" type="text" name="name" id="name" required>
                         </div>
-                    </div>
+                        <div class="row mt-2">
+                            <label class="col-lg-4" for="tel" align="left">@lang('frontend.bookingins.phone')</label>
+                            <input class="col-lg-8 form-control form-control-sm form-border" type="tel" name="tel" id="tel" required>
+                        </div>
+
+                        <div class="row mt-2">
+                            <label class="col-lg-4" for="brand" align="left" >@lang('frontend.bookingins.carbrand')</label>
+                            <select class="col-lg-8 form-control form-control-sm form-border" name="brand" id="brand" required>
+                                <option hidden value="">@lang('frontend.bookingins.plzselect')</option>
+                            </select>
+                        </div>
+
+                        <div class="row mt-2">
+                            <label class="col-lg-4" for="carmodel" align="left" >@lang('frontend.bookingins.carmodel')</label>
+                            <select class="col-lg-8 form-control form-control-sm form-border"  name="model" id="carmodel" required>
+                                <option hidden value="">@lang('frontend.bookingins.plzselect')</option>
+                            </select>
+                        </div>
+
+                        <div class="row mt-2">
+                            <label class="col-lg-4" for="date" align="left" >@lang('frontend.bookingins.date')</label>
+                            <input class="col-lg-8 form-control js-flatpickr" data-date-format="Y-m-d" type="date" name="date" id="date" required>
+                        </div>
+                        <div class="form-group row mt-1">
+                            <label class="col-lg-4" for="comment" align="left" >@lang('frontend.bookingins.note')</label>
+                            <textarea class="col-lg-8 form-control" rows="3" id="comment" name="comment"></textarea>
+                        </div>
+                        <hr class="my-3" style="width: 97%; margin: 0px auto; border-color: #dadad3;">
+                        <div class="form-group row justify-content-center">
+                            <button type="submit" class="btn booking-bt book col-8" align="right" id="submitbooking" >@lang('frontend.bookingins.booking')</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
