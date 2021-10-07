@@ -586,7 +586,7 @@
                                     </ul>
                                 </li>
                                 {{-- <li class="nav-main-item">
-                                    <a class="nav-main-link" href="{{ route('jobandcareer') }}">
+                                    <a class="nav-main-link" href="{{ route(' andcareer') }}">
 
                                         <span class="nav-main-link-name">@lang('frontend.menu.job_careers')</span>
                                     </a>

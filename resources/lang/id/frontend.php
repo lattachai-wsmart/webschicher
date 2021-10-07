@@ -116,7 +116,7 @@ return [
             'row5' => 'Dealership Training & Qualification',
         ],
         'recService' => [
-            'title' => 'RECOMMEND SERVICES',
+            'title' => 'RECOMMENDED SERVICES',
             'row1' => 'Extended Warranty',
             'row2' => 'Book Schic Inspection',
             'row3' => 'Search Certified Usedcars',
