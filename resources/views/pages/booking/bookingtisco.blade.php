@@ -42,7 +42,11 @@
     <!-- Page Content -->
     {{-- style="background-image: url('{{ asset('media/photos/about/bg-schich-booking.png') }}');" --}}
     <div class="content bg-white position-relative show-content">
-        <img src="{{ asset('media/photos/about/tisco_'.Session::get('locale').'.jpg') }}" class="image-bg-bookins" />
+        @if(file_exists(public_path('media/photos/about/tisco_'.Session::get('locale').'.jpg')))
+            <img src="{{ asset('media/photos/about/tisco_'.Session::get('locale').'.jpg') }}" class="image-bg-bookins" />
+        @else
+            <img src="{{ asset('media/photos/about/tisco_th.jpg') }}" class="image-bg-bookins" />
+        @endif
         <div class="row justify-content-center">
             <div class="row" id="box-show-form" >
                 <div class="col-xl-7 mb-5 text-title-left d-none d-md-block" >
