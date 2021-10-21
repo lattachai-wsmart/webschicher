@@ -33,7 +33,7 @@
                         <div class="col-md-5">
                             <div class="col-md-12" >
                                 <div class="options-container">
-                                    <img width="100%" height="100%" src="{{ asset('media/photos/new-logo.png') }}"  />
+                                    <img width="100%" height="100%" src="{{ asset('media/photos/Schic.png') }}"  />
                                 </div>
                             </div>
                             <br>
