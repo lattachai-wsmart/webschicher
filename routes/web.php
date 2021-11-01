@@ -34,6 +34,9 @@ Route::get('setcookie/{approvedCookie}', [FrontendController::class, "setcookie"
 Route::get('khumcarbytisco', [FrontendController::class, "bookingtisco"])->name('booking_tisco');
 
 
+Route::post('webschichersendmail', [FrontendController::class, "webschichersendmail"])->name('webschichersendmail');
+
+
 Route::get('warranty', [FrontendController::class, "warrantynroadside"])->name('warrantynroadside');
 Route::prefix('warranty')->name('warranty.')->group(function () {
     // Route::get('warrantyandroadside', [FrontendController::class, "warrantynroadside"])->name('warrantynroadside');

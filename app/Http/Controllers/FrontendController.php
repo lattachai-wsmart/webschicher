@@ -437,7 +437,7 @@ class FrontendController extends Controller
          $fb = new \Facebook\Facebook([
              'app_id' => '350399116739619',
              'app_secret' => '830e73846643728238950b69e964b61b',
-//             'default_access_token' => 'EAAEZBr6biBCMBAOCHmr6Kojuygxs9bw3ZBjZCZAFou46SnacZAL3PyOMR6SpZAy012A8ZCvg4c3ICYbCWMtkxcN9grOUwe8QZAyF1ZCF8FCwZCH4tTgDZCIZA2mZCNgDv6WazaxDsXBIZA7AXVlQkDmozvhLxdBoBghqBLnuAXZBkwrKXKNsUNHaZCifaYtd',
+            //             'default_access_token' => 'EAAEZBr6biBCMBAOCHmr6Kojuygxs9bw3ZBjZCZAFou46SnacZAL3PyOMR6SpZAy012A8ZCvg4c3ICYbCWMtkxcN9grOUwe8QZAyF1ZCF8FCwZCH4tTgDZCIZA2mZCNgDv6WazaxDsXBIZA7AXVlQkDmozvhLxdBoBghqBLnuAXZBkwrKXKNsUNHaZCifaYtd',
          ]);
 
          $response = $fb->get('SCHICINSPECTION?fields=access_token&access_token=EAAEZBr6biBCMBAOCHmr6Kojuygxs9bw3ZBjZCZAFou46SnacZAL3PyOMR6SpZAy012A8ZCvg4c3ICYbCWMtkxcN9grOUwe8QZAyF1ZCF8FCwZCH4tTgDZCIZA2mZCNgDv6WazaxDsXBIZA7AXVlQkDmozvhLxdBoBghqBLnuAXZBkwrKXKNsUNHaZCifaYtd');
@@ -445,7 +445,7 @@ class FrontendController extends Controller
          $graphNode =  json_decode($response->getBody());
 
          $url = '/SCHICINSPECTION?fields=ratings{reviewer,created_time,has_rating,has_review,rating,recommendation_type,review_text},rating_count,overall_star_rating,name&access_token='.$graphNode->access_token;
-//         echo $url;exit;
+        //         echo $url;exit;
          try {
              $response = $fb->get($url);
          }
@@ -454,10 +454,10 @@ class FrontendController extends Controller
              exit;
          }
 
-//          print_r($response->getBody());
+        //          print_r($response->getBody());
          $facebookReview =  json_decode($response->getBody());
-//          print_r($graphNode);
-//          exit();
+        //          print_r($graphNode);
+        //          exit();
 
          return view('pages/index', compact('facebookReview'))->with('header', $this->header);
 
@@ -469,11 +469,6 @@ class FrontendController extends Controller
 
         return view('pages.warranty')->with('header', $this->header);
     }
-
-    // public function bronze()
-    // {
-    //     return view('pages.warranty.bronze')->with('header', $this->header);
-    // }
 
     public function bronze()
     {
@@ -530,5 +525,60 @@ class FrontendController extends Controller
     {
         session()->put('approvedCookie', $approvedCookie);
         return true;
+    }
+
+    public function webschichersendmail(Request $request)
+    {
+        // dd($request);
+
+        $validator = Validator::make($request->all(), [
+                'name' => 'required | string',
+                'email' => 'required | string',
+                'message' => 'required | string',
+        ]);
+
+        if ($validator->fails()) {
+            return back()->withErrors($validator)->withInput();
+        }
+        $curl = curl_init();
+        curl_setopt_array($curl, [
+            CURLOPT_URL => 'http://127.0.0.1:8003/api/webschichersendmail',
+            // CURLOPT_URL => env('URL_API').'/api/webschichersendmail',
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => '',
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => 'POST',
+            CURLOPT_POSTFIELDS => http_build_query([
+                'name' => $request->input('name'),
+                'phone' => $request->input('phone'),
+                'email' => $request->input('email'),
+                'message' => $request->input('message'),
+            ]),
+            CURLOPT_HTTPHEADER => [
+                // Set here required headers
+                'accept: */*',
+                'accept-language: en-US,en;q=0.8',
+                'Content-Type: application/x-www-form-urlencoded',
+            ],
+        ]);
+
+        // dd(env('URL_API').'/api/webschichersendmail');
+
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+
+        curl_close($curl);
+
+        if ($err) {
+            // echo "1";
+            echo 'cURL Error #:'.$err;
+        } else {
+            // echo "2";
+            print_r(json_decode($response));
+        }
+
+        return back()->with('success', 'เพิ่มข้อมูลเรียบร้อยแล้ว');
     }
 }
