@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\FrontendController;
 use Illuminate\Support\Facades\Route;
+use App\Mail\SendMail;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,6 +36,7 @@ Route::get('khumcarbytisco', [FrontendController::class, "bookingtisco"])->name(
 
 
 Route::post('webschichersendmail', [FrontendController::class, "webschichersendmail"])->name('webschichersendmail');
+Route::get('build', [SendMail::class, "build"])->name('build');
 
 
 Route::get('warranty', [FrontendController::class, "warrantynroadside"])->name('warrantynroadside');

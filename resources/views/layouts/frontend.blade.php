@@ -700,7 +700,7 @@
             <div class="content-full py-3 bg-schic justify-content-center ">
                 <div class="block-content row font-size-sm text-light justify-content-center ml-5">
                     {{-- <div class="col-md-2"></div> --}}
-                    <address class="font-size-18 col-md-3" >
+                    <div class="font-size-18 col-md-3" >
                         {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data1.title')</div>
                         @lang('frontend.contacts.data1.row1')<br>
                         @lang('frontend.contacts.data1.row2')<br>
@@ -724,7 +724,7 @@
                                         allowfullscreen>
                                     </iframe>
                                 </div>
-                    </address>
+                    </div>
 
 
                     {{-- <address class="font-size-18 col-md-3"> --}}
@@ -738,7 +738,7 @@
                         {{-- <a class="fnFooter" href="{{ route('service.dealershipcer') }}">@lang('frontend.footer.service.row4')</a><br>
                         <a class="fnFooter" href="{{ route('service.dealershiptra') }}">@lang('frontend.footer.service.row5')</a><br> --}}
                     {{-- </address> --}}
-                    <address class="font-size-18 col-md-1"></address>
+                    <div class="font-size-18 col-md-1"></div>
 
                     {{-- <address class="font-size-18 col-md-3">
                         <div class="font-size-h4 mb-1">@lang('frontend.contacts.data3.title')</div>
@@ -751,7 +751,7 @@
                         <a class="fnFooter" href="{{ route('shicertificates') }}">@lang('frontend.footer.recService.row4')</a><br>
                     </address> --}}
 
-                    <address class="font-size-18 col-md-3">
+                    <div class="font-size-18 col-md-3">
                         {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data3.title')</div>
                         @lang('frontend.contacts.data3.row1')<br><br>
                         <a href="tel:020571292"><i class="fa fa-phone"></i> 02-057-1292</a><br> --}}
@@ -780,11 +780,11 @@
                             </span><br>
                         <br>
                         <a target="_blank" href="https://www.facebook.com/schicinspection/"><i class="fnFooter fab fa-2x fa-facebook-square" ></i></a>
-                    </address>
+                    </div>
 
-                    {{-- <address class="font-size-18 col-md-1"></address> --}}
+                    {{-- <div class="font-size-18 col-md-1"></div> --}}
 
-                    <address class="font-size-18 col-md-3">
+                    <div class="font-size-18 col-md-3">
                         <form action="{{ route('webschichersendmail') }}" method="post" enctype="multipart/form-data" id="">
                             @csrf
 
@@ -795,7 +795,7 @@
                             <textarea class="col-lg-8 form-control form-control-sm form-border mt-1" type="text" name="message" id="message" required placeholder="Message"></textarea>
                             <button type="submit" class="btn booking-bt book col-2 mt-1" id="sendemail">send</button>
                         </form>
-                    </address>
+                    </div>
                 </div>
             </div>
         </footer>

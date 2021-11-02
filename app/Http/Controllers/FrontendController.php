@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Lang;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\SendMail;
 
 class FrontendController extends Controller
 {
@@ -533,7 +535,7 @@ class FrontendController extends Controller
 
         $validator = Validator::make($request->all(), [
                 'name' => 'required | string',
-                'email' => 'required | string',
+                'email' => 'required | email',
                 'message' => 'required | string',
         ]);
 
@@ -579,6 +581,7 @@ class FrontendController extends Controller
             print_r(json_decode($response));
         }
 
-        return back()->with('success', 'เพิ่มข้อมูลเรียบร้อยแล้ว');
+        Mail::to('admin@schicher.com')->send(new SendMail($response));
+        return back()->with('success', 'Thanks for contacting us!');
     }
 }
