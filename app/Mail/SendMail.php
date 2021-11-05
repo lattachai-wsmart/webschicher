@@ -18,7 +18,8 @@ class SendMail extends Mailable
      */
     public function __construct($data)
     {
-        $this->data = $data;
+        // dd(json_decode($data, true));
+        $this->data = json_decode($data, true);
     }
 
     /**
@@ -28,11 +29,7 @@ class SendMail extends Mailable
      */
     public function build()
     {
-        return $this->from('admin@schicher.com')
-                    ->subject('Test send mail')
-                    ->view('pages/index')
-                    ->with('data', $this->data);
+        // return $this->from('admin@schicher.com')->subject('Test send mail')->view('pages.index')->with('data', $this->data);
+        return $this->from('admin@schicher.com')->subject('คำขอข้อเสนอพิเศษจาก Web schicher')->view('pages.send_mail_format')->with('data', $this->data);
     }
 }
-
-?>

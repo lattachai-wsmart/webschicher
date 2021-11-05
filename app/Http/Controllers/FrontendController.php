@@ -581,6 +581,15 @@ class FrontendController extends Controller
             print_r(json_decode($response));
         }
 
+        // $data = array('name'=>$response);
+
+//         Mail::send(['text'=>'mail'], $data, function($message) {
+//          $message->to('admin@schicher.com', 'Tutorials Point')->subject
+//             ('Laravel Basic Testing Mail');
+//          $message->from('admin@schicher.com','Virat Gandhi');
+// //         $message->from('123@gmail.com','Virat Gandhi');
+//       });
+
         Mail::to('admin@schicher.com')->send(new SendMail($response));
         return back()->with('success', 'Thanks for contacting us!');
     }
