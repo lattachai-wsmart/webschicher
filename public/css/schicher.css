@@ -144,3 +144,7 @@ main {
 .block.block-rounded .block-content:last-child {
     border-radius: 1.25rem;
 }
+
+.slick-slide {
+    height: unset !important;
+}
