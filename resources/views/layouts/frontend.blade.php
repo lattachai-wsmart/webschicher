@@ -28,6 +28,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+
     <!-- Icons -->
     <link rel="shortcut icon" href="{{ asset('media/favicons/schic.png') }}">
     <link rel="icon" sizes="192x192" type="image/png" href="{{ asset('media/favicons/schic-192.png') }}">
@@ -47,6 +48,7 @@
 
 
     <link rel="stylesheet" id="css-main" href="{{ asset('/css/schicher.css') }}">
+
     @yield('css_after')
 
     <!-- Scripts -->
@@ -145,6 +147,21 @@
             text-decoration: none;
         }
 
+        .book{
+        font-family:SukhumvitSet;
+        color:#132D46;
+        background-color:#f5ba32;
+        }
+        .book:hover{
+            /* text-shadow: 1px 1px 1px #ffffff; */
+            background-color:#ffb406;
+        }
+        .backModal{
+            color:#D7DBDE;
+        }
+        .backModal:hover{
+            color: white;
+        }
 
 
     </style>
@@ -152,6 +169,12 @@
 </head>
 
 <body>
+
+    @if($errors->any())
+        <div class="alert alert-danger" role="alert">{{ implode('', $errors->all(':message')) }}</div>
+    @endif
+
+
     <div id="page-container" class="enable-page-overlay sidebar-dark side-scroll main-content-narrow">
 
         <!-- Header -->
@@ -675,9 +698,9 @@
         <!-- Footer -->
         <footer id="page-footer" class=" bg-body-light display-flex">
             <div class="content-full py-3 bg-schic justify-content-center ">
-                <div class="block-content row font-size-sm text-light justify-content-center">
-                    <div class="col-md-1"></div>
-                    <address class="font-size-18 col-md-2" >
+                <div class="block-content row font-size-sm text-light justify-content-center ml-5">
+                    {{-- <div class="col-md-2"></div> --}}
+                    <div class="font-size-18 col-md-3" >
                         {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data1.title')</div>
                         @lang('frontend.contacts.data1.row1')<br>
                         @lang('frontend.contacts.data1.row2')<br>
@@ -695,7 +718,13 @@
 
                         {{-- <i class="fa fa-envelope-o"></i> <a
                             href="mailto:admin@schicher.com"> admin@schicher.com</a> --}}
-                    </address>
+                                <div class="col-md-12 block block-rounded js-appear-enabled animated bounceIn">
+                                    <iframe height="250px" width="100%" frameborder="0" style="border:0"
+                                        src="https://www.google.com/maps/embed/v1/place?&q=13.742263,100.634524&zoom=18&key=AIzaSyDMeQHn11UvPNJ_yXUIdopsE3TzhTWU580"
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                    </div>
 
                     <address class="font-size-18 col-md-3">
                         {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data2.title')</div>
@@ -707,20 +736,21 @@
                         <a class="fnFooter" href="{{ route('service.vehiclemanageserv') }}">@lang('frontend.footer.service.row3')</a><br>
                         {{-- <a class="fnFooter" href="{{ route('service.dealershipcer') }}">@lang('frontend.footer.service.row4')</a><br>
                         <a class="fnFooter" href="{{ route('service.dealershiptra') }}">@lang('frontend.footer.service.row5')</a><br> --}}
-                    </address>
+                    {{-- </address> --}}
+                    <div class="font-size-18 col-md-1"></div>
 
-                    <address class="font-size-18 col-md-3">
-                        {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data3.title')</div>
+                    {{-- <address class="font-size-18 col-md-3">
+                        <div class="font-size-h4 mb-1">@lang('frontend.contacts.data3.title')</div>
                         @lang('frontend.contacts.data3.row1')<br><br>
-                        <a href="tel:020571292"><i class="fa fa-phone"></i> 02-057-1292</a><br> --}}
+                        <a href="tel:020571292"><i class="fa fa-phone"></i> 02-057-1292</a><br>
                         <div class="font-size-h4 mb-1">@lang('frontend.footer.recService.title')</div>
                         <a class="fnFooter" href="{{ route('warrantynroadside') }}">@lang('frontend.footer.recService.row1')</a><br>
                         <a class="fnFooter" href="{{ route('bookingins') }}">@lang('frontend.footer.recService.row2')</a><br>
                         <a class="fnFooter" href="{{ route('findqualilyusedcars') }}">@lang('frontend.footer.recService.row3')</a><br>
                         <a class="fnFooter" href="{{ route('shicertificates') }}">@lang('frontend.footer.recService.row4')</a><br>
-                    </address>
+                    </address> --}}
 
-                    <address class="font-size-18 col-md-3">
+                    <div class="font-size-18 col-md-3">
                         {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data3.title')</div>
                         @lang('frontend.contacts.data3.row1')<br><br>
                         <a href="tel:020571292"><i class="fa fa-phone"></i> 02-057-1292</a><br> --}}
@@ -749,7 +779,22 @@
                             </span><br>
                         <br>
                         <a target="_blank" href="https://www.facebook.com/schicinspection/"><i class="fnFooter fab fa-2x fa-facebook-square" ></i></a>
-                    </address>
+                    </div>
+
+                    {{-- <div class="font-size-18 col-md-1"></div> --}}
+
+                    <div class="font-size-18 col-md-3">
+                        <form action="{{ route('webschichersendmail') }}" method="post" enctype="multipart/form-data" id="">
+                            @csrf
+
+                            <div class="font-size-h4 mb-1">ข้อเสนอพิเศษ</div>
+                            <input class="col-lg-8 form-control form-control-sm form-border" type="text" name="name" id="name" required placeholder="Name">
+                            <input class="col-lg-8 form-control form-control-sm form-border mt-1" type="tel" name="phone" id="phone" placeholder="Phone">
+                            <input class="col-lg-8 form-control form-control-sm form-border mt-1" type="email" name="email" id="email" required placeholder="E-mail">
+                            <textarea class="col-lg-8 form-control form-control-sm form-border mt-1" type="text" name="message" id="message" required placeholder="Message"></textarea>
+                            <button type="submit" class="btn booking-bt book col-2 mt-1" id="sendemail">send</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </footer>
@@ -883,7 +928,42 @@
                     }
             });
         }
+
+        jQuery.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': jQuery('meta[name="csrf-token"]').attr('content')
+                }
+            });
     </script>
+    {{-- <script>
+        function sendSuccess(){
+        Swal.fire({
+            title: `
+            <h3 class="color-schic" style="font-family:SukhumvitSet">
+                @lang('frontend.bookingins.modal1')
+            </h3>`,
+            // icon: 'success',
+            html:`
+            <div>
+                @lang('frontend.bookingins.modal2')
+                <br>
+                @lang('frontend.bookingins.modal3')
+            </div>`,
+            customClass: {confirmButton: 'btn btn-rounded'},
+            confirmButtonColor: '#2c3e50',
+            showCloseButton: true,
+            showCancelButton: false,
+            // focusConfirm: true,
+            confirmButtonText:
+                `<div class="backModal" style="font-family:SukhumvitSet">@lang('frontend.bookingins.modal4')</div>`,
+            confirmButtonAriaLabel: 'กลับสู่หน้าหลัก',
+        })
+        }
+
+        @if(session()->has('success'))
+            sendSuccess();
+        @endif
+    </script> --}}
 
     @yield('js_after')
 </body>
