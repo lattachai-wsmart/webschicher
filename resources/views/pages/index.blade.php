@@ -382,21 +382,21 @@
         //         </div>`
         // });
 
-        slidecontent.style.width = `${pofileArrayWidth}%`
-        prev = document.getElementById("prev");
-        next = document.getElementById("next");
-        let index = 1
-        prev.onclick = function() {
-            if (index < 0) index = pofileArray.length - 1
-            slidecontent.style.transform = `translateX(-${index*(100/dataCommentCount)}%)`
-            index--
-        };
+        // slidecontent.style.width = `${pofileArrayWidth}%`
+        // prev = document.getElementById("prev");
+        // next = document.getElementById("next");
+        // let index = 1
+        // prev.onclick = function() {
+        //     if (index < 0) index = pofileArray.length - 1
+        //     slidecontent.style.transform = `translateX(-${index*(100/dataCommentCount)}%)`
+        //     index--
+        // };
 
-        next.onclick = function() {
-            if (index > dataCommentCount - 1) index = 0
-            slidecontent.style.transform = `translateX(-${index*(100/dataCommentCount)}%)`
-            index++
-        };
+        // next.onclick = function() {
+        //     if (index > dataCommentCount - 1) index = 0
+        //     slidecontent.style.transform = `translateX(-${index*(100/dataCommentCount)}%)`
+        //     index++
+        // };
     </script>
 
 @endsection

@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Controllers\FrontendController;
+// use App\Http\Controllers\SendEmailController;
 use Illuminate\Support\Facades\Route;
+// use App\Mail\SendMail;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,6 +34,9 @@ Route::get('policy', [FrontendController::class, "policy"])->name('policy');
 Route::get('cookie', [FrontendController::class, "cookie"])->name('cookie');
 Route::get('setcookie/{approvedCookie}', [FrontendController::class, "setcookie"])->name('setcookie');
 Route::get('khumcarbytisco', [FrontendController::class, "bookingtisco"])->name('booking_tisco');
+
+
+Route::post('webschichersendmail', [FrontendController::class, "webschichersendmail"])->name('webschichersendmail');
 
 
 Route::get('warranty', [FrontendController::class, "warrantynroadside"])->name('warrantynroadside');
