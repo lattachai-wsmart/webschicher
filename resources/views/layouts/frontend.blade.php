@@ -698,7 +698,7 @@
         <!-- Footer -->
         <footer id="page-footer" class=" bg-body-light display-flex">
             <div class="content-full py-3 bg-schic justify-content-center ">
-                <div class="block-content row font-size-sm text-light justify-content-center ml-5">
+                <div class="block-content row font-size-sm text-light justify-content-center">
                     {{-- <div class="col-md-2"></div> --}}
                     <div class="font-size-18 col-md-3" >
                         {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data1.title')</div>
@@ -706,13 +706,13 @@
                         @lang('frontend.contacts.data1.row2')<br>
                         @lang('frontend.contacts.data1.row3')<br><br> --}}
 
-                        <div class="font-size-h4 mb-1" >@lang('frontend.footer.about.title')</div>
-                        <a class="fnFooter" href="{{ route('about') }}">@lang('frontend.footer.about.row1')</a><br>
+                        {{-- <div class="font-size-h4 mb-1" >@lang('frontend.footer.about.title')</div> --}}
+                        {{-- <a class="fnFooter" href="{{ route('about') }}">@lang('frontend.footer.about.row1')</a><br> --}}
                         {{-- <a class="fnFooter" href="{{ route('jobandcareer') }}">@lang('frontend.footer.about.row2')</a><br> --}}
-                        <br>
-                        <a class="fnFooter" href="{{ route('policy') }}">@lang('frontend.footer.rule.policy')</a><br>
-                        <a class="fnFooter" href="{{ route('cookie') }}">@lang('frontend.footer.rule.cookie')</a><br>
-                        <a class="fnFooter" href="{{ route('termncondition') }}">@lang('frontend.footer.rule.term')</a><br>
+                        {{-- <br> --}}
+                        {{-- <a class="fnFooter" href="{{ route('policy') }}">@lang('frontend.footer.rule.policy')</a><br> --}}
+                        {{-- <a class="fnFooter" href="{{ route('cookie') }}">@lang('frontend.footer.rule.cookie')</a><br> --}}
+                        {{-- <a class="fnFooter" href="{{ route('termncondition') }}">@lang('frontend.footer.rule.term')</a><br> --}}
 
                         {{-- <a style="color: white;" href="#">PRESS</a><br> --}}
 
@@ -726,14 +726,15 @@
                                 </div>
                     </div>
 
-                    <address class="font-size-18 col-md-3">
+
+                    {{-- <address class="font-size-18 col-md-3"> --}}
                         {{-- <div class="font-size-h4 mb-1">@lang('frontend.contacts.data2.title')</div>
                         @lang('frontend.contacts.data2.row1')<br>
                         @lang('frontend.contacts.data2.row2')​<br><br> --}}
-                        <div class="font-size-h4 mb-1">@lang('frontend.footer.service.title')</div>
-                        <a class="fnFooter" href="{{ route('service.vehicleanalysis') }}">@lang('frontend.footer.service.row1')</a><br>
-                        <a class="fnFooter" href="{{ route('service.claimsappraisal') }}">@lang('frontend.footer.service.row2')</a><br>
-                        <a class="fnFooter" href="{{ route('service.vehiclemanageserv') }}">@lang('frontend.footer.service.row3')</a><br>
+                        {{-- <div class="font-size-h4 mb-1">@lang('frontend.footer.service.title')</div> --}}
+                        {{-- <a class="fnFooter" href="{{ route('service.vehicleanalysis') }}">@lang('frontend.footer.service.row1')</a><br> --}}
+                        {{-- <a class="fnFooter" href="{{ route('service.claimsappraisal') }}">@lang('frontend.footer.service.row2')</a><br> --}}
+                        {{-- <a class="fnFooter" href="{{ route('service.vehiclemanageserv') }}">@lang('frontend.footer.service.row3')</a><br> --}}
                         {{-- <a class="fnFooter" href="{{ route('service.dealershipcer') }}">@lang('frontend.footer.service.row4')</a><br>
                         <a class="fnFooter" href="{{ route('service.dealershiptra') }}">@lang('frontend.footer.service.row5')</a><br> --}}
                     {{-- </address> --}}
