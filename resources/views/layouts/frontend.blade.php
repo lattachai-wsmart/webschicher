@@ -906,6 +906,21 @@
         gtag('config', 'UA-213898407-1');
     </script>
 
+    <!-- Global site tag (gtag.js) - Google Ads: 10816936909 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10816936909"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10816936909');
+</script>
+
+<!-- Event snippet for Website traffic conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-10816936909/fuU3CLaDxIYDEM239aUo'});
+</script>
+
     {{-- <script>
 
         function myFunction() {
