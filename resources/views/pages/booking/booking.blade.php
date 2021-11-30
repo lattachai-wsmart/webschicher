@@ -93,6 +93,8 @@
     <!-- END Page Content -->
 @endsection
 
+
+
 @section('js_after')
 <script src="{{ asset('js/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js') }}"></script>
 <script src="{{ asset('js/plugins/flatpickr/flatpickr.min.js') }}"></script>
@@ -171,6 +173,21 @@
         sendSuccess();
     @endif
 
+</script>
+
+    <!-- Global site tag (gtag.js) - Google Ads: 10816936909 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10816936909"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10816936909');
+</script>
+
+<!-- Event snippet for Website traffic conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-10816936909/fuU3CLaDxIYDEM239aUo'});
 </script>
 
 @endsection
