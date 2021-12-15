@@ -110,6 +110,17 @@
     <script src="{{ asset('js/plugins/flatpickr/flatpickr.min.js') }}"></script>
     <script src="{{ asset('js/plugins/select2/js/select2.full.min.js') }}"></script>
     <script src="{{ asset('js/plugins/sweetalert2/sweetalert2.min.js') }}"></script>
+
+        <!-- Global site tag (gtag.js) - Google Ads: 10817033156 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10817033156"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10817033156', {'send_page_view': false});
+    </script>
+
     <script>
         jQuery(function() {
             One.helpers(['flatpickr', 'datepicker', 'select2', 'sweetalert2']);
