@@ -113,7 +113,7 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
-    gtag('config', 'AW-10817033156', {'send_page_view': false});
+    gtag('config', 'AW-10817033156', {'send_page_view': true});
 </script>
 
 <script>
