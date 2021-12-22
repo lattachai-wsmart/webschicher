@@ -113,7 +113,7 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
-    gtag('config', 'AW-10817033156', {'send_page_view': true});
+    gtag('config', 'AW-10817033156', {'send_page_view': false});
 </script>
 
 <script>
@@ -159,7 +159,9 @@ gtag('js', new Date());
         })
     }
 
+
     function sendSuccess(){
+
         Swal.fire({
             title: `
             <h3 class="color-schic" style="font-family:SukhumvitSet">
