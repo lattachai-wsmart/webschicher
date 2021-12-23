@@ -4,7 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="google-site-verification" content="F2a_pBLS7r4_tzawaaeHhAriBwyixUoTcepvqTpPMSw" />
+
+    <meta name="google-site-verification" content="hwo_dz1otwCAg39WMfofg3mU_OOuNMSe6q6JtF5Qikc" />
+
     <title>
         @if (!empty($header['header'])){{ $header['header'] }}@else Schicher
         @endif
