@@ -335,8 +335,8 @@ class FrontendController extends Controller
 
         $curl = curl_init();
         curl_setopt_array($curl, [
-            // CURLOPT_URL => env('URL_API').'/api/bookingins',
-            CURLOPT_URL => 'http://192.168.1.75:8080/api/bookingins',
+            CURLOPT_URL => env('URL_API').'/api/bookingins',
+            // CURLOPT_URL => 'http://192.168.1.75:8080/api/bookingins',
             // CURLOPT_PORT => '8080',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
@@ -371,8 +371,8 @@ class FrontendController extends Controller
         $curl2 = curl_init();
 
         curl_setopt_array($curl2, array(
-        // CURLOPT_URL => env('URL_API').'/api/linenotify',
-        CURLOPT_URL => 'http://192.168.1.75:8080/api/linenotify',
+        CURLOPT_URL => env('URL_API').'/api/linenotify',
+        // CURLOPT_URL => 'http://192.168.1.75:8080/api/linenotify',
         // CURLOPT_URL => 'http://localhost/api/linenotify',
         // CURLOPT_PORT => '8080',
         CURLOPT_RETURNTRANSFER => true,
@@ -382,8 +382,17 @@ class FrontendController extends Controller
         CURLOPT_FOLLOWLOCATION => true,
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => 'POST',
+        CURLOPT_POSTFIELDS => http_build_query([
+                'name' => $request->input('name'),
+                'tel' => $request->input('tel'),
+                'car_brand_id' => $request->input('brand'),
+                'car_model_id' => $request->input('model'),
+                'booking_date' => $request->input('date'),
+                'note' => $request->input('comment'),
+                'partner' => $request->input('partner') ? $request->input('partner') : 'schicher',
+            ]),
         CURLOPT_HTTPHEADER => array(
-            'Authorization: Bearer 17I3PoELKBoEDF2XINhMq77J4RalNFGXinZ0tjqegWG'
+            'Authorization: Bearer LINE_NOTI = Bearer Jvt31EH3kALuRNEbhE0k3gYXoa5THKxFVvOOv9CkL8B'
         ),
         ));
 
