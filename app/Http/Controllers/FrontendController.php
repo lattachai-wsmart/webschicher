@@ -335,9 +335,8 @@ class FrontendController extends Controller
 
         $curl = curl_init();
         curl_setopt_array($curl, [
-            CURLOPT_URL => env('URL_API').'/api/bookingins',
-            // CURLOPT_URL => 'http://192.168.1.75:8080/api/bookingins',
-            // CURLOPT_PORT => '8080',
+            // CURLOPT_URL => env('URL_API').'/api/bookingins',
+            CURLOPT_URL => 'http://192.168.1.75:8080/api/bookingins',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
@@ -371,10 +370,8 @@ class FrontendController extends Controller
         $curl2 = curl_init();
 
         curl_setopt_array($curl2, array(
-        CURLOPT_URL => env('URL_API').'/api/linenotify',
-        // CURLOPT_URL => 'http://192.168.1.75:8080/api/linenotify',
-        // CURLOPT_URL => 'http://localhost/api/linenotify',
-        // CURLOPT_PORT => '8080',
+        // CURLOPT_URL => env('URL_API').'/api/linenotify',
+        CURLOPT_URL => 'http://192.168.1.75:8080/api/linenotify',
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,
@@ -392,7 +389,8 @@ class FrontendController extends Controller
                 'partner' => $request->input('partner') ? $request->input('partner') : 'schicher',
             ]),
         CURLOPT_HTTPHEADER => array(
-            'Authorization: Bearer LINE_NOTI = Bearer Jvt31EH3kALuRNEbhE0k3gYXoa5THKxFVvOOv9CkL8B'
+            'Authorization: Bearer 17I3PoELKBoEDF2XINhMq77J4RalNFGXinZ0tjqegWG'
+            // 'Authorization: '.env('LINE_NOTI_TEST')
         ),
         ));
 
