@@ -336,6 +336,7 @@ class FrontendController extends Controller
         $curl = curl_init();
         curl_setopt_array($curl, [
             CURLOPT_URL => env('URL_API').'/api/bookingins',
+            // CURLOPT_URL => 'http://192.168.1.75:8080/api/bookingins',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
@@ -361,8 +362,11 @@ class FrontendController extends Controller
 
         $response = curl_exec($curl);
         $err = curl_error($curl);
+        // dd($response, $err);
 
         curl_close($curl);
+
+        // dd($err);
 
         if ($err) {
             // echo "1";
@@ -594,76 +598,4 @@ class FrontendController extends Controller
         return back()->with('success', 'Thanks for contacting us!');
     }
 
-    public function lineNotify(Request $request){
-        // $authorization = "Authorization: Bearer 17I3PoELKBoEDF2XINhMq77J4RalNFGXinZ0tjqegWG";
-
-        $type = "จองตรวจรถ";
-        $name = "นายทดสอบ นามสกุล";
-        $Tel = "0801918282";
-        $Brand = "TOYOTA";
-        $Model = "CAMRY";
-        $from = "schicher";
-
-        $message = "Test msg sms. < TRACKING -URL >";
-
-
-        $parameter = [
-                    "type" => $type,
-                    "name" => $name,
-                    "Tel" => $Tel,
-                    "Brand" => $Brand,
-                    "Model" => $Model,
-                    "from" => $from,
-                    "message" => $message,
-                ];
-
-        $curl = curl_init();
-        curl_setopt_array($curl, [
-            CURLOPT_URL => 'https://notify-api.line.me/api/notify',
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_ENCODING => '',
-            CURLOPT_MAXREDIRS => 10,
-            CURLOPT_TIMEOUT => 30,
-            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-            CURLOPT_CUSTOMREQUEST => 'POST',
-            CURLOPT_POSTFIELDS => http_build_query(
-
-               $message = "type: จองตรวจรถ
-name: นายทดสอบ นามากุล
-Tel:0801918282
-Brand: TOYOTA
-Model: CAMRY
-from: schicher"),
-            // CURLOPT_POSTFIELDS => http_build_query([
-            //     'type' => 'จองตรวจรถ',
-            //     'name' => $request->input('name'),
-            //     'Tel' => $request->input('Tel'),
-            //     'Brand' => $request->input('Brand'),
-            //     'Model' => $request->input('Model'),
-            //     'from' => 'schicher',
-            // ]),
-            CURLOPT_HTTPHEADER => [
-             // Set here required headers
-                'accept: */*',
-                'accept-language: en-US,en;q=0.8',
-                'Content-Type: application/x-www-form-urlencoded',
-                'Authorization: Bearer 17I3PoELKBoEDF2XINhMq77J4RalNFGXinZ0tjqegWG'
-            ],
-        ]);
-
-        $response = curl_exec($curl);
-        $err = curl_error($curl);
-
-        curl_close($curl);
-
-        if ($err) {
-            // echo "1";
-            echo 'cURL Error #:'.$err;
-        } else {
-            // echo "2";
-            print_r(json_decode($response));
-        }
-
-        return back()->with('success');
-    }
 }

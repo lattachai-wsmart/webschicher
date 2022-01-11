@@ -35,7 +35,6 @@ Route::get('cookie', [FrontendController::class, "cookie"])->name('cookie');
 Route::get('setcookie/{approvedCookie}', [FrontendController::class, "setcookie"])->name('setcookie');
 Route::get('khumcarbytisco', [FrontendController::class, "bookingtisco"])->name('booking_tisco');
 
-
 Route::post('webschichersendmail', [FrontendController::class, "webschichersendmail"])->name('webschichersendmail');
 
 
