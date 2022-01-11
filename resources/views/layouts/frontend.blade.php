@@ -7,6 +7,7 @@
 
     <meta name="google-site-verification" content="hwo_dz1otwCAg39WMfofg3mU_OOuNMSe6q6JtF5Qikc" />
 
+
     <title>
         @if (!empty($header['header'])){{ $header['header'] }}@else Schicher
         @endif
@@ -25,7 +26,7 @@
         <meta name="description" content="Schicher">
     @endif
     <meta name="author" content="wsmart">
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
