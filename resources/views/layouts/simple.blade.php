@@ -8,7 +8,7 @@
 
         <meta name="description" content="OneUI - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest">
         <meta name="author" content="pixelcave">
-        <meta name="robots" content="noindex, nofollow">
+        <meta name="googlebot" content="">
 
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">

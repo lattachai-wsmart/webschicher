@@ -26,7 +26,8 @@
         <meta name="description" content="Schicher">
     @endif
     <meta name="author" content="wsmart">
-    <meta name="googlebot" content="noindex, nofollow">
+    <meta name="googlebot" content="">
+    {{-- <meta name="googlebot" content="noindex, nofollow"> --}}
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
