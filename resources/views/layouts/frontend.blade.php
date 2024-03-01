@@ -729,7 +729,7 @@
 {{--                                    </iframe>--}}
 
                                     <iframe height="250px" width="100%" frameborder="0" style="border:0"
-                                            src="https://www.google.com/maps/embed/v1/place?&q=13.742263,100.634524&zoom=18&key=AIzaSyDMeQHn11UvPNJ_yXUIdopsE3TzhTWU580"
+                                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d274.8768398532932!2d100.62577324308171!3d13.740373345736035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sth!4v1709293000897!5m2!1sen!2sth"
                                             allowfullscreen>
                                     </iframe>
                                 </div>
