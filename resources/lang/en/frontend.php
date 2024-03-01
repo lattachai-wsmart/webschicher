@@ -76,10 +76,10 @@ return [
     'contacts' => [
         'data1' => [
             'title' => 'Headquarters',
-//            'row1' => 'Schicher Co.,LTD. 554 Asoke-Din Daeng Road, Din Daeng',
-//            'row2' => 'Din Daeng, Bangkok 10400',
-            'row1' => 'Schicher Co.,LTD. 1168 Rama9 SuanLuang',
-            'row2' => 'Bangkok Thailand 10250',
+            'row1' => 'Schicher Co.,LTD. 554 Asoke-Din Daeng Road, Din Daeng',
+            'row2' => 'Din Daeng, Bangkok 10400',
+//            'row1' => 'Schicher Co.,LTD. 1168 Rama9 SuanLuang',
+//            'row2' => 'Bangkok Thailand 10250',
         ],
         'data2' => [
             'title' => 'Customer Service',
@@ -126,10 +126,10 @@ return [
         ],
         'contact' => [
             'title' => 'CONTACT US',
-//            'add1' => '&nbsp;&nbsp;554 Asoke-Din Daeng Road, Din Daeng',
-//            'add2' => 'Din Daeng, Bangkok 10400',
-            'add1' => '&nbsp;&nbsp;1168 Rama9 SuanLuang',
-            'add2' => 'Bangkok Thailand 10250',
+            'add1' => '&nbsp;&nbsp;554 Asoke-Din Daeng Road, Din Daeng',
+            'add2' => 'Din Daeng, Bangkok 10400',
+//            'add1' => '&nbsp;&nbsp;1168 Rama9 SuanLuang',
+//            'add2' => 'Bangkok Thailand 10250',
             'email' => '&nbsp;&nbsp;admin@schicher.com',
             'date' => ' &nbsp; &nbsp; Monday - Friday',
             'time' => '&nbsp;&nbsp; 10:00 AM - 7:00 PM​',
