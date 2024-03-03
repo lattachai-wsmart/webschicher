@@ -45,15 +45,15 @@
                                 <div class="col-md-12">
                                     <address class="font-size-18 col-md-12">
                                         <div class="font-size-h4 mb-1">@lang('frontend.contacts.data1.title')</div>
-                                        @lang('frontend.contacts.data1.row1')<br>
-                                        @lang('frontend.contacts.data1.row2')<br><br>
+                                        <div>@lang('frontend.contacts.data1.row1')</div><br>
+                                        <div>@lang('frontend.contacts.data1.row2')</div><br><br>
                                     </address>
                                 </div>
                                 <div class="col-md-6">
                                     <address class="font-size-18 col-md-12">
                                         <div class="font-size-h4 mb-1">@lang('frontend.contacts.data2.title')</div>
-                                        <a href="tel:020571292"><i class="fa fa-phone"></i>@lang('frontend.contacts.data2.row1')</a><br>
-                                        @lang('frontend.contacts.data2.row2')
+                                        <div><a href="tel:020571292"><i class="fa fa-phone"></i>@lang('frontend.contacts.data2.row1')</a></div><br>
+                                        <div>@lang('frontend.contacts.data2.row2')</div>
                                     </address>
                                 </div>
                                 <div class="col-md-6">
