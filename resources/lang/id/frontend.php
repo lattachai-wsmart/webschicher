@@ -75,7 +75,7 @@ return [
 
     'contacts' => [
         'data1' => [
-            'title' => 'Headquarters',
+            'title' => 'CONTACT US',
             'row1' => 'Lemonaide Co.,LTD. 554 Asoke-Din Daeng Road, Din Daeng',
             'row2' => 'Din Daeng, Bangkok 10400',
 //            'row1' => 'Schicher Co.,LTD. 1168 Rama9 SuanLuang',
