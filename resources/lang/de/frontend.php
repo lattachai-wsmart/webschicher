@@ -76,7 +76,7 @@ return [
     'contacts' => [
         'data1' => [
             'title' => 'Headquarters',
-            'row1' => 'Schicher Co.,LTD. 554 Asoke-Din Daeng Road, Din Daeng',
+            'row1' => 'Lemonaide Co.,LTD. 554 Asoke-Din Daeng Road, Din Daeng',
             'row2' => 'Din Daeng, Bangkok 10400',
 //            'row1' => 'Schicher Co.,LTD. 1168 Rama9 SuanLuang',
 //            'row2' => 'Bangkok Thailand 10250',
@@ -126,7 +126,7 @@ return [
         ],
         'contact' => [
             'title' => 'CONTACT US',
-            'add1' => '&nbsp;&nbsp;554 Asoke-Din Daeng Road, Din Daeng',
+            'add1' => '&nbsp;&nbsp;Lemonaide Co.,LTD. 554 Asoke-Din Daeng Road, Din Daeng',
             'add2' => 'Din Daeng, Bangkok 10400',
 //            'add1' => '&nbsp;&nbsp;1168 Rama9 SuanLuang',
 //            'add2' => 'Bangkok Thailand 10250',
